@@ -1,1 +1,317 @@
-PHNjcmlwdCBzZXR1cD4KaW1wb3J0IHsgcmVmLCBvbk1vdW50ZWQsIGNvbXB1dGVkIH0gZnJvbSAndnVlJwppbXBvcnQgKiBhcyBlY2hhcnRzIGZyb20gJ2VjaGFydHMnCmltcG9ydCB7CiAgZ2V0Q29zdFN1bW1hcnksIGdldENvc3RUcmVuZCwgZ2V0SW52ZW50b3J5SGVhbHRoLAogIGdldFJpc2tTa3UsIGdldE1vbnRobHlSZXBvcnQsIHJ1blN5bmMsIGdldFN5bmNMb2dzCn0gZnJvbSAnLi9hcGkvYW5hbHlzaXMnCgovLyAtLS0tIOeKtuaAgSAtLS0tCmNvbnN0IGFjdGl2ZVRhYiA9IHJlZignY29zdCcpIC8vIGNvc3QgfCBzdHJ1Y3R1cmUgfCBpbnZlbnRvcnkgfCByaXNrIHwgcmVwb3J0CmNvbnN0IGxvYWRpbmcgPSByZWYoZmFsc2UpCmNvbnN0IGVycm9yID0gcmVmKCcnKQpjb25zdCBzeW5jaW5nID0gcmVmKGZhbHNlKQpjb25zdCBzeW5jTG9ncyA9IHJlZihbXSkKCmNvbnN0IHN1bW1hcnkgPSByZWYobnVsbCkKY29uc3QgdHJlbmQgPSByZWYoW10pCmNvbnN0IGhlYWx0aCA9IHJlZihudWxsKQpjb25zdCByaXNrID0gcmVmKFtdKQpjb25zdCByZXBvcnQgPSByZWYobnVsbCkKCi8vIOWbvuihqCByZWZzCmNvbnN0IHRyZW5kQ2hhcnRSZWYgPSByZWYobnVsbCkKY29uc3Qgc3RydWN0dXJlQ2hhcnRSZWYgPSByZWYobnVsbCkKY29uc3QgaGVhbHRoQ2hhcnRSZWYgPSByZWYobnVsbCkKY29uc3Qgcmlza0NoYXJ0UmVmID0gcmVmKG51bGwpCgpjb25zdCB0YWJzID0gWwogIHsga2V5OiAnY29zdCcsIGxhYmVsOiAn5pyI5bqm5oiQ5pysJyB9LAogIHsga2V5OiAnc3RydWN0dXJlJywgbGFiZWw6ICfotLnnlKjnu5PmnoQnIH0sCiAgeyBrZXk6ICdpbnZlbnRvcnknLCBsYWJlbDogJ+W6k+WtmOWBpeW6tycgfSwKICB7IGtleTogJ3Jpc2snLCBsYWJlbDogJ+mjjumZqVNLVScgfSwKICB7IGtleTogJ3JlcG9ydCcsIGxhYmVsOiAn5pyI5bqm5oql5ZGKJyB9Cl0KCi8vIC0tLS0g5Yqg6L295pWw5o2uIC0tLS0KYXN5bmMgZnVuY3Rpb24gbG9hZEFsbCgpIHsKICBsb2FkaW5nLnZhbHVlID0gdHJ1ZQogIGVycm9yLnZhbHVlID0gJycKICB0cnkgewogICAgc3VtbWFyeS52YWx1ZSA9IGF3YWl0IGdldENvc3RTdW1tYXJ5KCkKICAgIGNvbnN0IHQgPSBhd2FpdCBnZXRDb3N0VHJlbmQoMTIpCiAgICB0cmVuZC52YWx1ZSA9IHQudHJlbmQgfHwgW10KICAgIGhlYWx0aC52YWx1ZSA9IGF3YWl0IGdldEludmVudG9yeUhlYWx0aCgpCiAgICByaXNrLnZhbHVlID0gKGF3YWl0IGdldFJpc2tTa3UobnVsbCwgMjApKS5pdGVtcyB8fCBbXQogICAgcmVwb3J0LnZhbHVlID0gYXdhaXQgZ2V0TW9udGhseVJlcG9ydCgpCiAgfSBjYXRjaCAoZSkgewogICAgZXJyb3IudmFsdWUgPSBlLm1lc3NhZ2UKICB9IGZpbmFsbHkgewogICAgbG9hZGluZy52YWx1ZSA9IGZhbHNlCiAgICByZW5kZXJDaGFydHMoKQogIH0KfQoKZnVuY3Rpb24gcmVuZGVyQ2hhcnRzKCkgewogIC8vIOeUqCBuZXh0VGljayDnoa7kv50gRE9NIOa4suafk+WQjuWGjeeUuwogIGltcG9ydCgndnVlJykudGhlbigoeyBuZXh0VGljayB9KSA9PiBuZXh0VGljaygoKSA9PiB7CiAgICBkcmF3VHJlbmQoKQogICAgZHJhd1N0cnVjdHVyZSgpCiAgICBkcmF3SGVhbHRoKCkKICAgIGRyYXdSaXNrKCkKICB9KSkKfQoKZnVuY3Rpb24gYmFzZU9wdGlvbigpIHsKICByZXR1cm4gewogICAgdGV4dFN0eWxlOiB7IGZvbnRGYW1pbHk6ICdQaW5nRmFuZyBTQywgTWljcm9zb2Z0IFlhSGVpLCBzYW5zLXNlcmlmJyB9LAogICAgdG9vbHRpcDogeyB0cmlnZ2VyOiAnYXhpcycgfSwKICAgIGdyaWQ6IHsgbGVmdDogNTAsIHJpZ2h0OiAyMCwgdG9wOiA0MCwgYm90dG9tOiAzMCB9CiAgfQp9CgpmdW5jdGlvbiBkcmF3VHJlbmQoKSB7CiAgaWYgKCF0cmVuZENoYXJ0UmVmLnZhbHVlIHx8ICF0cmVuZC52YWx1ZS5sZW5ndGgpIHJldHVybgogIGNvbnN0IGNoYXJ0ID0gZWNoYXJ0cy5nZXRJbnN0YW5jZUJ5RG9tKHRyZW5kQ2hhcnRSZWYudmFsdWUpIHx8IGVjaGFydHMuaW5pdCh0cmVuZENoYXJ0UmVmLnZhbHVlKQogIGNvbnN0IG1vbnRocyA9IHRyZW5kLnZhbHVlLm1hcCgoeCkgPT4geC5tb250aCkKICBjb25zdCB0b3RhbHMgPSB0cmVuZC52YWx1ZS5tYXAoKHgpID0+IHgudG90YWwpCiAgY29uc3Qgc3RvcmFnZSA9IHRyZW5kLnZhbHVlLm1hcCgoeCkgPT4geC5zdG9yYWdlKQogIGNvbnN0IHRyYW5zcG9ydCA9IHRyZW5kLnZhbHVlLm1hcCgoeCkgPT4geC50cmFuc3BvcnQpCiAgY2hhcnQuc2V0T3B0aW9uKHsKICAgIC4uLmJhc2VPcHRpb24oKSwKICAgIHRvb2x0aXA6IHsgdHJpZ2dlcjogJ2F4aXMnIH0sCiAgICBsZWdlbmQ6IHsgZGF0YTogWyfmgLvmiJDmnKwnLCAn5LuT5YKo6LS5JywgJ+i/kOi+k+i0uSddIH0sCiAgICB4QXhpczogeyB0eXBlOiAnY2F0ZWdvcnknLCBkYXRhOiBtb250aHMgfSwKICAgIHlBeGlzOiB7IHR5cGU6ICd2YWx1ZScsIG5hbWU6ICfCpScgfSwKICAgIHNlcmllczogWwogICAgICB7IG5hbWU6ICfmgLvmiJDmnKwnLCB0eXBlOiAnbGluZScsIGRhdGE6IHRvdGFscywgc21vb3RoOiB0cnVlLCBpdGVtU3R5bGU6IHsgY29sb3I6ICcjMmY2YmZmJyB9LCBhcmVhU3R5bGU6IHsgb3BhY2l0eTogMC4xIH0gfSwKICAgICAgeyBuYW1lOiAn5LuT5YKo6LS5JywgdHlwZTogJ2JhcicsIGRhdGE6IHN0b3JhZ2UsIGl0ZW1TdHlsZTogeyBjb2xvcjogJyM5NGEzYjgnIH0gfSwKICAgICAgeyBuYW1lOiAn6L+Q6L6T6LS5JywgdHlwZTogJ2JhcicsIGRhdGE6IHRyYW5zcG9ydCwgaXRlbVN0eWxlOiB7IGNvbG9yOiAnI2NiZDVlMScgfSB9CiAgICBdCiAgfSkKfQoKZnVuY3Rpb24gZHJhd1N0cnVjdHVyZSgpIHsKICBpZiAoIXN0cnVjdHVyZUNoYXJ0UmVmLnZhbHVlIHx8ICFzdW1tYXJ5LnZhbHVlKSByZXR1cm4KICBjb25zdCBjaGFydCA9IGVjaGFydHMuZ2V0SW5zdGFuY2VCeURvbShzdHJ1Y3R1cmVDaGFydFJlZi52YWx1ZSkgfHwgZWNoYXJ0cy5pbml0KHN0cnVjdHVyZUNoYXJ0UmVmLnZhbHVlKQogIGNvbnN0IGl0ZW1zID0gc3VtbWFyeS52YWx1ZS5zdHJ1Y3R1cmUgfHwgW10KICBjaGFydC5zZXRPcHRpb24oewogICAgdG9vbHRpcDogeyB0cmlnZ2VyOiAnaXRlbScsIGZvcm1hdHRlcjogJ3tifTogwqV7Y30gKHtkfSUpJyB9LAogICAgbGVnZW5kOiB7IG9yaWVudDogJ3ZlcnRpY2FsJywgbGVmdDogJ2xlZnQnIH0sCiAgICBzZXJpZXM6IFt7CiAgICAgIHR5cGU6ICdwaWUnLCByYWRpdXM6IFsnNDAlJywgJzY4JSddLCBjZW50ZXI6IFsnNTUlJywgJzUwJSddLAogICAgICBpdGVtU3R5bGU6IHsgYm9yZGVyUmFkaXVzOiA2LCBib3JkZXJDb2xvcjogJyNmZmYnLCBib3JkZXJXaWR0aDogMiB9LAogICAgICBsYWJlbDogeyBmb3JtYXR0ZXI6ICd7Yn1cbntkfSUnIH0sCiAgICAgIGRhdGE6IGl0ZW1zLm1hcCgoaSkgPT4gKHsgbmFtZTogaS5sYWJlbCwgdmFsdWU6IGkuYW1vdW50IH0pKQogICAgfV0KICB9KQp9CgpmdW5jdGlvbiBkcmF3SGVhbHRoKCkgewogIGlmICghaGVhbHRoQ2hhcnRSZWYudmFsdWUgfHwgIWhlYWx0aC52YWx1ZSkgcmV0dXJuCiAgY29uc3QgY2hhcnQgPSBlY2hhcnRzLmdldEluc3RhbmNlQnlEb20oaGVhbHRoQ2hhcnRSZWYudmFsdWUpIHx8IGVjaGFydHMuaW5pdChoZWFsdGhDaGFydFJlZi52YWx1ZSkKICBjb25zdCBidWNrZXRzID0gaGVhbHRoLnZhbHVlLmJ1Y2tldHMgfHwgW10KICBjb25zdCBjb2xvcnMgPSB7IGhlYWx0aHk6ICcjMTZhMzRhJywgd2F0Y2g6ICcjZjU5ZTBiJywgc3RhbGU6ICcjZjk3MzE2JywgY3JpdGljYWw6ICcjZTY0NTQ1JyB9CiAgY2hhcnQuc2V0T3B0aW9uKHsKICAgIHRvb2x0aXA6IHsgdHJpZ2dlcjogJ2F4aXMnIH0sCiAgICBsZWdlbmQ6IHsgZGF0YTogYnVja2V0cy5tYXAoKGIpID0+IGIubGFiZWwpIH0sCiAgICB4QXhpczogeyB0eXBlOiAnY2F0ZWdvcnknLCBkYXRhOiBidWNrZXRzLm1hcCgoYikgPT4gYi5sYWJlbCkgfSwKICAgIHlBeGlzOiB7IHR5cGU6ICd2YWx1ZScsIG5hbWU6ICfku7YnIH0sCiAgICBzZXJpZXM6IFt7CiAgICAgIHR5cGU6ICdiYXInLCBiYXJXaWR0aDogJzQ1JScsCiAgICAgIGRhdGE6IGJ1Y2tldHMubWFwKChiKSA9PiAoeyB2YWx1ZTogYi5xdWFudGl0eSwgaXRlbVN0eWxlOiB7IGNvbG9yOiBjb2xvcnNbYi5idWNrZXRdIH0gfSkpCiAgICB9XQogIH0pCn0KCmZ1bmN0aW9uIGRyYXdSaXNrKCkgewogIGlmICghcmlza0NoYXJ0UmVmLnZhbHVlIHx8ICFyaXNrLnZhbHVlLmxlbmd0aCkgcmV0dXJuCiAgY29uc3QgY2hhcnQgPSBlY2hhcnRzLmdldEluc3RhbmNlQnlEb20ocmlza0NoYXJ0UmVmLnZhbHVlKSB8fCBlY2hhcnRzLmluaXQocmlza0NoYXJ0UmVmLnZhbHVlKQogIGNvbnN0IHRvcDEwID0gcmlzay52YWx1ZS5zbGljZSgwLCAxMCkucmV2ZXJzZSgpCiAgY2hhcnQuc2V0T3B0aW9uKHsKICAgIHRvb2x0aXA6IHsgdHJpZ2dlcjogJ2F4aXMnIH0sCiAgICBncmlkOiB7IGxlZnQ6IDkwLCByaWdodDogMzAsIHRvcDogMjAsIGJvdHRvbTogMzAgfSwKICAgIHhBeGlzOiB7IHR5cGU6ICd2YWx1ZScsIG5hbWU6ICflupPpvoQo5aSpKScgfSwKICAgIHlBeGlzOiB7IHR5cGU6ICdjYXRlZ29yeScsIGRhdGE6IHRvcDEwLm1hcCgoeCkgPT4geC5za3UpIH0sCiAgICBzZXJpZXM6IFt7CiAgICAgIHR5cGU6ICdiYXInLCBiYXJXaWR0aDogJzU1JScsCiAgICAgIGRhdGE6IHRvcDEwLm1hcCgoeCkgPT4gKHsKICAgICAgICB2YWx1ZTogeC53YXJlaG91c2VfYWdlLAogICAgICAgIGl0ZW1TdHlsZTogeyBjb2xvcjogeC5hZ2VfYnVja2V0ID09PSAnY3JpdGljYWwnID8gJyNlNjQ1NDUnIDogeC5hZ2VfYnVja2V0ID09PSAnc3RhbGUnID8gJyNmOTczMTYnIDogJyNmNTllMGInIH0KICAgICAgfSkpCiAgICB9XQogIH0pCn0KCmFzeW5jIGZ1bmN0aW9uIGhhbmRsZVN5bmMoKSB7CiAgc3luY2luZy52YWx1ZSA9IHRydWUKICB0cnkgewogICAgYXdhaXQgcnVuU3luYygpCiAgICBhd2FpdCBsb2FkQWxsKCkKICAgIHN5bmNMb2dzLnZhbHVlID0gYXdhaXQgZ2V0U3luY0xvZ3MoKQogIH0gY2F0Y2ggKGUpIHsKICAgIGVycm9yLnZhbHVlID0gZS5tZXNzYWdlCiAgfSBmaW5hbGx5IHsKICAgIHN5bmNpbmcudmFsdWUgPSBmYWxzZQogIH0KfQoKZnVuY3Rpb24gZm10KHYpIHsKICByZXR1cm4gdiA9PSBudWxsID8gJ+KAlCcgOiBOdW1iZXIodikudG9Mb2NhbGVTdHJpbmcoJ3poLUNOJywgeyBtaW5pbXVtRnJhY3Rpb25EaWdpdHM6IDIsIG1heGltdW1GcmFjdGlvbkRpZ2l0czogMiB9KQp9Cgpjb25zdCBtb21DbGFzcyA9IGNvbXB1dGVkKCgpID0+IHsKICBjb25zdCBtID0gc3VtbWFyeS52YWx1ZT8ubW9tX3BjdAogIGlmIChtID09IG51bGwpIHJldHVybiAnJwogIHJldHVybiBtID4gMCA/ICd1cCcgOiBtIDwgMCA/ICdkb3duJyA6ICcnCn0pCgpvbk1vdW50ZWQoYXN5bmMgKCkgPT4gewogIGF3YWl0IGxvYWRBbGwoKQogIHRyeSB7IHN5bmNMb2dzLnZhbHVlID0gYXdhaXQgZ2V0U3luY0xvZ3MoKSB9IGNhdGNoIChlKSB7IC8qIOW/veeVpSAqLyB9Cn0pCjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxkaXY+CiAgICA8aGVhZGVyIGNsYXNzPSJ0b3BiYXIiPgogICAgICA8aDE+6LC35LuT5rW35aSW5LuT5oiQ5pys5YGl5bq35YiG5p6QPC9oMT4KICAgICAgPGRpdiBjbGFzcz0iYWN0aW9ucyI+CiAgICAgICAgPGJ1dHRvbiBAY2xpY2s9ImxvYWRBbGwiPuWIt+aWsDwvYnV0dG9uPgogICAgICAgIDxidXR0b24gY2xhc3M9InByaW1hcnkiIDpkaXNhYmxlZD0ic3luY2luZyIgQGNsaWNrPSJoYW5kbGVTeW5jIj4KICAgICAgICAgIHt7IHN5bmNpbmcgPyAn5ZCM5q2l5Lit4oCmJyA6ICfnq4vljbPlkIzmraUnIH19CiAgICAgICAgPC9idXR0b24+CiAgICAgIDwvZGl2PgogICAgPC9oZWFkZXI+CgogICAgPGRpdiBjbGFzcz0ibGF5b3V0Ij4KICAgICAgPGFzaWRlIGNsYXNzPSJzaWRlYmFyIj4KICAgICAgICA8YSB2LWZvcj0idCBpbiB0YWJzIiA6a2V5PSJ0LmtleSIgY2xhc3M9Im5hdi1pdGVtIgogICAgICAgICAgIDpjbGFzcz0ieyBhY3RpdmU6IGFjdGl2ZVRhYiA9PT0gdC5rZXkgfSIgQGNsaWNrPSJhY3RpdmVUYWIgPSB0LmtleSI+CiAgICAgICAgICB7eyB0LmxhYmVsIH19CiAgICAgICAgPC9hPgogICAgICA8L2FzaWRlPgoKICAgICAgPG1haW4gY2xhc3M9ImNvbnRlbnQiPgogICAgICAgIDxkaXYgdi1pZj0iZXJyb3IiIGNsYXNzPSJjYXJkIiBzdHlsZT0iY29sb3I6I2U2NDU0NSI+e3sgZXJyb3IgfX08L2Rpdj4KCiAgICAgICAgPGRpdiB2LWlmPSJsb2FkaW5nIiBjbGFzcz0iY2FyZCI+5Yqg6L295Lit4oCmPC9kaXY+CgogICAgICAgIDx0ZW1wbGF0ZSB2LWVsc2U+CiAgICAgICAgICA8IS0tIOaciOW6puaIkOacrCAtLT4KICAgICAgICAgIDxzZWN0aW9uIHYtaWY9ImFjdGl2ZVRhYiA9PT0gJ2Nvc3QnIj4KICAgICAgICAgICAgPGRpdiBjbGFzcz0ia3BpLXJvdyI+CiAgICAgICAgICAgICAgPGRpdiBjbGFzcz0ia3BpIj4KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9ImxhYmVsIj7mnKzmnIjmgLvmiJDmnKw8L2Rpdj4KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9InZhbHVlIj7CpXt7IGZtdChzdW1tYXJ5Py50b3RhbCkgfX08L2Rpdj4KICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJrcGkiPgogICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0ibGFiZWwiPueOr+avlOWPmOWMljwvZGl2PgogICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0idmFsdWUiIDpjbGFzcz0ibW9tQ2xhc3MiPgogICAgICAgICAgICAgICAgICB7eyBzdW1tYXJ5Py5tb21fcGN0ID09IG51bGwgPyAn4oCUJyA6IChzdW1tYXJ5Lm1vbV9wY3QgPiAwID8gJysnIDogJycpICsgc3VtbWFyeS5tb21fcGN0ICsgJyUnIH19CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9InN1YiI+6L6D5LiK5pyIPC9kaXY+CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgPGRpdiBjbGFzcz0ia3BpIj4KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9ImxhYmVsIj7nu5/orqHmnIjku708L2Rpdj4KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9InZhbHVlIiBzdHlsZT0iZm9udC1zaXplOjIwcHgiPnt7IHN1bW1hcnk/Lm1vbnRoIHx8ICfigJQnIH19PC9kaXY+CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8ZGl2IGNsYXNzPSJjYXJkIj4KICAgICAgICAgICAgICA8aDI+MTIg5Liq5pyI5oiQ5pys6LaL5Yq/PC9oMj4KICAgICAgICAgICAgICA8ZGl2IHJlZj0idHJlbmRDaGFydFJlZiIgY2xhc3M9ImNoYXJ0Ij48L2Rpdj4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8L3NlY3Rpb24+CgogICAgICAgICAgPCEtLSDotLnnlKjnu5PmnoQgLS0+CiAgICAgICAgICA8c2VjdGlvbiB2LWlmPSJhY3RpdmVUYWIgPT09ICdzdHJ1Y3R1cmUnIj4KICAgICAgICAgICAgPGRpdiBjbGFzcz0iY2FyZCI+CiAgICAgICAgICAgICAgPGgyPui0ueeUqOe7k+aehO+8iHt7IHN1bW1hcnk/Lm1vbnRoIH1977yJPC9oMj4KICAgICAgICAgICAgICA8ZGl2IHJlZj0ic3RydWN0dXJlQ2hhcnRSZWYiIGNsYXNzPSJjaGFydCI+PC9kaXY+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8ZGl2IGNsYXNzPSJjYXJkIj4KICAgICAgICAgICAgICA8aDI+6LS555So5piO57uGPC9oMj4KICAgICAgICAgICAgICA8dGFibGU+CiAgICAgICAgICAgICAgICA8dGhlYWQ+PHRyPjx0aD7nsbvliKs8L3RoPjx0aD7ph5Hpop08L3RoPjwvdHI+PC90aGVhZD4KICAgICAgICAgICAgICAgIDx0Ym9keT4KICAgICAgICAgICAgICAgICAgPHRyIHYtZm9yPSJpIGluIHN1bW1hcnk/LnN0cnVjdHVyZSB8fCBbXSIgOmtleT0iaS5jYXRlZ29yeSI+CiAgICAgICAgICAgICAgICAgICAgPHRkPnt7IGkubGFiZWwgfX08L3RkPjx0ZD7CpXt7IGZtdChpLmFtb3VudCkgfX08L3RkPgogICAgICAgICAgICAgICAgICA8L3RyPgogICAgICAgICAgICAgICAgPC90Ym9keT4KICAgICAgICAgICAgICA8L3RhYmxlPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDwvc2VjdGlvbj4KCiAgICAgICAgICA8IS0tIOW6k+WtmOWBpeW6tyAtLT4KICAgICAgICAgIDxzZWN0aW9uIHYtaWY9ImFjdGl2ZVRhYiA9PT0gJ2ludmVudG9yeSciPgogICAgICAgICAgICA8ZGl2IGNsYXNzPSJjYXJkIj4KICAgICAgICAgICAgICA8aDI+5bqT5a2Y5bm06b6E5YGl5bq35bqm77yIe3sgaGVhbHRoPy5zbmFwc2hvdF9kYXRlIH1977yJPC9oMj4KICAgICAgICAgICAgICA8ZGl2IHJlZj0iaGVhbHRoQ2hhcnRSZWYiIGNsYXNzPSJjaGFydCI+PC9kaXY+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8ZGl2IGNsYXNzPSJjYXJkIj4KICAgICAgICAgICAgICA8dGFibGU+CiAgICAgICAgICAgICAgICA8dGhlYWQ+PHRyPjx0aD7liIbnsbs8L3RoPjx0aD5TS1Ug5pWwPC90aD48dGg+5bqT5a2Y5Lu25pWwPC90aD48dGg+5Y2g5q+UPC90aD48L3RyPjwvdGhlYWQ+CiAgICAgICAgICAgICAgICA8dGJvZHk+CiAgICAgICAgICAgICAgICAgIDx0ciB2LWZvcj0iYiBpbiBoZWFsdGg/LmJ1Y2tldHMgfHwgW10iIDprZXk9ImIuYnVja2V0Ij4KICAgICAgICAgICAgICAgICAgICA8dGQ+PHNwYW4gY2xhc3M9ImJhZGdlIiA6Y2xhc3M9ImIuYnVja2V0Ij57eyBiLmxhYmVsIH19PC9zcGFuPjwvdGQ+CiAgICAgICAgICAgICAgICAgICAgPHRkPnt7IGIuc2t1X2NvdW50IH19PC90ZD4KICAgICAgICAgICAgICAgICAgICA8dGQ+e3sgYi5xdWFudGl0eSB9fTwvdGQ+CiAgICAgICAgICAgICAgICAgICAgPHRkPnt7IGIucXR5X3BjdCB9fSU8L3RkPgogICAgICAgICAgICAgICAgICA8L3RyPgogICAgICAgICAgICAgICAgPC90Ym9keT4KICAgICAgICAgICAgICA8L3RhYmxlPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDwvc2VjdGlvbj4KCiAgICAgICAgICA8IS0tIOmjjumZqSBTS1UgLS0+CiAgICAgICAgICA8c2VjdGlvbiB2LWlmPSJhY3RpdmVUYWIgPT09ICdyaXNrJyI+CiAgICAgICAgICAgIDxkaXYgY2xhc3M9ImNhcmQiPgogICAgICAgICAgICAgIDxoMj5UT1Ag6aOO6ZmpIFNLVe+8iOaMieW6k+m+hCDihpIg5pWw6YeP5o6S5bqP77yJPC9oMj4KICAgICAgICAgICAgICA8ZGl2IHJlZj0icmlza0NoYXJ0UmVmIiBjbGFzcz0iY2hhcnQiPjwvZGl2PgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPGRpdiBjbGFzcz0iY2FyZCI+CiAgICAgICAgICAgICAgPHRhYmxlPgogICAgICAgICAgICAgICAgPHRoZWFkPjx0cj48dGg+5o6S5ZCNPC90aD48dGg+U0tVPC90aD48dGg+5ZWG5ZOB5ZCN56ewPC90aD48dGg+5bqT6b6EKOWkqSk8L3RoPjx0aD7lupPlrZjmlbDph488L3RoPjx0aD7nirbmgIE8L3RoPjwvdHI+PC90aGVhZD4KICAgICAgICAgICAgICAgIDx0Ym9keT4KICAgICAgICAgICAgICAgICAgPHRyIHYtZm9yPSJyIGluIHJpc2siIDprZXk9InIuc2t1Ij4KICAgICAgICAgICAgICAgICAgICA8dGQ+I3t7IHIucmFuayB9fTwvdGQ+CiAgICAgICAgICAgICAgICAgICAgPHRkPnt7IHIuc2t1IH19PC90ZD4KICAgICAgICAgICAgICAgICAgICA8dGQ+e3sgci5wcm9kdWN0X25hbWUgfHwgJ+KAlCcgfX08L3RkPgogICAgICAgICAgICAgICAgICAgIDx0ZD57eyByLndhcmVob3VzZV9hZ2UgfX08L3RkPgogICAgICAgICAgICAgICAgICAgIDx0ZD57eyByLnF1YW50aXR5IH19PC90ZD4KICAgICAgICAgICAgICAgICAgICA8dGQ+PHNwYW4gY2xhc3M9ImJhZGdlIiA6Y2xhc3M9InIuYWdlX2J1Y2tldCI+e3sgci5sYWJlbCB9fTwvc3Bhbj48L3RkPgogICAgICAgICAgICAgICAgICA8L3RyPgogICAgICAgICAgICAgICAgPC90Ym9keT4KICAgICAgICAgICAgICA8L3RhYmxlPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDwvc2VjdGlvbj4KCiAgICAgICAgICA8IS0tIOaciOW6puaKpeWRiiAtLT4KICAgICAgICAgIDxzZWN0aW9uIHYtaWY9ImFjdGl2ZVRhYiA9PT0gJ3JlcG9ydCciPgogICAgICAgICAgICA8ZGl2IGNsYXNzPSJjYXJkIj4KICAgICAgICAgICAgICA8aDI+e3sgcmVwb3J0Py50aXRsZSB9fTwvaDI+CiAgICAgICAgICAgICAgPGRpdiBjbGFzcz0icmVwb3J0LW1kIj57eyByZXBvcnQ/LmNvbnRlbnRfbWQgfX08L2Rpdj4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8L3NlY3Rpb24+CiAgICAgICAgPC90ZW1wbGF0ZT4KCiAgICAgICAgPCEtLSDlkIzmraXml6Xlv5cgLS0+CiAgICAgICAgPGRpdiBjbGFzcz0iY2FyZCIgdi1pZj0ic3luY0xvZ3MubGVuZ3RoIj4KICAgICAgICAgIDxoMj7mnIDov5HlkIzmraXml6Xlv5c8L2gyPgogICAgICAgICAgPHRhYmxlPgogICAgICAgICAgICA8dGhlYWQ+PHRyPjx0aD7ku7vliqE8L3RoPjx0aD7mjqXlj6M8L3RoPjx0aD7nirbmgIE8L3RoPjx0aD7orrDlvZXmlbA8L3RoPjx0aD7ml7bpl7Q8L3RoPjwvdHI+PC90aGVhZD4KICAgICAgICAgICAgPHRib2R5PgogICAgICAgICAgICAgIDx0ciB2LWZvcj0iKGwsIGkpIGluIHN5bmNMb2dzIiA6a2V5PSJpIj4KICAgICAgICAgICAgICAgIDx0ZD57eyBsLnRhc2tfbmFtZSB9fTwvdGQ+CiAgICAgICAgICAgICAgICA8dGQ+e3sgbC5lbmRwb2ludCB9fTwvdGQ+CiAgICAgICAgICAgICAgICA8dGQ+e3sgbC5zdGF0dXMgfX08L3RkPgogICAgICAgICAgICAgICAgPHRkPnt7IGwucmVjb3Jkc19hZmZlY3RlZCB9fTwvdGQ+CiAgICAgICAgICAgICAgICA8dGQ+e3sgbC5zdGFydGVkX2F0IH19PC90ZD4KICAgICAgICAgICAgICA8L3RyPgogICAgICAgICAgICA8L3Rib2R5PgogICAgICAgICAgPC90YWJsZT4KICAgICAgICA8L2Rpdj4KICAgICAgPC9tYWluPgogICAgPC9kaXY+CiAgPC9kaXY+CjwvdGVtcGxhdGU+Cg==
+<script setup>
+import { ref, onMounted, computed } from 'vue'
+import * as echarts from 'echarts'
+import {
+  getCostSummary, getCostTrend, getInventoryHealth,
+  getRiskSku, getMonthlyReport, runSync, getSyncLogs
+} from './api/analysis'
+
+// ---- 状态 ----
+const activeTab = ref('cost') // cost | structure | inventory | risk | report
+const loading = ref(false)
+const error = ref('')
+const syncing = ref(false)
+const syncLogs = ref([])
+
+const summary = ref(null)
+const trend = ref([])
+const health = ref(null)
+const risk = ref([])
+const report = ref(null)
+
+// 图表 refs
+const trendChartRef = ref(null)
+const structureChartRef = ref(null)
+const healthChartRef = ref(null)
+const riskChartRef = ref(null)
+
+const tabs = [
+  { key: 'cost', label: '月度成本' },
+  { key: 'structure', label: '费用结构' },
+  { key: 'inventory', label: '库存健康' },
+  { key: 'risk', label: '风险SKU' },
+  { key: 'report', label: '月度报告' }
+]
+
+// ---- 加载数据 ----
+async function loadAll() {
+  loading.value = true
+  error.value = ''
+  try {
+    summary.value = await getCostSummary()
+    const t = await getCostTrend(12)
+    trend.value = t.trend || []
+    health.value = await getInventoryHealth()
+    risk.value = (await getRiskSku(null, 20)).items || []
+    report.value = await getMonthlyReport()
+  } catch (e) {
+    error.value = e.message
+  } finally {
+    loading.value = false
+    renderCharts()
+  }
+}
+
+function renderCharts() {
+  // 用 nextTick 确保 DOM 渲染后再画
+  import('vue').then(({ nextTick }) => nextTick(() => {
+    drawTrend()
+    drawStructure()
+    drawHealth()
+    drawRisk()
+  }))
+}
+
+function baseOption() {
+  return {
+    textStyle: { fontFamily: 'PingFang SC, Microsoft YaHei, sans-serif' },
+    tooltip: { trigger: 'axis' },
+    grid: { left: 50, right: 20, top: 40, bottom: 30 }
+  }
+}
+
+function drawTrend() {
+  if (!trendChartRef.value || !trend.value.length) return
+  const chart = echarts.getInstanceByDom(trendChartRef.value) || echarts.init(trendChartRef.value)
+  const months = trend.value.map((x) => x.month)
+  const totals = trend.value.map((x) => x.total)
+  const storage = trend.value.map((x) => x.storage)
+  const transport = trend.value.map((x) => x.transport)
+  chart.setOption({
+    ...baseOption(),
+    tooltip: { trigger: 'axis' },
+    legend: { data: ['总成本', '仓储费', '运输费'] },
+    xAxis: { type: 'category', data: months },
+    yAxis: { type: 'value', name: '¥' },
+    series: [
+      { name: '总成本', type: 'line', data: totals, smooth: true, itemStyle: { color: '#2f6bff' }, areaStyle: { opacity: 0.1 } },
+      { name: '仓储费', type: 'bar', data: storage, itemStyle: { color: '#94a3b8' } },
+      { name: '运输费', type: 'bar', data: transport, itemStyle: { color: '#cbd5e1' } }
+    ]
+  })
+}
+
+function drawStructure() {
+  if (!structureChartRef.value || !summary.value) return
+  const chart = echarts.getInstanceByDom(structureChartRef.value) || echarts.init(structureChartRef.value)
+  const items = summary.value.structure || []
+  chart.setOption({
+    tooltip: { trigger: 'item', formatter: '{b}: ¥{c} ({d}%)' },
+    legend: { orient: 'vertical', left: 'left' },
+    series: [{
+      type: 'pie', radius: ['40%', '68%'], center: ['55%', '50%'],
+      itemStyle: { borderRadius: 6, borderColor: '#fff', borderWidth: 2 },
+      label: { formatter: '{b}\n{d}%' },
+      data: items.map((i) => ({ name: i.label, value: i.amount }))
+    }]
+  })
+}
+
+function drawHealth() {
+  if (!healthChartRef.value || !health.value) return
+  const chart = echarts.getInstanceByDom(healthChartRef.value) || echarts.init(healthChartRef.value)
+  const buckets = health.value.buckets || []
+  const colors = { healthy: '#16a34a', watch: '#f59e0b', stale: '#f97316', critical: '#e64545' }
+  chart.setOption({
+    tooltip: { trigger: 'axis' },
+    legend: { data: buckets.map((b) => b.label) },
+    xAxis: { type: 'category', data: buckets.map((b) => b.label) },
+    yAxis: { type: 'value', name: '件' },
+    series: [{
+      type: 'bar', barWidth: '45%',
+      data: buckets.map((b) => ({ value: b.quantity, itemStyle: { color: colors[b.bucket] } }))
+    }]
+  })
+}
+
+function drawRisk() {
+  if (!riskChartRef.value || !risk.value.length) return
+  const chart = echarts.getInstanceByDom(riskChartRef.value) || echarts.init(riskChartRef.value)
+  const top10 = risk.value.slice(0, 10).reverse()
+  chart.setOption({
+    tooltip: { trigger: 'axis' },
+    grid: { left: 90, right: 30, top: 20, bottom: 30 },
+    xAxis: { type: 'value', name: '库龄(天)' },
+    yAxis: { type: 'category', data: top10.map((x) => x.sku) },
+    series: [{
+      type: 'bar', barWidth: '55%',
+      data: top10.map((x) => ({
+        value: x.warehouse_age,
+        itemStyle: { color: x.age_bucket === 'critical' ? '#e64545' : x.age_bucket === 'stale' ? '#f97316' : '#f59e0b' }
+      }))
+    }]
+  })
+}
+
+async function handleSync() {
+  syncing.value = true
+  try {
+    await runSync()
+    await loadAll()
+    syncLogs.value = await getSyncLogs()
+  } catch (e) {
+    error.value = e.message
+  } finally {
+    syncing.value = false
+  }
+}
+
+function fmt(v) {
+  return v == null ? '—' : Number(v).toLocaleString('zh-CN', { minimumFractionDigits: 2, maximumFractionDigits: 2 })
+}
+
+const momClass = computed(() => {
+  const m = summary.value?.mom_pct
+  if (m == null) return ''
+  return m > 0 ? 'up' : m < 0 ? 'down' : ''
+})
+
+onMounted(async () => {
+  await loadAll()
+  try { syncLogs.value = await getSyncLogs() } catch (e) { /* 忽略 */ }
+})
+</script>
+
+<template>
+  <div>
+    <header class="topbar">
+      <h1>谷仓海外仓成本健康分析</h1>
+      <div class="actions">
+        <button @click="loadAll">刷新</button>
+        <button class="primary" :disabled="syncing" @click="handleSync">
+          {{ syncing ? '同步中…' : '立即同步' }}
+        </button>
+      </div>
+    </header>
+
+    <div class="layout">
+      <aside class="sidebar">
+        <a v-for="t in tabs" :key="t.key" class="nav-item"
+           :class="{ active: activeTab === t.key }" @click="activeTab = t.key">
+          {{ t.label }}
+        </a>
+      </aside>
+
+      <main class="content">
+        <div v-if="error" class="card" style="color:#e64545">{{ error }}</div>
+
+        <div v-if="loading" class="card">加载中…</div>
+
+        <template v-else>
+          <!-- 月度成本 -->
+          <section v-if="activeTab === 'cost'">
+            <div class="kpi-row">
+              <div class="kpi">
+                <div class="label">本月总成本</div>
+                <div class="value">¥{{ fmt(summary?.total) }}</div>
+              </div>
+              <div class="kpi">
+                <div class="label">环比变化</div>
+                <div class="value" :class="momClass">
+                  {{ summary?.mom_pct == null ? '—' : (summary.mom_pct > 0 ? '+' : '') + summary.mom_pct + '%' }}
+                </div>
+                <div class="sub">较上月</div>
+              </div>
+              <div class="kpi">
+                <div class="label">统计月份</div>
+                <div class="value" style="font-size:20px">{{ summary?.month || '—' }}</div>
+              </div>
+            </div>
+            <div class="card">
+              <h2>12 个月成本趋势</h2>
+              <div ref="trendChartRef" class="chart"></div>
+            </div>
+          </section>
+
+          <!-- 费用结构 -->
+          <section v-if="activeTab === 'structure'">
+            <div class="card">
+              <h2>费用结构（{{ summary?.month }}）</h2>
+              <div ref="structureChartRef" class="chart"></div>
+            </div>
+            <div class="card">
+              <h2>费用明细</h2>
+              <table>
+                <thead><tr><th>类别</th><th>金额</th></tr></thead>
+                <tbody>
+                  <tr v-for="i in summary?.structure || []" :key="i.category">
+                    <td>{{ i.label }}</td><td>¥{{ fmt(i.amount) }}</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
+
+          <!-- 库存健康 -->
+          <section v-if="activeTab === 'inventory'">
+            <div class="card">
+              <h2>库存年龄健康度（{{ health?.snapshot_date }}）</h2>
+              <div ref="healthChartRef" class="chart"></div>
+            </div>
+            <div class="card">
+              <table>
+                <thead><tr><th>分类</th><th>SKU 数</th><th>库存件数</th><th>占比</th></tr></thead>
+                <tbody>
+                  <tr v-for="b in health?.buckets || []" :key="b.bucket">
+                    <td><span class="badge" :class="b.bucket">{{ b.label }}</span></td>
+                    <td>{{ b.sku_count }}</td>
+                    <td>{{ b.quantity }}</td>
+                    <td>{{ b.qty_pct }}%</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
+
+          <!-- 风险 SKU -->
+          <section v-if="activeTab === 'risk'">
+            <div class="card">
+              <h2>TOP 风险 SKU（按库龄 → 数量排序）</h2>
+              <div ref="riskChartRef" class="chart"></div>
+            </div>
+            <div class="card">
+              <table>
+                <thead><tr><th>排名</th><th>SKU</th><th>商品名称</th><th>库龄(天)</th><th>库存数量</th><th>状态</th></tr></thead>
+                <tbody>
+                  <tr v-for="r in risk" :key="r.sku">
+                    <td>#{{ r.rank }}</td>
+                    <td>{{ r.sku }}</td>
+                    <td>{{ r.product_name || '—' }}</td>
+                    <td>{{ r.warehouse_age }}</td>
+                    <td>{{ r.quantity }}</td>
+                    <td><span class="badge" :class="r.age_bucket">{{ r.label }}</span></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
+
+          <!-- 月度报告 -->
+          <section v-if="activeTab === 'report'">
+            <div class="card">
+              <h2>{{ report?.title }}</h2>
+              <div class="report-md">{{ report?.content_md }}</div>
+            </div>
+          </section>
+        </template>
+
+        <!-- 同步日志 -->
+        <div class="card" v-if="syncLogs.length">
+          <h2>最近同步日志</h2>
+          <table>
+            <thead><tr><th>任务</th><th>接口</th><th>状态</th><th>记录数</th><th>时间</th></tr></thead>
+            <tbody>
+              <tr v-for="(l, i) in syncLogs" :key="i">
+                <td>{{ l.task_name }}</td>
+                <td>{{ l.endpoint }}</td>
+                <td>{{ l.status }}</td>
+                <td>{{ l.records_affected }}</td>
+                <td>{{ l.started_at }}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </main>
+    </div>
+  </div>
+</template>

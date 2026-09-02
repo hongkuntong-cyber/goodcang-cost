@@ -1,1 +1,20 @@
-ewogICJuYW1lIjogImdvb2RjYW5nLWNvc3QtZnJvbnRlbmQiLAogICJ2ZXJzaW9uIjogIjAuMS4wIiwKICAicHJpdmF0ZSI6IHRydWUsCiAgInR5cGUiOiAibW9kdWxlIiwKICAic2NyaXB0cyI6IHsKICAgICJkZXYiOiAidml0ZSIsCiAgICAiYnVpbGQiOiAidml0ZSBidWlsZCIsCiAgICAicHJldmlldyI6ICJ2aXRlIHByZXZpZXciCiAgfSwKICAiZGVwZW5kZW5jaWVzIjogewogICAgInZ1ZSI6ICJeMy40LjAiLAogICAgImVjaGFydHMiOiAiXjUuNS4wIiwKICAgICJheGlvcyI6ICJeMS43LjAiCiAgfSwKICAiZGV2RGVwZW5kZW5jaWVzIjogewogICAgIkB2aXRlanMvcGx1Z2luLXZ1ZSI6ICJeNS4wLjAiLAogICAgInZpdGUiOiAiXjUuMi4wIgogIH0KfQo=
+{
+  "name": "goodcang-cost-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.4.0",
+    "echarts": "^5.5.0",
+    "axios": "^1.7.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.0",
+    "vite": "^5.2.0"
+  }
+}

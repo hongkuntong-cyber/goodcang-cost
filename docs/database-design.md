@@ -1,1 +1,312 @@
-IyDmlbDmja7lupPorr7orqHmlofmoaMKCj4g6aG555uu77yaR29vZENhbmcgT3ZlcnNlYXMgV2FyZWhvdXNlIENvc3QgSW50ZWxsaWdlbmNlCj4g5pWw5o2u5bqT77yaUG9zdGdyZVNRTCAxNSsKPiBPUk3vvJpTUUxBbGNoZW15IDIueCDvvZwg6L+B56e777yaQWxlbWJpYwoKLS0tCgojIyAxLiDorr7orqHnm67moIfkuI7ljp/liJkKCjEuICoq5pSv5pKR5LiJ57G75qC45b+D5YiG5p6QKirvvJrmnIjluqbmiJDmnKzjgIHotLnnlKjnu5PmnoTjgIHlupPlrZjlgaXlurfjgIIKMi4gKirlv6vnhacgKyDnlZnnl5UqKu+8muW6k+WtmOexu+S4uuaXtueCueaVsO+8jOaMieaKk+WPluaXpeacn+WBmuW/q+eFp++8m+i0puWNleexu+aMiSBgYmlsbF9udW1iZXJgIOW5guetieabtOaWsO+8m+aJgOacieWOn+Wni+aKpeaWh+S/neeVmSBgcmF3X2pzb25gIOS+v+S6juWvuei0puWbnua6r+OAggozLiAqKuWOn+Wni+WxgiAvIOWIhuaekOWxguWIhuemuyoq77yaQVBJIOaLieWPlueahOWOn+Wni+aVsOaNru+8iGBzdGdfKmDvvInkuI7liIbmnpDnu5PmnpzvvIhgbWFydF8qYO+8ieWIhuihqO+8jOWIhuaekOWxguWPr+mHjeeul+OAgeWPr+aJqeWxleOAggo0LiAqKuWPr+aJqeWxlSoq77ya6LS555So5b2S57G744CB5LuT5bqT57u05bqm44CB5bm06b6E5YiG5qG26ZiI5YC85Z2H6YWN572u5YyW77yM5paw5aKe5LuTL+aWsOWinui0ueeUqOexu+Wei+S4jeaUueihqOe7k+aehOOAggo1LiAqKuW5guetieWPr+mHjei3kSoq77ya5ZCM5q2l5Lu75Yqh5Y+v5a6J5YWo6YeN6LeR77yM5LiN5Lqn55Sf6YeN5aSN5pWw5o2u44CCCgotLS0KCiMjIDIuIOaVsOaNruWIhuWxguaAu+iniAoKYGBgCkdvb2RDYW5nIE9wZW4gQVBJCiAgICAgIOKUgiAgKFN0ZXAgMyBDb25uZWN0b3IgLyBTdGVwIDQg5ZCM5q2l5Lu75YqhKQogICAgICDilrwK4pSM4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSQCuKUgiDljp/lp4vlsYIgc3RnXyogICAgICAgICAgICAgICAgIOKUgiAg6LSm5Y2V44CB6LS555So5piO57uG44CB5bqT5a2Y5bm06b6E44CB5bqT5a2Y54q25oCB77yI5ZCrIHJhd19qc29u77yJCuKUlOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUmAogICAgICDilIIgIChTdGVwIDUg5YiG5p6Q5byV5pOOKQogICAgICDilrwK4pSM4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSQCuKUgiDliIbmnpDlsYIgbWFydF8qICAgICAgICAgICAgICAgIOKUgiAg5pyI5bqm5oiQ5pys5rGH5oC744CB6aOO6ZmpU0tV44CB5pyI5bqm5oql5ZGKCuKUlOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUmAogICAgICDilIIKICAgICAg4pa8CkZhc3RBUEkg4oaSIFZ1ZTMgRGFzaGJvYXJkIC8g5pyI5bqm5oql5ZGKCmBgYAoK57u05bqmL+mFjee9ru+8mmBkaW1fd2FyZWhvdXNlYOOAgWBmZWVfY2F0ZWdvcnlfbWFwYArov5Dnu7TvvJpgc3luY19sb2dzYAoKLS0tCgojIyAzLiDooajnu5PmnoTmmI7nu4YKCiMjIyAzLjEgYGRpbV93YXJlaG91c2VgIOKAlCDku5PlupPnu7TluqbooagKCnwg5a2X5q61IHwg57G75Z6LIHwg57qm5p2fIHwg6K+05piOIHwKfCAtLS0gfCAtLS0gfCAtLS0gfCAtLS0gfAp8IGlkIHwgQklHU0VSSUFMIHwgUEsgfCDoh6rlop7kuLvplK4gfAp8IHdhcmVob3VzZV9jb2RlIHwgVkFSQ0hBUigzMikgfCBOT1QgTlVMTCwgVU5JUVVFIHwg6LC35LuT5LuT5bqT57yW56CBIHwKfCB3YXJlaG91c2VfbmFtZSB8IFZBUkNIQVIoMTI4KSB8IE5PVCBOVUxMIHwg5LuT5bqT5ZCN56ewIHwKfCBjb3VudHJ5X2NvZGUgfCBDSEFSKDIpIHwgTk9UIE5VTEwgfCDlm73lrrbnoIHvvIjlvrflm70gPSBgREVg77yJIHwKfCBjdXJyZW5jeV9jb2RlIHwgQ0hBUigzKSB8IE5PVCBOVUxMIERFRkFVTFQgJ0VVUicgfCDpu5jorqTnu5PnrpfluIHnp40gfAp8IGlzX2FjdGl2ZSB8IEJPT0xFQU4gfCBOT1QgTlVMTCBERUZBVUxUIFRSVUUgfCDmmK/lkKblkK/nlKggfAp8IGNyZWF0ZWRfYXQgfCBUSU1FU1RBTVBUWiB8IE5PVCBOVUxMIERFRkFVTFQgbm93KCkgfCDliJvlu7rml7bpl7QgfAoKPiBWMSDku4XlkK/nlKjlvrflm73ku5PvvIhgY291bnRyeV9jb2RlPSdERSdg77yJ77yM5L2G57uT5p6E5LiK5pSv5oyB5aSa5LuT5omp5bGV44CCCgotLS0KCiMjIyAzLjIgYHN0Z19iaWxsc2Ag4oCUIOi0puWNleS4u+ihqO+8iOWOn+Wni+Wxgu+8iQoK5p2l5rqQ5o6l5Y+j77yaYGJpbGxpbmdfbGlzdGDvvIjojrflj5bmnIjluqbotKbljZXvvIkKCnwg5a2X5q61IHwg57G75Z6LIHwg57qm5p2fIHwg6K+05piOIHwKfCAtLS0gfCAtLS0gfCAtLS0gfCAtLS0gfAp8IGlkIHwgQklHU0VSSUFMIHwgUEsgfCDoh6rlop7kuLvplK4gfAp8IGJpbGxfbnVtYmVyIHwgVkFSQ0hBUig2NCkgfCBOT1QgTlVMTCwgVU5JUVVFIHwg6LSm5Y2V5Y+377yI5bmC562J6ZSu77yJIHwKfCBhY2NvdW50X2NvZGUgfCBWQVJDSEFSKDY0KSB8IE5VTEwgfCDlrqLmiLcv6LSm5Y+357yW56CBIHwKfCBiaWxsX2Zyb21fdGltZSB8IFRJTUVTVEFNUFRaIHwgTk9UIE5VTEwgfCDotKbljZXlvIDlp4vml7bpl7QgfAp8IGJpbGxfdG9fdGltZSB8IFRJTUVTVEFNUFRaIHwgTk9UIE5VTEwgfCDotKbljZXnu5PmnZ/ml7bpl7QgfAp8IGJpbGxfbW9udGggfCBDSEFSKDcpIHwgTk9UIE5VTEwgfCDlvZLlsZ7mnIjku70gYFlZWVktTU1g77yI5YaX5L2Z77yM5L6/5LqO6IGa5ZCI77yJIHwKfCBhbGxfdG90YWwgfCBOVU1FUklDKDE4LDQpIHwgTk9UIE5VTEwgfCDotKbljZXmgLvph5Hpop0gfAp8IGN1cnJlbmN5X2NvZGUgfCBDSEFSKDMpIHwgTk9UIE5VTEwgfCDluIHnp40gfAp8IHdhcmVob3VzZV9jb2RlIHwgVkFSQ0hBUigzMikgfCBOVUxMIOKGkiBGSyB8IOWFs+iBlOS7k+W6k++8iOWPr+epuu+8jOS+v+S6juWFiOiQveW6k+WQjuW9kuS7k++8iSB8CnwgcmF3X2pzb24gfCBKU09OQiB8IE5VTEwgfCDljp/lp4vmiqXmlocgfAp8IHN5bmNlZF9hdCB8IFRJTUVTVEFNUFRaIHwgTk9UIE5VTEwgREVGQVVMVCBub3coKSB8IOWQjOatpeaXtumXtCB8CgoqKue0ouW8lSoq77yaYHVrX3N0Z19iaWxsc19udW1iZXIoYmlsbF9udW1iZXIpYCDllK/kuIDvvJtgaXhfc3RnX2JpbGxzX21vbnRoKGJpbGxfbW9udGgpYO+8m2BpeF9zdGdfYmlsbHNfd2god2FyZWhvdXNlX2NvZGUpYAoKPiAqKuW5guetieetlueVpSoq77ya5LulIGBiaWxsX251bWJlcmAg5Li65ZSv5LiA6ZSuIGBVUFNFUlRg77yI5a2Y5Zyo5YiZ5pu05paw6YeR6aKdL+WMuumXtC/ljp/lp4vmiqXmlofvvInjgIIKCi0tLQoKIyMjIDMuMyBgc3RnX2JpbGxfZmVlX2l0ZW1zYCDigJQg6LSm5Y2V6LS555So5piO57uG6KGo77yI5Y6f5aeL5bGC77yJCgrmnaXmupDmjqXlj6PvvJpgYmlsbGluZ19leHBvcnRg77yI6I635Y+W6LSm5Y2V6LS555So5piO57uG77yJCgp8IOWtl+autSB8IOexu+WeiyB8IOe6puadnyB8IOivtOaYjiB8CnwgLS0tIHwgLS0tIHwgLS0tIHwgLS0tIHwKfCBpZCB8IEJJR1NFUklBTCB8IFBLIHwg6Ieq5aKe5Li76ZSuIHwKfCBiaWxsX251bWJlciB8IFZBUkNIQVIoNjQpIHwgTk9UIE5VTEwg4oaSIEZLKHN0Z19iaWxscy5iaWxsX251bWJlcikgfCDmiYDlsZ7otKbljZXlj7cgfAp8IGZlZV9uYW1lIHwgVkFSQ0hBUigxMjgpIHwgTk9UIE5VTEwgfCDljp/lp4votLnnlKjlkI3np7DvvIjosLfku5Pov5Tlm57vvIkgfAp8IGZlZV9jYXRlZ29yeSB8IFZBUkNIQVIoMzIpIHwgTk9UIE5VTEwgfCDlvZLnsbvvvJpgc3RvcmFnZS9pbmJvdW5kL291dGJvdW5kL3RyYW5zcG9ydC9vdGhlcmAgfAp8IGFtb3VudCB8IE5VTUVSSUMoMTgsNCkgfCBOT1QgTlVMTCB8IOi0ueeUqOmHkeminSB8CnwgY3VycmVuY3lfY29kZSB8IENIQVIoMykgfCBOT1QgTlVMTCB8IOW4geenjSB8CnwgcmVsYXRlZF9za3UgfCBWQVJDSEFSKDY0KSB8IE5VTEwgfCDlhbPogZQgU0tV77yI6Iul5piO57uG5YiwIFNLVe+8iSB8CnwgYmlsbF9tb250aCB8IENIQVIoNykgfCBOT1QgTlVMTCB8IOW9kuWxnuaciOS7ve+8iOWGl+S9me+8jOS+v+S6juiBmuWQiO+8iSB8CnwgcmF3X2pzb24gfCBKU09OQiB8IE5VTEwgfCDljp/lp4vmiqXmlocgfAp8IHN5bmNlZF9hdCB8IFRJTUVTVEFNUFRaIHwgTk9UIE5VTEwgREVGQVVMVCBub3coKSB8IOWQjOatpeaXtumXtCB8CgoqKue0ouW8lSoq77yaYGl4X2ZlZV9iaWxsKGJpbGxfbnVtYmVyKWDvvJtgaXhfZmVlX21vbnRoX2NhdChiaWxsX21vbnRoLCBmZWVfY2F0ZWdvcnkpYO+8m2BpeF9mZWVfc2t1KHJlbGF0ZWRfc2t1KWAKCj4gKirotLnnlKjlvZLnsbsqKu+8mmBmZWVfY2F0ZWdvcnlgIOeUsSBgZmVlX2NhdGVnb3J5X21hcGAg5pig5bCE5b6X5Yiw77yM6JC95bqT5YmN5a6M5oiQ5b2S57G744CCCgotLS0KCiMjIyAzLjQgYGZlZV9jYXRlZ29yeV9tYXBgIOKAlCDotLnnlKjlvZLnsbvmmKDlsITooajvvIjphY3nva7vvIkKCnwg5a2X5q61IHwg57G75Z6LIHwg57qm5p2fIHwg6K+05piOIHwKfCAtLS0gfCAtLS0gfCAtLS0gfCAtLS0gfAp8IGlkIHwgQklHU0VSSUFMIHwgUEsgfCDoh6rlop7kuLvplK4gfAp8IG1hdGNoX2tleXdvcmQgfCBWQVJDSEFSKDEyOCkgfCBOT1QgTlVMTCB8IOWMuemFjeWFs+mUruWtl++8iOWvuSBmZWVfbmFtZSDlgZrljIXlkKsv5q2j5YiZ5Yy56YWN77yJIHwKfCBmZWVfY2F0ZWdvcnkgfCBWQVJDSEFSKDMyKSB8IE5PVCBOVUxMIHwg55uu5qCH5b2S57G7IGBzdG9yYWdlL2luYm91bmQvb3V0Ym91bmQvdHJhbnNwb3J0L290aGVyYCB8CnwgcHJpb3JpdHkgfCBJTlQgfCBOT1QgTlVMTCBERUZBVUxUIDEwMCB8IOWMuemFjeS8mOWFiOe6p++8iOWwj+iAheS8mOWFiO+8iSB8CnwgcmVtYXJrIHwgVkFSQ0hBUigyNTUpIHwgTlVMTCB8IOWkh+azqCB8CgoqKuS6lOWkp+i0ueeUqOW9kuexu++8iOWKn+iDvSBC77yJKirvvJoKCnwgZmVlX2NhdGVnb3J5IHwg5Lit5paHIHwg5YW45Z6LIGZlZV9uYW1lIOWFs+mUruWtl++8iOekuuS+i++8jOmcgOaMieecn+WunuaVsOaNruagoeWHhu+8iSB8CnwgLS0tIHwgLS0tIHwgLS0tIHwKfCBgc3RvcmFnZWAgfCDku5PlgqjotLkgfCDku5PlgqjjgIHku5Pnp5/jgIFzdG9yYWdl44CBcmVudCB8CnwgYGluYm91bmRgIHwg5YWl5bqT6LS5IHwg5YWl5bqT44CB5LiK5p6244CBaW5ib3VuZOOAgXJlY2VpdmluZyB8CnwgYG91dGJvdW5kYCB8IOWHuuW6k+aTjeS9nOi0uSB8IOWHuuW6k+OAgeaTjeS9nOOAgeaLo+i0p+OAgeaJk+WMheOAgW91dGJvdW5k44CBaGFuZGxpbmcgfAp8IGB0cmFuc3BvcnRgIHwg6L+Q6L6T6LS5IHwg6L+Q6L6T44CB5rS+6YCB44CB6L+Q6LS544CBdHJhbnNwb3J044CBc2hpcHBpbmfjgIFmcmVpZ2h0IHwKfCBgb3RoZXJgIHwg5YW25LuW6LS555SoIHwg5YWc5bqV77yI5pyq5Yy56YWN6aG577yJIHwKCj4gKirkuJrliqHnoa7orqTngrkqKu+8muiwt+S7k+ecn+WuniBgZmVlX25hbWVgIOWFs+mUruWtl+mcgOeUqOeZu+W9leWQjueahOecn+Wunui0puWNleaYjue7huagoeWHhu+8jOacrOihqOaUr+aMgemaj+aXtuWinuWIoOaUueiAjOaXoOmcgOaUueS7o+eggeOAggoKLS0tCgojIyMgMy41IGBzdGdfaW52ZW50b3J5X2FnZWAg4oCUIOW6k+WtmOW5tOm+hOW/q+eFp+ihqO+8iOWOn+Wni+Wxgu+8iQoK5p2l5rqQ5o6l5Y+j77yaYGludmVudG9yeV9hZ2VfbGlzdGDvvIjlupPlrZjlubTpvoTliIbmnpDvvInjgILlupPlrZjkuLrml7bngrnmlbDvvIzmjIkgYHNuYXBzaG90X2RhdGVgIOWBmuW/q+eFp+OAggoKfCDlrZfmrrUgfCDnsbvlnosgfCDnuqbmnZ8gfCDor7TmmI4gfAp8IC0tLSB8IC0tLSB8IC0tLSB8IC0tLSB8CnwgaWQgfCBCSUdTRVJJQUwgfCBQSyB8IOiHquWinuS4u+mUriB8Cnwgc25hcHNob3RfZGF0ZSB8IERBVEUgfCBOT1QgTlVMTCB8IOW/q+eFp+aXpeacn++8iOaKk+WPluaXpe+8iSB8Cnwgc2t1IHwgVkFSQ0hBUig2NCkgfCBOT1QgTlVMTCB8IFNLVSB8CnwgcHJvZHVjdF9uYW1lIHwgVkFSQ0hBUigyNTUpIHwgTlVMTCB8IOWVhuWTgeWQjeensCB8CnwgcXVhbnRpdHkgfCBJTlQgfCBOT1QgTlVMTCBERUZBVUxUIDAgfCDlupPlrZjmlbDph48gfAp8IHdhcmVob3VzZV9hZ2UgfCBJTlQgfCBOT1QgTlVMTCB8IOW6k+m+hO+8iOWkqe+8iSB8CnwgaW5ib3VuZF90aW1lIHwgVElNRVNUQU1QVFogfCBOVUxMIHwg5YWl5bqT5pe26Ze0IHwKfCBhZ2VfYnVja2V0IHwgVkFSQ0hBUigxNikgfCBOT1QgTlVMTCB8IOW5tOm+hOWIhuahtu+8iOWGl+S9me+8jOingeS4i++8iSB8Cnwgd2FyZWhvdXNlX2NvZGUgfCBWQVJDSEFSKDMyKSB8IE5VTEwg4oaSIEZLIHwg5LuT5bqT57yW56CBIHwKfCByYXdfanNvbiB8IEpTT05CIHwgTlVMTCB8IOWOn+Wni+aKpeaWhyB8Cnwgc3luY2VkX2F0IHwgVElNRVNUQU1QVFogfCBOT1QgTlVMTCBERUZBVUxUIG5vdygpIHwg5ZCM5q2l5pe26Ze0IHwKCioq5ZSv5LiA57qm5p2fKirvvJpgdWtfYWdlX3NuYXBzaG90KHNuYXBzaG90X2RhdGUsIHNrdSwgd2FyZWhvdXNlX2NvZGUpYO+8iOWQjOaXpeWQjCBTS1Ug5ZCM5LuT5LuF5LiA5p2h77yM5Y+v6YeN6LeR77yJCioq57Si5byVKirvvJpgaXhfYWdlX2RhdGUoc25hcHNob3RfZGF0ZSlg77ybYGl4X2FnZV9za3Uoc2t1KWDvvJtgaXhfYWdlX2J1Y2tldChzbmFwc2hvdF9kYXRlLCBhZ2VfYnVja2V0KWAKCioq5bm06b6E5YiG5qG26KeE5YiZ77yI5Yqf6IO9IEPvvIkqKu+8mgoKfCBhZ2VfYnVja2V0IHwg5Yy66Ze077yI5aSp77yJIHwg5Lit5paHIHwKfCAtLS0gfCAtLS0gfCAtLS0gfAp8IGBoZWFsdGh5YCB8IDDigJM5MCB8IOWBpeW6t+W6k+WtmCB8CnwgYHdhdGNoYCB8IDkw4oCTMTgwIHwg5YWz5rOo5bqT5a2YIHwKfCBgc3RhbGVgIHwgMTgw4oCTMzY1IHwg5ZGG5rue5bqT5a2YIHwKfCBgY3JpdGljYWxgIHwgMzY1KyB8IOS4pemHjeWRhua7nuW6k+WtmCB8CgotLS0KCiMjIyAzLjYgYHN0Z19pbnZlbnRvcnlfc3RhdHVzYCDigJQg5b2T5YmN5bqT5a2Y54q25oCB5b+r54Wn6KGo77yI5Y6f5aeL5bGC77yJCgrmnaXmupDmjqXlj6PvvJpgZ2V0X3Byb2R1Y3RfaW52ZW50b3J5YO+8iOW9k+WJjeW6k+WtmOeKtuaAge+8ieOAggoKfCDlrZfmrrUgfCDnsbvlnosgfCDnuqbmnZ8gfCDor7TmmI4gfAp8IC0tLSB8IC0tLSB8IC0tLSB8IC0tLSB8CnwgaWQgfCBCSUdTRVJJQUwgfCBQSyB8IOiHquWinuS4u+mUriB8Cnwgc25hcHNob3RfZGF0ZSB8IERBVEUgfCBOT1QgTlVMTCB8IOW/q+eFp+aXpeacnyB8Cnwgc2t1IHwgVkFSQ0hBUig2NCkgfCBOT1QgTlVMTCB8IFNLVSB8Cnwgc2VsbGFibGUgfCBJTlQgfCBOT1QgTlVMTCBERUZBVUxUIDAgfCDlj6/llK4gfAp8IHVuc2VsbGFibGUgfCBJTlQgfCBOT1QgTlVMTCBERUZBVUxUIDAgfCDkuI3lj6/llK4gfAp8IHJlc2VydmVkIHwgSU5UIHwgTk9UIE5VTEwgREVGQVVMVCAwIHwg6aKE55WZL+WNoOeUqCB8Cnwgb253YXkgfCBJTlQgfCBOT1QgTlVMTCBERUZBVUxUIDAgfCDlnKjpgJQgfAp8IHdhcmVob3VzZV9jb2RlIHwgVkFSQ0hBUigzMikgfCBOVUxMIOKGkiBGSyB8IOS7k+W6k+e8lueggSB8CnwgcmF3X2pzb24gfCBKU09OQiB8IE5VTEwgfCDljp/lp4vmiqXmlocgfAp8IHN5bmNlZF9hdCB8IFRJTUVTVEFNUFRaIHwgTk9UIE5VTEwgREVGQVVMVCBub3coKSB8IOWQjOatpeaXtumXtCB8CgoqKuWUr+S4gOe6puadnyoq77yaYHVrX3N0YXR1c19zbmFwc2hvdChzbmFwc2hvdF9kYXRlLCBza3UsIHdhcmVob3VzZV9jb2RlKWAKKirntKLlvJUqKu+8mmBpeF9zdGF0dXNfZGF0ZShzbmFwc2hvdF9kYXRlKWDvvJtgaXhfc3RhdHVzX3NrdShza3UpYAoKLS0tCgojIyMgMy43IGBtYXJ0X21vbnRobHlfY29zdF9zdW1tYXJ5YCDigJQg5pyI5bqm5oiQ5pys5rGH5oC76KGo77yI5YiG5p6Q5bGC77yJCgrnlLHliIbmnpDlvJXmk47mjInotKbljZUgKyDotLnnlKjmmI7nu4bnianljJbvvIzpqbHliqggRGFzaGJvYXJk44CM5pyI5bqm5oiQ5pys5YiG5p6QIC8g6LS555So57uT5p6E44CN44CCCgp8IOWtl+autSB8IOexu+WeiyB8IOe6puadnyB8IOivtOaYjiB8CnwgLS0tIHwgLS0tIHwgLS0tIHwgLS0tIHwKfCBpZCB8IEJJR1NFUklBTCB8IFBLIHwg6Ieq5aKe5Li76ZSuIHwKfCBiaWxsX21vbnRoIHwgQ0hBUig3KSB8IE5PVCBOVUxMIHwg5pyI5Lu9IGBZWVlZLU1NYCB8Cnwgd2FyZWhvdXNlX2NvZGUgfCBWQVJDSEFSKDMyKSB8IE5PVCBOVUxMIHwg5LuT5bqT57yW56CBIHwKfCB0b3RhbF9jb3N0IHwgTlVNRVJJQygxOCw0KSB8IE5PVCBOVUxMIHwg5pyI5bqm5oC75oiQ5pysIHwKfCBzdG9yYWdlX2ZlZSB8IE5VTUVSSUMoMTgsNCkgfCBOT1QgTlVMTCBERUZBVUxUIDAgfCDku5PlgqjotLkgfAp8IGluYm91bmRfZmVlIHwgTlVNRVJJQygxOCw0KSB8IE5PVCBOVUxMIERFRkFVTFQgMCB8IOWFpeW6k+i0uSB8Cnwgb3V0Ym91bmRfZmVlIHwgTlVNRVJJQygxOCw0KSB8IE5PVCBOVUxMIERFRkFVTFQgMCB8IOWHuuW6k+aTjeS9nOi0uSB8CnwgdHJhbnNwb3J0X2ZlZSB8IE5VTUVSSUMoMTgsNCkgfCBOT1QgTlVMTCBERUZBVUxUIDAgfCDov5DovpPotLkgfAp8IG90aGVyX2ZlZSB8IE5VTUVSSUMoMTgsNCkgfCBOT1QgTlVMTCBERUZBVUxUIDAgfCDlhbbku5botLnnlKggfAp8IGN1cnJlbmN5X2NvZGUgfCBDSEFSKDMpIHwgTk9UIE5VTEwgfCDluIHnp40gfAp8IG1vbV9jaGFuZ2VfcGN0IHwgTlVNRVJJQyg4LDIpIHwgTlVMTCB8IOeOr+avlOWPmOWMliAl77yI55u45a+55LiK5pyI77yJIHwKfCBjb21wdXRlZF9hdCB8IFRJTUVTVEFNUFRaIHwgTk9UIE5VTEwgREVGQVVMVCBub3coKSB8IOiuoeeul+aXtumXtCB8CgoqKuWUr+S4gOe6puadnyoq77yaYHVrX2Nvc3RfbW9udGgoYmlsbF9tb250aCwgd2FyZWhvdXNlX2NvZGUpYO+8iOWPr+mHjeeul+imhueblu+8iQoKLS0tCgojIyMgMy44IGBtYXJ0X3Jpc2tfc2t1YCDigJQg6aOO6ZmpIFNLVSDmjpLooYzlv6vnhafooajvvIjliIbmnpDlsYLvvIkKCuaOkuW6j+inhOWIme+8mioq56ys5LiA5bqT5a2Y5bm06b6E77yIZGVzY++8ie+8jOesrOS6jOW6k+WtmOaVsOmHj++8iGRlc2PvvIkqKu+8jOWPliBUT1AyMOOAggoKfCDlrZfmrrUgfCDnsbvlnosgfCDnuqbmnZ8gfCDor7TmmI4gfAp8IC0tLSB8IC0tLSB8IC0tLSB8IC0tLSB8CnwgaWQgfCBCSUdTRVJJQUwgfCBQSyB8IOiHquWinuS4u+mUriB8Cnwgc25hcHNob3RfZGF0ZSB8IERBVEUgfCBOT1QgTlVMTCB8IOW/q+eFp+aXpeacnyB8Cnwgc2t1IHwgVkFSQ0hBUig2NCkgfCBOT1QgTlVMTCB8IFNLVSB8CnwgcHJvZHVjdF9uYW1lIHwgVkFSQ0hBUigyNTUpIHwgTlVMTCB8IOWVhuWTgeWQjeensCB8CnwgcXVhbnRpdHkgfCBJTlQgfCBOT1QgTlVMTCB8IOW6k+WtmOaVsOmHjyB8Cnwgd2FyZWhvdXNlX2FnZSB8IElOVCB8IE5PVCBOVUxMIHwg5bqT6b6E77yI5aSp77yJIHwKfCBhZ2VfYnVja2V0IHwgVkFSQ0hBUigxNikgfCBOT1QgTlVMTCB8IOW5tOm+hOWIhuahtiB8Cnwgcmlza19yYW5rIHwgSU5UIHwgTk9UIE5VTEwgfCDpo47pmanlkI3mrKHvvIgxID0g5pyA6auY6aOO6Zmp77yJIHwKfCB3YXJlaG91c2VfY29kZSB8IFZBUkNIQVIoMzIpIHwgTk9UIE5VTEwgfCDku5PlupPnvJbnoIEgfAp8IGNvbXB1dGVkX2F0IHwgVElNRVNUQU1QVFogfCBOT1QgTlVMTCBERUZBVUxUIG5vdygpIHwg6K6h566X5pe26Ze0IHwKCioq57Si5byVKirvvJpgaXhfcmlza19kYXRlKHNuYXBzaG90X2RhdGUsIHJpc2tfcmFuaylgCgotLS0KCiMjIyAzLjkgYG1hcnRfbW9udGhseV9yZXBvcnRzYCDigJQg5pyI5bqm5oql5ZGK6KGo77yI5YiG5p6Q5bGC77yJCgrjgIrlvrflm73mtbflpJbku5PmiJDmnKzlgaXlurfmiqXlkYrjgIvjgIIKCnwg5a2X5q61IHwg57G75Z6LIHwg57qm5p2fIHwg6K+05piOIHwKfCAtLS0gfCAtLS0gfCAtLS0gfCAtLS0gfAp8IGlkIHwgQklHU0VSSUFMIHwgUEsgfCDoh6rlop7kuLvplK4gfAp8IHJlcG9ydF9tb250aCB8IENIQVIoNykgfCBOT1QgTlVMTCB8IOaKpeWRiuaciOS7vSBgWVlZWS1NTWAgfAp8IHdhcmVob3VzZV9jb2RlIHwgVkFSQ0hBUigzMikgfCBOT1QgTlVMTCB8IOS7k+W6k+e8lueggSB8CnwgdGl0bGUgfCBWQVJDSEFSKDI1NSkgfCBOT1QgTlVMTCB8IOaKpeWRiuagh+mimCB8CnwgY29zdF9jaGFuZ2UgfCBKU09OQiB8IE5VTEwgfCDmiJDmnKzlj5jljJbvvIjmgLvmiJDmnKwv546v5q+UL+i2i+WKv++8iSB8CnwgY29zdF9kcml2ZXJzIHwgSlNPTkIgfCBOVUxMIHwg6LS555So5Y6f5Zug77yI57uT5p6E5Y2g5q+UL+S4u+imgempseWKqOmhue+8iSB8CnwgaW52ZW50b3J5X3Jpc2sgfCBKU09OQiB8IE5VTEwgfCDlupPlrZjpo47pmanvvIjliIbmobbljaDmr5Qv6aOO6ZmpU0tV77yJIHwKfCByZWNvbW1lbmRhdGlvbnMgfCBKU09OQiB8IE5VTEwgfCDkvJjljJblu7rorq4gfAp8IGNvbnRlbnRfbWQgfCBURVhUIHwgTlVMTCB8IOaKpeWRiuato+aWh++8iE1hcmtkb3du77yJIHwKfCBzdGF0dXMgfCBWQVJDSEFSKDE2KSB8IE5PVCBOVUxMIERFRkFVTFQgJ2RyYWZ0JyB8IGBkcmFmdC9wdWJsaXNoZWRgIHwKfCBnZW5lcmF0ZWRfYXQgfCBUSU1FU1RBTVBUWiB8IE5PVCBOVUxMIERFRkFVTFQgbm93KCkgfCDnlJ/miJDml7bpl7QgfAoKKirllK/kuIDnuqbmnZ8qKu+8mmB1a19yZXBvcnRfbW9udGgocmVwb3J0X21vbnRoLCB3YXJlaG91c2VfY29kZSlgCgotLS0KCiMjIyAzLjEwIGBzeW5jX2xvZ3NgIOKAlCDmlbDmja7lkIzmraXml6Xlv5fooajvvIjov5Dnu7TvvIkKCnwg5a2X5q61IHwg57G75Z6LIHwg57qm5p2fIHwg6K+05piOIHwKfCAtLS0gfCAtLS0gfCAtLS0gfCAtLS0gfAp8IGlkIHwgQklHU0VSSUFMIHwgUEsgfCDoh6rlop7kuLvplK4gfAp8IHRhc2tfbmFtZSB8IFZBUkNIQVIoNjQpIHwgTk9UIE5VTEwgfCDku7vliqHlkI3vvIjlpoIgYHN5bmNfYmlsbHNg77yJIHwKfCBlbmRwb2ludCB8IFZBUkNIQVIoNjQpIHwgTk9UIE5VTEwgfCDmnaXmupDmjqXlj6MgfAp8IHN0YXR1cyB8IFZBUkNIQVIoMTYpIHwgTk9UIE5VTEwgfCBgcnVubmluZy9zdWNjZXNzL2ZhaWxlZGAgfAp8IHJlY29yZHNfYWZmZWN0ZWQgfCBJTlQgfCBOVUxMIHwg5aSE55CG6K6w5b2V5pWwIHwKfCBtZXNzYWdlIHwgVEVYVCB8IE5VTEwgfCDnu5Pmnpwv6ZSZ6K+v5L+h5oGvIHwKfCBzdGFydGVkX2F0IHwgVElNRVNUQU1QVFogfCBOT1QgTlVMTCBERUZBVUxUIG5vdygpIHwg5byA5aeL5pe26Ze0IHwKfCBmaW5pc2hlZF9hdCB8IFRJTUVTVEFNUFRaIHwgTlVMTCB8IOe7k+adn+aXtumXtCB8CgoqKue0ouW8lSoq77yaYGl4X3N5bmNfdGFzayh0YXNrX25hbWUsIHN0YXJ0ZWRfYXQpYAoKLS0tCgojIyA0LiDlhbPns7vmgLvop4jvvIhFUiDmkZjopoHvvIkKCmBgYApkaW1fd2FyZWhvdXNlIDEg4pSA4pSA4pSA4pSAIG4gc3RnX2JpbGxzCnN0Z19iaWxscyAgICAgMSDilIDilIDilIDilIAgbiBzdGdfYmlsbF9mZWVfaXRlbXMKZGltX3dhcmVob3VzZSAxIOKUgOKUgOKUgOKUgCBuIHN0Z19pbnZlbnRvcnlfYWdlCmRpbV93YXJlaG91c2UgMSDilIDilIDilIDilIAgbiBzdGdfaW52ZW50b3J5X3N0YXR1cwpkaW1fd2FyZWhvdXNlIDEg4pSA4pSA4pSA4pSAIG4gbWFydF9tb250aGx5X2Nvc3Rfc3VtbWFyeQpkaW1fd2FyZWhvdXNlIDEg4pSA4pSA4pSA4pSAIG4gbWFydF9yaXNrX3NrdQpkaW1fd2FyZWhvdXNlIDEg4pSA4pSA4pSA4pSAIG4gbWFydF9tb250aGx5X3JlcG9ydHMKZmVlX2NhdGVnb3J5X21hcCDvvIjphY3nva7ooajvvIzpgLvovpHlhbPogZQgc3RnX2JpbGxfZmVlX2l0ZW1zLmZlZV9jYXRlZ29yee+8iQpzeW5jX2xvZ3PvvIjni6znq4vov5Dnu7TooajvvIkKYGBgCgotLS0KCiMjIDUuIOWFs+mUruiuvuiuoeWGs+etlgoKfCDlhrPnrZbngrkgfCDmlrnmoYggfCDnkIbnlLEgfAp8IC0tLSB8IC0tLSB8IC0tLSB8Cnwg6LSm5Y2V5bmC562JIHwgYGJpbGxfbnVtYmVyYCDllK/kuIAgKyBVUFNFUlQgfCDotKbljZXlj6/ph43lj5Ev5L+u5q2j77yM6YG/5YWN6YeN5aSNIHwKfCDlupPlrZjmlbDmja4gfCDmjIkgYHNuYXBzaG90X2RhdGVgIOW/q+eFpyB8IOW6k+WtmOaYr+aXtueCueaVsO+8jOmcgOS/neeVmeWOhuWPsuWBmui2i+WKvyB8Cnwg6LS555So5b2S57G7IHwg54us56uLIGBmZWVfY2F0ZWdvcnlfbWFwYCDphY3nva7ooaggfCDosLfku5PotLnnlKjlkI3lpJrlj5jvvIzlvZLnsbvop4TliJnlj6/lnKjnur/osIPmlbTkuI3mlLnku6PnoIEgfAp8IOmHkemineeyvuW6piB8IGBOVU1FUklDKDE4LDQpYCB8IOi0ouWKoemHkemine+8jOmBv+WFjea1rueCueivr+W3riB8Cnwg5biB56eNIHwg5q+P6KGM5L+d55WZIGBjdXJyZW5jeV9jb2RlYCB8IOW+t+WbveS7k+m7mOiupCBFVVLvvIzkvYbnlZnlpJrluIHnp43mianlsZUgfAp8IOWOn+Wni+aKpeaWhyB8IGByYXdfanNvbmAgKEpTT05CKSB8IOWvuei0puOAgeaOkumUmeOAgeWtl+autea8lOi/m+WFvOWuuSB8Cnwg546v5q+U5a2X5q61IHwg54mp5YyWIGBtb21fY2hhbmdlX3BjdGAgfCDmn6Xor6Llv6vvvIzliY3nq6/ml6DpnIDph43nrpcgfAoKLS0tCgojIyA2LiDlj6/mianlsZXmgKfpooTnlZkKCi0gKirlpJrku5MqKu+8muaJgOacieS4muWKoeihqOW4piBgd2FyZWhvdXNlX2NvZGVg77yM5paw5aKe5LuT5LuF6ZyA5ZyoIGBkaW1fd2FyZWhvdXNlYCDliqDorrDlvZXjgIIKLSAqKuaWsOWinui0ueeUqOexu+Weiyoq77ya5pS5IGBmZWVfY2F0ZWdvcnlfbWFwYO+8jOS4jeWKqOihqOe7k+aehOOAggotICoq5bm06b6E6ZiI5YC8KirvvJrliIbmobbop4TliJnlkI7nu63lj6/mir3liLDphY3nva7ooajvvIjlvZPliY3kuLrku6PnoIHluLjph48gKyDokL3lupPlhpfkvZnvvInjgIIKLSAqKuaWsOaVsOaNrua6kCoq77ya5rK/55SoIGBzdGdfKmAg5Y6f5aeL5bGCICsgYG1hcnRfKmAg5YiG5p6Q5bGC5qih5byP5qiq5ZCR5omp5bGV44CCCgotLS0KCiMjIDcuIOW+heehruiupO+8iOS4muWKoS/mlbDmja7vvIkKCjEuIOiwt+S7k+WQhOaOpeWPoyoq55yf5a6e6L+U5Zue5a2X5q615ZCNKirvvIjnmbvlvZXlvIDmlL7lubPlj7DlkI7moKHlh4bvvIzop4EgYGFwaS1maWVsZC1tYXBwaW5nLm1kYO+8ieOAggoyLiBgYmlsbGluZ19leHBvcnRgIOaYjue7huaYr+WQpuWIsCAqKlNLVSDnspLluqYqKu+8iOW9seWTjSBgcmVsYXRlZF9za3VgIOS4jui0ueeUqOW9kuWboOeyvuW6pu+8ieOAggozLiDlvrflm73ku5PotKbljZXnmoQqKuW4geenjSoq5piv5ZCm5Zu65a6aIEVVUu+8jOaYr+WQpuWtmOWcqOi3qOW4geenjei0puWNleOAggo=
+# 数据库设计文档
+
+> 项目：GoodCang Overseas Warehouse Cost Intelligence
+> 数据库：PostgreSQL 15+
+> ORM：SQLAlchemy 2.x ｜ 迁移：Alembic
+
+---
+
+## 1. 设计目标与原则
+
+1. **支撑三类核心分析**：月度成本、费用结构、库存健康。
+2. **快照 + 留痕**：库存类为时点数，按抓取日期做快照；账单类按 `bill_number` 幂等更新；所有原始报文保留 `raw_json` 便于对账回溯。
+3. **原始层 / 分析层分离**：API 拉取的原始数据（`stg_*`）与分析结果（`mart_*`）分表，分析层可重算、可扩展。
+4. **可扩展**：费用归类、仓库维度、年龄分桶阈值均配置化，新增仓/新增费用类型不改表结构。
+5. **幂等可重跑**：同步任务可安全重跑，不产生重复数据。
+
+---
+
+## 2. 数据分层总览
+
+```
+GoodCang Open API
+      │  (Step 3 Connector / Step 4 同步任务)
+      ▼
+┌─────────────────────────────┐
+│ 原始层 stg_*                 │  账单、费用明细、库存年龄、库存状态（含 raw_json）
+└─────────────────────────────┘
+      │  (Step 5 分析引擎)
+      ▼
+┌─────────────────────────────┐
+│ 分析层 mart_*                │  月度成本汇总、风险SKU、月度报告
+└─────────────────────────────┘
+      │
+      ▼
+FastAPI → Vue3 Dashboard / 月度报告
+```
+
+维度/配置：`dim_warehouse`、`fee_category_map`
+运维：`sync_logs`
+
+---
+
+## 3. 表结构明细
+
+### 3.1 `dim_warehouse` — 仓库维度表
+
+| 字段 | 类型 | 约束 | 说明 |
+| --- | --- | --- | --- |
+| id | BIGSERIAL | PK | 自增主键 |
+| warehouse_code | VARCHAR(32) | NOT NULL, UNIQUE | 谷仓仓库编码 |
+| warehouse_name | VARCHAR(128) | NOT NULL | 仓库名称 |
+| country_code | CHAR(2) | NOT NULL | 国家码（德国 = `DE`） |
+| currency_code | CHAR(3) | NOT NULL DEFAULT 'EUR' | 默认结算币种 |
+| is_active | BOOLEAN | NOT NULL DEFAULT TRUE | 是否启用 |
+| created_at | TIMESTAMPTZ | NOT NULL DEFAULT now() | 创建时间 |
+
+> V1 仅启用德国仓（`country_code='DE'`），但结构上支持多仓扩展。
+
+---
+
+### 3.2 `stg_bills` — 账单主表（原始层）
+
+来源接口：`billing_list`（获取月度账单）
+
+| 字段 | 类型 | 约束 | 说明 |
+| --- | --- | --- | --- |
+| id | BIGSERIAL | PK | 自增主键 |
+| bill_number | VARCHAR(64) | NOT NULL, UNIQUE | 账单号（幂等键） |
+| account_code | VARCHAR(64) | NULL | 客户/账号编码 |
+| bill_from_time | TIMESTAMPTZ | NOT NULL | 账单开始时间 |
+| bill_to_time | TIMESTAMPTZ | NOT NULL | 账单结束时间 |
+| bill_month | CHAR(7) | NOT NULL | 归属月份 `YYYY-MM`（冗余，便于聚合） |
+| all_total | NUMERIC(18,4) | NOT NULL | 账单总金额 |
+| currency_code | CHAR(3) | NOT NULL | 币种 |
+| warehouse_code | VARCHAR(32) | NULL → FK | 关联仓库（可空，便于先落库后归仓） |
+| raw_json | JSONB | NULL | 原始报文 |
+| synced_at | TIMESTAMPTZ | NOT NULL DEFAULT now() | 同步时间 |
+
+**索引**：`uk_stg_bills_number(bill_number)` 唯一；`ix_stg_bills_month(bill_month)`；`ix_stg_bills_wh(warehouse_code)`
+
+> **幂等策略**：以 `bill_number` 为唯一键 `UPSERT`（存在则更新金额/区间/原始报文）。
+
+---
+
+### 3.3 `stg_bill_fee_items` — 账单费用明细表（原始层）
+
+来源接口：`billing_export`（获取账单费用明细）
+
+| 字段 | 类型 | 约束 | 说明 |
+| --- | --- | --- | --- |
+| id | BIGSERIAL | PK | 自增主键 |
+| bill_number | VARCHAR(64) | NOT NULL → FK(stg_bills.bill_number) | 所属账单号 |
+| fee_name | VARCHAR(128) | NOT NULL | 原始费用名称（谷仓返回） |
+| fee_category | VARCHAR(32) | NOT NULL | 归类：`storage/inbound/outbound/transport/other` |
+| amount | NUMERIC(18,4) | NOT NULL | 费用金额 |
+| currency_code | CHAR(3) | NOT NULL | 币种 |
+| related_sku | VARCHAR(64) | NULL | 关联 SKU（若明细到 SKU） |
+| bill_month | CHAR(7) | NOT NULL | 归属月份（冗余，便于聚合） |
+| raw_json | JSONB | NULL | 原始报文 |
+| synced_at | TIMESTAMPTZ | NOT NULL DEFAULT now() | 同步时间 |
+
+**索引**：`ix_fee_bill(bill_number)`；`ix_fee_month_cat(bill_month, fee_category)`；`ix_fee_sku(related_sku)`
+
+> **费用归类**：`fee_category` 由 `fee_category_map` 映射得到，落库前完成归类。
+
+---
+
+### 3.4 `fee_category_map` — 费用归类映射表（配置）
+
+| 字段 | 类型 | 约束 | 说明 |
+| --- | --- | --- | --- |
+| id | BIGSERIAL | PK | 自增主键 |
+| match_keyword | VARCHAR(128) | NOT NULL | 匹配关键字（对 fee_name 做包含/正则匹配） |
+| fee_category | VARCHAR(32) | NOT NULL | 目标归类 `storage/inbound/outbound/transport/other` |
+| priority | INT | NOT NULL DEFAULT 100 | 匹配优先级（小者优先） |
+| remark | VARCHAR(255) | NULL | 备注 |
+
+**五大费用归类（功能 B）**：
+
+| fee_category | 中文 | 典型 fee_name 关键字（示例，需按真实数据校准） |
+| --- | --- | --- |
+| `storage` | 仓储费 | 仓储、仓租、storage、rent |
+| `inbound` | 入库费 | 入库、上架、inbound、receiving |
+| `outbound` | 出库操作费 | 出库、操作、拣货、打包、outbound、handling |
+| `transport` | 运输费 | 运输、派送、运费、transport、shipping、freight |
+| `other` | 其他费用 | 兜底（未匹配项） |
+
+> **业务确认点**：谷仓真实 `fee_name` 关键字需用登录后的真实账单明细校准，本表支持随时增删改而无需改代码。
+
+---
+
+### 3.5 `stg_inventory_age` — 库存年龄快照表（原始层）
+
+来源接口：`inventory_age_list`（库存年龄分析）。库存为时点数，按 `snapshot_date` 做快照。
+
+| 字段 | 类型 | 约束 | 说明 |
+| --- | --- | --- | --- |
+| id | BIGSERIAL | PK | 自增主键 |
+| snapshot_date | DATE | NOT NULL | 快照日期（抓取日） |
+| sku | VARCHAR(64) | NOT NULL | SKU |
+| product_name | VARCHAR(255) | NULL | 商品名称 |
+| quantity | INT | NOT NULL DEFAULT 0 | 库存数量 |
+| warehouse_age | INT | NOT NULL | 库龄（天） |
+| inbound_time | TIMESTAMPTZ | NULL | 入库时间 |
+| age_bucket | VARCHAR(16) | NOT NULL | 年龄分桶（冗余，见下） |
+| warehouse_code | VARCHAR(32) | NULL → FK | 仓库编码 |
+| raw_json | JSONB | NULL | 原始报文 |
+| synced_at | TIMESTAMPTZ | NOT NULL DEFAULT now() | 同步时间 |
+
+**唯一约束**：`uk_age_snapshot(snapshot_date, sku, warehouse_code)`（同日同 SKU 同仓仅一条，可重跑）
+**索引**：`ix_age_date(snapshot_date)`；`ix_age_sku(sku)`；`ix_age_bucket(snapshot_date, age_bucket)`
+
+**年龄分桶规则（功能 C）**：
+
+| age_bucket | 区间（天） | 中文 |
+| --- | --- | --- |
+| `healthy` | 0–90 | 健康库存 |
+| `watch` | 90–180 | 关注库存 |
+| `stale` | 180–365 | 呆滞库存 |
+| `critical` | 365+ | 严重呆滞库存 |
+
+---
+
+### 3.6 `stg_inventory_status` — 当前库存状态快照表（原始层）
+
+来源接口：`get_product_inventory`（当前库存状态）。
+
+| 字段 | 类型 | 约束 | 说明 |
+| --- | --- | --- | --- |
+| id | BIGSERIAL | PK | 自增主键 |
+| snapshot_date | DATE | NOT NULL | 快照日期 |
+| sku | VARCHAR(64) | NOT NULL | SKU |
+| sellable | INT | NOT NULL DEFAULT 0 | 可售 |
+| unsellable | INT | NOT NULL DEFAULT 0 | 不可售 |
+| reserved | INT | NOT NULL DEFAULT 0 | 预留/占用 |
+| onway | INT | NOT NULL DEFAULT 0 | 在途 |
+| warehouse_code | VARCHAR(32) | NULL → FK | 仓库编码 |
+| raw_json | JSONB | NULL | 原始报文 |
+| synced_at | TIMESTAMPTZ | NOT NULL DEFAULT now() | 同步时间 |
+
+**唯一约束**：`uk_status_snapshot(snapshot_date, sku, warehouse_code)`
+**索引**：`ix_status_date(snapshot_date)`；`ix_status_sku(sku)`
+
+---
+
+### 3.7 `mart_monthly_cost_summary` — 月度成本汇总表（分析层）
+
+由分析引擎按账单 + 费用明细物化，驱动 Dashboard「月度成本分析 / 费用结构」。
+
+| 字段 | 类型 | 约束 | 说明 |
+| --- | --- | --- | --- |
+| id | BIGSERIAL | PK | 自增主键 |
+| bill_month | CHAR(7) | NOT NULL | 月份 `YYYY-MM` |
+| warehouse_code | VARCHAR(32) | NOT NULL | 仓库编码 |
+| total_cost | NUMERIC(18,4) | NOT NULL | 月度总成本 |
+| storage_fee | NUMERIC(18,4) | NOT NULL DEFAULT 0 | 仓储费 |
+| inbound_fee | NUMERIC(18,4) | NOT NULL DEFAULT 0 | 入库费 |
+| outbound_fee | NUMERIC(18,4) | NOT NULL DEFAULT 0 | 出库操作费 |
+| transport_fee | NUMERIC(18,4) | NOT NULL DEFAULT 0 | 运输费 |
+| other_fee | NUMERIC(18,4) | NOT NULL DEFAULT 0 | 其他费用 |
+| currency_code | CHAR(3) | NOT NULL | 币种 |
+| mom_change_pct | NUMERIC(8,2) | NULL | 环比变化 %（相对上月） |
+| computed_at | TIMESTAMPTZ | NOT NULL DEFAULT now() | 计算时间 |
+
+**唯一约束**：`uk_cost_month(bill_month, warehouse_code)`（可重算覆盖）
+
+---
+
+### 3.8 `mart_risk_sku` — 风险 SKU 排行快照表（分析层）
+
+排序规则：**第一库存年龄（desc），第二库存数量（desc）**，取 TOP20。
+
+| 字段 | 类型 | 约束 | 说明 |
+| --- | --- | --- | --- |
+| id | BIGSERIAL | PK | 自增主键 |
+| snapshot_date | DATE | NOT NULL | 快照日期 |
+| sku | VARCHAR(64) | NOT NULL | SKU |
+| product_name | VARCHAR(255) | NULL | 商品名称 |
+| quantity | INT | NOT NULL | 库存数量 |
+| warehouse_age | INT | NOT NULL | 库龄（天） |
+| age_bucket | VARCHAR(16) | NOT NULL | 年龄分桶 |
+| risk_rank | INT | NOT NULL | 风险名次（1 = 最高风险） |
+| warehouse_code | VARCHAR(32) | NOT NULL | 仓库编码 |
+| computed_at | TIMESTAMPTZ | NOT NULL DEFAULT now() | 计算时间 |
+
+**索引**：`ix_risk_date(snapshot_date, risk_rank)`
+
+---
+
+### 3.9 `mart_monthly_reports` — 月度报告表（分析层）
+
+《德国海外仓成本健康报告》。
+
+| 字段 | 类型 | 约束 | 说明 |
+| --- | --- | --- | --- |
+| id | BIGSERIAL | PK | 自增主键 |
+| report_month | CHAR(7) | NOT NULL | 报告月份 `YYYY-MM` |
+| warehouse_code | VARCHAR(32) | NOT NULL | 仓库编码 |
+| title | VARCHAR(255) | NOT NULL | 报告标题 |
+| cost_change | JSONB | NULL | 成本变化（总成本/环比/趋势） |
+| cost_drivers | JSONB | NULL | 费用原因（结构占比/主要驱动项） |
+| inventory_risk | JSONB | NULL | 库存风险（分桶占比/风险SKU） |
+| recommendations | JSONB | NULL | 优化建议 |
+| content_md | TEXT | NULL | 报告正文（Markdown） |
+| status | VARCHAR(16) | NOT NULL DEFAULT 'draft' | `draft/published` |
+| generated_at | TIMESTAMPTZ | NOT NULL DEFAULT now() | 生成时间 |
+
+**唯一约束**：`uk_report_month(report_month, warehouse_code)`
+
+---
+
+### 3.10 `sync_logs` — 数据同步日志表（运维）
+
+| 字段 | 类型 | 约束 | 说明 |
+| --- | --- | --- | --- |
+| id | BIGSERIAL | PK | 自增主键 |
+| task_name | VARCHAR(64) | NOT NULL | 任务名（如 `sync_bills`） |
+| endpoint | VARCHAR(64) | NOT NULL | 来源接口 |
+| status | VARCHAR(16) | NOT NULL | `running/success/failed` |
+| records_affected | INT | NULL | 处理记录数 |
+| message | TEXT | NULL | 结果/错误信息 |
+| started_at | TIMESTAMPTZ | NOT NULL DEFAULT now() | 开始时间 |
+| finished_at | TIMESTAMPTZ | NULL | 结束时间 |
+
+**索引**：`ix_sync_task(task_name, started_at)`
+
+---
+
+## 4. 关系总览（ER 摘要）
+
+```
+dim_warehouse 1 ──── n stg_bills
+stg_bills     1 ──── n stg_bill_fee_items
+dim_warehouse 1 ──── n stg_inventory_age
+dim_warehouse 1 ──── n stg_inventory_status
+dim_warehouse 1 ──── n mart_monthly_cost_summary
+dim_warehouse 1 ──── n mart_risk_sku
+dim_warehouse 1 ──── n mart_monthly_reports
+fee_category_map （配置表，逻辑关联 stg_bill_fee_items.fee_category）
+sync_logs（独立运维表）
+```
+
+---
+
+## 5. 关键设计决策
+
+| 决策点 | 方案 | 理由 |
+| --- | --- | --- |
+| 账单幂等 | `bill_number` 唯一 + UPSERT | 账单可重发/修正，避免重复 |
+| 库存数据 | 按 `snapshot_date` 快照 | 库存是时点数，需保留历史做趋势 |
+| 费用归类 | 独立 `fee_category_map` 配置表 | 谷仓费用名多变，归类规则可在线调整不改代码 |
+| 金额精度 | `NUMERIC(18,4)` | 财务金额，避免浮点误差 |
+| 币种 | 每行保留 `currency_code` | 德国仓默认 EUR，但留多币种扩展 |
+| 原始报文 | `raw_json` (JSONB) | 对账、排错、字段演进兼容 |
+| 环比字段 | 物化 `mom_change_pct` | 查询快，前端无需重算 |
+
+---
+
+## 6. 可扩展性预留
+
+- **多仓**：所有业务表带 `warehouse_code`，新增仓仅需在 `dim_warehouse` 加记录。
+- **新增费用类型**：改 `fee_category_map`，不动表结构。
+- **年龄阈值**：分桶规则后续可抽到配置表（当前为代码常量 + 落库冗余）。
+- **新数据源**：沿用 `stg_*` 原始层 + `mart_*` 分析层模式横向扩展。
+
+---
+
+## 7. 待确认（业务/数据）
+
+1. 谷仓各接口**真实返回字段名**（登录开放平台后校准，见 `api-field-mapping.md`）。
+2. `billing_export` 明细是否到 **SKU 粒度**（影响 `related_sku` 与费用归因精度）。
+3. 德国仓账单的**币种**是否固定 EUR，是否存在跨币种账单。

@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>谷仓海外仓成本健康分析 · 真实数据</title>
+<script src="https://cdn.jsdelivr.net/npm/echarts@5.5.0/dist/echarts.min.js"></script>
+<style>
+  :root {
+    --bg: #f4f6fa;
+    --card: #ffffff;
+    --border: #e6e9f0;
+    --text: #1f2937;
+    --muted: #6b7280;
+    --primary: #2f6bff;
+    --up: #e64545;
+    --down: #16a34a;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'PingFang SC', 'Microsoft YaHei', 'Segoe UI', sans-serif;
+    background: var(--bg); color: var(--text);
+    min-height: 100vh;
+  }
+  .topbar {
+    position: sticky; top: 0; z-index: 10;
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 14px 24px; background: var(--card);
+    border-bottom: 1px solid var(--border);
+  }
+  .topbar h1 { font-size: 18px; font-weight: 600; }
+  .topbar .hint { font-size: 12px; color: var(--muted); }
+  .badge-demo {
+    display: inline-block; padding: 3px 10px; border-radius: 999px;
+    font-size: 12px; color: #fff; background: linear-gradient(90deg,#16a34a,#2f6bff);
+  }
+  .layout { display: flex; min-height: calc(100vh - 61px); }
+  .sidebar {
+    width: 180px; flex-shrink: 0; background: var(--card);
+    border-right: 1px solid var(--border); padding: 16px 10px;
+  }
+  .nav-item {
+    display: block; padding: 12px 16px; margin-bottom: 6px;
+    border-radius: 8px; cursor: pointer; font-size: 14px; color: var(--text);
+    transition: all .15s; user-select: none;
+  }
+  .nav-item:hover { background: #f1f5ff; }
+  .nav-item.active { background: var(--primary); color: #fff; font-weight: 600; }
+  .content { flex: 1; padding: 24px; max-width: 1200px; }
+  .kpi-row { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-bottom: 20px; }
+  .kpi {
+    background: var(--card); border: 1px solid var(--border);
+    border-radius: 12px; padding: 20px;
+  }
+  .kpi .label { font-size: 13px; color: var(--muted); margin-bottom: 8px; }
+  .kpi .value { font-size: 28px; font-weight: 700; }
+  .kpi .sub { font-size: 12px; color: var(--muted); margin-top: 6px; }
+  .value.up { color: var(--up); }
+  .value.down { color: var(--down); }
+  .card {
+    background: var(--card); border: 1px solid var(--border);
+    border-radius: 12px; padding: 20px; margin-bottom: 20px;
+  }
+  .card h2 { font-size: 15px; font-weight: 600; margin-bottom: 16px; }
+  .chart { width: 100%; height: 360px; }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--border); }
+  th { color: var(--muted); font-weight: 500; background: #fafbfc; }
+  tr:last-child td { border-bottom: none; }
+  .badge { display: inline-block; padding: 2px 10px; border-radius: 999px; font-size: 12px; color: #fff; }
+  .badge.healthy { background: #16a34a; }
+  .badge.watch { background: #f59e0b; }
+  .badge.stale { background: #f97316; }
+  .badge.critical { background: #e64545; }
+  .report-md { font-size: 14px; line-height: 1.8; color: #374151; }
+  .report-md h1 { font-size: 18px; margin-bottom: 8px; }
+  .report-md h2 { font-size: 15px; margin: 16px 0 8px; }
+  .report-md ul { padding-left: 20px; }
+  .banner {
+    background: #fffbeb; border: 1px solid #fde68a; color: #92400e;
+    padding: 12px 16px; border-radius: 10px; font-size: 13px; margin-bottom: 20px;
+  }
+</style>
+</head>
+<body>
+<div class="topbar">
+  <h1>谷仓海外仓成本健康分析</h1>
+  <div class="actions">
+    <span class="badge-demo">真实数据</span>
+    <span class="hint" style="margin-left:10px">谷仓 Open API · 2026-08</span>
+  </div>
+</div>
+
+<div class="layout">
+  <aside class="sidebar" id="sidebar"></aside>
+  <main class="content">
+    <div class="banner">
+      这是<strong>真实数据</strong>预览页，数据来自谷仓 Open API（仅 ACG1505601 / ACG1505604 两个主体）。
+      双击本文件即可离线打开（图表需联网加载 ECharts CDN）。
+    </div>
+    <div id="panel"></div>
+  </main>
+</div>
+
+<script>
+// ==================== 真实数据（由 real-data.json 生成）====================
+const DATA = {
+  "summary": {
+    "month": "2026-08",
+    "total": 25869.46,
+    "mom_pct": 90.92,
+    "structure": [
+      {
+        "category": "storage",
+        "label": "仓储费",
+        "amount": 1094.87
+      },
+      {
+        "category": "inbound",
+        "label": "入库费",
+        "amount": 5398.25
+      },
+      {
+        "category": "outbound",
+        "label": "出库操作费",
+        "amount": 2291.51
+      },
+      {
+        "category": "transport",
+        "label": "运输费",
+        "amount": 16950.09
+      },
+      {
+        "category": "other",
+        "label": "其他费用",
+        "amount": 134.74
+      }
+    ]
+  },
+  "trend": [
+    {
+      "month": "2025-03",
+      "total": 4128.38,
+      "storage": 0.0,
+      "transport": 2038.35,
+      "mom_pct": 1174.47
+    },
+    {
+      "month": "2025-04",
+      "total": 4932.21,
+      "storage": 43.42,
+      "transport": 3579.3,
+      "mom_pct": 19.47
+    },
+    {
+      "month": "2025-05",
+      "total": 5148.66,
+      "storage": 257.22,
+      "transport": 3443.36,
+      "mom_pct": 4.39
+    },
+    {
+      "month": "2025-06",
+      "total": 6990.6,
+      "storage": 373.93,
+      "transport": 3861.04,
+      "mom_pct": 35.78
+    },
+    {
+      "month": "2025-07",
+      "total": 11198.82,
+      "storage": 545.4,
+      "transport": 6696.32,
+      "mom_pct": 60.2
+    },
+    {
+      "month": "2025-08",
+      "total": 10813.75,
+      "storage": 682.29,
+      "transport": 7943.26,
+      "mom_pct": -3.44
+    },
+    {
+      "month": "2025-09",
+      "total": 13730.68,
+      "storage": 691.13,
+      "transport": 10534.28,
+      "mom_pct": 26.97
+    },
+    {
+      "month": "2025-10",
+      "total": 13029.99,
+      "storage": 810.61,
+      "transport": 10297.32,
+      "mom_pct": -5.1
+    },
+    {
+      "month": "2025-11",
+      "total": 10076.5,
+      "storage": 739.75,
+      "transport": 7666.26,
+      "mom_pct": -22.67
+    },
+    {
+      "month": "2025-12",
+      "total": 5452.42,
+      "storage": 252.54,
+      "transport": 2201.39,
+      "mom_pct": -45.89
+    },
+    {
+      "month": "2026-07",
+      "total": 13549.99,
+      "storage": 626.17,
+      "transport": 10317.79,
+      "mom_pct": null
+    },
+    {
+      "month": "2026-08",
+      "total": 25869.46,
+      "storage": 1094.87,
+      "transport": 16950.09,
+      "mom_pct": 90.92
+    }
+  ],
+  "health": {
+    "snapshot_date": "2026-09-01",
+    "total_quantity": 6327,
+    "buckets": [
+      {
+        "bucket": "healthy",
+        "label": "健康库存",
+        "sku_count": 106,
+        "quantity": 5772,
+        "qty_pct": 91.23
+      },
+      {
+        "bucket": "watch",
+        "label": "关注库存",
+        "sku_count": 7,
+        "quantity": 415,
+        "qty_pct": 6.56
+      },
+      {
+        "bucket": "stale",
+        "label": "呆滞库存",
+        "sku_count": 14,
+        "quantity": 132,
+        "qty_pct": 2.09
+      },
+      {
+        "bucket": "critical",
+        "label": "严重呆滞库存",
+        "sku_count": 3,
+        "quantity": 8,
+        "qty_pct": 0.13
+      }
+    ]
+  },
+  "risk": [
+    {
+      "rank": 1,
+      "sku": "QYGZIPJ",
+      "product_name": "螺丝包",
+      "quantity": 5,
+      "warehouse_age": 424,
+      "age_bucket": "critical",
+      "label": "严重呆滞库存"
+    },
+    {
+      "rank": 2,
+      "sku": "TWH5001",
+      "product_name": "厨房壁挂收纳架",
+      "quantity": 2,
+      "warehouse_age": 406,
+      "age_bucket": "critical",
+      "label": "严重呆滞库存"
+    },
+    {
+      "rank": 3,
+      "sku": "YEC0007",
+      "product_name": "婴儿床灰色旋转木马（拆洗带被）",
+      "quantity": 1,
+      "warehouse_age": 404,
+      "age_bucket": "critical",
+      "label": "严重呆滞库存"
+    },
+    {
+      "rank": 4,
+      "sku": "YEC0006",
+      "product_name": "婴儿床狐狸朋友蓝（拆洗带被）",
+      "quantity": 2,
+      "warehouse_age": 330,
+      "age_bucket": "stale",
+      "label": "呆滞库存"
+    },
+    {
+      "rank": 5,
+      "sku": "SLT0004",
+      "product_name": "万向水龙头升级款-三种出水方式白色",
+      "quantity": 1,
+      "warehouse_age": 322,
+      "age_bucket": "stale",
+      "label": "呆滞库存"
+    },
+    {
+      "rank": 6,
+      "sku": "DRMJJ0025",
+      "product_name": "电热毛巾架-芯毅G69白欧标",
+      "quantity": 23,
+      "warehouse_age": 268,
+      "age_bucket": "stale",
+      "label": "呆滞库存"
+    },
+    {
+      "rank": 7,
+      "sku": "DRMJJ0024",
+      "product_name": "电热毛巾架-芯毅G69黑欧标",
+      "quantity": 13,
+      "warehouse_age": 268,
+      "age_bucket": "stale",
+      "label": "呆滞库存"
+    },
+    {
+      "rank": 8,
+      "sku": "DRMJJ0021",
+      "product_name": "电热毛巾架-芯毅G65白欧标",
+      "quantity": 19,
+      "warehouse_age": 267,
+      "age_bucket": "stale",
+      "label": "呆滞库存"
+    },
+    {
+      "rank": 9,
+      "sku": "DRMJJ0028",
+      "product_name": "电热毛巾架-芯毅G72灰色欧标",
+      "quantity": 1,
+      "warehouse_age": 260,
+      "age_bucket": "stale",
+      "label": "呆滞库存"
+    },
+    {
+      "rank": 10,
+      "sku": "SDTZ001",
+      "product_name": "杯子礼物套装2",
+      "quantity": 3,
+      "warehouse_age": 258,
+      "age_bucket": "stale",
+      "label": "呆滞库存"
+    },
+    {
+      "rank": 11,
+      "sku": "CBZP0002",
+      "product_name": "城堡帐篷粉色",
+      "quantity": 23,
+      "warehouse_age": 237,
+      "age_bucket": "stale",
+      "label": "呆滞库存"
+    },
+    {
+      "rank": 12,
+      "sku": "FRH0045",
+      "product_name": "卷纸架 ZD平面B款【拉丝】",
+      "quantity": 14,
+      "warehouse_age": 230,
+      "age_bucket": "stale",
+      "label": "呆滞库存"
+    },
+    {
+      "rank": 13,
+      "sku": "DRMJJ0026",
+      "product_name": "电热毛巾架-芯毅G72白欧标",
+      "quantity": 16,
+      "warehouse_age": 207,
+      "age_bucket": "stale",
+      "label": "呆滞库存"
+    },
+    {
+      "rank": 14,
+      "sku": "DRMJJ0027",
+      "product_name": "电热毛巾架-芯毅G72黑欧标",
+      "quantity": 10,
+      "warehouse_age": 207,
+      "age_bucket": "stale",
+      "label": "呆滞库存"
+    },
+    {
+      "rank": 15,
+      "sku": "CBZP0001",
+      "product_name": "城堡帐篷卡其",
+      "quantity": 1,
+      "warehouse_age": 204,
+      "age_bucket": "stale",
+      "label": "呆滞库存"
+    },
+    {
+      "rank": 16,
+      "sku": "XLJ0001",
+      "product_name": "旋转香料架",
+      "quantity": 1,
+      "warehouse_age": 187,
+      "age_bucket": "stale",
+      "label": "呆滞库存"
+    },
+    {
+      "rank": 17,
+      "sku": "DRMJJ0023",
+      "product_name": "电热毛巾架-芯毅G68白欧标",
+      "quantity": 5,
+      "warehouse_age": 180,
+      "age_bucket": "stale",
+      "label": "呆滞库存"
+    },
+    {
+      "rank": 18,
+      "sku": "FRH0042",
+      "product_name": "水龙头 纯黑色带进水管，德标3分管",
+      "quantity": 90,
+      "warehouse_age": 166,
+      "age_bucket": "watch",
+      "label": "关注库存"
+    },
+    {
+      "rank": 19,
+      "sku": "LTKF0056",
+      "product_name": "儿童帐篷",
+      "quantity": 84,
+      "warehouse_age": 166,
+      "age_bucket": "watch",
+      "label": "关注库存"
+    },
+    {
+      "rank": 20,
+      "sku": "CLSSLT0003",
+      "product_name": "抽拉绳水龙头黑色（3种模式)",
+      "quantity": 40,
+      "warehouse_age": 166,
+      "age_bucket": "watch",
+      "label": "关注库存"
+    }
+  ],
+  "report": {
+    "report_month": "2026-08",
+    "title": "德国海外仓成本健康报告（2026-08）",
+    "content_md": "# 德国海外仓成本健康报告（2026-08）\n\n## 一、成本变化\n- 本月总成本：€25869.46\n- 环比变化：+90.92%\n\n## 二、费用结构\n- 仓储费：€1094.87\n- 入库费：€5398.25\n- 出库操作费：€2291.51\n- 运输费：€16950.09\n- 其他费用：€134.74\n\n## 三、库存风险\n- 健康库存：106 SKU / 5772 件\n- 关注库存：7 SKU / 415 件\n- 呆滞库存：14 SKU / 132 件\n- 严重呆滞库存：3 SKU / 8 件\n\nTOP 风险 SKU：\n- #1 QYGZIPJ（库龄 424 天，5 件）\n- #2 TWH5001（库龄 406 天，2 件）\n- #3 YEC0007（库龄 404 天，1 件）\n- #4 YEC0006（库龄 330 天，2 件）\n- #5 SLT0004（库龄 322 天，1 件）\n\n## 四、优化建议\n- [高] 本月总成本环比上涨 90.92%，建议核查主要费用项增长原因。\n- [中] 费用以「运输费」为主（€16950.09），可重点优化该项。\n- [高] 严重呆滞库存 8 件，建议评估促销/退运/销毁方案。\n- [中] TOP 风险 SKU：QYGZIPJ（库龄 424 天，5 件）。"
+  }
+};
+
+// ==================== 工具 ====================
+function fmt(v) {
+  return v == null ? '—' : Number(v).toLocaleString('zh-CN', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+}
+function mdToHtml(md) {
+  let h = md
+    .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+  h = h.replace(/^# (.*)$/gm, '<h1>$1</h1>');
+  h = h.replace(/^## (.*)$/gm, '<h2>$1</h2>');
+  h = h.replace(/^- (.*)$/gm, '<li>$1</li>');
+  h = h.replace(/((?:<li>[\s\S]*?<\/li>\s*)+)/g, '<ul>$1</ul>');
+  return h;
+}
+
+// ==================== 视图渲染 ====================
+const tabs = [
+  { key: 'cost', label: '月度成本' },
+  { key: 'structure', label: '费用结构' },
+  { key: 'inventory', label: '库存健康' },
+  { key: 'risk', label: '风险SKU' },
+  { key: 'report', label: '月度报告' }
+];
+
+let activeTab = 'cost';
+const panel = document.getElementById('panel');
+const sidebar = document.getElementById('sidebar');
+const charts = {};
+
+function renderSidebar() {
+  sidebar.innerHTML = tabs.map(t =>
+    `<a class="nav-item ${t.key === activeTab ? 'active' : ''}" data-key="${t.key}">${t.label}</a>`
+  ).join('');
+  sidebar.querySelectorAll('.nav-item').forEach(el => {
+    el.addEventListener('click', () => { activeTab = el.dataset.key; render(); });
+  });
+}
+
+function render() {
+  renderSidebar();
+  panel.innerHTML = views[activeTab]();
+  requestAnimationFrame(() => setTimeout(drawAll, 30));
+}
+
+const views = {
+  cost() {
+    const s = DATA.summary;
+    const momCls = s.mom_pct > 0 ? 'up' : s.mom_pct < 0 ? 'down' : '';
+    const momTxt = s.mom_pct > 0 ? '+' + s.mom_pct + '%' : s.mom_pct + '%';
+    return `
+      <div class="kpi-row">
+        <div class="kpi"><div class="label">本月总成本</div><div class="value">€${fmt(s.total)}</div></div>
+        <div class="kpi"><div class="label">环比变化</div><div class="value ${momCls}">${momTxt}</div><div class="sub">较上月</div></div>
+        <div class="kpi"><div class="label">统计月份</div><div class="value" style="font-size:20px">${s.month}</div></div>
+      </div>
+      <div class="card"><h2>成本趋势（合并两个主体）</h2><div id="chart-trend" class="chart"></div></div>`;
+  },
+  structure() {
+    const s = DATA.summary;
+    const rows = s.structure.map(i => `<tr><td>${i.label}</td><td>€${fmt(i.amount)}</td></tr>`).join('');
+    return `
+      <div class="card"><h2>费用结构（${s.month}）</h2><div id="chart-structure" class="chart"></div></div>
+      <div class="card"><h2>费用明细</h2>
+        <table><thead><tr><th>类别</th><th>金额</th></tr></thead><tbody>${rows}</tbody></table>
+      </div>`;
+  },
+  inventory() {
+    const h = DATA.health;
+    const rows = h.buckets.map(b =>
+      `<tr><td><span class="badge ${b.bucket}">${b.label}</span></td><td>${b.sku_count}</td><td>${b.quantity}</td><td>${b.qty_pct}%</td></tr>`
+    ).join('');
+    return `
+      <div class="card"><h2>库存年龄健康度（${h.snapshot_date}）</h2><div id="chart-health" class="chart"></div></div>
+      <div class="card"><table>
+        <thead><tr><th>分类</th><th>SKU 数</th><th>库存件数</th><th>占比</th></tr></thead>
+        <tbody>${rows}</tbody></table></div>`;
+  },
+  risk() {
+    const rows = DATA.risk.map(r =>
+      `<tr><td>#${r.rank}</td><td>${r.sku}</td><td>${r.product_name || '—'}</td><td>${r.warehouse_age}</td><td>${r.quantity}</td><td><span class="badge ${r.age_bucket}">${r.label}</span></td></tr>`
+    ).join('');
+    return `
+      <div class="card"><h2>TOP 风险 SKU（按库龄 → 数量排序）</h2><div id="chart-risk" class="chart"></div></div>
+      <div class="card"><table>
+        <thead><tr><th>排名</th><th>SKU</th><th>商品名称</th><th>库龄(天)</th><th>库存数量</th><th>状态</th></tr></thead>
+        <tbody>${rows}</tbody></table></div>`;
+  },
+  report() {
+    const r = DATA.report;
+    return `<div class="card"><h2>${r.title}</h2><div class="report-md">${mdToHtml(r.content_md)}</div></div>`;
+  }
+};
+
+function baseOption() {
+  return {
+    textStyle: { fontFamily: 'PingFang SC, Microsoft YaHei, sans-serif' },
+    tooltip: { trigger: 'axis' },
+    grid: { left: 50, right: 20, top: 40, bottom: 30 }
+  };
+}
+
+function drawAll() {
+  if (typeof echarts === 'undefined') {
+    panel.insertAdjacentHTML('afterbegin',
+      '<div class="banner" style="background:#fee2e2;border-color:#fca5a5;color:#991b1b">ECharts CDN 加载失败，请检查网络连接后刷新。</div>');
+    return;
+  }
+  if (activeTab === 'cost') drawTrend();
+  if (activeTab === 'structure') drawStructure();
+  if (activeTab === 'inventory') drawHealth();
+  if (activeTab === 'risk') drawRisk();
+}
+
+function drawTrend() {
+  const el = document.getElementById('chart-trend'); if (!el) return;
+  const c = echarts.init(el);
+  c.setOption({
+    ...baseOption(),
+    legend: { data: ['总成本', '仓储费', '运输费'] },
+    xAxis: { type: 'category', data: DATA.trend.map(x => x.month) },
+    yAxis: { type: 'value', name: '€' },
+    series: [
+      { name: '总成本', type: 'line', data: DATA.trend.map(x => x.total), smooth: true, itemStyle: { color: '#2f6bff' }, areaStyle: { opacity: 0.1 } },
+      { name: '仓储费', type: 'bar', data: DATA.trend.map(x => x.storage), itemStyle: { color: '#94a3b8' } },
+      { name: '运输费', type: 'bar', data: DATA.trend.map(x => x.transport), itemStyle: { color: '#cbd5e1' } }
+    ]
+  });
+}
+function drawStructure() {
+  const el = document.getElementById('chart-structure'); if (!el) return;
+  const c = echarts.init(el);
+  const items = DATA.summary.structure;
+  c.setOption({
+    tooltip: { trigger: 'item', formatter: '{b}: €{c} ({d}%)' },
+    legend: { orient: 'vertical', left: 'left' },
+    series: [{
+      type: 'pie', radius: ['40%', '68%'], center: ['55%', '50%'],
+      itemStyle: { borderRadius: 6, borderColor: '#fff', borderWidth: 2 },
+      label: { formatter: '{b}\n{d}%' },
+      data: items.map(i => ({ name: i.label, value: i.amount }))
+    }]
+  });
+}
+function drawHealth() {
+  const el = document.getElementById('chart-health'); if (!el) return;
+  const c = echarts.init(el);
+  const buckets = DATA.health.buckets;
+  const colors = { healthy: '#16a34a', watch: '#f59e0b', stale: '#f97316', critical: '#e64545' };
+  c.setOption({
+    tooltip: { trigger: 'axis' },
+    legend: { data: buckets.map(b => b.label) },
+    xAxis: { type: 'category', data: buckets.map(b => b.label) },
+    yAxis: { type: 'value', name: '件' },
+    series: [{
+      type: 'bar', barWidth: '45%',
+      data: buckets.map(b => ({ value: b.quantity, itemStyle: { color: colors[b.bucket] } }))
+    }]
+  });
+}
+function drawRisk() {
+  const el = document.getElementById('chart-risk'); if (!el) return;
+  const c = echarts.init(el);
+  const top10 = DATA.risk.slice(0, 10).reverse();
+  c.setOption({
+    tooltip: { trigger: 'axis' },
+    grid: { left: 110, right: 30, top: 20, bottom: 30 },
+    xAxis: { type: 'value', name: '库龄(天)' },
+    yAxis: { type: 'category', data: top10.map(x => x.sku) },
+    series: [{
+      type: 'bar', barWidth: '55%',
+      data: top10.map(x => ({
+        value: x.warehouse_age,
+        itemStyle: { color: x.age_bucket === 'critical' ? '#e64545' : x.age_bucket === 'stale' ? '#f97316' : '#f59e0b' }
+      }))
+    }]
+  });
+}
+
+window.addEventListener('resize', () => Object.values(charts).forEach(c => c && c.resize()));
+
+render();
+</script>
+</body>
+</html>

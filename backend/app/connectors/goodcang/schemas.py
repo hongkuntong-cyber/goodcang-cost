@@ -1,1 +1,265 @@
-IiIi6LC35LuTIDQg5Liq5o6l5Y+j55qE6K+35rGCL+WTjeW6lCBQeWRhbnRpYyDmqKHlnovvvIgyMDI2LTA5LTAxIOagoeWHhuiHquWumOaWueaWh+aho++8ieOAggoK5a2X5q615ZG95ZCN6KeE5YiZ77yaCi0g5YWo6YOo5L2/55So5oiq5Zu+5Lit55qE55yf5a6e6Iux5paH5a2X5q615ZCN77yI5aaCIGJpbGxfbnVtYmVyIC8gbGJhX3F1YW50aXR5IC8gbGJhX3dhcm5pbmdfYWdlIOetie+8ieOAggotIOmHkemineebuOWFs+Wtl+auteWcqOiwt+S7k+aYryAqKlN0cmluZyoqIOexu+Wei++8jOino+aekOS4uiBgYERlY2ltYWxgYO+8jOmBv+WFjea1rueCueivr+W3ruOAggotIOWTjeW6lOe7n+S4gCBWMiDpo47moLwgYGB7ImNvZGUiOiAwLCAibWVzc2FnZSI6ICJvayIsICJkYXRhIjogLi4ufWBg44CCCi0g5Lia5Yqh5YiX6KGo5pS+5ZyoIGBgZGF0YS5saXN0YGAg5a2X5q615LiL77yM6YOo5YiG5o6l5Y+j5aSW5bGC5pivIGxpc3TvvIhleHBvcnQg6L+U5ZueIGJhc2U2NCDlrZfnrKbkuLLvvInjgIIKIiIiCmZyb20gX19mdXR1cmVfXyBpbXBvcnQgYW5ub3RhdGlvbnMKCmZyb20gZGF0ZXRpbWUgaW1wb3J0IGRhdGUsIGRhdGV0aW1lCmZyb20gZGVjaW1hbCBpbXBvcnQgRGVjaW1hbApmcm9tIHR5cGluZyBpbXBvcnQgQW55LCBMaXN0Cgpmcm9tIHB5ZGFudGljIGltcG9ydCBCYXNlTW9kZWwsIENvbmZpZ0RpY3QsIEZpZWxkCgoKIyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0KIyDpgJrnlKjlk43lupTlpJblo7MKIyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0KY2xhc3MgR29vZENhbmdSZXNwb25zZShCYXNlTW9kZWwpOgogICAgIiIi6LC35LuTIFYyIEpTT04g6aOO5qC85ZON5bqU5aSW5aOz44CCIiIiCgogICAgbW9kZWxfY29uZmlnID0gQ29uZmlnRGljdChleHRyYT0iaWdub3JlIikKCiAgICBjb2RlOiBpbnQgfCBzdHIgfCBOb25lID0gRmllbGQoZGVmYXVsdD1Ob25lLCBkZXNjcmlwdGlvbj0iMCDmiJDlip/vvIzlhbbku5blpLHotKUiKQogICAgbWVzc2FnZTogc3RyIHwgTm9uZSA9IE5vbmUKICAgIGRhdGE6IEFueSA9IE5vbmUKCgojID09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQojIDEuIGJpbGxpbmdfbGlzdCDigJQg6LSm5Y2V5YiX6KGoCiMgPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09CmNsYXNzIEJpbGxpbmdMaXN0UmVxdWVzdChCYXNlTW9kZWwpOgogICAgIiIiUE9TVCAvcHVibGljX29wZW4vZmluYW5jZS9iaWxsaW5nX2xpc3Qg6K+35rGC5L2T44CCIiIiCgogICAgbW9kZWxfY29uZmlnID0gQ29uZmlnRGljdChleHRyYT0iaWdub3JlIikKCiAgICBhY2NvdW50X2NvZGU6IHN0ciA9IEZpZWxkKGRlc2NyaXB0aW9uPSLlrqLmiLfku6PnoIHvvIjlv4XloavvvIxBcHBUb2tlbiDlkIzmupDvvIkiKQogICAgYmVnaW5fYmlsbF90b190aW1lOiBzdHIgfCBOb25lID0gRmllbGQoCiAgICAgICAgZGVmYXVsdD1Ob25lLCBkZXNjcmlwdGlvbj0i6LSm5Y2V57uT5p2f5pe26Ze06LW377yM5qC85byPIFlZWVktTU0tREQgSEg6TU06U1MiCiAgICApCiAgICBlbmRfYmlsbF90b190aW1lOiBzdHIgfCBOb25lID0gRmllbGQoCiAgICAgICAgZGVmYXVsdD1Ob25lLCBkZXNjcmlwdGlvbj0i6LSm5Y2V57uT5p2f5pe26Ze05q2i77yM5qC85byPIFlZWVktTU0tREQgSEg6TU06U1MiCiAgICApCiAgICBiaWxsX251bWJlcjogc3RyIHwgTm9uZSA9IEZpZWxkKGRlZmF1bHQ9Tm9uZSwgZGVzY3JpcHRpb249Iui0puWNleWPt++8iOeyvuehruafpeivou+8iSIsIG1heF9sZW5ndGg9MjApCiAgICBwYWdlOiBpbnQgPSBGaWVsZChkZWZhdWx0PTEsIGdlPTEsIGRlc2NyaXB0aW9uPSLliIbpobXpobXnoIEiKQogICAgcGFnZV9zaXplOiBpbnQgPSBGaWVsZChkZWZhdWx0PTIwLCBnZT0xLCBsZT0yMDAsIGRlc2NyaXB0aW9uPSLliIbpobXmnaHmlbDvvIjmnIDlpKcgMjAw77yJIikKCgpjbGFzcyBCYWxhbmNlSXRlbShCYXNlTW9kZWwpOgogICAgIiIi6YeR6aKd5a+56LGh77yI5ZCrIGJhbGFuY2UgKyBjdXJyZW5jeV9jb2Rl77yJ44CCIiIiCgogICAgbW9kZWxfY29uZmlnID0gQ29uZmlnRGljdChleHRyYT0iaWdub3JlIikKCiAgICBiYWxhbmNlOiBEZWNpbWFsIHwgTm9uZSA9IEZpZWxkKGRlZmF1bHQ9Tm9uZSwgZGVzY3JpcHRpb249IumHkemine+8iFN0cmluZyDovawgRGVjaW1hbO+8iSIpCiAgICBjdXJyZW5jeV9jb2RlOiBzdHIgfCBOb25lID0gRmllbGQoZGVmYXVsdD1Ob25lLCBkZXNjcmlwdGlvbj0i5biB56eN77yM5aaCIENaSyIpCgoKY2xhc3MgQmlsbEl0ZW0oQmFzZU1vZGVsKToKICAgICIiIuWNleadoei0puWNleS4u+iusOW9leOAgiIiIgoKICAgIG1vZGVsX2NvbmZpZyA9IENvbmZpZ0RpY3QoZXh0cmE9Imlnbm9yZSIpCgogICAgYWNjb3VudF9jb2RlOiBzdHIgfCBOb25lID0gRmllbGQoZGVmYXVsdD1Ob25lKQogICAgYWxsX3RvdGFsOiBCYWxhbmNlSXRlbSB8IE5vbmUgPSBGaWVsZChkZWZhdWx0PU5vbmUsIGRlc2NyaXB0aW9uPSLotKbljZXmgLvph5Hpop0iKQogICAgYmlsbF9maWxlX3BhdGg6IHN0ciB8IE5vbmUgPSBGaWVsZChkZWZhdWx0PU5vbmUsIGRlc2NyaXB0aW9uPSLotKbljZXmlofku7blnLDlnYDvvIhGSUxFX1BBVEjvvIkiKQogICAgYmlsbF9mcm9tX3RpbWU6IGRhdGV0aW1lIHwgc3RyIHwgTm9uZSA9IEZpZWxkKGRlZmF1bHQ9Tm9uZSwgZGVzY3JpcHRpb249Iui0puWNleW8gOWni+aXpeacnyIpCiAgICBiaWxsX251bWJlcjogc3RyID0gRmllbGQoZGVzY3JpcHRpb249Iui0puWNleWPt++8iOekuuS+i++8mkIyMDIxMDcyOTAyNTYwMDI577yJIikKICAgIGJpbGxfdG9fdGltZTogZGF0ZXRpbWUgfCBzdHIgfCBOb25lID0gRmllbGQoZGVmYXVsdD1Ob25lLCBkZXNjcmlwdGlvbj0i6LSm5Y2V57uT5p2f5pel5pyfIikKICAgIGNhc2hfYmFja19iYWxhbmNlOiBMaXN0W0JhbGFuY2VJdGVtXSA9IEZpZWxkKAogICAgICAgIGRlZmF1bHRfZmFjdG9yeT1saXN0LCBkZXNjcmlwdGlvbj0i6L+U546w6YeR6aKdIgogICAgKQogICAgZW5kX2JhbGFuY2U6IExpc3RbQmFsYW5jZUl0ZW1dID0gRmllbGQoCiAgICAgICAgZGVmYXVsdF9mYWN0b3J5PWxpc3QsIGRlc2NyaXB0aW9uPSLmnJ/mnKvkvZnpop0iCiAgICApCiAgICBzdGFydF9iYWxhbmNlOiBMaXN0W0JhbGFuY2VJdGVtXSA9IEZpZWxkKAogICAgICAgIGRlZmF1bHRfZmFjdG9yeT1saXN0LCBkZXNjcmlwdGlvbj0i5pyf5Yid5L2Z6aKdIgogICAgKQogICAgdG90YWw6IGludCB8IE5vbmUgPSBGaWVsZChkZWZhdWx0PU5vbmUsIGRlc2NyaXB0aW9uPSLmgLvorrDlvZXmlbAiKQoKCmNsYXNzIEJpbGxpbmdMaXN0RGF0YShCYXNlTW9kZWwpOgogICAgIiIiYGBkYXRhYGAg5a2X5q6177yIbGlzdCArIHRvdGFs77yJ44CCIiIiCgogICAgbW9kZWxfY29uZmlnID0gQ29uZmlnRGljdChleHRyYT0iaWdub3JlIikKCiAgICBsaXN0OiBMaXN0W0JpbGxJdGVtXSA9IEZpZWxkKGRlZmF1bHRfZmFjdG9yeT1saXN0KQogICAgdG90YWw6IGludCB8IE5vbmUgPSBOb25lCgoKIyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0KIyAyLiBiaWxsaW5nX2V4cG9ydCDigJQg6LSm5Y2V5a+85Ye677yIYmFzZTY0IOWtl+espuS4su+8iQojID09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQpjbGFzcyBCaWxsaW5nRXhwb3J0UmVxdWVzdChCYXNlTW9kZWwpOgogICAgIiIiUE9TVCAvcHVibGljX29wZW4vZmluYW5jZS9iaWxsaW5nX2V4cG9ydCDor7fmsYLkvZPjgIIiIiIKCiAgICBtb2RlbF9jb25maWcgPSBDb25maWdEaWN0KGV4dHJhPSJpZ25vcmUiKQoKICAgIGJpbGxfbnVtYmVyX2xpc3Q6IExpc3Rbc3RyXSA9IEZpZWxkKAogICAgICAgIGRlZmF1bHRfZmFjdG9yeT1saXN0LCBkZXNjcmlwdGlvbj0i6LSm5Y2V5Y+35YiX6KGo77yIU3RyaW5nW13vvIzmnIDlpJogNTAg5Liq77yJIiwgbWF4X2xlbmd0aD01MAogICAgKQoKCiMg5ZON5bqUIGRhdGEg5pivIGJhc2U2NCDlrZfnrKbkuLLvvIjlnKggR29vZENhbmdSZXNwb25zZS5kYXRhIOWtl+autemHjOWOn+agt+WPlu+8iQojIOivtOaYju+8muWwhiBiYXNlNjQg5a2X56ym5Liy6Kej56CB5ZCO5pivIHhsc3jvvIjljZXotKbljZXvvInmiJYgemlw77yI5aSa6LSm5Y2V5Y6L57yp5YyF77yJCgoKIyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0KIyAzLiBpbnZlbnRvcnlfYWdlX2xpc3Qg4oCUIOW6k+WtmOW6k+m+hOWIl+ihqAojID09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQpjbGFzcyBJbnZlbnRvcnlBZ2VMaXN0UmVxdWVzdChCYXNlTW9kZWwpOgogICAgIiIiUE9TVCAvcHVibGljX29wZW4vaW52ZW50b3J5L2ludmVudG9yeV9hZ2VfbGlzdCDor7fmsYLkvZPjgIIiIiIKCiAgICBtb2RlbF9jb25maWcgPSBDb25maWdEaWN0KGV4dHJhPSJpZ25vcmUiKQoKICAgIHBhZ2U6IGludCA9IEZpZWxkKGRlZmF1bHQ9MSwgZ2U9MSkKICAgIHBhZ2Vfc2l6ZTogaW50ID0gRmllbGQoZGVmYXVsdD0yMCwgZ2U9MSwgbGU9MjAwLCBkZXNjcmlwdGlvbj0i5pyA5aSnIDIwMCIpCiAgICB3YXJlaG91c2VfY29kZTogc3RyIHwgTm9uZSA9IEZpZWxkKAogICAgICAgIGRlZmF1bHQ9Tm9uZSwgZGVzY3JpcHRpb249IuWMuuWfn+S7k+W6k+S7o+egge+8iOW/heWhq+S5i+S4gO+8mlVTRUEgLyBERSDnrYnvvIkiLCBtYXhfbGVuZ3RoPTMwCiAgICApCiAgICB3YXJuaW5nX2FnZV90eXBlOiBzdHIgfCBOb25lID0gRmllbGQoCiAgICAgICAgZGVmYXVsdD1Ob25lLCBkZXNjcmlwdGlvbj0i5bqT6b6E6aKE6K2m5p6a5Li+77yIX0VudW0vSW52ZW50b3J5L0ludmVudG9yeUFnZVdhcm5pbmdUeXBlRW51be+8iSIKICAgICkKICAgIGFnZV9mcm9tOiBpbnQgfCBOb25lID0gRmllbGQoZGVmYXVsdD1Ob25lLCBkZXNjcmlwdGlvbj0i5bqT6b6E6LW35aeL5YC877yI5aSp77yJIikKICAgIGFnZV90bzogaW50IHwgTm9uZSA9IEZpZWxkKGRlZmF1bHQ9Tm9uZSwgZGVzY3JpcHRpb249IuW6k+m+hOe7k+adn+WAvO+8iOWkqe+8iSIpCiAgICBmaWZvX3RpbWVfZnJvbTogc3RyIHwgTm9uZSA9IEZpZWxkKAogICAgICAgIGRlZmF1bHQ9Tm9uZSwgZGVzY3JpcHRpb249IuS4iuaetuaXtumXtOi1t+Wni++8iFlZWVktTU0tREQgSEg6TU06U1PvvIkiCiAgICApCiAgICBmaWZvX3RpbWVfdG86IHN0ciB8IE5vbmUgPSBGaWVsZCgKICAgICAgICBkZWZhdWx0PU5vbmUsIGRlc2NyaXB0aW9uPSLkuIrmnrbml7bpl7Tnu5PmnZ/vvIhZWVlZLU1NLUREIEhIOk1NOlNT77yJIgogICAgKQogICAgcXVhbnRpdHlfZnJvbTogaW50IHwgTm9uZSA9IEZpZWxkKGRlZmF1bHQ9Tm9uZSwgZGVzY3JpcHRpb249IuWcqOW6k+W6k+WtmOi1t+Wni+WAvCIpCiAgICBxdWFudGl0eV90bzogaW50IHwgTm9uZSA9IEZpZWxkKGRlZmF1bHQ9Tm9uZSwgZGVzY3JpcHRpb249IuWcqOW6k+W6k+WtmOe7k+adn+WAvCIpCiAgICBwcm9kdWN0X3NrdV9saXN0OiBMaXN0W3N0cl0gfCBOb25lID0gRmllbGQoCiAgICAgICAgZGVmYXVsdD1Ob25lLCBkZXNjcmlwdGlvbj0i5ZWG5ZOB57yW56CB5YiX6KGo77yIU3RyaW5nW13vvIzmnIDlpJogNTAg5Liq77yJIiwgbWF4X2xlbmd0aD01MAogICAgKQogICAgcHJvZHVjdF90aXRsZTogc3RyIHwgTm9uZSA9IEZpZWxkKGRlZmF1bHQ9Tm9uZSwgZGVzY3JpcHRpb249IuWVhuWTgeS4reaWh+WQjeensO+8iOaooeeziu+8iSIsIG1heF9sZW5ndGg9MTAwKQogICAgcHJvZHVjdF90aXRsZV9lbjogc3RyIHwgTm9uZSA9IEZpZWxkKAogICAgICAgIGRlZmF1bHQ9Tm9uZSwgZGVzY3JpcHRpb249IuWVhuWTgeiLseaWh+WQjeensO+8iOaooeeziu+8iSIsIG1heF9sZW5ndGg9MTAwCiAgICApCgoKY2xhc3MgSW52ZW50b3J5QWdlSXRlbShCYXNlTW9kZWwpOgogICAgIiIi5bqT5a2Y5bqT6b6E5Y2V5p2h6K6w5b2V44CCIiIiCgogICAgbW9kZWxfY29uZmlnID0gQ29uZmlnRGljdChleHRyYT0iaWdub3JlIikKCiAgICB3YXJlaG91c2VfY29kZTogc3RyIHwgTm9uZSA9IEZpZWxkKGRlZmF1bHQ9Tm9uZSwgZGVzY3JpcHRpb249IuWMuuWfn+S7k+W6k+S7o+eggSIpCiAgICBwcm9kdWN0X3NrdTogc3RyID0gRmllbGQoZGVzY3JpcHRpb249IuWVhuWTgSBTS1UiKQogICAgbGJhX3F1YW50aXR5OiBpbnQgfCBOb25lID0gRmllbGQoZGVmYXVsdD1Ob25lLCBkZXNjcmlwdGlvbj0i5Zyo5bqT5bqT5a2YIikKICAgIGxiYV9maWZvX3RpbWU6IHN0ciB8IE5vbmUgPSBGaWVsZChkZWZhdWx0PU5vbmUsIGRlc2NyaXB0aW9uPSLkuIrmnrbml7bpl7TvvIhZWVlZLU1NLURE77yJIikKICAgIGxiYV93YXJuaW5nX2FnZTogaW50IHwgTm9uZSA9IEZpZWxkKGRlZmF1bHQ9Tm9uZSwgZGVzY3JpcHRpb249IumihOitpuW6k+m+hO+8iOWkqe+8iSIpCiAgICBwcm9kdWN0X3RpdGxlOiBzdHIgfCBOb25lID0gRmllbGQoZGVmYXVsdD1Ob25lLCBkZXNjcmlwdGlvbj0i5ZWG5ZOB5Lit5paH5ZCN56ewIikKICAgIHByb2R1Y3RfdGl0bGVfZW46IHN0ciB8IE5vbmUgPSBGaWVsZChkZWZhdWx0PU5vbmUsIGRlc2NyaXB0aW9uPSLllYblk4Hoi7HmloflkI3np7AiKQogICAgd2FyZWhvdXNlX2Rlc2M6IHN0ciB8IE5vbmUgPSBGaWVsZChkZWZhdWx0PU5vbmUsIGRlc2NyaXB0aW9uPSLku5PlupPlkI3np7AiKQogICAgd2FyZWhvdXNlX2FnZTogaW50IHwgTm9uZSA9IEZpZWxkKGRlZmF1bHQ9Tm9uZSwgZGVzY3JpcHRpb249IuW6k+m+hO+8iOWkqe+8iSIpCiAgICBleHBpcmF0aW9uX2RhdGU6IHN0ciB8IE5vbmUgPSBGaWVsZChkZWZhdWx0PU5vbmUsIGRlc2NyaXB0aW9uPSLov4fmnJ/ml6XmnJ8iKQogICAgdG90YWw6IGludCB8IE5vbmUgPSBGaWVsZChkZWZhdWx0PU5vbmUsIGRlc2NyaXB0aW9uPSLmgLvorrDlvZXmlbAiKQoKCmNsYXNzIEludmVudG9yeUFnZUxpc3REYXRhKEJhc2VNb2RlbCk6CiAgICAiIiJgYGRhdGFgYCDlrZfmrrXvvIhsaXN0ICsgdG90YWzvvInjgIIiIiIKCiAgICBtb2RlbF9jb25maWcgPSBDb25maWdEaWN0KGV4dHJhPSJpZ25vcmUiKQoKICAgIGxpc3Q6IExpc3RbSW52ZW50b3J5QWdlSXRlbV0gPSBGaWVsZChkZWZhdWx0X2ZhY3Rvcnk9bGlzdCkKICAgIHRvdGFsOiBpbnQgfCBOb25lID0gTm9uZQoKCiMgPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09CiMgNC4gZ2V0X3Byb2R1Y3RfaW52ZW50b3J5IOKAlCDkuqflk4HlupPlrZjmn6Xor6IKIyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0KY2xhc3MgUHJvZHVjdEludmVudG9yeVJlcXVlc3QoQmFzZU1vZGVsKToKICAgICIiIlBPU1QgL3B1YmxpY19vcGVuL2ludmVudG9yeS9nZXRfcHJvZHVjdF9pbnZlbnRvcnkg6K+35rGC5L2T44CCCgogICAg5rOo5oSP77ya5oiq5Zu+6YeM5a2X5q615ZCN5pivIGBgcGFnZVNpemVgYO+8iOmpvOWzsO+8ie+8jOS4jeaYryBgYHBhZ2Vfc2l6ZWBg44CCCiAgICAiIiIKCiAgICBtb2RlbF9jb25maWcgPSBDb25maWdEaWN0KGV4dHJhPSJpZ25vcmUiLCBwb3B1bGF0ZV9ieV9uYW1lPVRydWUpCgogICAgcGFnZTogaW50ID0gRmllbGQoZGVmYXVsdD0xLCBnZT0xLCBkZXNjcmlwdGlvbj0i5b2T5YmN6aG1IikKICAgIHBhZ2VTaXplOiBpbnQgPSBGaWVsZCgKICAgICAgICBkZWZhdWx0PTIwLCBnZT0xLCBsZT0yMDAsIGRlc2NyaXB0aW9uPSLmr4/pobXmnaHmlbDvvIjpqbzls7Dlkb3lkI3vvIzmnIDlpKcgMjAw77yJIgogICAgKQogICAgd2FyZWhvdXNlX2NvZGU6IHN0ciB8IE5vbmUgPSBGaWVsZChkZWZhdWx0PU5vbmUsIGRlc2NyaXB0aW9uPSLljLrln5/ku5PlupPku6PnoIEiLCBtYXhfbGVuZ3RoPTMyKQogICAgd2FyZWhvdXNlX2NvZGVfYXJyOiBMaXN0W3N0cl0gfCBOb25lID0gRmllbGQoCiAgICAgICAgZGVmYXVsdD1Ob25lLCBkZXNjcmlwdGlvbj0i5Yy65Z+f5LuT5bqT5Luj56CB5pWw57uE77yI5om56YeP5p+l6K+i77yJIiwgbWF4X2xlbmd0aD0yMAogICAgKQogICAgcHJvZHVjdF9za3U6IHN0ciB8IE5vbmUgPSBGaWVsZChkZWZhdWx0PU5vbmUsIGRlc2NyaXB0aW9uPSLllYblk4EgU0tVIiwgbWF4X2xlbmd0aD0yNCkKICAgIHByb2R1Y3Rfc2t1X2FycjogTGlzdFtzdHJdIHwgTm9uZSA9IEZpZWxkKAogICAgICAgIGRlZmF1bHQ9Tm9uZSwgZGVzY3JpcHRpb249IuWVhuWTgSBTS1Ug5pWw57uE77yI5pyA5aSaIDIwMO+8iSIsIG1heF9sZW5ndGg9MjAwCiAgICApCiAgICBiYXRjaF9jb2RlOiBzdHIgfCBOb25lID0gRmllbGQoCiAgICAgICAgZGVmYXVsdD1Ob25lLCBkZXNjcmlwdGlvbj0i5om55qyh5bGe5oCn5p6a5Li+77yIX0VudW0vSW52ZW50b3J5L2JhdGNoQXR0cmlidXRlQ29kZUVudW3vvIkiCiAgICApCiAgICBiYXRjaF92YWx1ZV9saXN0OiBMaXN0W3N0cl0gfCBOb25lID0gRmllbGQoCiAgICAgICAgZGVmYXVsdD1Ob25lLCBkZXNjcmlwdGlvbj0i5om55qyh5YC85pWw57uE77yI5Y+v5oyH5a6a5aSa6IyD5Zu05p+l6K+i77yJIgogICAgKQoKCmNsYXNzIFByb2R1Y3RJbnZlbnRvcnlJdGVtKEJhc2VNb2RlbCk6CiAgICAiIiLkuqflk4HlupPlrZjljZXmnaHorrDlvZXjgIIiIiIKCiAgICBtb2RlbF9jb25maWcgPSBDb25maWdEaWN0KGV4dHJhPSJpZ25vcmUiKQoKICAgIHdhcmVob3VzZV9jb2RlOiBzdHIgfCBOb25lID0gRmllbGQoZGVmYXVsdD1Ob25lLCBkZXNjcmlwdGlvbj0i5Yy65Z+f5LuT5bqT5Luj56CBIikKICAgIHdhcmVob3VzZV9kZXNjOiBzdHIgfCBOb25lID0gRmllbGQoZGVmYXVsdD1Ob25lLCBkZXNjcmlwdGlvbj0i5LuT5bqT5o+P6L+wIikKICAgIHByb2R1Y3Rfc2t1OiBzdHIgfCBOb25lID0gRmllbGQoZGVmYXVsdD1Ob25lLCBkZXNjcmlwdGlvbj0i5ZWG5ZOBIFNLVSIpCiAgICBwcm9kdWN0X3RpdGxlOiBzdHIgfCBOb25lID0gRmllbGQoZGVmYXVsdD1Ob25lLCBkZXNjcmlwdGlvbj0i5ZWG5ZOB5ZCN56ewIikKICAgIHRvdGFsX29ud2F5OiBpbnQgfCBOb25lID0gRmllbGQoZGVmYXVsdD1Ob25lLCBkZXNjcmlwdGlvbj0i5Zyo6YCU5oC75pWw6YeP77yI5rW35aSWK+S4rei9rCvlt7Llh7rlupPlnKjpgJTvvIkiKQogICAgdHJhbnNmZXJfb253YXk6IGludCB8IE5vbmUgPSBGaWVsZCgKICAgICAgICBkZWZhdWx0PU5vbmUsIGRlc2NyaXB0aW9uPSLkuK3ovazlnKjpgJTmlbDph4/vvIjlpJrmrrXov5DovpPpgJTkuK3nmoTlnKjpgJTmlbDph4/vvIkiCiAgICApCiAgICBvbndheTogaW50IHwgTm9uZSA9IEZpZWxkKGRlZmF1bHQ9Tm9uZSwgZGVzY3JpcHRpb249Iua1t+WkluWcqOmAlOaVsOmHjyIpCiAgICBwZW5kaW5nOiBpbnQgfCBOb25lID0gRmllbGQoZGVmYXVsdD1Ob25lLCBkZXNjcmlwdGlvbj0i5b6F5LiK5p625pWw6YePIikKICAgIHNlbGxhYmxlOiBpbnQgfCBOb25lID0gRmllbGQoZGVmYXVsdD1Ob25lLCBkZXNjcmlwdGlvbj0i6Imv5ZOB5Y+v5ZSu5pWw6YePIikKICAgIHVuc2VsbGFibGU6IGludCB8IE5vbmUgPSBGaWVsZCgKICAgICAgICBkZWZhdWx0PU5vbmUsCiAgICAgICAgZGVzY3JpcHRpb249IuS4jeiJr+WTgeWPr+WUruaVsOmHj++8iOS4jeW9seWTjeetvuaUtueOh++8jOetvuaUtueOh+aJo+WHj+WQjuS4uuato+W4uOWVhuWTge+8iSIsCiAgICApCiAgICByZXNlcnZlZDogaW50IHwgTm9uZSA9IEZpZWxkKAogICAgICAgIGRlZmF1bHQ9Tm9uZSwgZGVzY3JpcHRpb249IuiJr+WTgeW+heWHuuW6k+aVsOmHj++8iOW3suS4i+WNlemUgeWumuOAgeWNs+WwhuWHuuW6k++8iSIKICAgICkKICAgIHBpX3VuYXZhaWxhYmxlX3Jlc2VydmVkOiBpbnQgfCBOb25lID0gRmllbGQoCiAgICAgICAgZGVmYXVsdD1Ob25lLCBkZXNjcmlwdGlvbj0i5LiN6Imv5ZOB5b6F5Ye65bqT5pWw6YePIgogICAgKQogICAgc2hpcHBlZDogaW50IHwgTm9uZSA9IEZpZWxkKGRlZmF1bHQ9Tm9uZSwgZGVzY3JpcHRpb249IuiJr+WTgeW3suWHuuW6k+aVsOmHjyIpCiAgICBwaV91bmF2YWlsYWJsZV9zaGlwcGVkOiBpbnQgfCBOb25lID0gRmllbGQoCiAgICAgICAgZGVmYXVsdD1Ob25lLCBkZXNjcmlwdGlvbj0i5LiN6Imv5ZOB5bey5Ye65bqT5pWw6YePIgogICAgKQogICAgcGlfZnJlZXplOiBpbnQgfCBOb25lID0gRmllbGQoZGVmYXVsdD1Ob25lLCBkZXNjcmlwdGlvbj0i5Ya757uT5pWw6YePIikKICAgIHByb2R1Y3RfZnJlZXplX3N0YXR1czogc3RyIHwgTm9uZSA9IEZpZWxkKAogICAgICAgIGRlZmF1bHQ9Tm9uZSwgZGVzY3JpcHRpb249IuWVhuWTgeWGu+e7k+eKtuaAge+8iF9FbnVtL0ludmVudG9yeS9pbnZlbnRvcnlQcm9kdWN0RnJlZXplU3RhdHVzRW51be+8iSIKICAgICkKICAgIHByb2R1Y3RfZnJlZXplX3N0YXR1c190ZXh0OiBzdHIgfCBOb25lID0gRmllbGQoCiAgICAgICAgZGVmYXVsdD1Ob25lLCBkZXNjcmlwdGlvbj0i5ZWG5ZOB5Ya757uT54q25oCB5ZCN56ewIgogICAgKQogICAgcGlfd2FybmluZ19xdHk6IGludCB8IE5vbmUgPSBGaWVsZChkZWZhdWx0PU5vbmUsIGRlc2NyaXB0aW9uPSLpooTorablupPlrZjmlbDph4/vvIjlpKnmlbDvvIkiKQogICAgcGlfbm9fc3RvY2s6IGludCB8IE5vbmUgPSBGaWVsZChkZWZhdWx0PU5vbmUsIGRlc2NyaXB0aW9uPSLnvLrotKfmlbDph48iKQogICAgc3RvY2tpbmc6IGludCB8IE5vbmUgPSBGaWVsZChkZWZhdWx0PU5vbmUsIGRlc2NyaXB0aW9uPSLlpIfotKfmlbDph48iKQoKCmNsYXNzIFByb2R1Y3RJbnZlbnRvcnlEYXRhKEJhc2VNb2RlbCk6CiAgICAiIiJgYGRhdGFgYCDlrZfmrrXjgIIiIiIKCiAgICBtb2RlbF9jb25maWcgPSBDb25maWdEaWN0KGV4dHJhPSJpZ25vcmUiKQoKICAgIGxpc3Q6IExpc3RbUHJvZHVjdEludmVudG9yeUl0ZW1dID0gRmllbGQoZGVmYXVsdF9mYWN0b3J5PWxpc3QpCiAgICBjb3VudDogaW50IHwgTm9uZSA9IE5vbmUKICAgIHRvdGFsOiBpbnQgfCBOb25lID0gTm9uZQo=
+"""谷仓 4 个接口的请求/响应 Pydantic 模型（2026-09-01 校准自官方文档）。
+
+字段命名规则：
+- 全部使用截图中的真实英文字段名（如 bill_number / lba_quantity / lba_warning_age 等）。
+- 金额相关字段在谷仓是 **String** 类型，解析为 ``Decimal``，避免浮点误差。
+- 响应统一 V2 风格 ``{"code": 0, "message": "ok", "data": ...}``。
+- 业务列表放在 ``data.list`` 字段下，部分接口外层是 list（export 返回 base64 字符串）。
+"""
+from __future__ import annotations
+
+from datetime import date, datetime
+from decimal import Decimal
+from typing import Any, List
+
+from pydantic import BaseModel, ConfigDict, Field
+
+
+# ===========================================================================
+# 通用响应外壳
+# ===========================================================================
+class GoodCangResponse(BaseModel):
+    """谷仓 V2 JSON 风格响应外壳。"""
+
+    model_config = ConfigDict(extra="ignore")
+
+    code: int | str | None = Field(default=None, description="0 成功，其他失败")
+    message: str | None = None
+    data: Any = None
+
+
+# ===========================================================================
+# 1. billing_list — 账单列表
+# ===========================================================================
+class BillingListRequest(BaseModel):
+    """POST /public_open/finance/billing_list 请求体。"""
+
+    model_config = ConfigDict(extra="ignore")
+
+    account_code: str | None = Field(
+        default=None, description="客户代码（可选，3-20 位，如 ACG1505603；不传则拉全部客户）"
+    )
+    begin_bill_to_time: str | None = Field(
+        default=None, description="账单结束时间起，格式 YYYY-MM-DD HH:MM:SS"
+    )
+    end_bill_to_time: str | None = Field(
+        default=None, description="账单结束时间止，格式 YYYY-MM-DD HH:MM:SS"
+    )
+    bill_number: str | None = Field(default=None, description="账单号（精确查询）", max_length=20)
+    page: int = Field(default=1, ge=1, description="分页页码")
+    page_size: int = Field(default=20, ge=1, le=200, description="分页条数（最大 200）")
+
+
+class BalanceItem(BaseModel):
+    """金额对象（含 balance + currency_code）。"""
+
+    model_config = ConfigDict(extra="ignore")
+
+    balance: Decimal | None = Field(default=None, description="金额（String 转 Decimal）")
+    currency_code: str | None = Field(default=None, description="币种，如 CZK")
+
+
+class BillItem(BaseModel):
+    """单条账单主记录。
+
+    注意（2026-09-01 实调校准）：all_total / start_balance / end_balance /
+    cash_back_balance 均为 **多币种数组**（每个元素 {currency_code, balance}），
+    共 19 种币种（RMB/USD/EUR/GBP/...），欧洲仓业务应优先取 EUR 非零值。
+    """
+
+    model_config = ConfigDict(extra="ignore")
+
+    account_code: str | None = Field(default=None)
+    all_total: List[BalanceItem] = Field(
+        default_factory=list, description="账单总金额（多币种数组）"
+    )
+    bill_file_path: str | None = Field(default=None, description="账单文件地址（FILE_PATH）")
+    bill_from_time: datetime | str | None = Field(default=None, description="账单开始日期")
+    bill_number: str = Field(description="账单号（示例：B20260901G150560003）")
+    bill_to_time: datetime | str | None = Field(default=None, description="账单结束日期")
+    sign_body_name: str | None = Field(default=None, description="签约主体名称")
+    sign_business_type_list_text: str | None = Field(default=None, description="业务类型（如 海外仓储/中转代发）")
+    service_body_name: str | None = Field(default=None, description="服务主体名称")
+    cash_back_balance: List[BalanceItem] = Field(
+        default_factory=list, description="返现金额（多币种数组）"
+    )
+    end_balance: List[BalanceItem] = Field(
+        default_factory=list, description="期末余额（多币种数组）"
+    )
+    start_balance: List[BalanceItem] = Field(
+        default_factory=list, description="期初余额（多币种数组）"
+    )
+    total: int | None = Field(default=None, description="总记录数")
+
+
+class BillingListData(BaseModel):
+    """``data`` 字段（list + total）。"""
+
+    model_config = ConfigDict(extra="ignore")
+
+    list: List[BillItem] = Field(default_factory=list)
+    total: int | None = None
+
+
+# ===========================================================================
+# 2. billing_export — 账单导出（base64 字符串）
+# ===========================================================================
+class BillingExportRequest(BaseModel):
+    """POST /public_open/finance/billing_export 请求体。"""
+
+    model_config = ConfigDict(extra="ignore")
+
+    bill_number_list: List[str] = Field(
+        default_factory=list, description="账单号列表（String[]，最多 50 个）", max_length=50
+    )
+
+
+# 响应 data 是 base64 字符串（在 GoodCangResponse.data 字段里原样取）
+# 说明：将 base64 字符串解码后是 xlsx（单账单）或 zip（多账单压缩包）
+
+
+# ===========================================================================
+# 3. inventory_age_list — 库存库龄列表
+# ===========================================================================
+class InventoryAgeListRequest(BaseModel):
+    """POST /public_open/inventory/inventory_age_list 请求体。"""
+
+    model_config = ConfigDict(extra="ignore")
+
+    page: int = Field(default=1, ge=1)
+    page_size: int = Field(default=20, ge=1, le=200, description="最大 200")
+    warehouse_code: str | None = Field(
+        default=None, description="区域仓库代码（必填之一：USEA / DE 等）", max_length=30
+    )
+    warning_age_type: str | None = Field(
+        default=None, description="库龄预警枚举（_Enum/Inventory/InventoryAgeWarningTypeEnum）"
+    )
+    age_from: int | None = Field(default=None, description="库龄起始值（天）")
+    age_to: int | None = Field(default=None, description="库龄结束值（天）")
+    fifo_time_from: str | None = Field(
+        default=None, description="上架时间起始（YYYY-MM-DD HH:MM:SS）"
+    )
+    fifo_time_to: str | None = Field(
+        default=None, description="上架时间结束（YYYY-MM-DD HH:MM:SS）"
+    )
+    quantity_from: int | None = Field(default=None, description="在库库存起始值")
+    quantity_to: int | None = Field(default=None, description="在库库存结束值")
+    product_sku_list: List[str] | None = Field(
+        default=None, description="商品编码列表（String[]，最多 50 个）", max_length=50
+    )
+    product_title: str | None = Field(default=None, description="商品中文名称（模糊）", max_length=100)
+    product_title_en: str | None = Field(
+        default=None, description="商品英文名称（模糊）", max_length=100
+    )
+
+
+class InventoryAgeItem(BaseModel):
+    """库存库龄单条记录。
+
+    注意（2026-09-01 实调校准）：字段前缀是 **iba_**（不是 lba_）：
+    - iba_id / iba_quantity / iba_fifo_time / iba_warning_age
+    - warehouse_age 表示库龄（天）
+    """
+
+    model_config = ConfigDict(extra="ignore")
+
+    iba_id: int | None = Field(default=None, description="库龄记录 ID")
+    warehouse_code: str | None = Field(default=None, description="区域仓库代码（如 DE）")
+    product_sku: str = Field(description="商品 SKU")
+    product_barcode: str | None = Field(default=None, description="商品条码")
+    iba_quantity: int | None = Field(default=None, description="在库库存")
+    iba_fifo_time: str | None = Field(default=None, description="上架时间（YYYY-MM-DD）")
+    iba_warning_age: int | None = Field(default=None, description="预警库龄（天）")
+    product_title: str | None = Field(default=None, description="商品中文名称")
+    product_title_en: str | None = Field(default=None, description="商品英文名称")
+    warehouse_desc: str | None = Field(default=None, description="仓库名称（如 德国区）")
+    warehouse_age: int | None = Field(default=None, description="库龄（天）")
+    expiration_date: str | None = Field(default=None, description="过期日期")
+
+
+class InventoryAgeListData(BaseModel):
+    """``data`` 字段（list + total）。"""
+
+    model_config = ConfigDict(extra="ignore")
+
+    list: List[InventoryAgeItem] = Field(default_factory=list)
+    total: int | None = None
+
+
+# ===========================================================================
+# 4. get_product_inventory — 产品库存查询
+# ===========================================================================
+class ProductInventoryRequest(BaseModel):
+    """POST /public_open/inventory/get_product_inventory 请求体。
+
+    注意：截图里字段名是 ``pageSize``（驼峰），不是 ``page_size``。
+    """
+
+    model_config = ConfigDict(extra="ignore", populate_by_name=True)
+
+    page: int = Field(default=1, ge=1, description="当前页")
+    pageSize: int = Field(
+        default=20, ge=1, le=200, description="每页条数（驼峰命名，最大 200）"
+    )
+    warehouse_code: str | None = Field(default=None, description="区域仓库代码", max_length=32)
+    warehouse_code_arr: List[str] | None = Field(
+        default=None, description="区域仓库代码数组（批量查询）", max_length=20
+    )
+    product_sku: str | None = Field(default=None, description="商品 SKU", max_length=24)
+    product_sku_arr: List[str] | None = Field(
+        default=None, description="商品 SKU 数组（最多 200）", max_length=200
+    )
+    batch_code: str | None = Field(
+        default=None, description="批次属性枚举（_Enum/Inventory/batchAttributeCodeEnum）"
+    )
+    batch_value_list: List[str] | None = Field(
+        default=None, description="批次值数组（可指定多范围查询）"
+    )
+
+
+class ProductInventoryItem(BaseModel):
+    """产品库存单条记录。
+
+    注意（2026-09-01 实调校准）：
+    - 该接口 ``data`` 字段直接是**数组**（不是 ``{list: [...]}`` 包裹）
+    - 大部分数量字段是**字符串**（如 ``"120"``），部分为 int；统一兼容
+    - 顶层还有 ``count`` / ``nextPage`` / ``pagination`` 分页字段
+    """
+
+    model_config = ConfigDict(extra="ignore")
+
+    warehouse_code: str | None = Field(default=None, description="区域仓库代码")
+    warehouse_desc: str | None = Field(default=None, description="仓库描述")
+    product_sku: str | None = Field(default=None, description="商品 SKU")
+    product_barcode: str | None = Field(default=None, description="商品条码")
+    product_title: str | None = Field(default=None, description="商品名称")
+    total_onway: int | str | None = Field(default=None, description="在途总数量（海外+中转+已出库在途）")
+    transfer_onway: int | str | None = Field(default=None, description="中转在途数量")
+    onway: int | str | None = Field(default=None, description="海外在途数量")
+    pending: int | str | None = Field(default=None, description="待上架数量")
+    sellable: int | str | None = Field(default=None, description="良品可售数量")
+    unsellable: int | str | None = Field(default=None, description="不良品可售数量")
+    reserved: int | str | None = Field(default=None, description="良品待出库数量")
+    shipped: int | str | None = Field(default=None, description="良品已出库数量")
+    pi_unsellable_reserved: int | str | None = Field(default=None, description="不良品待出库数量")
+    pi_unsellable_shipped: int | str | None = Field(default=None, description="不良品已出库数量")
+    pi_freeze: int | str | None = Field(default=None, description="冻结数量")
+    pi_warning_qty: int | str | None = Field(default=None, description="预警库存数量")
+    pi_no_stock: int | str | None = Field(default=None, description="缺货数量")
+    stocking: int | str | None = Field(default=None, description="备货数量")
+    tune_out: int | str | None = Field(default=None, description="调出数量")
+    tune_in: int | str | None = Field(default=None, description="调入数量")
+    sold_shared: int | str | None = Field(default=None, description="共享销量")
+    product_sales_value: str | None = Field(default=None, description="商品销售金额")
+    product_freeze_status: int | str | None = Field(default=None, description="商品冻结状态枚举")
+    product_freeze_status_text: str | None = Field(default=None, description="商品冻结状态名称")
+
+
+class ProductInventoryData(BaseModel):
+    """``data`` 字段。"""
+
+    model_config = ConfigDict(extra="ignore")
+
+    list: List[ProductInventoryItem] = Field(default_factory=list)
+    count: int | None = None
+    total: int | None = None

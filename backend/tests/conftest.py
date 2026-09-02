@@ -1,1 +1,34 @@
-IiIicHl0ZXN0IGZpeHR1cmVz77ya5YaF5a2YIFNRTGl0ZSArIOihqOWIm+W7uu+8jOaWueS+v+WNleWFg+a1i+ivleaXoOmcgCBQb3N0Z3JlU1FM44CCCgrlkI7nu60gU3RlcCA3IOWPr+S7peihpeS4gOS4qiBwZyDlrrnlmajot5Hov4Hnp7vnmoQgaW50ZWdyYXRpb24gZml4dHVyZeOAggoiIiIKZnJvbSBfX2Z1dHVyZV9fIGltcG9ydCBhbm5vdGF0aW9ucwoKZnJvbSBjb2xsZWN0aW9ucy5hYmMgaW1wb3J0IEdlbmVyYXRvcgoKaW1wb3J0IHB5dGVzdApmcm9tIHNxbGFsY2hlbXkgaW1wb3J0IGNyZWF0ZV9lbmdpbmUKZnJvbSBzcWxhbGNoZW15Lm9ybSBpbXBvcnQgU2Vzc2lvbiwgc2Vzc2lvbm1ha2VyCgpmcm9tIGFwcC5jb3JlLmRhdGFiYXNlIGltcG9ydCBCYXNlCmltcG9ydCBhcHAubW9kZWxzICAjIG5vcWE6IEY0MDEgIC0tIOazqOWGjOaJgOacieihqAoKCkBweXRlc3QuZml4dHVyZSgpCmRlZiBlbmdpbmUoKToKICAgICIiIuavj+S4qua1i+ivleS4gOS4quWGheWtmCBTUUxpdGUg5byV5pOO44CCIiIiCiAgICBlbmcgPSBjcmVhdGVfZW5naW5lKCJzcWxpdGU6Ly8vOm1lbW9yeToiKQogICAgQmFzZS5tZXRhZGF0YS5jcmVhdGVfYWxsKGVuZykKICAgIHlpZWxkIGVuZwogICAgZW5nLmRpc3Bvc2UoKQoKCkBweXRlc3QuZml4dHVyZSgpCmRlZiBzZXNzaW9uKGVuZ2luZSkgLT4gR2VuZXJhdG9yW1Nlc3Npb24sIE5vbmUsIE5vbmVdOgogICAgIiIi5LiOIGVuZ2luZSDnu5HlrprnmoQgU2Vzc2lvbuOAgiIiIgogICAgU2Vzc2lvbkxvY2FsID0gc2Vzc2lvbm1ha2VyKGJpbmQ9ZW5naW5lLCBhdXRvZmx1c2g9RmFsc2UsIGF1dG9jb21taXQ9RmFsc2UsIGZ1dHVyZT1UcnVlKQogICAgcyA9IFNlc3Npb25Mb2NhbCgpCiAgICB0cnk6CiAgICAgICAgeWllbGQgcwogICAgZmluYWxseToKICAgICAgICBzLmNsb3NlKCk=
+"""pytest fixtures：内存 SQLite + 表创建，方便单元测试无需 PostgreSQL。
+
+后续 Step 7 可以补一个 pg 容器跑迁移的 integration fixture。
+"""
+from __future__ import annotations
+
+from collections.abc import Generator
+
+import pytest
+from sqlalchemy import create_engine
+from sqlalchemy.orm import Session, sessionmaker
+
+from app.core.database import Base
+import app.models  # noqa: F401  -- 注册所有表
+
+
+@pytest.fixture()
+def engine():
+    """每个测试一个内存 SQLite 引擎。"""
+    eng = create_engine("sqlite:///:memory:")
+    Base.metadata.create_all(eng)
+    yield eng
+    eng.dispose()
+
+
+@pytest.fixture()
+def session(engine) -> Generator[Session, None, None]:
+    """与 engine 绑定的 Session。"""
+    SessionLocal = sessionmaker(bind=engine, autoflush=False, autocommit=False, future=True)
+    s = SessionLocal()
+    try:
+        yield s
+    finally:
+        s.close()

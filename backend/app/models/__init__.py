@@ -1,1 +1,17 @@
-IiIiT1JNIOaooeWei+Wxgu+8muS4juaVsOaNruW6k+ihqOS4gOS4gOWvueW6lOOAggoK57qm5a6a77yaCi0g6KGo5ZCN5LiA5b6L5bim5YmN57yA77yaYHN0Z18qYO+8iOWOn+Wni+Wxgu+8iS8gYG1hcnRfKmDvvIjliIbmnpDlsYLvvIkvIGBkaW1fKmDvvIjnu7TluqbvvIkvIOWFtuS7lui/kOe7tAotIOWtl+auteWRveWQjeS9v+eUqCBzbmFrZV9jYXNl77yb5p6a5Li+5YC85L2/55So5bCP5YaZ5a2X56ym5Liy77yI5aaCIGZlZV9jYXRlZ29yeT0nc3RvcmFnZSfvvIkKLSDmiYDmnInmqKHlnovnu6fmib/oh6ogYXBwLmNvcmUuZGF0YWJhc2UuQmFzZQoK5oyJIGRvbWFpbiDmi4bliIbmlofku7bvvIzkvr/kuo7mianlsZXvvJoKLSBkaW0ucHkgICAgICA6IOe7tOW6pi/lj4LogIPooagKLSBzdGcucHkgICAgICA6IOWOn+Wni+Wxgu+8iOi0puWNleOAgei0ueeUqOaYjue7huOAgeW6k+WtmOW/q+eFp++8iQotIG1hcnQucHkgICAgIDog5YiG5p6Q5bGC77yI5pyI5bqm5rGH5oC744CB6aOO6ZmpU0tV44CB5pyI5bqm5oql5ZGK77yJCi0gb3BzLnB5ICAgICAgOiDov5Dnu7TvvIjlkIzmraXml6Xlv5fvvIkKIiIiCmZyb20gYXBwLm1vZGVscy5kb3JtIGltcG9ydCAqICAjIG5vcWE6IEY0MDEsRjQwMwpmcm9tIGFwcC5tb2RlbHMubWFydCBpbXBvcnQgKiAgIyBub3FhOiBGNDAxLEY0MDMKZnJvbSBhcHAubW9kZWxzLm9wcyBpbXBvcnQgKiAgIyBub3FhOiBGNDAxLEY0MDMKZnJvbSBhcHAubW9kZWxzLnN0ZyBpbXBvcnQgKiAgIyBub3FhOiBGNDAxLEY0MDM=
+"""ORM 模型层：与数据库表一一对应。
+
+约定：
+- 表名一律带前缀：`stg_*`（原始层）/ `mart_*`（分析层）/ `dim_*`（维度）/ 其他运维
+- 字段命名使用 snake_case；枚举值使用小写字符串（如 fee_category='storage'）
+- 所有模型继承自 app.core.database.Base
+
+按 domain 拆分文件，便于扩展：
+- dim.py      : 维度/参考表
+- stg.py      : 原始层（账单、费用明细、库存快照）
+- mart.py     : 分析层（月度汇总、风险SKU、月度报告）
+- ops.py      : 运维（同步日志）
+"""
+from app.models.dorm import *  # noqa: F401,F403
+from app.models.mart import *  # noqa: F401,F403
+from app.models.ops import *  # noqa: F401,F403
+from app.models.stg import *  # noqa: F401,F403

@@ -1,1 +1,215 @@
-IiIiaW5pdGlhbCBzY2hlbWE6IDEwIHRhYmxlcyAoZGltL3N0Zy9tYXJ0L29wcykKClJldmlzaW9uIElEOiAyMDI2MDEwMV8wMDAxX2luaXRpYWxfc2NoZW1hClJldmlzZXM6CkNyZWF0ZSBEYXRlOiAyMDI2LTAxLTAxIDAwOjAwOjAwCiIiIgpmcm9tIF9fZnV0dXJlX18gaW1wb3J0IGFubm90YXRpb25zCgpmcm9tIHR5cGluZyBpbXBvcnQgU2VxdWVuY2UsIFVuaW9uCgppbXBvcnQgc3FsYWxjaGVteSBhcyBzYQpmcm9tIGFsZW1iaWMgaW1wb3J0IG9wCmZyb20gc3FsYWxjaGVteS5kaWFsZWN0cyBpbXBvcnQgcG9zdGdyZXNxbAoKcmV2aXNpb246IHN0ciA9ICIyMDI2MDEwMV8wMDAxX2luaXRpYWxfc2NoZW1hIgpkb3duX3JldmlzaW9uOiBVbmlvbltzdHIsIE5vbmVdID0gTm9uZQpicmFuY2hfbGFiZWxzOiBVbmlvbltzdHIsIFNlcXVlbmNlW3N0cl0sIE5vbmVdID0gTm9uZQpkZXBlbmRzX29uOiBVbmlvbltzdHIsIFNlcXVlbmNlW3N0cl0sIE5vbmVdID0gTm9uZQoKCmRlZiB1cGdyYWRlKCkgLT4gTm9uZToKICAgICMgLS0tLSBkaW1fd2FyZWhvdXNlIC0tLS0KICAgIG9wLmNyZWF0ZV90YWJsZSgKICAgICAgICAiZGltX3dhcmVob3VzZSIsCiAgICAgICAgc2EuQ29sdW1uKCJpZCIsIHNhLkJpZ0ludGVnZXIoKSwgcHJpbWFyeV9rZXk9VHJ1ZSwgYXV0b2luY3JlbWVudD1UcnVlKSwKICAgICAgICBzYS5Db2x1bW4oIndhcmVob3VzZV9jb2RlIiwgc2EuU3RyaW5nKGxlbmd0aD0zMiksIG51bGxhYmxlPUZhbHNlLCB1bmlxdWU9VHJ1ZSksCiAgICAgICAgc2EuQ29sdW1uKCJ3YXJlaG91c2VfbmFtZSIsIHNhLlN0cmluZyhsZW5ndGg9MTI4KSwgbnVsbGFibGU9RmFsc2UpLAogICAgICAgIHNhLkNvbHVtbigiY291bnRyeV9jb2RlIiwgc2EuQ0hBUihsZW5ndGg9MiksIG51bGxhYmxlPUZhbHNlKSwKICAgICAgICBzYS5Db2x1bW4oImN1cnJlbmN5X2NvZGUiLCBzYS5DSEFSKGxlbmd0aD0zKSwgbnVsbGFibGU9RmFsc2UsIHNlcnZlcl9kZWZhdWx0PSJFVVIiKSwKICAgICAgICBzYS5Db2x1bW4oImlzX2FjdGl2ZSIsIHNhLkJvb2xlYW4oKSwgbnVsbGFibGU9RmFsc2UsIHNlcnZlcl9kZWZhdWx0PXNhLnRleHQoInRydWUiKSksCiAgICAgICAgc2EuQ29sdW1uKCJjcmVhdGVkX2F0Iiwgc2EuRGF0ZVRpbWUodGltZXpvbmU9VHJ1ZSksIG51bGxhYmxlPUZhbHNlLCBzZXJ2ZXJfZGVmYXVsdD1zYS50ZXh0KCJub3coKSIpKSwKICAgICkKCiAgICAjIC0tLS0gZmVlX2NhdGVnb3J5X21hcCAtLS0tCiAgICBvcC5jcmVhdGVfdGFibGUoCiAgICAgICAgImZlZV9jYXRlZ29yeV9tYXAiLAogICAgICAgIHNhLkNvbHVtbigiaWQiLCBzYS5CaWdJbnRlZ2VyKCksIHByaW1hcnlfa2V5PVRydWUsIGF1dG9pbmNyZW1lbnQ9VHJ1ZSksCiAgICAgICAgc2EuQ29sdW1uKCJtYXRjaF9rZXl3b3JkIiwgc2EuU3RyaW5nKGxlbmd0aD0xMjgpLCBudWxsYWJsZT1GYWxzZSksCiAgICAgICAgc2EuQ29sdW1uKCJmZWVfY2F0ZWdvcnkiLCBzYS5TdHJpbmcobGVuZ3RoPTMyKSwgbnVsbGFibGU9RmFsc2UpLAogICAgICAgIHNhLkNvbHVtbigicHJpb3JpdHkiLCBzYS5JbnRlZ2VyKCksIG51bGxhYmxlPUZhbHNlLCBzZXJ2ZXJfZGVmYXVsdD0iMTAwIiksCiAgICAgICAgc2EuQ29sdW1uKCJyZW1hcmsiLCBzYS5TdHJpbmcobGVuZ3RoPTI1NSkpLAogICAgKQoKICAgICMgLS0tLSBzdGdfYmlsbHMgLS0tLQogICAgb3AuY3JlYXRlX3RhYmxlKAogICAgICAgICJzdGdfYmlsbHMiLAogICAgICAgIHNhLkNvbHVtbigiaWQiLCBzYS5CaWdJbnRlZ2VyKCksIHByaW1hcnlfa2V5PVRydWUsIGF1dG9pbmNyZW1lbnQ9VHJ1ZSksCiAgICAgICAgc2EuQ29sdW1uKCJiaWxsX251bWJlciIsIHNhLlN0cmluZyhsZW5ndGg9NjQpLCBudWxsYWJsZT1GYWxzZSksCiAgICAgICAgc2EuQ29sdW1uKCJhY2NvdW50X2NvZGUiLCBzYS5TdHJpbmcobGVuZ3RoPTY0KSksCiAgICAgICAgc2EuQ29sdW1uKCJiaWxsX2Zyb21fdGltZSIsIHNhLkRhdGVUaW1lKHRpbWV6b25lPVRydWUpLCBudWxsYWJsZT1GYWxzZSksCiAgICAgICAgc2EuQ29sdW1uKCJiaWxsX3RvX3RpbWUiLCBzYS5EYXRlVGltZSh0aW1lem9uZT1UcnVlKSwgbnVsbGFibGU9RmFsc2UpLAogICAgICAgIHNhLkNvbHVtbigiYmlsbF9tb250aCIsIHNhLkNIQVIobGVuZ3RoPTcpLCBudWxsYWJsZT1GYWxzZSksCiAgICAgICAgc2EuQ29sdW1uKCJhbGxfdG90YWwiLCBzYS5OdW1lcmljKDE4LCA0KSwgbnVsbGFibGU9RmFsc2UpLAogICAgICAgIHNhLkNvbHVtbigiY3VycmVuY3lfY29kZSIsIHNhLkNIQVIobGVuZ3RoPTMpLCBudWxsYWJsZT1GYWxzZSksCiAgICAgICAgc2EuQ29sdW1uKCJ3YXJlaG91c2VfY29kZSIsIHNhLlN0cmluZyhsZW5ndGg9MzIpKSwKICAgICAgICBzYS5Db2x1bW4oInJhd19qc29uIiwgcG9zdGdyZXNxbC5KU09OQigpKSwKICAgICAgICBzYS5Db2x1bW4oInN5bmNlZF9hdCIsIHNhLkRhdGVUaW1lKHRpbWV6b25lPVRydWUpLCBudWxsYWJsZT1GYWxzZSwgc2VydmVyX2RlZmF1bHQ9c2EudGV4dCgibm93KCkiKSksCiAgICAgICAgc2EuVW5pcXVlQ29uc3RyYWludCgiYmlsbF9udW1iZXIiLCBuYW1lPSJ1a19zdGdfYmlsbHNfbnVtYmVyIiksCiAgICAgICAgc2EuRm9yZWlnbktleUNvbnN0cmFpbnQoWyJ3YXJlaG91c2VfY29kZSJdLCBbImRpbV93YXJlaG91c2Uud2FyZWhvdXNlX2NvZGUiXSwgb25kZWxldGU9IlNFVCBOVUxMIiksCiAgICApCiAgICBvcC5jcmVhdGVfaW5kZXgoIml4X3N0Z19iaWxsc19tb250aCIsICJzdGdfYmlsbHMiLCBbImJpbGxfbW9udGgiXSkKICAgIG9wLmNyZWF0ZV9pbmRleCgiaXhfc3RnX2JpbGxzX3doIiwgInN0Z19iaWxscyIsIFsid2FyZWhvdXNlX2NvZGUiXSkKCiAgICAjIC0tLS0gc3RnX2JpbGxfZmVlX2l0ZW1zIC0tLS0KICAgIG9wLmNyZWF0ZV90YWJsZSgKICAgICAgICAic3RnX2JpbGxfZmVlX2l0ZW1zIiwKICAgICAgICBzYS5Db2x1bW4oImlkIiwgc2EuQmlnSW50ZWdlcigpLCBwcmltYXJ5X2tleT1UcnVlLCBhdXRvaW5jcmVtZW50PVRydWUpLAogICAgICAgIHNhLkNvbHVtbigiYmlsbF9udW1iZXIiLCBzYS5TdHJpbmcobGVuZ3RoPTY0KSwgbnVsbGFibGU9RmFsc2UpLAogICAgICAgIHNhLkNvbHVtbigiZmVlX25hbWUiLCBzYS5TdHJpbmcobGVuZ3RoPTEyOCksIG51bGxhYmxlPUZhbHNlKSwKICAgICAgICBzYS5Db2x1bW4oImZlZV9jYXRlZ29yeSIsIHNhLlN0cmluZyhsZW5ndGg9MzIpLCBudWxsYWJsZT1GYWxzZSksCiAgICAgICAgc2EuQ29sdW1uKCJhbW91bnQiLCBzYS5OdW1lcmljKDE4LCA0KSwgbnVsbGFibGU9RmFsc2UpLAogICAgICAgIHNhLkNvbHVtbigiY3VycmVuY3lfY29kZSIsIHNhLkNIQVIobGVuZ3RoPTMpLCBudWxsYWJsZT1GYWxzZSksCiAgICAgICAgc2EuQ29sdW1uKCJyZWxhdGVkX3NrdSIsIHNhLlN0cmluZyhsZW5ndGg9NjQpKSwKICAgICAgICBzYS5Db2x1bW4oImJpbGxfbW9udGgiLCBzYS5DSEFSKGxlbmd0aD03KSwgbnVsbGFibGU9RmFsc2UpLAogICAgICAgIHNhLkNvbHVtbigicmF3X2pzb24iLCBwb3N0Z3Jlc3FsLkpTT05CKCkpLAogICAgICAgIHNhLkNvbHVtbigic3luY2VkX2F0Iiwgc2EuRGF0ZVRpbWUodGltZXpvbmU9VHJ1ZSksIG51bGxhYmxlPUZhbHNlLCBzZXJ2ZXJfZGVmYXVsdD1zYS50ZXh0KCJub3coKSIpKSwKICAgICAgICBzYS5Gb3JlaWduS2V5Q29uc3RyYWludChbImJpbGxfbnVtYmVyIl0sIFsic3RnX2JpbGxzLmJpbGxfbnVtYmVyIl0sIG9uZGVsZXRlPSJDQVNDQURFIiksCiAgICApCiAgICBvcC5jcmVhdGVfaW5kZXgoIml4X2ZlZV9iaWxsIiwgInN0Z19iaWxsX2ZlZV9pdGVtcyIsIFsiYmlsbF9udW1iZXIiXSkKICAgIG9wLmNyZWF0ZV9pbmRleCgiaXhfZmVlX21vbnRoX2NhdCIsICJzdGdfYmlsbF9mZWVfaXRlbXMiLCBbImJpbGxfbW9udGgiLCAiZmVlX2NhdGVnb3J5Il0pCiAgICBvcC5jcmVhdGVfaW5kZXgoIml4X2ZlZV9za3UiLCAic3RnX2JpbGxfZmVlX2l0ZW1zIiwgWyJyZWxhdGVkX3NrdSJdKQoKICAgICMgLS0tLSBzdGdfaW52ZW50b3J5X2FnZSAtLS0tCiAgICBvcC5jcmVhdGVfdGFibGUoCiAgICAgICAgInN0Z19pbnZlbnRvcnlfYWdlIiwKICAgICAgICBzYS5Db2x1bW4oImlkIiwgc2EuQmlnSW50ZWdlcigpLCBwcmltYXJ5X2tleT1UcnVlLCBhdXRvaW5jcmVtZW50PVRydWUpLAogICAgICAgIHNhLkNvbHVtbigic25hcHNob3RfZGF0ZSIsIHNhLkRhdGUoKSwgbnVsbGFibGU9RmFsc2UpLAogICAgICAgIHNhLkNvbHVtbigic2t1Iiwgc2EuU3RyaW5nKGxlbmd0aD02NCksIG51bGxhYmxlPUZhbHNlKSwKICAgICAgICBzYS5Db2x1bW4oInByb2R1Y3RfbmFtZSIsIHNhLlN0cmluZyhsZW5ndGg9MjU1KSksCiAgICAgICAgc2EuQ29sdW1uKCJxdWFudGl0eSIsIHNhLkludGVnZXIoKSwgbnVsbGFibGU9RmFsc2UsIHNlcnZlcl9kZWZhdWx0PSIwIiksCiAgICAgICAgc2EuQ29sdW1uKCJ3YXJlaG91c2VfYWdlIiwgc2EuSW50ZWdlcigpLCBudWxsYWJsZT1GYWxzZSksCiAgICAgICAgc2EuQ29sdW1uKCJpbmJvdW5kX3RpbWUiLCBzYS5EYXRlVGltZSh0aW1lem9uZT1UcnVlKSksCiAgICAgICAgc2EuQ29sdW1uKCJhZ2VfYnVja2V0Iiwgc2EuU3RyaW5nKGxlbmd0aD0xNiksIG51bGxhYmxlPUZhbHNlKSwKICAgICAgICBzYS5Db2x1bW4oIndhcmVob3VzZV9jb2RlIiwgc2EuU3RyaW5nKGxlbmd0aD0zMikpLAogICAgICAgIHNhLkNvbHVtbigicmF3X2pzb24iLCBwb3N0Z3Jlc3FsLkpTT05CKCkpLAogICAgICAgIHNhLkNvbHVtbigic3luY2VkX2F0Iiwgc2EuRGF0ZVRpbWUodGltZXpvbmU9VHJ1ZSksIG51bGxhYmxlPUZhbHNlLCBzZXJ2ZXJfZGVmYXVsdD1zYS50ZXh0KCJub3coKSIpKSwKICAgICAgICBzYS5VbmlxdWVDb25zdHJhaW50KCJzbmFwc2hvdF9kYXRlIiwgInNrdSIsICJ3YXJlaG91c2VfY29kZSIsIG5hbWU9InVrX2FnZV9zbmFwc2hvdCIpLAogICAgICAgIHNhLkZvcmVpZ25LZXlDb25zdHJhaW50KFsid2FyZWhvdXNlX2NvZGUiXSwgWyJkaW1fd2FyZWhvdXNlLndhcmVob3VzZV9jb2RlIl0sIG9uZGVsZXRlPSJTRVQgTlVMTCIpLAogICAgKQogICAgb3AuY3JlYXRlX2luZGV4KCJpeF9hZ2VfZGF0ZSIsICJzdGdfaW52ZW50b3J5X2FnZSIsIFsic25hcHNob3RfZGF0ZSJdKQogICAgb3AuY3JlYXRlX2luZGV4KCJpeF9hZ2Vfc2t1IiwgInN0Z19pbnZlbnRvcnlfYWdlIiwgWyJza3UiXSkKICAgIG9wLmNyZWF0ZV9pbmRleCgiaXhfYWdlX2J1Y2tldCIsICJzdGdfaW52ZW50b3J5X2FnZSIsIFsic25hcHNob3RfZGF0ZSIsICJhZ2VfYnVja2V0Il0pCgogICAgIyAtLS0tIHN0Z19pbnZlbnRvcnlfc3RhdHVzIC0tLS0KICAgIG9wLmNyZWF0ZV90YWJsZSgKICAgICAgICAic3RnX2ludmVudG9yeV9zdGF0dXMiLAogICAgICAgIHNhLkNvbHVtbigiaWQiLCBzYS5CaWdJbnRlZ2VyKCksIHByaW1hcnlfa2V5PVRydWUsIGF1dG9pbmNyZW1lbnQ9VHJ1ZSksCiAgICAgICAgc2EuQ29sdW1uKCJzbmFwc2hvdF9kYXRlIiwgc2EuRGF0ZSgpLCBudWxsYWJsZT1GYWxzZSksCiAgICAgICAgc2EuQ29sdW1uKCJza3UiLCBzYS5TdHJpbmcobGVuZ3RoPTY0KSwgbnVsbGFibGU9RmFsc2UpLAogICAgICAgIHNhLkNvbHVtbigic2VsbGFibGUiLCBzYS5JbnRlZ2VyKCksIG51bGxhYmxlPUZhbHNlLCBzZXJ2ZXJfZGVmYXVsdD0iMCIpLAogICAgICAgIHNhLkNvbHVtbigidW5zZWxsYWJsZSIsIHNhLkludGVnZXIoKSwgbnVsbGFibGU9RmFsc2UsIHNlcnZlcl9kZWZhdWx0PSIwIiksCiAgICAgICAgc2EuQ29sdW1uKCJyZXNlcnZlZCIsIHNhLkludGVnZXIoKSwgbnVsbGFibGU9RmFsc2UsIHNlcnZlcl9kZWZhdWx0PSIwIiksCiAgICAgICAgc2EuQ29sdW1uKCJvbndheSIsIHNhLkludGVnZXIoKSwgbnVsbGFibGU9RmFsc2UsIHNlcnZlcl9kZWZhdWx0PSIwIiksCiAgICAgICAgc2EuQ29sdW1uKCJ3YXJlaG91c2VfY29kZSIsIHNhLlN0cmluZyhsZW5ndGg9MzIpKSwKICAgICAgICBzYS5Db2x1bW4oInJhd19qc29uIiwgcG9zdGdyZXNxbC5KU09OQigpKSwKICAgICAgICBzYS5Db2x1bW4oInN5bmNlZF9hdCIsIHNhLkRhdGVUaW1lKHRpbWV6b25lPVRydWUpLCBudWxsYWJsZT1GYWxzZSwgc2VydmVyX2RlZmF1bHQ9c2EudGV4dCgibm93KCkiKSksCiAgICAgICAgc2EuVW5pcXVlQ29uc3RyYWludCgic25hcHNob3RfZGF0ZSIsICJza3UiLCAid2FyZWhvdXNlX2NvZGUiLCBuYW1lPSJ1a19zdGF0dXNfc25hcHNob3QiKSwKICAgICAgICBzYS5Gb3JlaWduS2V5Q29uc3RyYWludChbIndhcmVob3VzZV9jb2RlIl0sIFsiZGltX3dhcmVob3VzZS53YXJlaG91c2VfY29kZSJdLCBvbmRlbGV0ZT0iU0VUIE5VTEwiKSwKICAgICkKICAgIG9wLmNyZWF0ZV9pbmRleCgiaXhfc3RhdHVzX2RhdGUiLCAic3RnX2ludmVudG9yeV9zdGF0dXMiLCBbInNuYXBzaG90X2RhdGUiXSkKICAgIG9wLmNyZWF0ZV9pbmRleCgiaXhfc3RhdHVzX3NrdSIsICJzdGdfaW52ZW50b3J5X3N0YXR1cyIsIFsic2t1Il0pCgogICAgIyAtLS0tIG1hcnRfbW9udGhseV9jb3N0X3N1bW1hcnkgLS0tLQogICAgb3AuY3JlYXRlX3RhYmxlKAogICAgICAgICJtYXJ0X21vbnRobHlfY29zdF9zdW1tYXJ5IiwKICAgICAgICBzYS5Db2x1bW4oImlkIiwgc2EuQmlnSW50ZWdlcigpLCBwcmltYXJ5X2tleT1UcnVlLCBhdXRvaW5jcmVtZW50PVRydWUpLAogICAgICAgIHNhLkNvbHVtbigiYmlsbF9tb250aCIsIHNhLkNIQVIobGVuZ3RoPTcpLCBudWxsYWJsZT1GYWxzZSksCiAgICAgICAgc2EuQ29sdW1uKCJ3YXJlaG91c2VfY29kZSIsIHNhLlN0cmluZyhsZW5ndGg9MzIpLCBudWxsYWJsZT1GYWxzZSksCiAgICAgICAgc2EuQ29sdW1uKCJ0b3RhbF9jb3N0Iiwgc2EuTnVtZXJpYygxOCwgNCksIG51bGxhYmxlPUZhbHNlKSwKICAgICAgICBzYS5Db2x1bW4oInN0b3JhZ2VfZmVlIiwgc2EuTnVtZXJpYygxOCwgNCksIG51bGxhYmxlPUZhbHNlLCBzZXJ2ZXJfZGVmYXVsdD0iMCIpLAogICAgICAgIHNhLkNvbHVtbigiaW5ib3VuZF9mZWUiLCBzYS5OdW1lcmljKDE4LCA0KSwgbnVsbGFibGU9RmFsc2UsIHNlcnZlcl9kZWZhdWx0PSIwIiksCiAgICAgICAgc2EuQ29sdW1uKCJvdXRib3VuZF9mZWUiLCBzYS5OdW1lcmljKDE4LCA0KSwgbnVsbGFibGU9RmFsc2UsIHNlcnZlcl9kZWZhdWx0PSIwIiksCiAgICAgICAgc2EuQ29sdW1uKCJ0cmFuc3BvcnRfZmVlIiwgc2EuTnVtZXJpYygxOCwgNCksIG51bGxhYmxlPUZhbHNlLCBzZXJ2ZXJfZGVmYXVsdD0iMCIpLAogICAgICAgIHNhLkNvbHVtbigib3RoZXJfZmVlIiwgc2EuTnVtZXJpYygxOCwgNCksIG51bGxhYmxlPUZhbHNlLCBzZXJ2ZXJfZGVmYXVsdD0iMCIpLAogICAgICAgIHNhLkNvbHVtbigiY3VycmVuY3lfY29kZSIsIHNhLkNIQVIobGVuZ3RoPTMpLCBudWxsYWJsZT1GYWxzZSksCiAgICAgICAgc2EuQ29sdW1uKCJtb21fY2hhbmdlX3BjdCIsIHNhLk51bWVyaWMoOCwgMikpLAogICAgICAgIHNhLkNvbHVtbigiY29tcHV0ZWRfYXQiLCBzYS5EYXRlVGltZSh0aW1lem9uZT1UcnVlKSwgbnVsbGFibGU9RmFsc2UsIHNlcnZlcl9kZWZhdWx0PXNhLnRleHQoIm5vdygpIikpLAogICAgICAgIHNhLlVuaXF1ZUNvbnN0cmFpbnQoImJpbGxfbW9udGgiLCAid2FyZWhvdXNlX2NvZGUiLCBuYW1lPSJ1a19jb3N0X21vbnRoIiksCiAgICAgICAgc2EuRm9yZWlnbktleUNvbnN0cmFpbnQoWyJ3YXJlaG91c2VfY29kZSJdLCBbImRpbV93YXJlaG91c2Uud2FyZWhvdXNlX2NvZGUiXSwgb25kZWxldGU9IlJFU1RSSUNUIiksCiAgICApCgogICAgIyAtLS0tIG1hcnRfcmlza19za3UgLS0tLQogICAgb3AuY3JlYXRlX3RhYmxlKAogICAgICAgICJtYXJ0X3Jpc2tfc2t1IiwKICAgICAgICBzYS5Db2x1bW4oImlkIiwgc2EuQmlnSW50ZWdlcigpLCBwcmltYXJ5X2tleT1UcnVlLCBhdXRvaW5jcmVtZW50PVRydWUpLAogICAgICAgIHNhLkNvbHVtbigic25hcHNob3RfZGF0ZSIsIHNhLkRhdGUoKSwgbnVsbGFibGU9RmFsc2UpLAogICAgICAgIHNhLkNvbHVtbigic2t1Iiwgc2EuU3RyaW5nKGxlbmd0aD02NCksIG51bGxhYmxlPUZhbHNlKSwKICAgICAgICBzYS5Db2x1bW4oInByb2R1Y3RfbmFtZSIsIHNhLlN0cmluZyhsZW5ndGg9MjU1KSksCiAgICAgICAgc2EuQ29sdW1uKCJxdWFudGl0eSIsIHNhLkludGVnZXIoKSwgbnVsbGFibGU9RmFsc2UpLAogICAgICAgIHNhLkNvbHVtbigid2FyZWhvdXNlX2FnZSIsIHNhLkludGVnZXIoKSwgbnVsbGFibGU9RmFsc2UpLAogICAgICAgIHNhLkNvbHVtbigiYWdlX2J1Y2tldCIsIHNhLlN0cmluZyhsZW5ndGg9MTYpLCBudWxsYWJsZT1GYWxzZSksCiAgICAgICAgc2EuQ29sdW1uKCJyaXNrX3JhbmsiLCBzYS5JbnRlZ2VyKCksIG51bGxhYmxlPUZhbHNlKSwKICAgICAgICBzYS5Db2x1bW4oIndhcmVob3VzZV9jb2RlIiwgc2EuU3RyaW5nKGxlbmd0aD0zMiksIG51bGxhYmxlPUZhbHNlKSwKICAgICAgICBzYS5Db2x1bW4oImNvbXB1dGVkX2F0Iiwgc2EuRGF0ZVRpbWUodGltZXpvbmU9VHJ1ZSksIG51bGxhYmxlPUZhbHNlLCBzZXJ2ZXJfZGVmYXVsdD1zYS50ZXh0KCJub3coKSIpKSwKICAgICAgICBzYS5Gb3JlaWduS2V5Q29uc3RyYWludChbIndhcmVob3VzZV9jb2RlIl0sIFsiZGltX3dhcmVob3VzZS53YXJlaG91c2VfY29kZSJdLCBvbmRlbGV0ZT0iUkVTVFJJQ1QiKSwKICAgICkKICAgIG9wLmNyZWF0ZV9pbmRleCgiaXhfcmlza19kYXRlIiwgIm1hcnRfcmlza19za3UiLCBbInNuYXBzaG90X2RhdGUiLCAicmlza19yYW5rIl0pCgogICAgIyAtLS0tIG1hcnRfbW9udGhseV9yZXBvcnRzIC0tLS0KICAgIG9wLmNyZWF0ZV90YWJsZSgKICAgICAgICAibWFydF9tb250aGx5X3JlcG9ydHMiLAogICAgICAgIHNhLkNvbHVtbigiaWQiLCBzYS5CaWdJbnRlZ2VyKCksIHByaW1hcnlfa2V5PVRydWUsIGF1dG9pbmNyZW1lbnQ9VHJ1ZSksCiAgICAgICAgc2EuQ29sdW1uKCJyZXBvcnRfbW9udGgiLCBzYS5DSEFSKGxlbmd0aD03KSwgbnVsbGFibGU9RmFsc2UpLAogICAgICAgIHNhLkNvbHVtbigid2FyZWhvdXNlX2NvZGUiLCBzYS5TdHJpbmcobGVuZ3RoPTMyKSwgbnVsbGFibGU9RmFsc2UpLAogICAgICAgIHNhLkNvbHVtbigidGl0bGUiLCBzYS5TdHJpbmcobGVuZ3RoPTI1NSksIG51bGxhYmxlPUZhbHNlKSwKICAgICAgICBzYS5Db2x1bW4oImNvc3RfY2hhbmdlIiwgcG9zdGdyZXNxbC5KU09OQigpKSwKICAgICAgICBzYS5Db2x1bW4oImNvc3RfZHJpdmVycyIsIHBvc3RncmVzcWwuSlNPTkIoKSksCiAgICAgICAgc2EuQ29sdW1uKCJpbnZlbnRvcnlfcmlzayIsIHBvc3RncmVzcWwuSlNPTkIoKSksCiAgICAgICAgc2EuQ29sdW1uKCJyZWNvbW1lbmRhdGlvbnMiLCBwb3N0Z3Jlc3FsLkpTT05CKCkpLAogICAgICAgIHNhLkNvbHVtbigiY29udGVudF9tZCIsIHNhLlRleHQoKSksCiAgICAgICAgc2EuQ29sdW1uKCJzdGF0dXMiLCBzYS5TdHJpbmcobGVuZ3RoPTE2KSwgbnVsbGFibGU9RmFsc2UsIHNlcnZlcl9kZWZhdWx0PSJkcmFmdCIpLAogICAgICAgIHNhLkNvbHVtbigiZ2VuZXJhdGVkX2F0Iiwgc2EuRGF0ZVRpbWUodGltZXpvbmU9VHJ1ZSksIG51bGxhYmxlPUZhbHNlLCBzZXJ2ZXJfZGVmYXVsdD1zYS50ZXh0KCJub3coKSIpKSwKICAgICAgICBzYS5VbmlxdWVDb25zdHJhaW50KCJyZXBvcnRfbW9udGgiLCAid2FyZWhvdXNlX2NvZGUiLCBuYW1lPSJ1a19yZXBvcnRfbW9udGgiKSwKICAgICAgICBzYS5Gb3JlaWduS2V5Q29uc3RyYWludChbIndhcmVob3VzZV9jb2RlIl0sIFsiZGltX3dhcmVob3VzZS53YXJlaG91c2VfY29kZSJdLCBvbmRlbGV0ZT0iUkVTVFJJQ1QiKSwKICAgICkKCiAgICAjIC0tLS0gc3luY19sb2dzIC0tLS0KICAgIG9wLmNyZWF0ZV90YWJsZSgKICAgICAgICAic3luY19sb2dzIiwKICAgICAgICBzYS5Db2x1bW4oImlkIiwgc2EuQmlnSW50ZWdlcigpLCBwcmltYXJ5X2tleT1UcnVlLCBhdXRvaW5jcmVtZW50PVRydWUpLAogICAgICAgIHNhLkNvbHVtbigidGFza19uYW1lIiwgc2EuU3RyaW5nKGxlbmd0aD02NCksIG51bGxhYmxlPUZhbHNlKSwKICAgICAgICBzYS5Db2x1bW4oImVuZHBvaW50Iiwgc2EuU3RyaW5nKGxlbmd0aD02NCksIG51bGxhYmxlPUZhbHNlKSwKICAgICAgICBzYS5Db2x1bW4oInN0YXR1cyIsIHNhLlN0cmluZyhsZW5ndGg9MTYpLCBudWxsYWJsZT1GYWxzZSksCiAgICAgICAgc2EuQ29sdW1uKCJyZWNvcmRzX2FmZmVjdGVkIiwgc2EuSW50ZWdlcigpKSwKICAgICAgICBzYS5Db2x1bW4oIm1lc3NhZ2UiLCBzYS5UZXh0KCkpLAogICAgICAgIHNhLkNvbHVtbigic3RhcnRlZF9hdCIsIHNhLkRhdGVUaW1lKHRpbWV6b25lPVRydWUpLCBudWxsYWJsZT1GYWxzZSwgc2VydmVyX2RlZmF1bHQ9c2EudGV4dCgibm93KCkiKSksCiAgICAgICAgc2EuQ29sdW1uKCJmaW5pc2hlZF9hdCIsIHNhLkRhdGVUaW1lKHRpbWV6b25lPVRydWUpKSwKICAgICkKICAgIG9wLmNyZWF0ZV9pbmRleCgiaXhfc3luY190YXNrIiwgInN5bmNfbG9ncyIsIFsidGFza19uYW1lIiwgInN0YXJ0ZWRfYXQiXSkKCgpkZWYgZG93bmdyYWRlKCkgLT4gTm9uZToKICAgICMg5YCS5bqP5Yig6Zmk77yM5L+d5oyB5aSW6ZSu5L6d6LWW5a6J5YWoCiAgICBvcC5kcm9wX2luZGV4KCJpeF9zeW5jX3Rhc2siLCB0YWJsZV9uYW1lPSJzeW5jX2xvZ3MiKQogICAgb3AuZHJvcF90YWJsZSgic3luY19sb2dzIikKICAgIG9wLmRyb3BfdGFibGUoIm1hcnRfbW9udGhseV9yZXBvcnRzIikKICAgIG9wLmRyb3BfaW5kZXgoIml4X3Jpc2tfZGF0ZSIsIHRhYmxlX25hbWU9Im1hcnRfcmlza19za3UiKQogICAgb3AuZHJvcF90YWJsZSgibWFydF9yaXNrX3NrdSIpCiAgICBvcC5kcm9wX3RhYmxlKCJtYXJ0X21vbnRobHlfY29zdF9zdW1tYXJ5IikKICAgIG9wLmRyb3BfaW5kZXgoIml4X3N0YXR1c19za3UiLCB0YWJsZV9uYW1lPSJzdGdfaW52ZW50b3J5X3N0YXR1cyIpCiAgICBvcC5kcm9wX2luZGV4KCJpeF9zdGF0dXNfZGF0ZSIsIHRhYmxlX25hbWU9InN0Z19pbnZlbnRvcnlfc3RhdHVzIikKICAgIG9wLmRyb3BfdGFibGUoInN0Z19pbnZlbnRvcnlfc3RhdHVzIikKICAgIG9wLmRyb3BfaW5kZXgoIml4X2FnZV9idWNrZXQiLCB0YWJsZV9uYW1lPSJzdGdfaW52ZW50b3J5X2FnZSIpCiAgICBvcC5kcm9wX2luZGV4KCJpeF9hZ2Vfc2t1IiwgdGFibGVfbmFtZT0ic3RnX2ludmVudG9yeV9hZ2UiKQogICAgb3AuZHJvcF9pbmRleCgiaXhfYWdlX2RhdGUiLCB0YWJsZV9uYW1lPSJzdGdfaW52ZW50b3J5X2FnZSIpCiAgICBvcC5kcm9wX3RhYmxlKCJzdGdfaW52ZW50b3J5X2FnZSIpCiAgICBvcC5kcm9wX2luZGV4KCJpeF9mZWVfc2t1IiwgdGFibGVfbmFtZT0ic3RnX2JpbGxfZmVlX2l0ZW1zIikKICAgIG9wLmRyb3BfaW5kZXgoIml4X2ZlZV9tb250aF9jYXQiLCB0YWJsZV9uYW1lPSJzdGdfYmlsbF9mZWVfaXRlbXMiKQogICAgb3AuZHJvcF9pbmRleCgiaXhfZmVlX2JpbGwiLCB0YWJsZV9uYW1lPSJzdGdfYmlsbF9mZWVfaXRlbXMiKQogICAgb3AuZHJvcF90YWJsZSgic3RnX2JpbGxfZmVlX2l0ZW1zIikKICAgIG9wLmRyb3BfaW5kZXgoIml4X3N0Z19iaWxsc193aCIsIHRhYmxlX25hbWU9InN0Z19iaWxscyIpCiAgICBvcC5kcm9wX2luZGV4KCJpeF9zdGdfYmlsbHNfbW9udGgiLCB0YWJsZV9uYW1lPSJzdGdfYmlsbHMiKQogICAgb3AuZHJvcF90YWJsZSgic3RnX2JpbGxzIikKICAgIG9wLmRyb3BfdGFibGUoImZlZV9jYXRlZ29yeV9tYXAiKQogICAgb3AuZHJvcF90YWJsZSgiZGltX3dhcmVob3VzZSIp
+"""initial schema: 10 tables (dim/stg/mart/ops)
+
+Revision ID: 20260101_0001_initial_schema
+Revises:
+Create Date: 2026-01-01 00:00:00
+"""
+from __future__ import annotations
+
+from typing import Sequence, Union
+
+import sqlalchemy as sa
+from alembic import op
+from sqlalchemy.dialects import postgresql
+
+revision: str = "20260101_0001_initial_schema"
+down_revision: Union[str, None] = None
+branch_labels: Union[str, Sequence[str], None] = None
+depends_on: Union[str, Sequence[str], None] = None
+
+
+def upgrade() -> None:
+    # ---- dim_warehouse ----
+    op.create_table(
+        "dim_warehouse",
+        sa.Column("id", sa.BigInteger(), primary_key=True, autoincrement=True),
+        sa.Column("warehouse_code", sa.String(length=32), nullable=False, unique=True),
+        sa.Column("warehouse_name", sa.String(length=128), nullable=False),
+        sa.Column("country_code", sa.CHAR(length=2), nullable=False),
+        sa.Column("currency_code", sa.CHAR(length=3), nullable=False, server_default="EUR"),
+        sa.Column("is_active", sa.Boolean(), nullable=False, server_default=sa.text("true")),
+        sa.Column("created_at", sa.DateTime(timezone=True), nullable=False, server_default=sa.text("now()")),
+    )
+
+    # ---- fee_category_map ----
+    op.create_table(
+        "fee_category_map",
+        sa.Column("id", sa.BigInteger(), primary_key=True, autoincrement=True),
+        sa.Column("match_keyword", sa.String(length=128), nullable=False),
+        sa.Column("fee_category", sa.String(length=32), nullable=False),
+        sa.Column("priority", sa.Integer(), nullable=False, server_default="100"),
+        sa.Column("remark", sa.String(length=255)),
+    )
+
+    # ---- stg_bills ----
+    op.create_table(
+        "stg_bills",
+        sa.Column("id", sa.BigInteger(), primary_key=True, autoincrement=True),
+        sa.Column("bill_number", sa.String(length=64), nullable=False),
+        sa.Column("account_code", sa.String(length=64)),
+        sa.Column("bill_from_time", sa.DateTime(timezone=True), nullable=False),
+        sa.Column("bill_to_time", sa.DateTime(timezone=True), nullable=False),
+        sa.Column("bill_month", sa.CHAR(length=7), nullable=False),
+        sa.Column("all_total", sa.Numeric(18, 4), nullable=False),
+        sa.Column("currency_code", sa.CHAR(length=3), nullable=False),
+        sa.Column("warehouse_code", sa.String(length=32)),
+        sa.Column("raw_json", postgresql.JSONB()),
+        sa.Column("synced_at", sa.DateTime(timezone=True), nullable=False, server_default=sa.text("now()")),
+        sa.UniqueConstraint("bill_number", name="uk_stg_bills_number"),
+        sa.ForeignKeyConstraint(["warehouse_code"], ["dim_warehouse.warehouse_code"], ondelete="SET NULL"),
+    )
+    op.create_index("ix_stg_bills_month", "stg_bills", ["bill_month"])
+    op.create_index("ix_stg_bills_wh", "stg_bills", ["warehouse_code"])
+
+    # ---- stg_bill_fee_items ----
+    op.create_table(
+        "stg_bill_fee_items",
+        sa.Column("id", sa.BigInteger(), primary_key=True, autoincrement=True),
+        sa.Column("bill_number", sa.String(length=64), nullable=False),
+        sa.Column("fee_name", sa.String(length=128), nullable=False),
+        sa.Column("fee_category", sa.String(length=32), nullable=False),
+        sa.Column("amount", sa.Numeric(18, 4), nullable=False),
+        sa.Column("currency_code", sa.CHAR(length=3), nullable=False),
+        sa.Column("related_sku", sa.String(length=64)),
+        sa.Column("bill_month", sa.CHAR(length=7), nullable=False),
+        sa.Column("raw_json", postgresql.JSONB()),
+        sa.Column("synced_at", sa.DateTime(timezone=True), nullable=False, server_default=sa.text("now()")),
+        sa.ForeignKeyConstraint(["bill_number"], ["stg_bills.bill_number"], ondelete="CASCADE"),
+    )
+    op.create_index("ix_fee_bill", "stg_bill_fee_items", ["bill_number"])
+    op.create_index("ix_fee_month_cat", "stg_bill_fee_items", ["bill_month", "fee_category"])
+    op.create_index("ix_fee_sku", "stg_bill_fee_items", ["related_sku"])
+
+    # ---- stg_inventory_age ----
+    op.create_table(
+        "stg_inventory_age",
+        sa.Column("id", sa.BigInteger(), primary_key=True, autoincrement=True),
+        sa.Column("snapshot_date", sa.Date(), nullable=False),
+        sa.Column("sku", sa.String(length=64), nullable=False),
+        sa.Column("product_name", sa.String(length=255)),
+        sa.Column("quantity", sa.Integer(), nullable=False, server_default="0"),
+        sa.Column("warehouse_age", sa.Integer(), nullable=False),
+        sa.Column("inbound_time", sa.DateTime(timezone=True)),
+        sa.Column("age_bucket", sa.String(length=16), nullable=False),
+        sa.Column("warehouse_code", sa.String(length=32)),
+        sa.Column("raw_json", postgresql.JSONB()),
+        sa.Column("synced_at", sa.DateTime(timezone=True), nullable=False, server_default=sa.text("now()")),
+        sa.UniqueConstraint("snapshot_date", "sku", "warehouse_code", name="uk_age_snapshot"),
+        sa.ForeignKeyConstraint(["warehouse_code"], ["dim_warehouse.warehouse_code"], ondelete="SET NULL"),
+    )
+    op.create_index("ix_age_date", "stg_inventory_age", ["snapshot_date"])
+    op.create_index("ix_age_sku", "stg_inventory_age", ["sku"])
+    op.create_index("ix_age_bucket", "stg_inventory_age", ["snapshot_date", "age_bucket"])
+
+    # ---- stg_inventory_status ----
+    op.create_table(
+        "stg_inventory_status",
+        sa.Column("id", sa.BigInteger(), primary_key=True, autoincrement=True),
+        sa.Column("snapshot_date", sa.Date(), nullable=False),
+        sa.Column("sku", sa.String(length=64), nullable=False),
+        sa.Column("sellable", sa.Integer(), nullable=False, server_default="0"),
+        sa.Column("unsellable", sa.Integer(), nullable=False, server_default="0"),
+        sa.Column("reserved", sa.Integer(), nullable=False, server_default="0"),
+        sa.Column("onway", sa.Integer(), nullable=False, server_default="0"),
+        sa.Column("warehouse_code", sa.String(length=32)),
+        sa.Column("raw_json", postgresql.JSONB()),
+        sa.Column("synced_at", sa.DateTime(timezone=True), nullable=False, server_default=sa.text("now()")),
+        sa.UniqueConstraint("snapshot_date", "sku", "warehouse_code", name="uk_status_snapshot"),
+        sa.ForeignKeyConstraint(["warehouse_code"], ["dim_warehouse.warehouse_code"], ondelete="SET NULL"),
+    )
+    op.create_index("ix_status_date", "stg_inventory_status", ["snapshot_date"])
+    op.create_index("ix_status_sku", "stg_inventory_status", ["sku"])
+
+    # ---- mart_monthly_cost_summary ----
+    op.create_table(
+        "mart_monthly_cost_summary",
+        sa.Column("id", sa.BigInteger(), primary_key=True, autoincrement=True),
+        sa.Column("bill_month", sa.CHAR(length=7), nullable=False),
+        sa.Column("warehouse_code", sa.String(length=32), nullable=False),
+        sa.Column("total_cost", sa.Numeric(18, 4), nullable=False),
+        sa.Column("storage_fee", sa.Numeric(18, 4), nullable=False, server_default="0"),
+        sa.Column("inbound_fee", sa.Numeric(18, 4), nullable=False, server_default="0"),
+        sa.Column("outbound_fee", sa.Numeric(18, 4), nullable=False, server_default="0"),
+        sa.Column("transport_fee", sa.Numeric(18, 4), nullable=False, server_default="0"),
+        sa.Column("other_fee", sa.Numeric(18, 4), nullable=False, server_default="0"),
+        sa.Column("currency_code", sa.CHAR(length=3), nullable=False),
+        sa.Column("mom_change_pct", sa.Numeric(8, 2)),
+        sa.Column("computed_at", sa.DateTime(timezone=True), nullable=False, server_default=sa.text("now()")),
+        sa.UniqueConstraint("bill_month", "warehouse_code", name="uk_cost_month"),
+        sa.ForeignKeyConstraint(["warehouse_code"], ["dim_warehouse.warehouse_code"], ondelete="RESTRICT"),
+    )
+
+    # ---- mart_risk_sku ----
+    op.create_table(
+        "mart_risk_sku",
+        sa.Column("id", sa.BigInteger(), primary_key=True, autoincrement=True),
+        sa.Column("snapshot_date", sa.Date(), nullable=False),
+        sa.Column("sku", sa.String(length=64), nullable=False),
+        sa.Column("product_name", sa.String(length=255)),
+        sa.Column("quantity", sa.Integer(), nullable=False),
+        sa.Column("warehouse_age", sa.Integer(), nullable=False),
+        sa.Column("age_bucket", sa.String(length=16), nullable=False),
+        sa.Column("risk_rank", sa.Integer(), nullable=False),
+        sa.Column("warehouse_code", sa.String(length=32), nullable=False),
+        sa.Column("computed_at", sa.DateTime(timezone=True), nullable=False, server_default=sa.text("now()")),
+        sa.ForeignKeyConstraint(["warehouse_code"], ["dim_warehouse.warehouse_code"], ondelete="RESTRICT"),
+    )
+    op.create_index("ix_risk_date", "mart_risk_sku", ["snapshot_date", "risk_rank"])
+
+    # ---- mart_monthly_reports ----
+    op.create_table(
+        "mart_monthly_reports",
+        sa.Column("id", sa.BigInteger(), primary_key=True, autoincrement=True),
+        sa.Column("report_month", sa.CHAR(length=7), nullable=False),
+        sa.Column("warehouse_code", sa.String(length=32), nullable=False),
+        sa.Column("title", sa.String(length=255), nullable=False),
+        sa.Column("cost_change", postgresql.JSONB()),
+        sa.Column("cost_drivers", postgresql.JSONB()),
+        sa.Column("inventory_risk", postgresql.JSONB()),
+        sa.Column("recommendations", postgresql.JSONB()),
+        sa.Column("content_md", sa.Text()),
+        sa.Column("status", sa.String(length=16), nullable=False, server_default="draft"),
+        sa.Column("generated_at", sa.DateTime(timezone=True), nullable=False, server_default=sa.text("now()")),
+        sa.UniqueConstraint("report_month", "warehouse_code", name="uk_report_month"),
+        sa.ForeignKeyConstraint(["warehouse_code"], ["dim_warehouse.warehouse_code"], ondelete="RESTRICT"),
+    )
+
+    # ---- sync_logs ----
+    op.create_table(
+        "sync_logs",
+        sa.Column("id", sa.BigInteger(), primary_key=True, autoincrement=True),
+        sa.Column("task_name", sa.String(length=64), nullable=False),
+        sa.Column("endpoint", sa.String(length=64), nullable=False),
+        sa.Column("status", sa.String(length=16), nullable=False),
+        sa.Column("records_affected", sa.Integer()),
+        sa.Column("message", sa.Text()),
+        sa.Column("started_at", sa.DateTime(timezone=True), nullable=False, server_default=sa.text("now()")),
+        sa.Column("finished_at", sa.DateTime(timezone=True)),
+    )
+    op.create_index("ix_sync_task", "sync_logs", ["task_name", "started_at"])
+
+
+def downgrade() -> None:
+    # 倒序删除，保持外键依赖安全
+    op.drop_index("ix_sync_task", table_name="sync_logs")
+    op.drop_table("sync_logs")
+    op.drop_table("mart_monthly_reports")
+    op.drop_index("ix_risk_date", table_name="mart_risk_sku")
+    op.drop_table("mart_risk_sku")
+    op.drop_table("mart_monthly_cost_summary")
+    op.drop_index("ix_status_sku", table_name="stg_inventory_status")
+    op.drop_index("ix_status_date", table_name="stg_inventory_status")
+    op.drop_table("stg_inventory_status")
+    op.drop_index("ix_age_bucket", table_name="stg_inventory_age")
+    op.drop_index("ix_age_sku", table_name="stg_inventory_age")
+    op.drop_index("ix_age_date", table_name="stg_inventory_age")
+    op.drop_table("stg_inventory_age")
+    op.drop_index("ix_fee_sku", table_name="stg_bill_fee_items")
+    op.drop_index("ix_fee_month_cat", table_name="stg_bill_fee_items")
+    op.drop_index("ix_fee_bill", table_name="stg_bill_fee_items")
+    op.drop_table("stg_bill_fee_items")
+    op.drop_index("ix_stg_bills_wh", table_name="stg_bills")
+    op.drop_index("ix_stg_bills_month", table_name="stg_bills")
+    op.drop_table("stg_bills")
+    op.drop_table("fee_category_map")
+    op.drop_table("dim_warehouse")

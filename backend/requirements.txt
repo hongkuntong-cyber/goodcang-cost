@@ -1,1 +1,28 @@
-IyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0KIyBHb29kQ2FuZyBDb3N0IEludGVsbGlnZW5jZSDlkI7nq6/kvp3otZYKIyDor7TmmI7vvJrmjInlip/og73liIbnu4TvvIzkvr/kuo7lrqHpmIXkuI7oo4HliaoKIyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0KCiMgLS0tLSBXZWIg5qGG5p62IC0tLS0KZmFzdGFwaT49MC4xMTAgICAgICAgICAgIyBSRVNUIEFQSSDmoYbmnrYKdXZpY29ybltzdGFuZGFyZF0+PTAuMjkgIyBBU0dJIOacjeWKoeWZqAoKIyAtLS0tIOaVsOaNruW6kyAtLS0tClNRTEFsY2hlbXk+PTIuMCAgICAgICAgICAgIyBPUk0KcHN5Y29wZ1tiaW5hcnldPj0zLjEgICAgICAjIFBvc3RncmVTUUwg6amx5Yqo77yIcHN5Y29wZzPvvJtXaW5kb3dzIOeOr+Wig+aXoCBwc3ljb3BnMi1iaW5hcnkg5pe25L2/55So77yJCmFsZW1iaWM+PTEuMTMgICAgICAgICAgICMg5pWw5o2u5bqT6L+B56e7CgojIC0tLS0g6YWN572uIC8g5pWw5o2u5qCh6aqMIC0tLS0KcHlkYW50aWM+PTIuNiAgICAgICAgICAgIyDmlbDmja7mqKHlnosKcHlkYW50aWMtc2V0dGluZ3M+PTIuMiAgIyAuZW52IOmFjee9rueuoeeQhgoKIyAtLS0tIEhUVFAg5a6i5oi356uv77yI6LCD55SoIEdvb2RDYW5nIEFQSe+8iS0tLS0KaHR0cHg+PTAuMjcgICAgICAgICAgICAgIyDlvILmraUgSFRUUO+8jOW4pui2heaXti/ph43or5UKdGVuYWNpdHk+PTguMiAgICAgICAgICAgIyDph43or5XnrZbnlaUKCiMgLS0tLSDku7vliqHosIPluqbvvIjmlbDmja7lkIzmraXvvIktLS0tCkFQU2NoZWR1bGVyPj0zLjEwICAgICAgICMg5a6a5pe25ZCM5q2l5Lu75YqhCgojIC0tLS0g5rWL6K+VIC0tLS0KcHl0ZXN0Pj04LjAKcHl0ZXN0LWFzeW5jaW8+PTAuMjMK
+# ============================================================
+# GoodCang Cost Intelligence 后端依赖
+# 说明：按功能分组，便于审阅与裁剪
+# ============================================================
+
+# ---- Web 框架 ----
+fastapi>=0.110          # REST API 框架
+uvicorn[standard]>=0.29 # ASGI 服务器
+
+# ---- 数据库 ----
+SQLAlchemy>=2.0           # ORM
+psycopg[binary]>=3.1      # PostgreSQL 驱动（psycopg3；Windows 环境无 psycopg2-binary 时使用）
+alembic>=1.13           # 数据库迁移
+
+# ---- 配置 / 数据校验 ----
+pydantic>=2.6           # 数据模型
+pydantic-settings>=2.2  # .env 配置管理
+
+# ---- HTTP 客户端（调用 GoodCang API）----
+httpx>=0.27             # 异步 HTTP，带超时/重试
+tenacity>=8.2           # 重试策略
+
+# ---- 任务调度（数据同步）----
+APScheduler>=3.10       # 定时同步任务
+
+# ---- 测试 ----
+pytest>=8.0
+pytest-asyncio>=0.23

@@ -1,1 +1,59 @@
-IiIiQWxlbWJpYyDnjq/looPphY3nva7vvJrku44gLmVudiDor7vlj5YgREFUQUJBU0VfVVJM77yM5ZCv55SoIFNRTEFsY2hlbXkgbWV0YWRhdGEg6Ieq5Yqo6L+B56e744CCIiIiCmZyb20gX19mdXR1cmVfXyBpbXBvcnQgYW5ub3RhdGlvbnMKCmltcG9ydCBzeXMKZnJvbSBsb2dnaW5nLmNvbmZpZyBpbXBvcnQgZmlsZUNvbmZpZwpmcm9tIHBhdGhsaWIgaW1wb3J0IFBhdGgKCmZyb20gYWxlbWJpYyBpbXBvcnQgY29udGV4dApmcm9tIHNxbGFsY2hlbXkgaW1wb3J0IGVuZ2luZV9mcm9tX2NvbmZpZywgcG9vbAoKIyDnoa7kv53lj6/ku6UgaW1wb3J0IGFwcC4qCnN5cy5wYXRoLmluc2VydCgwLCBzdHIoUGF0aChfX2ZpbGVfXykucmVzb2x2ZSgpLnBhcmVudHNbMV0pKQoKZnJvbSBhcHAuY29yZS5jb25maWcgaW1wb3J0IGdldF9zZXR0aW5ncyAgIyBub3FhOiBFNDAyCmZyb20gYXBwLmNvcmUuZGF0YWJhc2UgaW1wb3J0IEJhc2UgICMgbm9xYTogRTQwMgppbXBvcnQgYXBwLm1vZGVscyAgIyBub3FhOiBGNDAxLEU0MDIgIC0tIOinpuWPkeaJgOacieaooeWei+azqOWGjOWIsCBCYXNlLm1ldGFkYXRhCgpjb25maWcgPSBjb250ZXh0LmNvbmZpZwoKaWYgY29uZmlnLmNvbmZpZ19maWxlX25hbWUgaXMgbm90IE5vbmU6CiAgICBmaWxlQ29uZmlnKGNvbmZpZy5jb25maWdfZmlsZV9uYW1lKQoKIyDmioogLmVudiDnmoTmlbDmja7lupPov57mjqXkuLLms6jlhaUgQWxlbWJpYwpzZXR0aW5ncyA9IGdldF9zZXR0aW5ncygpCmNvbmZpZy5zZXRfbWFpbl9vcHRpb24oInNxbGFsY2hlbXkudXJsIiwgc2V0dGluZ3MuZGF0YWJhc2VfdXJsKQoKdGFyZ2V0X21ldGFkYXRhID0gQmFzZS5tZXRhZGF0YQoKCmRlZiBydW5fbWlncmF0aW9uc19vZmZsaW5lKCkgLT4gTm9uZToKICAgICIiIuS7heeUn+aIkCBTUUzvvIzkuI3ov57lupPjgIIiIiIKICAgIHVybCA9IGNvbmZpZy5nZXRfbWFpbl9vcHRpb24oInNxbGFsY2hlbXkudXJsIikKICAgIGNvbnRleHQuY29uZmlndXJlKAogICAgICAgIHVybD11cmwsCiAgICAgICAgdGFyZ2V0X21ldGFkYXRhPXRhcmdldF9tZXRhZGF0YSwKICAgICAgICBsaXRlcmFsX2JpbmRzPVRydWUsCiAgICAgICAgZGlhbGVjdF9vcHRzPXsicGFyYW1zdHlsZSI6ICJuYW1lZCJ9LAogICAgKQogICAgd2l0aCBjb250ZXh0LmJlZ2luX3RyYW5zYWN0aW9uKCk6CiAgICAgICAgY29udGV4dC5ydW5fbWlncmF0aW9ucygpCgoKZGVmIHJ1bl9taWdyYXRpb25zX29ubGluZSgpIC0+IE5vbmU6CiAgICAiIiLov57lupPmiafooYzov4Hnp7vjgIIiIiIKICAgIGNvbm5lY3RhYmxlID0gZW5naW5lX2Zyb21fY29uZmlnKAogICAgICAgIGNvbmZpZy5nZXRfc2VjdGlvbihjb25maWcuY29uZmlnX2luaV9zZWN0aW9uLCB7fSksCiAgICAgICAgcHJlZml4PSJzcWxhbGNoZW15LiIsCiAgICAgICAgcG9vbGNsYXNzPXBvb2wuTnVsbFBvb2wsCiAgICApCiAgICB3aXRoIGNvbm5lY3RhYmxlLmNvbm5lY3QoKSBhcyBjb25uZWN0aW9uOgogICAgICAgIGNvbnRleHQuY29uZmlndXJlKGNvbm5lY3Rpb249Y29ubmVjdGlvbiwgdGFyZ2V0X21ldGFkYXRhPXRhcmdldF9tZXRhZGF0YSkKICAgICAgICB3aXRoIGNvbnRleHQuYmVnaW5fdHJhbnNhY3Rpb24oKToKICAgICAgICAgICAgY29udGV4dC5ydW5fbWlncmF0aW9ucygpCgoKaWYgY29udGV4dC5pc19vZmZsaW5lX21vZGUoKToKICAgIHJ1bl9taWdyYXRpb25zX29mZmxpbmUoKQplbHNlOgogICAgcnVuX21pZ3JhdGlvbnNfb25saW5lKCk=
+"""Alembic 环境配置：从 .env 读取 DATABASE_URL，启用 SQLAlchemy metadata 自动迁移。"""
+from __future__ import annotations
+
+import sys
+from logging.config import fileConfig
+from pathlib import Path
+
+from alembic import context
+from sqlalchemy import engine_from_config, pool
+
+# 确保可以 import app.*
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+
+from app.core.config import get_settings  # noqa: E402
+from app.core.database import Base  # noqa: E402
+import app.models  # noqa: F401,E402  -- 触发所有模型注册到 Base.metadata
+
+config = context.config
+
+if config.config_file_name is not None:
+    fileConfig(config.config_file_name)
+
+# 把 .env 的数据库连接串注入 Alembic
+settings = get_settings()
+config.set_main_option("sqlalchemy.url", settings.database_url)
+
+target_metadata = Base.metadata
+
+
+def run_migrations_offline() -> None:
+    """仅生成 SQL，不连库。"""
+    url = config.get_main_option("sqlalchemy.url")
+    context.configure(
+        url=url,
+        target_metadata=target_metadata,
+        literal_binds=True,
+        dialect_opts={"paramstyle": "named"},
+    )
+    with context.begin_transaction():
+        context.run_migrations()
+
+
+def run_migrations_online() -> None:
+    """连库执行迁移。"""
+    connectable = engine_from_config(
+        config.get_section(config.config_ini_section, {}),
+        prefix="sqlalchemy.",
+        poolclass=pool.NullPool,
+    )
+    with connectable.connect() as connection:
+        context.configure(connection=connection, target_metadata=target_metadata)
+        with context.begin_transaction():
+            context.run_migrations()
+
+
+if context.is_offline_mode():
+    run_migrations_offline()
+else:
+    run_migrations_online()

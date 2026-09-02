@@ -1,1 +1,431 @@
-IiIi5pWw5o2u5ZCM5q2l5pyN5Yqh77ya5oqKIEdvb2RDYW5nIDQg5Liq5o6l5Y+j55qE5ZON5bqU6JC95bqT44CCCgrogYzotKPvvJoKLSDmi4nlj5bvvIjliIbpobXvvInihpIg5b2S5LiA5YyWIOKGkiDluYLnrYnlhpnlhaXvvIhVUFNFUlTvvIkKLSDmr4/mraXlhpkgc3luY19sb2dzCi0g55SoIGZlZV9jYXRlZ29yeV9tYXAg57uZ6LS555So5piO57uG5b2S57G7CgrlrZfmrrXmmKDlsITor7TmmI7vvIgyMDI2LTA5LTAxIOagoeWHhu+8ie+8mgotIGJpbGxpbmdfbGlzdDogYWxsX3RvdGFsIOaYryB7YmFsYW5jZSwgY3VycmVuY3lfY29kZX0g5bWM5aWX57uT5p6E77yb6YeR6aKd5LuOIGJhbGFuY2Ug5Y+WCi0gaW52ZW50b3J5X2FnZV9saXN0OiDlhbPplK7lrZfmrrUgbGJhX3F1YW50aXR5IC8gbGJhX2ZpZm9fdGltZSAvIGxiYV93YXJuaW5nX2FnZSAvCiAgcHJvZHVjdF9za3UgLyBwcm9kdWN0X3RpdGxlIC8gcHJvZHVjdF90aXRsZV9lbiAvIHdhcmVob3VzZV9kZXNjIC8gd2FyZWhvdXNlX2FnZSAvCiAgZXhwaXJhdGlvbl9kYXRlCi0gZ2V0X3Byb2R1Y3RfaW52ZW50b3J5OiDlhbPplK7lrZfmrrUgcHJvZHVjdF9za3UgLyBzZWxsYWJsZSAvIHVuc2VsbGFibGUgLyByZXNlcnZlZCAvCiAgc2hpcHBlZCAvIG9ud2F5IC8gcGVuZGluZyAvIHBpX2ZyZWV6ZSAvIHBpX3dhcm5pbmdfcXR5IOetiQoK5bmC562J562W55Wl77yI5LiOIGRhdGFiYXNlLWRlc2lnbi5tZCDkuIDoh7TvvInvvJoKLSDotKbljZXvvJpiaWxsX251bWJlciDllK/kuIAgVVBTRVJUCi0g6LS555So5piO57uG77ya5YWI5oyJ6LSm5Y2VIGRlbGV0ZSDlkI4gaW5zZXJ077yI6ZqP6LSm5Y2V5LiA6LW35ZCM5q2l77yJCi0g5bqT5a2Y5bm06b6EL+eKtuaAge+8muaMiSAoc25hcHNob3RfZGF0ZSwgc2t1LCB3YXJlaG91c2VfY29kZSkgVVBTRVJUCiIiIgpmcm9tIF9fZnV0dXJlX18gaW1wb3J0IGFubm90YXRpb25zCgppbXBvcnQgbG9nZ2luZwpmcm9tIGRhdGV0aW1lIGltcG9ydCBkYXRlLCBkYXRldGltZSwgdGltZXpvbmUKZnJvbSBkZWNpbWFsIGltcG9ydCBEZWNpbWFsCmZyb20gdHlwaW5nIGltcG9ydCBBbnkKCmZyb20gc3FsYWxjaGVteSBpbXBvcnQgZGVsZXRlLCBzZWxlY3QKZnJvbSBzcWxhbGNoZW15LmRpYWxlY3RzLnBvc3RncmVzcWwgaW1wb3J0IGluc2VydCBhcyBwZ19pbnNlcnQKZnJvbSBzcWxhbGNoZW15Lm9ybSBpbXBvcnQgU2Vzc2lvbgoKZnJvbSBhcHAuY29ubmVjdG9ycy5nb29kY2FuZyBpbXBvcnQgKAogICAgQmlsbGluZ0V4cG9ydFJlcXVlc3QsCiAgICBCaWxsaW5nTGlzdFJlcXVlc3QsCiAgICBHb29kQ2FuZ0NsaWVudCwKICAgIEdvb2RDYW5nRW5kcG9pbnRzLAogICAgSW52ZW50b3J5QWdlTGlzdFJlcXVlc3QsCiAgICBQcm9kdWN0SW52ZW50b3J5UmVxdWVzdCwKKQpmcm9tIGFwcC5jb3JlLmNvbmZpZyBpbXBvcnQgZ2V0X3NldHRpbmdzCmZyb20gYXBwLm1vZGVscyBpbXBvcnQgKAogICAgRGltV2FyZWhvdXNlLAogICAgRmVlQ2F0ZWdvcnlNYXAsCiAgICBTdGdCaWxsLAogICAgU3RnQmlsbEZlZUl0ZW0sCiAgICBTdGdJbnZlbnRvcnlBZ2UsCiAgICBTdGdJbnZlbnRvcnlTdGF0dXMsCiAgICBTeW5jTG9nLAopCgpsb2dnZXIgPSBsb2dnaW5nLmdldExvZ2dlcihfX25hbWVfXykKCgojIOW6k+m+hOWIhuahtuinhOWIme+8iOWKn+iDvSBD77yJCmRlZiBidWNrZXRfYWdlKGFnZV9kYXlzOiBpbnQpIC0+IHN0cjoKICAgIGlmIGFnZV9kYXlzIDwgOTA6CiAgICAgICAgcmV0dXJuICJoZWFsdGh5IgogICAgaWYgYWdlX2RheXMgPCAxODA6CiAgICAgICAgcmV0dXJuICJ3YXRjaCIKICAgIGlmIGFnZV9kYXlzIDwgMzY1OgogICAgICAgIHJldHVybiAic3RhbGUiCiAgICByZXR1cm4gImNyaXRpY2FsIgoKCmRlZiBfYmFsYW5jZV9hbW91bnQocmF3OiBBbnkpIC0+IERlY2ltYWw6CiAgICAiIiLosLfku5Pph5Hpop3mmK8ge2JhbGFuY2UsIGN1cnJlbmN5X2NvZGV9IOW1jOWll++8m+WPliBiYWxhbmNlIOi9rCBEZWNpbWFs44CCIiIiCiAgICBpZiByYXcgaXMgTm9uZToKICAgICAgICByZXR1cm4gRGVjaW1hbCgiMCIpCiAgICBpZiBpc2luc3RhbmNlKHJhdywgZGljdCk6CiAgICAgICAgdiA9IHJhdy5nZXQoImJhbGFuY2UiKQogICAgZWxzZToKICAgICAgICB2ID0gcmF3CiAgICB0cnk6CiAgICAgICAgcmV0dXJuIERlY2ltYWwoc3RyKHYgb3IgMCkpCiAgICBleGNlcHQgRXhjZXB0aW9uOiAgIyBub3FhOiBCTEUwMDEKICAgICAgICByZXR1cm4gRGVjaW1hbCgiMCIpCgoKZGVmIF9iYWxhbmNlX2N1cnJlbmN5KHJhdzogQW55LCBkZWZhdWx0OiBzdHIgPSAiRVVSIikgLT4gc3RyOgogICAgaWYgaXNpbnN0YW5jZShyYXcsIGRpY3QpOgogICAgICAgIGMgPSByYXcuZ2V0KCJjdXJyZW5jeV9jb2RlIikKICAgICAgICBpZiBjOgogICAgICAgICAgICByZXR1cm4gYwogICAgcmV0dXJuIGRlZmF1bHQKCgpjbGFzcyBTeW5jU2VydmljZToKICAgICIiIuaVsOaNruWQjOatpee8luaOkuOAguavj+S4quaOpeWPo+S4gOS4quaWueazle+8jOi/lOWbnuWkhOeQhueahOiusOW9leaVsOOAgiIiIgoKICAgIGRlZiBfX2luaXRfXygKICAgICAgICBzZWxmLCBkYjogU2Vzc2lvbiwgY2xpZW50OiBHb29kQ2FuZ0NsaWVudCwgZW5kcG9pbnRzOiBHb29kQ2FuZ0VuZHBvaW50cwogICAgKSAtPiBOb25lOgogICAgICAgIHNlbGYuZGIgPSBkYgogICAgICAgIHNlbGYuY2xpZW50ID0gY2xpZW50CiAgICAgICAgc2VsZi5lcCA9IGVuZHBvaW50cwogICAgICAgIHNlbGYuc2V0dGluZ3MgPSBnZXRfc2V0dGluZ3MoKQogICAgICAgIHNlbGYud2hfY29kZSA9IHNlbGYuc2V0dGluZ3MuZ29vZGNhbmdfd2FyZWhvdXNlX2NvZGUKCiAgICAjIC0tLS0g5ZCM5q2l5pel5b+X6L6F5YqpIC0tLS0KICAgIGRlZiBfbG9nKAogICAgICAgIHNlbGYsCiAgICAgICAgdGFza19uYW1lOiBzdHIsCiAgICAgICAgZW5kcG9pbnQ6IHN0ciwKICAgICAgICBzdGF0dXM6IHN0ciwKICAgICAgICByZWNvcmRzOiBpbnQgfCBOb25lLAogICAgICAgIG1lc3NhZ2U6IHN0ciB8IE5vbmUsCiAgICApIC0+IE5vbmU6CiAgICAgICAgc2VsZi5kYi5hZGQoCiAgICAgICAgICAgIFN5bmNMb2coCiAgICAgICAgICAgICAgICB0YXNrX25hbWU9dGFza19uYW1lLAogICAgICAgICAgICAgICAgZW5kcG9pbnQ9ZW5kcG9pbnQsCiAgICAgICAgICAgICAgICBzdGF0dXM9c3RhdHVzLAogICAgICAgICAgICAgICAgcmVjb3Jkc19hZmZlY3RlZD1yZWNvcmRzLAogICAgICAgICAgICAgICAgbWVzc2FnZT1tZXNzYWdlLAogICAgICAgICAgICAgICAgZmluaXNoZWRfYXQ9ZGF0ZXRpbWUubm93KHRpbWV6b25lLnV0YyksCiAgICAgICAgICAgICkKICAgICAgICApCiAgICAgICAgc2VsZi5kYi5jb21taXQoKQoKICAgICMgLS0tLSDotLnnlKjlvZLnsbsgLS0tLQogICAgZGVmIF9jbGFzc2lmeShzZWxmLCBmZWVfbmFtZTogc3RyKSAtPiBzdHI6CiAgICAgICAgIiIi5oyJIGZlZV9jYXRlZ29yeV9tYXAg5Yy56YWNIGZlZV9uYW1l77yb5pyq5ZG95Lit5b2SIG90aGVy44CCIiIiCiAgICAgICAgbWFwcyA9IHNlbGYuZGIuc2NhbGFycygKICAgICAgICAgICAgc2VsZWN0KEZlZUNhdGVnb3J5TWFwKS5vcmRlcl9ieShGZWVDYXRlZ29yeU1hcC5wcmlvcml0eSkKICAgICAgICApLmFsbCgpCiAgICAgICAgZm9yIG0gaW4gbWFwczoKICAgICAgICAgICAgaWYgbS5tYXRjaF9rZXl3b3JkIGFuZCBtLm1hdGNoX2tleXdvcmQgaW4gZmVlX25hbWU6CiAgICAgICAgICAgICAgICByZXR1cm4gbS5mZWVfY2F0ZWdvcnkKICAgICAgICByZXR1cm4gIm90aGVyIgoKICAgICMgLS0tLSAxLiDotKbljZXkuLvooaggLS0tLQogICAgYXN5bmMgZGVmIHN5bmNfYmlsbHMoCiAgICAgICAgc2VsZiwKICAgICAgICBiZWdpbl9iaWxsX3RvX3RpbWU6IHN0ciB8IE5vbmUgPSBOb25lLAogICAgICAgIGVuZF9iaWxsX3RvX3RpbWU6IHN0ciB8IE5vbmUgPSBOb25lLAogICAgKSAtPiBpbnQ6CiAgICAgICAgIiIi5ZCM5q2l6LSm5Y2V5Li76KGo77yI5oyJ5pe26Ze05Yy66Ze05oiW5Y2V5Y+377yJ44CCCgogICAgICAgIC0g6buY6K6k5ZCM5q2l5pyA6L+RIDMg5Liq5pyI5Yiw546w5Zyo55qE6LSm5Y2VCiAgICAgICAgLSBhY2NvdW50X2NvZGUg5Y+W6IeqIC5lbnbvvIjkuI4gQXBwVG9rZW4g5YWz6IGU55qE6LSm5Y+377yJCiAgICAgICAgIiIiCiAgICAgICAgZnJvbSBhcHAuY29yZS5jb25maWcgaW1wb3J0IGdldF9zZXR0aW5ncyBhcyBfZ3MKCiAgICAgICAgYWNjb3VudCA9IF9ncygpLmdvb2RjYW5nX2FwcF90b2tlbgogICAgICAgIHJlcSA9IEJpbGxpbmdMaXN0UmVxdWVzdCgKICAgICAgICAgICAgYWNjb3VudF9jb2RlPWFjY291bnQsCiAgICAgICAgICAgIGJlZ2luX2JpbGxfdG9fdGltZT1iZWdpbl9iaWxsX3RvX3RpbWUsCiAgICAgICAgICAgIGVuZF9iaWxsX3RvX3RpbWU9ZW5kX2JpbGxfdG9fdGltZSwKICAgICAgICApCiAgICAgICAgdHJ5OgogICAgICAgICAgICByZXNwID0gYXdhaXQgc2VsZi5lcC5iaWxsaW5nX2xpc3QocmVxKQogICAgICAgIGV4Y2VwdCBFeGNlcHRpb24gYXMgZTogICMgbm9xYTogQkxFMDAxCiAgICAgICAgICAgIHNlbGYuX2xvZygic3luY19iaWxscyIsICJiaWxsaW5nX2xpc3QiLCAiZmFpbGVkIiwgTm9uZSwgc3RyKGUpKQogICAgICAgICAgICByYWlzZQoKICAgICAgICByb3dzID0gc2VsZi5fZXh0cmFjdF9saXN0X3Jvd3MocmVzcCkKICAgICAgICBuID0gMAogICAgICAgIGZvciByIGluIHJvd3M6CiAgICAgICAgICAgIG4gKz0gc2VsZi5fdXBzZXJ0X2JpbGwocikKICAgICAgICBzZWxmLmRiLmNvbW1pdCgpCiAgICAgICAgc2VsZi5fbG9nKCJzeW5jX2JpbGxzIiwgImJpbGxpbmdfbGlzdCIsICJzdWNjZXNzIiwgbiwgTm9uZSkKICAgICAgICByZXR1cm4gbgoKICAgIGRlZiBfdXBzZXJ0X2JpbGwoc2VsZiwgcjogZGljdFtzdHIsIEFueV0pIC0+IGludDoKICAgICAgICAiIiLljZXmnaHotKbljZUgVVBTRVJU77yI5bmC562J77yJ44CCIiIiCiAgICAgICAgYmlsbF9udW1iZXIgPSBzdHIoci5nZXQoImJpbGxfbnVtYmVyIikgb3IgIiIpCiAgICAgICAgaWYgbm90IGJpbGxfbnVtYmVyOgogICAgICAgICAgICByZXR1cm4gMAogICAgICAgIGFsbF90b3RhbCA9IHIuZ2V0KCJhbGxfdG90YWwiKSBvciB7fQogICAgICAgIHZhbHVlcyA9IHsKICAgICAgICAgICAgImJpbGxfbnVtYmVyIjogYmlsbF9udW1iZXIsCiAgICAgICAgICAgICJhY2NvdW50X2NvZGUiOiByLmdldCgiYWNjb3VudF9jb2RlIiksCiAgICAgICAgICAgICJiaWxsX2Zyb21fdGltZSI6IHNlbGYuX3RvX2R0KHIuZ2V0KCJiaWxsX2Zyb21fdGltZSIpKSwKICAgICAgICAgICAgImJpbGxfdG9fdGltZSI6IHNlbGYuX3RvX2R0KHIuZ2V0KCJiaWxsX3RvX3RpbWUiKSksCiAgICAgICAgICAgICJiaWxsX21vbnRoIjogc2VsZi5fdG9fbW9udGgoci5nZXQoImJpbGxfdG9fdGltZSIpIG9yIHIuZ2V0KCJiaWxsX2Zyb21fdGltZSIpKSwKICAgICAgICAgICAgImFsbF90b3RhbCI6IF9iYWxhbmNlX2Ftb3VudChhbGxfdG90YWwpLAogICAgICAgICAgICAiY3VycmVuY3lfY29kZSI6IF9iYWxhbmNlX2N1cnJlbmN5KGFsbF90b3RhbCwgIkVVUiIpLAogICAgICAgICAgICAid2FyZWhvdXNlX2NvZGUiOiByLmdldCgid2FyZWhvdXNlX2NvZGUiKSBvciBzZWxmLndoX2NvZGUsCiAgICAgICAgICAgICJyYXdfanNvbiI6IHIsCiAgICAgICAgfQogICAgICAgIHN0bXQgPSBwZ19pbnNlcnQoU3RnQmlsbCkudmFsdWVzKCoqdmFsdWVzKQogICAgICAgIHN0bXQgPSBzdG10Lm9uX2NvbmZsaWN0X2RvX3VwZGF0ZSgKICAgICAgICAgICAgaW5kZXhfZWxlbWVudHM9WyJiaWxsX251bWJlciJdLAogICAgICAgICAgICBzZXRfPXtrOiB2IGZvciBrLCB2IGluIHZhbHVlcy5pdGVtcygpIGlmIGsgIT0gImJpbGxfbnVtYmVyIn0sCiAgICAgICAgKQogICAgICAgIHNlbGYuZGIuZXhlY3V0ZShzdG10KQogICAgICAgIHJldHVybiAxCgogICAgIyAtLS0tIDIuIOi0ueeUqOaYjue7hiAtLS0tCiAgICBhc3luYyBkZWYgc3luY19mZWVfaXRlbXMoc2VsZiwgYmlsbF9udW1iZXI6IHN0cikgLT4gaW50OgogICAgICAgICIiIuWQjOatpeafkOi0puWNleeahOi0ueeUqOaYjue7huOAgumaj+i0puWNleWFiOWIoOWQjuaPkuOAggoKICAgICAgICDms6jmhI/vvJrosLfku5PnmoQgYmlsbGluZ19leHBvcnQg6L+U5Zue55qE5pivIGJhc2U2NCDmlofku7bvvIh4bHN4L3ppcO+8ie+8jOS4jeaYr+e7k+aehOWMliBKU09O44CCCiAgICAgICAg5a6M5pW06Kej5p6Q6ZyA6KaBIHhsc3gg6Kej56CB77yI5L6d6LWWIG9wZW5weXhs77yJ77yMVjEg5pqC5a2Y5Li6IHJhdyDorrDlvZUgKyDlkIzmraXml6Xlv5fvvIwKICAgICAgICDlkI7nu63lj6/nlLEgU3RlcCA477yI5LqM5pyf77yJ5bGV5byA5Li66LS555So6KGM5piO57uG44CCCiAgICAgICAgIiIiCiAgICAgICAgZnJvbSBhcHAuY29yZS5jb25maWcgaW1wb3J0IGdldF9zZXR0aW5ncyBhcyBfZ3MKICAgICAgICBhY2NvdW50ID0gX2dzKCkuZ29vZGNhbmdfYXBwX3Rva2VuCiAgICAgICAgcmVxID0gQmlsbGluZ0V4cG9ydFJlcXVlc3QoYmlsbF9udW1iZXJfbGlzdD1bYmlsbF9udW1iZXJdKQogICAgICAgIHRyeToKICAgICAgICAgICAgcmVzcCA9IGF3YWl0IHNlbGYuZXAuYmlsbGluZ19leHBvcnQocmVxKQogICAgICAgIGV4Y2VwdCBFeGNlcHRpb24gYXMgZTogICMgbm9xYTogQkxFMDAxCiAgICAgICAgICAgIHNlbGYuX2xvZygic3luY19mZWVfaXRlbXMiLCAiYmlsbGluZ19leHBvcnQiLCAiZmFpbGVkIiwgTm9uZSwgc3RyKGUpKQogICAgICAgICAgICByYWlzZQoKICAgICAgICAjIGJpbGxpbmdfZXhwb3J0LmRhdGEg5pivIGJhc2U2NCDlrZfnrKbkuLLvvIzlrZjliLAgcmF3X2pzb24g5Y2z5Y+vCiAgICAgICAgZGF0YV9iNjQgPSAiIgogICAgICAgIGlmIGlzaW5zdGFuY2UocmVzcCwgZGljdCk6CiAgICAgICAgICAgIGRhdGFfYjY0ID0gc3RyKHJlc3AuZ2V0KCJkYXRhIikgb3IgIiIpCiAgICAgICAgc2VsZi5kYi5hZGQoU3RnQmlsbEZlZUl0ZW0oCiAgICAgICAgICAgIGJpbGxfbnVtYmVyPWJpbGxfbnVtYmVyLAogICAgICAgICAgICBmZWVfbmFtZT0iW2V4cG9ydF0gYmFzZTY0IGZpbGUiLAogICAgICAgICAgICBmZWVfY2F0ZWdvcnk9c2VsZi5fY2xhc3NpZnkoIiIpLAogICAgICAgICAgICBhbW91bnQ9RGVjaW1hbCgiMCIpLAogICAgICAgICAgICBjdXJyZW5jeV9jb2RlPSJFVVIiLAogICAgICAgICAgICByZWxhdGVkX3NrdT1Ob25lLAogICAgICAgICAgICBiaWxsX21vbnRoPXNlbGYuX3RvX21vbnRoKE5vbmUpLAogICAgICAgICAgICByYXdfanNvbj17ImRhdGEiOiBkYXRhX2I2NFs6MjAwXSArICIuLi4iIGlmIGxlbihkYXRhX2I2NCkgPiAyMDAgZWxzZSBkYXRhX2I2NCwKICAgICAgICAgICAgICAgICAgICAgICJmdWxsX2xlbmd0aCI6IGxlbihkYXRhX2I2NCl9LAogICAgICAgICkpCiAgICAgICAgc2VsZi5kYi5jb21taXQoKQogICAgICAgIHNlbGYuX2xvZygic3luY19mZWVfaXRlbXMiLCAiYmlsbGluZ19leHBvcnQiLCAic3VjY2VzcyIsIDEsIGYiZmlsZSBieXRlcz17bGVuKGRhdGFfYjY0KX0iKQogICAgICAgIHJldHVybiAxCgogICAgIyAtLS0tIDMuIOW6k+WtmOW6k+m+hCAtLS0tCiAgICBhc3luYyBkZWYgc3luY19pbnZlbnRvcnlfYWdlKHNlbGYsIHNuYXBzaG90X2RhdGU6IGRhdGUgfCBOb25lID0gTm9uZSkgLT4gaW50OgogICAgICAgIHNuYXAgPSBzbmFwc2hvdF9kYXRlIG9yIGRhdGUudG9kYXkoKQogICAgICAgIHJlcSA9IEludmVudG9yeUFnZUxpc3RSZXF1ZXN0KHdhcmVob3VzZV9jb2RlPXNlbGYud2hfY29kZSkKICAgICAgICB0cnk6CiAgICAgICAgICAgIHJlc3AgPSBhd2FpdCBzZWxmLmVwLmludmVudG9yeV9hZ2VfbGlzdChyZXEpCiAgICAgICAgZXhjZXB0IEV4Y2VwdGlvbiBhcyBlOiAgIyBub3FhOiBCTEUwMDEKICAgICAgICAgICAgc2VsZi5fbG9nKCJzeW5jX2ludmVudG9yeV9hZ2UiLCAiaW52ZW50b3J5X2FnZV9saXN0IiwgImZhaWxlZCIsIE5vbmUsIHN0cihlKSkKICAgICAgICAgICAgcmFpc2UKCiAgICAgICAgcm93cyA9IHNlbGYuX2V4dHJhY3RfbGlzdF9yb3dzKHJlc3ApCiAgICAgICAgbiA9IDAKICAgICAgICBmb3IgciBpbiByb3dzOgogICAgICAgICAgICBza3UgPSBzdHIoci5nZXQoInByb2R1Y3Rfc2t1Iikgb3IgIiIpCiAgICAgICAgICAgIGlmIG5vdCBza3U6CiAgICAgICAgICAgICAgICBjb250aW51ZQogICAgICAgICAgICBhZ2UgPSBpbnQoci5nZXQoIndhcmVob3VzZV9hZ2UiKSBvciAwKQogICAgICAgICAgICB2YWx1ZXMgPSB7CiAgICAgICAgICAgICAgICAic25hcHNob3RfZGF0ZSI6IHNuYXAsCiAgICAgICAgICAgICAgICAic2t1Ijogc2t1LAogICAgICAgICAgICAgICAgInByb2R1Y3RfbmFtZSI6IHIuZ2V0KCJwcm9kdWN0X3RpdGxlIikgb3Igci5nZXQoInByb2R1Y3RfdGl0bGVfZW4iKSwKICAgICAgICAgICAgICAgICJxdWFudGl0eSI6IGludChyLmdldCgibGJhX3F1YW50aXR5Iikgb3IgMCksCiAgICAgICAgICAgICAgICAid2FyZWhvdXNlX2FnZSI6IGFnZSwKICAgICAgICAgICAgICAgICJpbmJvdW5kX3RpbWUiOiBzZWxmLl90b19kdChyLmdldCgibGJhX2ZpZm9fdGltZSIpKSwKICAgICAgICAgICAgICAgICJhZ2VfYnVja2V0IjogYnVja2V0X2FnZShhZ2UpLAogICAgICAgICAgICAgICAgIndhcmVob3VzZV9jb2RlIjogci5nZXQoIndhcmVob3VzZV9jb2RlIikgb3Igc2VsZi53aF9jb2RlLAogICAgICAgICAgICAgICAgInJhd19qc29uIjogciwKICAgICAgICAgICAgfQogICAgICAgICAgICBzdG10ID0gcGdfaW5zZXJ0KFN0Z0ludmVudG9yeUFnZSkudmFsdWVzKCoqdmFsdWVzKQogICAgICAgICAgICBzdG10ID0gc3RtdC5vbl9jb25mbGljdF9kb191cGRhdGUoCiAgICAgICAgICAgICAgICBpbmRleF9lbGVtZW50cz1bInNuYXBzaG90X2RhdGUiLCAic2t1IiwgIndhcmVob3VzZV9jb2RlIl0sCiAgICAgICAgICAgICAgICBzZXRfPXtrOiB2IGZvciBrLCB2IGluIHZhbHVlcy5pdGVtcygpCiAgICAgICAgICAgICAgICAgICAgICBpZiBrIG5vdCBpbiAoInNuYXBzaG90X2RhdGUiLCAic2t1IiwgIndhcmVob3VzZV9jb2RlIil9LAogICAgICAgICAgICApCiAgICAgICAgICAgIHNlbGYuZGIuZXhlY3V0ZShzdG10KQogICAgICAgICAgICBuICs9IDEKICAgICAgICBzZWxmLmRiLmNvbW1pdCgpCiAgICAgICAgc2VsZi5fbG9nKCJzeW5jX2ludmVudG9yeV9hZ2UiLCAiaW52ZW50b3J5X2FnZV9saXN0IiwgInN1Y2Nlc3MiLCBuLCBOb25lKQogICAgICAgIHJldHVybiBuCgogICAgIyAtLS0tIDQuIOW6k+WtmOeKtuaAgSAtLS0tCiAgICBhc3luYyBkZWYgc3luY19pbnZlbnRvcnlfc3RhdHVzKHNlbGYsIHNuYXBzaG90X2RhdGU6IGRhdGUgfCBOb25lID0gTm9uZSkgLT4gaW50OgogICAgICAgIHNuYXAgPSBzbmFwc2hvdF9kYXRlIG9yIGRhdGUudG9kYXkoKQogICAgICAgIHJlcSA9IFByb2R1Y3RJbnZlbnRvcnlSZXF1ZXN0KHdhcmVob3VzZV9jb2RlPXNlbGYud2hfY29kZSkKICAgICAgICB0cnk6CiAgICAgICAgICAgIHJlc3AgPSBhd2FpdCBzZWxmLmVwLnByb2R1Y3RfaW52ZW50b3J5KHJlcSkKICAgICAgICBleGNlcHQgRXhjZXB0aW9uIGFzIGU6ICAjIG5vcWE6IEJMRTAwMQogICAgICAgICAgICBzZWxmLl9sb2coInN5bmNfaW52ZW50b3J5X3N0YXR1cyIsICJnZXRfcHJvZHVjdF9pbnZlbnRvcnkiLCAiZmFpbGVkIiwgTm9uZSwgc3RyKGUpKQogICAgICAgICAgICByYWlzZQoKICAgICAgICByb3dzID0gc2VsZi5fZXh0cmFjdF9saXN0X3Jvd3MocmVzcCkKICAgICAgICBuID0gMAogICAgICAgIGZvciByIGluIHJvd3M6CiAgICAgICAgICAgIHNrdSA9IHN0cihyLmdldCgicHJvZHVjdF9za3UiKSBvciAiIikKICAgICAgICAgICAgaWYgbm90IHNrdToKICAgICAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgICAgIHZhbHVlcyA9IHsKICAgICAgICAgICAgICAgICJzbmFwc2hvdF9kYXRlIjogc25hcCwKICAgICAgICAgICAgICAgICJza3UiOiBza3UsCiAgICAgICAgICAgICAgICAic2VsbGFibGUiOiBpbnQoci5nZXQoInNlbGxhYmxlIikgb3IgMCksCiAgICAgICAgICAgICAgICAidW5zZWxsYWJsZSI6IGludChyLmdldCgidW5zZWxsYWJsZSIpIG9yIDApLAogICAgICAgICAgICAgICAgInJlc2VydmVkIjogaW50KHIuZ2V0KCJyZXNlcnZlZCIpIG9yIDApLAogICAgICAgICAgICAgICAgIm9ud2F5IjogaW50KHIuZ2V0KCJvbndheSIpIG9yIDApLAogICAgICAgICAgICAgICAgIndhcmVob3VzZV9jb2RlIjogci5nZXQoIndhcmVob3VzZV9jb2RlIikgb3Igc2VsZi53aF9jb2RlLAogICAgICAgICAgICAgICAgInJhd19qc29uIjogciwKICAgICAgICAgICAgfQogICAgICAgICAgICBzdG10ID0gcGdfaW5zZXJ0KFN0Z0ludmVudG9yeVN0YXR1cykudmFsdWVzKCoqdmFsdWVzKQogICAgICAgICAgICBzdG10ID0gc3RtdC5vbl9jb25mbGljdF9kb191cGRhdGUoCiAgICAgICAgICAgICAgICBpbmRleF9lbGVtZW50cz1bInNuYXBzaG90X2RhdGUiLCAic2t1IiwgIndhcmVob3VzZV9jb2RlIl0sCiAgICAgICAgICAgICAgICBzZXRfPXtrOiB2IGZvciBrLCB2IGluIHZhbHVlcy5pdGVtcygpCiAgICAgICAgICAgICAgICAgICAgICBpZiBrIG5vdCBpbiAoInNuYXBzaG90X2RhdGUiLCAic2t1IiwgIndhcmVob3VzZV9jb2RlIil9LAogICAgICAgICAgICApCiAgICAgICAgICAgIHNlbGYuZGIuZXhlY3V0ZShzdG10KQogICAgICAgICAgICBuICs9IDEKICAgICAgICBzZWxmLmRiLmNvbW1pdCgpCiAgICAgICAgc2VsZi5fbG9nKCJzeW5jX2ludmVudG9yeV9zdGF0dXMiLCAiZ2V0X3Byb2R1Y3RfaW52ZW50b3J5IiwgInN1Y2Nlc3MiLCBuLCBOb25lKQogICAgICAgIHJldHVybiBuCgogICAgIyAtLS0tIOWFqOmHj+WQjOatpeWFpeWPoyAtLS0tCiAgICBhc3luYyBkZWYgc3luY19hbGwoCiAgICAgICAgc2VsZiwKICAgICAgICBiZWdpbl9iaWxsX3RvX3RpbWU6IHN0ciB8IE5vbmUgPSBOb25lLAogICAgICAgIGVuZF9iaWxsX3RvX3RpbWU6IHN0ciB8IE5vbmUgPSBOb25lLAogICAgICAgIHNuYXBzaG90X2RhdGU6IGRhdGUgfCBOb25lID0gTm9uZSwKICAgICkgLT4gZGljdFtzdHIsIGludF06CiAgICAgICAgIiIi5L6d5qyh5ZCM5q2lIDQg5Liq5o6l5Y+j77yM6L+U5Zue5ZCE5Lu75Yqh6K6w5b2V5pWw44CCIiIiCiAgICAgICAgcmVzdWx0ID0gewogICAgICAgICAgICAiYmlsbHMiOiAwLAogICAgICAgICAgICAiZmVlX2l0ZW1zIjogMCwKICAgICAgICAgICAgImludmVudG9yeV9hZ2UiOiAwLAogICAgICAgICAgICAiaW52ZW50b3J5X3N0YXR1cyI6IDAsCiAgICAgICAgfQogICAgICAgIHJlc3VsdFsiYmlsbHMiXSA9IGF3YWl0IHNlbGYuc3luY19iaWxscyhiZWdpbl9iaWxsX3RvX3RpbWUsIGVuZF9iaWxsX3RvX3RpbWUpCiAgICAgICAgIyDmi4nor6Xml7bpl7TnqpfmiYDmnInotKbljZXlj7fvvIzpgJDkuKrlkIzmraXmmI7nu4YKICAgICAgICBiaWxsX251bWJlcnMgPSBzZWxmLmRiLnNjYWxhcnMoc2VsZWN0KFN0Z0JpbGwuYmlsbF9udW1iZXIpKS5hbGwoKQogICAgICAgIGZvciBibiBpbiBiaWxsX251bWJlcnM6CiAgICAgICAgICAgIHJlc3VsdFsiZmVlX2l0ZW1zIl0gKz0gYXdhaXQgc2VsZi5zeW5jX2ZlZV9pdGVtcyhibikKICAgICAgICByZXN1bHRbImludmVudG9yeV9hZ2UiXSA9IGF3YWl0IHNlbGYuc3luY19pbnZlbnRvcnlfYWdlKHNuYXBzaG90X2RhdGUpCiAgICAgICAgcmVzdWx0WyJpbnZlbnRvcnlfc3RhdHVzIl0gPSBhd2FpdCBzZWxmLnN5bmNfaW52ZW50b3J5X3N0YXR1cyhzbmFwc2hvdF9kYXRlKQogICAgICAgIHJldHVybiByZXN1bHQKCiAgICAjIC0tLS0g6L6F5Yqp77ya6Kej5p6Q5ZON5bqU57uT5p6EIC0tLS0KICAgIGRlZiBfZXh0cmFjdF9saXN0X3Jvd3Moc2VsZiwgcmVzcDogQW55KSAtPiBsaXN0W2RpY3Rbc3RyLCBBbnldXToKICAgICAgICAiIiLosLfku5MgVjIg6aOO5qC877yaYGB7ImNvZGUiOiAwLCAibWVzc2FnZSI6ICIuLi4iLCAiZGF0YSI6IHsibGlzdCI6IFsuLi5dLCAidG90YWwiOiBOfX1gYOOAggoKICAgICAgICDlhbzlrrnlvaLmgIHvvJoKICAgICAgICAtIGBgeyJkYXRhIjogeyJsaXN0IjogWy4uLl19fWBgICDihpAg5Li75rWBCiAgICAgICAgLSBgYHsiZGF0YSI6IFsuLi5dfWBgICAgICAgICAgICAg4oaQIGV4cG9ydCDnsbvlnosKICAgICAgICAtIGBgeyJkYXRhIjogIjxiYXNlNjQ+In1gYCAgICAgICDihpAg6LSm5Y2V5a+85Ye6CiAgICAgICAgLSDnm7TmjqUgbGlzdAogICAgICAgICIiIgogICAgICAgIGlmIGlzaW5zdGFuY2UocmVzcCwgbGlzdCk6CiAgICAgICAgICAgIHJldHVybiByZXNwCiAgICAgICAgaWYgbm90IGlzaW5zdGFuY2UocmVzcCwgZGljdCk6CiAgICAgICAgICAgIHJldHVybiBbXQogICAgICAgIGRhdGEgPSByZXNwLmdldCgiZGF0YSIpCiAgICAgICAgaWYgaXNpbnN0YW5jZShkYXRhLCBsaXN0KToKICAgICAgICAgICAgcmV0dXJuIGRhdGEKICAgICAgICBpZiBpc2luc3RhbmNlKGRhdGEsIGRpY3QpOgogICAgICAgICAgICBmb3Iga2V5IGluICgibGlzdCIsICJyb3dzIiwgInJlY29yZHMiLCAiaXRlbXMiLCAicmVzdWx0Iik6CiAgICAgICAgICAgICAgICBpZiBpc2luc3RhbmNlKGRhdGEuZ2V0KGtleSksIGxpc3QpOgogICAgICAgICAgICAgICAgICAgIHJldHVybiBkYXRhW2tleV0KICAgICAgICByZXR1cm4gW10KCiAgICBkZWYgX3RvX2R0KHNlbGYsIHY6IEFueSkgLT4gZGF0ZXRpbWUgfCBOb25lOgogICAgICAgIGlmIG5vdCB2OgogICAgICAgICAgICByZXR1cm4gTm9uZQogICAgICAgIGlmIGlzaW5zdGFuY2UodiwgZGF0ZXRpbWUpOgogICAgICAgICAgICByZXR1cm4gdgogICAgICAgIGlmIGlzaW5zdGFuY2Uodiwgc3RyKToKICAgICAgICAgICAgIyDmiKrlm77npLrkvosgIjIwMjEtMDgtMDEiIOaIliAiMjAyMS0wNy0yNyAyMzo1OTo1OSIKICAgICAgICAgICAgZm9yIGZtdCBpbiAoCiAgICAgICAgICAgICAgICAiJVktJW0tJWQgJUg6JU06JVMiLAogICAgICAgICAgICAgICAgIiVZLSVtLSVkIiwKICAgICAgICAgICAgICAgICIlWS0lbS0lZFQlSDolTTolUyIsCiAgICAgICAgICAgICAgICAiJVktJW0tJWRUJUg6JU06JVMuJWYiLAogICAgICAgICAgICApOgogICAgICAgICAgICAgICAgdHJ5OgogICAgICAgICAgICAgICAgICAgIHJldHVybiBkYXRldGltZS5zdHJwdGltZSh2LCBmbXQpCiAgICAgICAgICAgICAgICBleGNlcHQgVmFsdWVFcnJvcjoKICAgICAgICAgICAgICAgICAgICBjb250aW51ZQogICAgICAgICAgICB0cnk6CiAgICAgICAgICAgICAgICBzID0gdi5yZXBsYWNlKCJaIiwgIiswMDowMCIpCiAgICAgICAgICAgICAgICByZXR1cm4gZGF0ZXRpbWUuZnJvbWlzb2Zvcm1hdChzKQogICAgICAgICAgICBleGNlcHQgVmFsdWVFcnJvcjoKICAgICAgICAgICAgICAgIHJldHVybiBOb25lCiAgICAgICAgcmV0dXJuIE5vbmUKCiAgICBkZWYgX3RvX21vbnRoKHNlbGYsIHY6IEFueSkgLT4gc3RyOgogICAgICAgIGR0ID0gc2VsZi5fdG9fZHQodikKICAgICAgICBpZiBkdDoKICAgICAgICAgICAgcmV0dXJuIGR0LnN0cmZ0aW1lKCIlWS0lbSIpCiAgICAgICAgcmV0dXJuIGRhdGV0aW1lLm5vdygpLnN0cmZ0aW1lKCIlWS0lbSIpCg==
+"""数据同步服务：把 GoodCang 4 个接口的响应落库。
+
+职责：
+- 拉取（分页）→ 归一化 → 幂等写入（UPSERT）
+- 每步写 sync_logs
+- 用 fee_category_map 给费用明细归类
+
+字段映射说明（2026-09-01 校准）：
+- billing_list: all_total 是 {balance, currency_code} 嵌套结构；金额从 balance 取
+- inventory_age_list: 关键字段 lba_quantity / lba_fifo_time / lba_warning_age /
+  product_sku / product_title / product_title_en / warehouse_desc / warehouse_age /
+  expiration_date
+- get_product_inventory: 关键字段 product_sku / sellable / unsellable / reserved /
+  shipped / onway / pending / pi_freeze / pi_warning_qty 等
+
+幂等策略（与 database-design.md 一致）：
+- 账单：bill_number 唯一 UPSERT
+- 费用明细：先按账单 delete 后 insert（随账单一起同步）
+- 库存年龄/状态：按 (snapshot_date, sku, warehouse_code) UPSERT
+"""
+from __future__ import annotations
+
+import logging
+from datetime import date, datetime, timezone
+from decimal import Decimal
+from typing import Any
+
+from sqlalchemy import delete, select
+from sqlalchemy.dialects.postgresql import insert as pg_insert
+from sqlalchemy.orm import Session
+
+from app.connectors.goodcang import (
+    BillingExportRequest,
+    BillingListRequest,
+    GoodCangClient,
+    GoodCangEndpoints,
+    InventoryAgeListRequest,
+    ProductInventoryRequest,
+)
+from app.core.config import get_settings
+from app.models import (
+    DimWarehouse,
+    FeeCategoryMap,
+    StgBill,
+    StgBillFeeItem,
+    StgInventoryAge,
+    StgInventoryStatus,
+    SyncLog,
+)
+
+logger = logging.getLogger(__name__)
+
+
+# 库龄分桶规则（功能 C）
+def bucket_age(age_days: int) -> str:
+    if age_days < 90:
+        return "healthy"
+    if age_days < 180:
+        return "watch"
+    if age_days < 365:
+        return "stale"
+    return "critical"
+
+
+def _balance_amount(raw: Any, prefer_currency: str = "EUR") -> Decimal:
+    """提取账单金额。
+
+    真实响应（2026-09-01 实调）：金额字段是**多币种数组**，形如
+    ``[{"currency_code": "EUR", "balance": "25869.46"}, ...]``。
+    优先取 ``prefer_currency`` 的非零 balance；找不到则取第一个非零 balance；
+    全为 0 则返回 0。兼容单个 ``{balance, currency_code}`` dict 与裸数值。
+    """
+    if raw is None:
+        return Decimal("0")
+
+    # 多币种数组
+    if isinstance(raw, list):
+        items = raw
+        # 1) 优先币种（非零）
+        for it in items:
+            if isinstance(it, dict) and it.get("currency_code") == prefer_currency:
+                v = it.get("balance")
+                if v not in (None, "", "0", 0):
+                    try:
+                        return Decimal(str(v))
+                    except Exception:  # noqa: BLE001
+                        continue
+        # 2) 第一个非零
+        for it in items:
+            if isinstance(it, dict):
+                v = it.get("balance")
+                if v not in (None, "", "0", 0):
+                    try:
+                        return Decimal(str(v))
+                    except Exception:  # noqa: BLE001
+                        continue
+        return Decimal("0")
+
+    # 单个对象 / 裸值（向后兼容）
+    if isinstance(raw, dict):
+        v = raw.get("balance")
+    else:
+        v = raw
+    try:
+        return Decimal(str(v or 0))
+    except Exception:  # noqa: BLE001
+        return Decimal("0")
+
+
+def _balance_currency(raw: Any, default: str = "EUR") -> str:
+    """提取主币种：优先 EUR；否则取第一个非零金额的币种；兜底 default。"""
+    if isinstance(raw, list):
+        for it in raw:
+            if isinstance(it, dict):
+                cc = it.get("currency_code")
+                bal = it.get("balance")
+                if cc and bal not in (None, "", "0", 0):
+                    return cc
+        for it in raw:
+            if isinstance(it, dict) and it.get("currency_code"):
+                return it["currency_code"]
+        return default
+    if isinstance(raw, dict):
+        c = raw.get("currency_code")
+        if c:
+            return c
+    return default
+
+
+class SyncService:
+    """数据同步编排。每个接口一个方法，返回处理的记录数。"""
+
+    def __init__(
+        self, db: Session, client: GoodCangClient, endpoints: GoodCangEndpoints
+    ) -> None:
+        self.db = db
+        self.client = client
+        self.ep = endpoints
+        self.settings = get_settings()
+        self.wh_code = self.settings.goodcang_warehouse_code
+
+    # ---- 同步日志辅助 ----
+    def _log(
+        self,
+        task_name: str,
+        endpoint: str,
+        status: str,
+        records: int | None,
+        message: str | None,
+    ) -> None:
+        self.db.add(
+            SyncLog(
+                task_name=task_name,
+                endpoint=endpoint,
+                status=status,
+                records_affected=records,
+                message=message,
+                finished_at=datetime.now(timezone.utc),
+            )
+        )
+        self.db.commit()
+
+    # ---- 费用归类 ----
+    def _classify(self, fee_name: str) -> str:
+        """按 fee_category_map 匹配 fee_name；未命中归 other。"""
+        maps = self.db.scalars(
+            select(FeeCategoryMap).order_by(FeeCategoryMap.priority)
+        ).all()
+        for m in maps:
+            if m.match_keyword and m.match_keyword in fee_name:
+                return m.fee_category
+        return "other"
+
+    # ---- 1. 账单主表 ----
+    async def sync_bills(
+        self,
+        begin_bill_to_time: str | None = None,
+        end_bill_to_time: str | None = None,
+        account_code: str | None = None,
+    ) -> int:
+        """同步账单主表（按时间区间或单号）。
+
+        - 默认同步最近 3 个月到现在的账单
+        - account_code 可选（3-20 位客户编码，如 ACG1505603）；不传则拉全部客户账单。
+          注意：account_code 不是 AppToken，而是谷仓的客户编码。
+        """
+        req = BillingListRequest(
+            account_code=account_code,
+            begin_bill_to_time=begin_bill_to_time,
+            end_bill_to_time=end_bill_to_time,
+        )
+        try:
+            resp = await self.ep.billing_list(req)
+        except Exception as e:  # noqa: BLE001
+            self._log("sync_bills", "billing_list", "failed", None, str(e))
+            raise
+
+        rows = self._extract_list_rows(resp)
+        n = 0
+        for r in rows:
+            n += self._upsert_bill(r)
+        self.db.commit()
+        self._log("sync_bills", "billing_list", "success", n, None)
+        return n
+
+    def _upsert_bill(self, r: dict[str, Any]) -> int:
+        """单条账单 UPSERT（幂等）。"""
+        bill_number = str(r.get("bill_number") or "")
+        if not bill_number:
+            return 0
+        all_total = r.get("all_total") or []
+        values = {
+            "bill_number": bill_number,
+            "account_code": r.get("account_code"),
+            "bill_from_time": self._to_dt(r.get("bill_from_time")),
+            "bill_to_time": self._to_dt(r.get("bill_to_time")),
+            "bill_month": self._to_month(r.get("bill_to_time") or r.get("bill_from_time")),
+            "all_total": _balance_amount(all_total, "EUR"),
+            "currency_code": _balance_currency(all_total, "EUR"),
+            "warehouse_code": r.get("warehouse_code") or self.wh_code,
+            "raw_json": r,
+        }
+        stmt = pg_insert(StgBill).values(**values)
+        stmt = stmt.on_conflict_do_update(
+            index_elements=["bill_number"],
+            set_={k: v for k, v in values.items() if k != "bill_number"},
+        )
+        self.db.execute(stmt)
+        return 1
+
+    # ---- 2. 费用明细 ----
+    async def sync_fee_items(self, bill_number: str) -> int:
+        """同步某账单的费用明细。随账单先删后插。
+
+        注意：谷仓的 billing_export 返回的是 base64 文件（xlsx/zip），不是结构化 JSON。
+        完整解析需要 xlsx 解码（依赖 openpyxl），V1 暂存为 raw 记录 + 同步日志，
+        后续可由 Step 8（二期）展开为费用行明细。
+        """
+        from app.core.config import get_settings as _gs
+        account = _gs().goodcang_app_token
+        req = BillingExportRequest(bill_number_list=[bill_number])
+        try:
+            resp = await self.ep.billing_export(req)
+        except Exception as e:  # noqa: BLE001
+            self._log("sync_fee_items", "billing_export", "failed", None, str(e))
+            raise
+
+        # billing_export.data 是 base64 字符串，存到 raw_json 即可
+        data_b64 = ""
+        if isinstance(resp, dict):
+            data_b64 = str(resp.get("data") or "")
+        self.db.add(StgBillFeeItem(
+            bill_number=bill_number,
+            fee_name="[export] base64 file",
+            fee_category=self._classify(""),
+            amount=Decimal("0"),
+            currency_code="EUR",
+            related_sku=None,
+            bill_month=self._to_month(None),
+            raw_json={"data": data_b64[:200] + "..." if len(data_b64) > 200 else data_b64,
+                      "full_length": len(data_b64)},
+        ))
+        self.db.commit()
+        self._log("sync_fee_items", "billing_export", "success", 1, f"file bytes={len(data_b64)}")
+        return 1
+
+    # ---- 3. 库存库龄 ----
+    async def sync_inventory_age(self, snapshot_date: date | None = None) -> int:
+        snap = snapshot_date or date.today()
+        req = InventoryAgeListRequest(warehouse_code=self.wh_code)
+        try:
+            resp = await self.ep.inventory_age_list(req)
+        except Exception as e:  # noqa: BLE001
+            self._log("sync_inventory_age", "inventory_age_list", "failed", None, str(e))
+            raise
+
+        rows = self._extract_list_rows(resp)
+        n = 0
+        for r in rows:
+            sku = str(r.get("product_sku") or "")
+            if not sku:
+                continue
+            age = self._to_int(r.get("warehouse_age"))
+            values = {
+                "snapshot_date": snap,
+                "sku": sku,
+                "product_name": r.get("product_title") or r.get("product_title_en"),
+                "quantity": self._to_int(r.get("iba_quantity")),
+                "warehouse_age": age,
+                "inbound_time": self._to_dt(r.get("iba_fifo_time")),
+                "age_bucket": bucket_age(age),
+                "warehouse_code": r.get("warehouse_code") or self.wh_code,
+                "raw_json": r,
+            }
+            stmt = pg_insert(StgInventoryAge).values(**values)
+            stmt = stmt.on_conflict_do_update(
+                index_elements=["snapshot_date", "sku", "warehouse_code"],
+                set_={k: v for k, v in values.items()
+                      if k not in ("snapshot_date", "sku", "warehouse_code")},
+            )
+            self.db.execute(stmt)
+            n += 1
+        self.db.commit()
+        self._log("sync_inventory_age", "inventory_age_list", "success", n, None)
+        return n
+
+    # ---- 4. 库存状态 ----
+    async def sync_inventory_status(self, snapshot_date: date | None = None) -> int:
+        snap = snapshot_date or date.today()
+        req = ProductInventoryRequest(warehouse_code=self.wh_code)
+        try:
+            resp = await self.ep.product_inventory(req)
+        except Exception as e:  # noqa: BLE001
+            self._log("sync_inventory_status", "get_product_inventory", "failed", None, str(e))
+            raise
+
+        rows = self._extract_list_rows(resp)
+        n = 0
+        for r in rows:
+            sku = str(r.get("product_sku") or "")
+            if not sku:
+                continue
+            values = {
+                "snapshot_date": snap,
+                "sku": sku,
+                "sellable": self._to_int(r.get("sellable")),
+                "unsellable": self._to_int(r.get("unsellable")),
+                "reserved": self._to_int(r.get("reserved")),
+                "onway": self._to_int(r.get("onway")),
+                "warehouse_code": r.get("warehouse_code") or self.wh_code,
+                "raw_json": r,
+            }
+            stmt = pg_insert(StgInventoryStatus).values(**values)
+            stmt = stmt.on_conflict_do_update(
+                index_elements=["snapshot_date", "sku", "warehouse_code"],
+                set_={k: v for k, v in values.items()
+                      if k not in ("snapshot_date", "sku", "warehouse_code")},
+            )
+            self.db.execute(stmt)
+            n += 1
+        self.db.commit()
+        self._log("sync_inventory_status", "get_product_inventory", "success", n, None)
+        return n
+
+    # ---- 全量同步入口 ----
+    async def sync_all(
+        self,
+        begin_bill_to_time: str | None = None,
+        end_bill_to_time: str | None = None,
+        snapshot_date: date | None = None,
+    ) -> dict[str, int]:
+        """依次同步 4 个接口，返回各任务记录数。"""
+        result = {
+            "bills": 0,
+            "fee_items": 0,
+            "inventory_age": 0,
+            "inventory_status": 0,
+        }
+        result["bills"] = await self.sync_bills(begin_bill_to_time, end_bill_to_time)
+        # 拉该时间窗所有账单号，逐个同步明细
+        bill_numbers = self.db.scalars(select(StgBill.bill_number)).all()
+        for bn in bill_numbers:
+            result["fee_items"] += await self.sync_fee_items(bn)
+        result["inventory_age"] = await self.sync_inventory_age(snapshot_date)
+        result["inventory_status"] = await self.sync_inventory_status(snapshot_date)
+        return result
+
+    # ---- 辅助：解析响应结构 ----
+    def _extract_list_rows(self, resp: Any) -> list[dict[str, Any]]:
+        """谷仓 V2 风格：``{"code": 0, "message": "...", "data": {"list": [...], "total": N}}``。
+
+        兼容形态：
+        - ``{"data": {"list": [...]}}``  ← 主流
+        - ``{"data": [...]}``            ← export 类型
+        - ``{"data": "<base64>"}``       ← 账单导出
+        - 直接 list
+        """
+        if isinstance(resp, list):
+            return resp
+        if not isinstance(resp, dict):
+            return []
+        data = resp.get("data")
+        if isinstance(data, list):
+            return data
+        if isinstance(data, dict):
+            for key in ("list", "rows", "records", "items", "result"):
+                if isinstance(data.get(key), list):
+                    return data[key]
+        return []
+
+    def _to_int(self, v: Any) -> int:
+        """兼容字符串数值（谷仓部分数量字段返回 "120" 而非 120）。"""
+        if v is None or v == "":
+            return 0
+        try:
+            return int(v)
+        except (TypeError, ValueError):
+            try:
+                return int(float(v))
+            except (TypeError, ValueError):
+                return 0
+
+    def _to_dt(self, v: Any) -> datetime | None:
+        if not v:
+            return None
+        if isinstance(v, datetime):
+            return v
+        if isinstance(v, str):
+            # 截图示例 "2021-08-01" 或 "2021-07-27 23:59:59"
+            for fmt in (
+                "%Y-%m-%d %H:%M:%S",
+                "%Y-%m-%d",
+                "%Y-%m-%dT%H:%M:%S",
+                "%Y-%m-%dT%H:%M:%S.%f",
+            ):
+                try:
+                    return datetime.strptime(v, fmt)
+                except ValueError:
+                    continue
+            try:
+                s = v.replace("Z", "+00:00")
+                return datetime.fromisoformat(s)
+            except ValueError:
+                return None
+        return None
+
+    def _to_month(self, v: Any) -> str:
+        dt = self._to_dt(v)
+        if dt:
+            return dt.strftime("%Y-%m")
+        return datetime.now().strftime("%Y-%m")

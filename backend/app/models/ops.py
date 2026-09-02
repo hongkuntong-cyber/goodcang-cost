@@ -1,1 +1,26 @@
-IiIi6L+Q57u06KGo77yac3luY19sb2dz77yI5pWw5o2u5ZCM5q2l5pel5b+X77yJ44CCIiIiCmZyb20gX19mdXR1cmVfXyBpbXBvcnQgYW5ub3RhdGlvbnMKCmZyb20gZGF0ZXRpbWUgaW1wb3J0IGRhdGV0aW1lCgpmcm9tIHNxbGFsY2hlbXkgaW1wb3J0IERhdGVUaW1lLCBJbnRlZ2VyLCBTdHJpbmcsIGZ1bmMKZnJvbSBzcWxhbGNoZW15Lm9ybSBpbXBvcnQgTWFwcGVkLCBtYXBwZWRfY29sdW1uCgpmcm9tIGFwcC5jb3JlLmRhdGFiYXNlIGltcG9ydCBCYXNlCgoKY2xhc3MgU3luY0xvZyhCYXNlKToKICAgICIiIuWQjOatpeS7u+WKoeaXpeW/l++8mueKtuaAgeOAgeiusOW9leaVsOOAgei1t+atouaXtumXtOOAgea2iOaBr+OAgiIiIgoKICAgIF9fdGFibGVuYW1lX18gPSAic3luY19sb2dzIgoKICAgIGlkOiBNYXBwZWRbaW50XSA9IG1hcHBlZF9jb2x1bW4oSW50ZWdlciwgcHJpbWFyeV9rZXk9VHJ1ZSwgYXV0b2luY3JlbWVudD1UcnVlKQogICAgdGFza19uYW1lOiBNYXBwZWRbc3RyXSA9IG1hcHBlZF9jb2x1bW4oU3RyaW5nKDY0KSwgbnVsbGFibGU9RmFsc2UpCiAgICBlbmRwb2ludDogTWFwcGVkW3N0cl0gPSBtYXBwZWRfY29sdW1uKFN0cmluZyg2NCksIG51bGxhYmxlPUZhbHNlKQogICAgc3RhdHVzOiBNYXBwZWRbc3RyXSA9IG1hcHBlZF9jb2x1bW4oU3RyaW5nKDE2KSwgbnVsbGFibGU9RmFsc2UpICAjIHJ1bm5pbmcvc3VjY2Vzcy9mYWlsZWQKICAgIHJlY29yZHNfYWZmZWN0ZWQ6IE1hcHBlZFtpbnQgfCBOb25lXSA9IG1hcHBlZF9jb2x1bW4oSW50ZWdlcikKICAgIG1lc3NhZ2U6IE1hcHBlZFtzdHIgfCBOb25lXSA9IG1hcHBlZF9jb2x1bW4oKQogICAgc3RhcnRlZF9hdDogTWFwcGVkW2RhdGV0aW1lXSA9IG1hcHBlZF9jb2x1bW4oCiAgICAgICAgRGF0ZVRpbWUodGltZXpvbmU9VHJ1ZSksIHNlcnZlcl9kZWZhdWx0PWZ1bmMubm93KCksIG51bGxhYmxlPUZhbHNlCiAgICApCiAgICBmaW5pc2hlZF9hdDogTWFwcGVkW2RhdGV0aW1lIHwgTm9uZV0gPSBtYXBwZWRfY29sdW1uKERhdGVUaW1lKHRpbWV6b25lPVRydWUpKQ==
+"""运维表：sync_logs（数据同步日志）。"""
+from __future__ import annotations
+
+from datetime import datetime
+
+from sqlalchemy import DateTime, Integer, String, func
+from sqlalchemy.orm import Mapped, mapped_column
+
+from app.core.database import Base
+
+
+class SyncLog(Base):
+    """同步任务日志：状态、记录数、起止时间、消息。"""
+
+    __tablename__ = "sync_logs"
+
+    id: Mapped[int] = mapped_column(Integer, primary_key=True, autoincrement=True)
+    task_name: Mapped[str] = mapped_column(String(64), nullable=False)
+    endpoint: Mapped[str] = mapped_column(String(64), nullable=False)
+    status: Mapped[str] = mapped_column(String(16), nullable=False)  # running/success/failed
+    records_affected: Mapped[int | None] = mapped_column(Integer)
+    message: Mapped[str | None] = mapped_column()
+    started_at: Mapped[datetime] = mapped_column(
+        DateTime(timezone=True), server_default=func.now(), nullable=False
+    )
+    finished_at: Mapped[datetime | None] = mapped_column(DateTime(timezone=True))

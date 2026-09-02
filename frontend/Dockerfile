@@ -1,1 +1,12 @@
-IyDliY3nq6/mnoTlu7ogKyDov5DooYzvvIhOZ2lueCDpnZnmgIHmiZjnrqEgKyDlj43ku6PlkI7nq6/vvIkKRlJPTSBub2RlOjIwLWFscGluZSBBUyBidWlsZApXT1JLRElSIC9hcHAKQ09QWSBwYWNrYWdlLmpzb24gLi8KUlVOIG5wbSBpbnN0YWxsCkNPUFkgLiAuClJVTiBucG0gcnVuIGJ1aWxkCgpGUk9NIG5naW54OmFscGluZQpDT1BZIC0tZnJvbT1idWlsZCAvYXBwL2Rpc3QgL3Vzci9zaGFyZS9uZ2lueC9odG1sCkNPUFkgbmdpbnguY29uZiAvZXRjL25naW54L2NvbmYuZC9kZWZhdWx0LmNvbmYKRVhQT1NFIDgwCg==
+# 前端构建 + 运行（Nginx 静态托管 + 反代后端）
+FROM node:20-alpine AS build
+WORKDIR /app
+COPY package.json ./
+RUN npm install
+COPY . .
+RUN npm run build
+
+FROM nginx:alpine
+COPY --from=build /app/dist /usr/share/nginx/html
+COPY nginx.conf /etc/nginx/conf.d/default.conf
+EXPOSE 80

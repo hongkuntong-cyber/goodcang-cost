@@ -1,1 +1,61 @@
-IiIi5bqU55So6YWN572u77ya6YCa6L+HIHB5ZGFudGljLXNldHRpbmdzIOS7jiAuZW52IC8g546v5aKD5Y+Y6YeP6K+75Y+W44CCCgrorr7orqHljp/liJnvvJoKLSDnu53kuI3lnKjku6PnoIHkuK3noaznvJbnoIHmlY/mhJ/kv6Hmga/vvIhHb29kQ2FuZyBBcHBUb2tlbi9BcHBLZXnjgIHmlbDmja7lupPlr4bnoIHnrYnvvIkKLSDmiYDmnInlj6/phY3nva7pobnpm4bkuK3lnKggU2V0dGluZ3Mg5Y2V5L6L77yM5L6/5LqO5rWL6K+V5pe26YCa6L+HIGVudiDopobnm5YKIiIiCmZyb20gX19mdXR1cmVfXyBpbXBvcnQgYW5ub3RhdGlvbnMKCmZyb20gZnVuY3Rvb2xzIGltcG9ydCBscnVfY2FjaGUKCmZyb20gcHlkYW50aWMgaW1wb3J0IEZpZWxkCmZyb20gcHlkYW50aWNfc2V0dGluZ3MgaW1wb3J0IEJhc2VTZXR0aW5ncywgU2V0dGluZ3NDb25maWdEaWN0CgoKY2xhc3MgU2V0dGluZ3MoQmFzZVNldHRpbmdzKToKICAgICIiIuWFqOWxgOmFjee9ruOAguaJgOacieWtl+autemDveS8muS7jiAuZW52IOaIlueOr+Wig+WPmOmHj+ivu+WPluOAgiIiIgoKICAgIG1vZGVsX2NvbmZpZyA9IFNldHRpbmdzQ29uZmlnRGljdCgKICAgICAgICBlbnZfZmlsZT0iLmVudiIsCiAgICAgICAgZW52X2ZpbGVfZW5jb2Rpbmc9InV0Zi04IiwKICAgICAgICBleHRyYT0iaWdub3JlIiwKICAgICAgICBjYXNlX3NlbnNpdGl2ZT1GYWxzZSwKICAgICkKCiAgICAjIC0tLS0g5bqU55So5Z+656GAIC0tLS0KICAgIGFwcF9uYW1lOiBzdHIgPSBGaWVsZChkZWZhdWx0PSJHb29kQ2FuZyBDb3N0IEludGVsbGlnZW5jZSIsIGFsaWFzPSJBUFBfTkFNRSIpCiAgICBhcHBfZW52OiBzdHIgPSBGaWVsZChkZWZhdWx0PSJkZXYiLCBhbGlhcz0iQVBQX0VOViIpICAjIGRldiAvIHVhdCAvIHByb2QKICAgIGxvZ19sZXZlbDogc3RyID0gRmllbGQoZGVmYXVsdD0iSU5GTyIsIGFsaWFzPSJMT0dfTEVWRUwiKQoKICAgICMgLS0tLSDmlbDmja7lupMgLS0tLQogICAgZGF0YWJhc2VfdXJsOiBzdHIgPSBGaWVsZCgKICAgICAgICBkZWZhdWx0PSJwb3N0Z3Jlc3FsK3BzeWNvcGcyOi8vZ29vZGNhbmc6Z29vZGNhbmdAbG9jYWxob3N0OjU0MzIvZ29vZGNhbmdfY29zdCIsCiAgICAgICAgYWxpYXM9IkRBVEFCQVNFX1VSTCIsCiAgICApCgogICAgIyAtLS0tIOiwt+S7kyBHb29kQ2FuZyBPcGVuIEFQSSAtLS0tCiAgICAjIOmJtOadg+aWueW8j++8iDIwMjYtMDktMDEg5qCh5YeG77yJ77ya6LC35LuT6YeH55SoIEhUVFAgSGVhZGVyIOmJtOadg++8jOavj+asoeivt+axgumcgOaQuuW4puS4pOS4qiBoZWFkZXIKICAgICMgICAtIGFwcC10b2tlbiA6IEFwcFRva2Vu77yI6LSm5Y+357u05bqm77yJCiAgICAjICAgLSBhcHAta2V5ICAgOiBBcHBLZXnvvIjotKblj7fnu7TluqbvvIkKICAgICMg5o6l5Y+j5pa55rOV57uf5LiA5Li6IFBPU1QgKyBKU09OIGJvZHnvvIzkuJrliqHmjqXlj6Pot6/lvoTliY3nvIDkuLogL3B1YmxpY19vcGVuCiAgICAjIOWHreaNruWcqCBHV0MgT01TIOWQjuWPsCDihpIg5oiR55qEIOKGkiDlvIDlj5HogIXkv6Hmga8g4oaSIOa1t+WkluS7kyDojrflj5YKICAgIGdvb2RjYW5nX2FwcF90b2tlbjogc3RyID0gRmllbGQoZGVmYXVsdD0iIiwgYWxpYXM9IkdPT0RDQU5HX0FQUF9UT0tFTiIpCiAgICBnb29kY2FuZ19hcHBfa2V5OiBzdHIgPSBGaWVsZChkZWZhdWx0PSIiLCBhbGlhcz0iR09PRENBTkdfQVBQX0tFWSIpCiAgICBnb29kY2FuZ19iYXNlX3VybDogc3RyID0gRmllbGQoCiAgICAgICAgZGVmYXVsdD0iaHR0cHM6Ly9vbXMuZ29vZGNhbmcubmV0IiwgYWxpYXM9IkdPT0RDQU5HX0JBU0VfVVJMIgogICAgKQogICAgZ29vZGNhbmdfd2FyZWhvdXNlX2NvZGU6IHN0ciA9IEZpZWxkKAogICAgICAgIGRlZmF1bHQ9IiIsIGFsaWFzPSJHT09EQ0FOR19XQVJFSE9VU0VfQ09ERSIKICAgICkKICAgIGdvb2RjYW5nX3RpbWVvdXQ6IGludCA9IEZpZWxkKGRlZmF1bHQ9MzAsIGFsaWFzPSJHT09EQ0FOR19USU1FT1VUIikKICAgIGdvb2RjYW5nX21heF9yZXRyeTogaW50ID0gRmllbGQoZGVmYXVsdD0zLCBhbGlhcz0iR09PRENBTkdfTUFYX1JFVFJZIikKCiAgICAjIC0tLS0g5ZCM5q2l5Lu75YqhIC0tLS0KICAgIHN5bmNfZW5hYmxlZDogYm9vbCA9IEZpZWxkKGRlZmF1bHQ9VHJ1ZSwgYWxpYXM9IlNZTkNfRU5BQkxFRCIpCiAgICBzeW5jX2Nyb246IHN0ciA9IEZpZWxkKGRlZmF1bHQ9IjAgMiAqICogKiIsIGFsaWFzPSJTWU5DX0NST04iKSAgIyDpu5jorqTmr4/ml6UgMDI6MDAKCgpAbHJ1X2NhY2hlKG1heHNpemU9MSkKZGVmIGdldF9zZXR0aW5ncygpIC0+IFNldHRpbmdzOgogICAgIiIi5o+Q5L6b57yT5a2Y55qEIFNldHRpbmdzIOWNleS+i+OAgiIiIgogICAgcmV0dXJuIFNldHRpbmdzKCk=
+"""应用配置：通过 pydantic-settings 从 .env / 环境变量读取。
+
+设计原则：
+- 绝不在代码中硬编码敏感信息（GoodCang AppToken/AppKey、数据库密码等）
+- 所有可配置项集中在 Settings 单例，便于测试时通过 env 覆盖
+"""
+from __future__ import annotations
+
+from functools import lru_cache
+
+from pydantic import Field
+from pydantic_settings import BaseSettings, SettingsConfigDict
+
+
+class Settings(BaseSettings):
+    """全局配置。所有字段都会从 .env 或环境变量读取。"""
+
+    model_config = SettingsConfigDict(
+        env_file=".env",
+        env_file_encoding="utf-8",
+        extra="ignore",
+        case_sensitive=False,
+    )
+
+    # ---- 应用基础 ----
+    app_name: str = Field(default="GoodCang Cost Intelligence", alias="APP_NAME")
+    app_env: str = Field(default="dev", alias="APP_ENV")  # dev / uat / prod
+    log_level: str = Field(default="INFO", alias="LOG_LEVEL")
+
+    # ---- 数据库 ----
+    database_url: str = Field(
+        default="postgresql+psycopg2://goodcang:goodcang@localhost:5432/goodcang_cost",
+        alias="DATABASE_URL",
+    )
+
+    # ---- 谷仓 GoodCang Open API ----
+    # 鉴权方式（2026-09-01 校准）：谷仓采用 HTTP Header 鉴权，每次请求需携带两个 header
+    #   - app-token : AppToken（账号维度）
+    #   - app-key   : AppKey（账号维度）
+    # 接口方法统一为 POST + JSON body，业务接口路径前缀为 /public_open
+    # 凭据在 GWC OMS 后台 → 我的 → 开发者信息 → 海外仓 获取
+    goodcang_app_token: str = Field(default="", alias="GOODCANG_APP_TOKEN")
+    goodcang_app_key: str = Field(default="", alias="GOODCANG_APP_KEY")
+    goodcang_base_url: str = Field(
+        default="https://oms.goodcang.net", alias="GOODCANG_BASE_URL"
+    )
+    goodcang_warehouse_code: str = Field(
+        default="", alias="GOODCANG_WAREHOUSE_CODE"
+    )
+    goodcang_timeout: int = Field(default=30, alias="GOODCANG_TIMEOUT")
+    goodcang_max_retry: int = Field(default=3, alias="GOODCANG_MAX_RETRY")
+
+    # ---- 同步任务 ----
+    sync_enabled: bool = Field(default=True, alias="SYNC_ENABLED")
+    sync_cron: str = Field(default="0 2 * * *", alias="SYNC_CRON")  # 默认每日 02:00
+
+
+@lru_cache(maxsize=1)
+def get_settings() -> Settings:
+    """提供缓存的 Settings 单例。"""
+    return Settings()

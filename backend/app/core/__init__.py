@@ -1,1 +1,1 @@
-IiIi5qC45b+D5bGC77ya6YWN572u44CB5pWw5o2u5bqT6L+e5o6l44CB5pel5b+X562J5Z+656GA6K6+5pa944CCIiIi
+"""核心层：配置、数据库连接、日志等基础设施。"""

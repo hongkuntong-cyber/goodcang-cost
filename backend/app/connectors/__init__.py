@@ -1,1 +1,5 @@
-IiIi56ys5LiJ5pa5IEFQSSDov57mjqXlmajljIXjgIIKCi0gZ29vZGNhbmcgIDog6LC35LuT5byA5pS+5bmz5Y+w77yI5rW35aSW5LuT77yJCuWQjue7reWPr+S7peWKoCA0cHggLyB0aWt0b2sgLyB0ZW11IOetieWFtuS7luaVsOaNrua6kOOAggoiIiI=
+"""第三方 API 连接器包。
+
+- goodcang  : 谷仓开放平台（海外仓）
+后续可以加 4px / tiktok / temu 等其他数据源。
+"""

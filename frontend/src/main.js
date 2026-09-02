@@ -1,1 +1,5 @@
-aW1wb3J0IHsgY3JlYXRlQXBwIH0gZnJvbSAndnVlJwppbXBvcnQgQXBwIGZyb20gJy4vQXBwLnZ1ZScKaW1wb3J0ICcuL2Fzc2V0cy9tYWluLmNzcycKCmNyZWF0ZUFwcChBcHApLm1vdW50KCcjYXBwJykK
+import { createApp } from 'vue'
+import App from './App.vue'
+import './assets/main.css'
+
+createApp(App).mount('#app')

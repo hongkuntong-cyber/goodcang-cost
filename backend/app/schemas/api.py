@@ -1,1 +1,62 @@
-IiIiQVBJIOWTjeW6lOeahCBQeWRhbnRpYyDmqKHlnovvvIjkvpsgRmFzdEFQSSDot6/nlLEgKyDliY3nq6/mtojotLnvvInjgIIiIiIKZnJvbSBfX2Z1dHVyZV9fIGltcG9ydCBhbm5vdGF0aW9ucwoKZnJvbSB0eXBpbmcgaW1wb3J0IEFueQoKZnJvbSBweWRhbnRpYyBpbXBvcnQgQmFzZU1vZGVsCgoKY2xhc3MgSGVhbHRoUmVzcG9uc2UoQmFzZU1vZGVsKToKICAgIHN0YXR1czogc3RyCiAgICBhcHA6IHN0cgogICAgZW52OiBzdHIKCgpjbGFzcyBDb3N0VHJlbmRJdGVtKEJhc2VNb2RlbCk6CiAgICBtb250aDogc3RyCiAgICB0b3RhbDogZmxvYXQKICAgIHN0b3JhZ2U6IGZsb2F0CiAgICB0cmFuc3BvcnQ6IGZsb2F0CiAgICBtb21fcGN0OiBmbG9hdCB8IE5vbmUgPSBOb25lCgoKY2xhc3MgQ29zdFN0cnVjdHVyZUl0ZW0oQmFzZU1vZGVsKToKICAgIGNhdGVnb3J5OiBzdHIKICAgIGxhYmVsOiBzdHIKICAgIGFtb3VudDogZmxvYXQKCgpjbGFzcyBJbnZlbnRvcnlCdWNrZXQoQmFzZU1vZGVsKToKICAgIGJ1Y2tldDogc3RyCiAgICBsYWJlbDogc3RyCiAgICBza3VfY291bnQ6IGludAogICAgcXVhbnRpdHk6IGludAogICAgcXR5X3BjdDogZmxvYXQKCgpjbGFzcyBSaXNrU2t1SXRlbShCYXNlTW9kZWwpOgogICAgcmFuazogaW50CiAgICBza3U6IHN0cgogICAgcHJvZHVjdF9uYW1lOiBzdHIgfCBOb25lCiAgICBxdWFudGl0eTogaW50CiAgICB3YXJlaG91c2VfYWdlOiBpbnQKICAgIGFnZV9idWNrZXQ6IHN0cgogICAgbGFiZWw6IHN0cgoKCmNsYXNzIE1vbnRobHlSZXBvcnRSZXNwb25zZShCYXNlTW9kZWwpOgogICAgcmVwb3J0X21vbnRoOiBzdHIKICAgIHRpdGxlOiBzdHIKICAgIGNvc3RfY2hhbmdlOiBkaWN0W3N0ciwgQW55XQogICAgY29zdF9kcml2ZXJzOiBkaWN0W3N0ciwgQW55XQogICAgaW52ZW50b3J5X3Jpc2s6IGRpY3Rbc3RyLCBBbnldCiAgICByZWNvbW1lbmRhdGlvbnM6IGxpc3RbZGljdFtzdHIsIHN0cl1dCiAgICBjb250ZW50X21kOiBzdHIKICAgIHN0YXR1czogc3RyCgoKY2xhc3MgU3luY1Jlc3VsdFJlc3BvbnNlKEJhc2VNb2RlbCk6CiAgICBiaWxsczogaW50CiAgICBmZWVfaXRlbXM6IGludAogICAgaW52ZW50b3J5X2FnZTogaW50CiAgICBpbnZlbnRvcnlfc3RhdHVzOiBpbnQ=
+"""API 响应的 Pydantic 模型（供 FastAPI 路由 + 前端消费）。"""
+from __future__ import annotations
+
+from typing import Any
+
+from pydantic import BaseModel
+
+
+class HealthResponse(BaseModel):
+    status: str
+    app: str
+    env: str
+
+
+class CostTrendItem(BaseModel):
+    month: str
+    total: float
+    storage: float
+    transport: float
+    mom_pct: float | None = None
+
+
+class CostStructureItem(BaseModel):
+    category: str
+    label: str
+    amount: float
+
+
+class InventoryBucket(BaseModel):
+    bucket: str
+    label: str
+    sku_count: int
+    quantity: int
+    qty_pct: float
+
+
+class RiskSkuItem(BaseModel):
+    rank: int
+    sku: str
+    product_name: str | None
+    quantity: int
+    warehouse_age: int
+    age_bucket: str
+    label: str
+
+
+class MonthlyReportResponse(BaseModel):
+    report_month: str
+    title: str
+    cost_change: dict[str, Any]
+    cost_drivers: dict[str, Any]
+    inventory_risk: dict[str, Any]
+    recommendations: list[dict[str, str]]
+    content_md: str
+    status: str
+
+
+class SyncResultResponse(BaseModel):
+    bills: int
+    fee_items: int
+    inventory_age: int
+    inventory_status: int

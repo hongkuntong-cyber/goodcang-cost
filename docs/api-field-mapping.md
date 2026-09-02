@@ -1,1 +1,355 @@
-IyDosLfku5MgR29vZENhbmcgQVBJIOWtl+auteaYoOWwhOaWh+ahowoKPiDpobnnm67vvJpHb29kQ2FuZyBPdmVyc2VhcyBXYXJlaG91c2UgQ29zdCBJbnRlbGxpZ2VuY2UKPiDmlbDmja7mupDvvJrosLfku5MgR29vZENhbmcgT3BlbiBBUEkKPiDmoKHlh4bml6XmnJ/vvJoyMDI2LTA5LTAx77yI5Z+65LqO5a6Y5pa555m75b2V5ZCO55qE5o6l5Y+j5paH5qGj5oiq5Zu+77yJCgotLS0KCiMjIDAuIOaOpeWFpeivtOaYjgoKfCDpobkgfCDlhoXlrrkgfAp8IC0tLSB8IC0tLSB8Cnwg55Sf5Lqn5Z+f5ZCNIHwgYGh0dHBzOi8vb21zLmdvb2RjYW5nLm5ldGDvvIhiYXNlIFVSTO+8iSB8CnwgVUFUIOWfn+WQjSB8IGBodHRwczovL3VhdC1vbXMuZW1pbnhpbmcuY29tYO+8iOiBlOiwg+a1i+ivle+8iSB8Cnwg5o6l5Y+j6Lev5b6E5YmN57yAIHwgYC9wdWJsaWNfb3BlbmDvvIjlnKggR09PRENBTkdfQkFTRV9VUkwg5LmL5ZCO5ou85o6l77yJIHwKfCDpibTmnYPmlrnlvI8gfCAqKkhUVFAgSGVhZGVyIOmJtOadgyoq77yI5pegIE1ENSDnrb7lkI3vvIkgfAp8IOW/heWhqyBIZWFkZXIgfCBgYXBwLXRva2VuOiA8QXBwVG9rZW4+YCDlkowgYGFwcC1rZXk6IDxBcHBLZXk+YCB8CnwgQ29udGVudC1UeXBlIHwgYGFwcGxpY2F0aW9uL2pzb25g77yI57uf5LiAIFBPU1QgKyBKU09O77yJIHwKfCDlk43lupTpo47moLwgfCBWMiBKU09O77yaYHsiY29kZSI6IDAsICJtZXNzYWdlIjogIm9rIiwgImRhdGEiOiAuLi59YO+8jGBjb2RlPTBgIOihqOekuuaIkOWKnyB8Cnwg5Lia5Yqh5YiX6KGo5L2N572uIHwgYGRhdGEubGlzdGDvvIjpg6jliIbmjqXlj6PlpoIgZXhwb3J0IOebtOaOpeaKiuWGheWuueaUvuWcqCBgZGF0YWDvvIkgfAp8IOebruagh+S7kyB8IOW+t+Wbvea1t+WkluS7k++8iGBHT09EQ0FOR19XQVJFSE9VU0VfQ09ERWDvvIkgfAp8IOWvhumSpeeuoeeQhiB8IOS4gOW+i+aUviBgLmVudmDvvIhgR09PRENBTkdfQVBQX1RPS0VOYCAvIGBHT09EQ0FOR19BUFBfS0VZYO+8ie+8jOemgeatouWFpeW6k+S7o+eggSB8CgoqKkhUVFAg54q25oCB56CB6K+t5LmJ77yaKioKCnwgQ29kZSB8IOWQq+S5iSB8IOWkhOeQhiB8CnwgLS0tIHwgLS0tIHwgLS0tIHwKfCAyMDAgfCDmiJDlip8gfCDop6PmnpAgYGRhdGFgIHwKfCA0MDEgfCBUT0tFTi9LRVkg6ZSZ6K+vIHwg5a6i5oi356uv6YWN572u6Zeu6aKY77yM5LiN6YeN6K+VIHwKfCA0MDMgfCDop6blj5HpmZDmtYEgfCDkuI3ph43or5XvvIznlLHosIPnlKjmlrnpgIDpgb8gfAp8IDQwNCB8IOaOpeWPo+S4jeWtmOWcqCB8IOWuouaIt+err+mFjee9rumUmeivr++8jOS4jemHjeivlSB8CnwgNXh4IHwg57O757uf5byC5bi4IHwg6Kem5Y+RIHRlbmFjaXR5IOmHjeivle+8iOacgOWkmiBgR09PRENBTkdfTUFYX1JFVFJZYCDmrKHvvIkgfAoKLS0tCgojIyAxLiDmjqXlj6PkuIDvvJpgYmlsbGluZ19saXN0YCDigJQg6LSm5Y2V5YiX6KGoCgoqKlVSTCoq77yaYFBPU1Qge0JBU0VfVVJMfS9wdWJsaWNfb3Blbi9maW5hbmNlL2JpbGxpbmdfbGlzdGAKKirnlKjpgJQqKu+8muaLieWPlui0puWNleS4u+WIl+ihqO+8jOaYr+OAjOaciOW6puaIkOacrOOAjeeahOWPo+W+hOadpea6kOOAggoKIyMjIOivt+axguWPguaVsAoKfCDlrZfmrrUgfCDnsbvlnosgfCDlv4XloasgfCDor7TmmI4gfAp8IC0tLSB8IC0tLSB8IC0tLSB8IC0tLSB8CnwgYGFjY291bnRfY29kZWAgfCBTdHJpbmcoMjApIHwg5pivIHwg5a6i5oi35Luj56CB77yI5Y2zIEFwcFRva2VuIOWvueW6lOi0puWPt++8iSB8CnwgYGJlZ2luX2JpbGxfdG9fdGltZWAgfCBTdHJpbmcgfCDlkKYgfCDotKbljZXnu5PmnZ/ml7bpl7TotbfvvIzmoLzlvI8gYFlZWVktTU0tREQgSEg6TU06U1Ng77yM56S65L6LIGAyMDIxLTA0LTEyIDAwOjAwOjAwYCB8CnwgYGVuZF9iaWxsX3RvX3RpbWVgIHwgU3RyaW5nIHwg5ZCmIHwg6LSm5Y2V57uT5p2f5pe26Ze05q2iIHwKfCBgYmlsbF9udW1iZXJgIHwgU3RyaW5nKDIwKSB8IOWQpiB8IOi0puWNleWPt++8iOeyvuehruafpeivou+8ie+8jOekuuS+iyBgQjIwMjEwNzI5MDI1NjAwMjlgIHwKfCBgcGFnZWAgfCBJbnQgfCDlkKYgfCDliIbpobXpobXnoIHvvIzpu5jorqQgMSB8CnwgYHBhZ2Vfc2l6ZWAgfCBJbnQgfCDlkKYgfCDliIbpobXmnaHmlbDvvIzmnIDlpKcgMjAw77yM6buY6K6kIDIwIHwKCiMjIyDlk43lupTlrZfmrrUKCmBgYGpzb24KewogICJjb2RlIjogMCwKICAibWVzc2FnZSI6ICJvayIsCiAgImRhdGEiOiB7CiAgICAibGlzdCI6IFsKICAgICAgewogICAgICAgICJhY2NvdW50X2NvZGUiOiAiQUNVMjk2MDAzIiwKICAgICAgICAiYWxsX3RvdGFsIjogeyAiYmFsYW5jZSI6ICIxMjM0LjU2IiwgImN1cnJlbmN5X2NvZGUiOiAiQ1pLIiB9LAogICAgICAgICJiaWxsX2ZpbGVfcGF0aCI6ICJGSUxFX1BBVEgiLAogICAgICAgICJiaWxsX2Zyb21fdGltZSI6ICIyMDIxLTA4LTAxIDAwOjAwOjAwIiwKICAgICAgICAiYmlsbF9udW1iZXIiOiAiQjIwMjEwNzI5MDI1NjAwMjkiLAogICAgICAgICJiaWxsX3RvX3RpbWUiOiAiMjAyMS0wNy0yNyAyMzo1OTo1OSIsCiAgICAgICAgImNhc2hfYmFja19iYWxhbmNlIjogW3sgImJhbGFuY2UiOiAiMC4wIiwgImN1cnJlbmN5X2NvZGUiOiAiQ1pLIiB9XSwKICAgICAgICAiZW5kX2JhbGFuY2UiOiBbeyAiYmFsYW5jZSI6ICIwLjAiLCAiY3VycmVuY3lfY29kZSI6ICJDWksiIH1dLAogICAgICAgICJzdGFydF9iYWxhbmNlIjogW3sgImJhbGFuY2UiOiAiMC4wIiwgImN1cnJlbmN5X2NvZGUiOiAiQ1pLIiB9XSwKICAgICAgICAidG90YWwiOiAyCiAgICAgIH0KICAgIF0sCiAgICAidG90YWwiOiA0NzYKICB9Cn0KYGBgCgojIyMg5a2X5q615pig5bCECgp8IOS4muWKoeWtl+autSB8IOiwt+S7k+Wtl+autSB8IOexu+WeiyB8IOiQveW6k+ihqC7lrZfmrrUgfCDovazmjaLop4TliJkgfAp8IC0tLSB8IC0tLSB8IC0tLSB8IC0tLSB8IC0tLSB8Cnwg6LSm5Y2V5Y+3IHwgYGRhdGEubGlzdFtdLmJpbGxfbnVtYmVyYCB8IHN0cmluZyB8IGBzdGdfYmlsbHMuYmlsbF9udW1iZXJgIHwg5Li76ZSuL+W5guetiemUru+8jFVQU0VSVCB8Cnwg6LSm5Y+357yW56CBIHwgYGRhdGEubGlzdFtdLmFjY291bnRfY29kZWAgfCBzdHJpbmcgfCBgc3RnX2JpbGxzLmFjY291bnRfY29kZWAgfCDnm7TlrZggfAp8IOi0puWNleW8gOWniyB8IGBkYXRhLmxpc3RbXS5iaWxsX2Zyb21fdGltZWAgfCBkYXRldGltZSB8IGBzdGdfYmlsbHMuYmlsbF9mcm9tX3RpbWVgIHwg57uf5LiAIFVUQyDlrZjlgqggfAp8IOi0puWNlee7k+adnyB8IGBkYXRhLmxpc3RbXS5iaWxsX3RvX3RpbWVgIHwgZGF0ZXRpbWUgfCBgc3RnX2JpbGxzLmJpbGxfdG9fdGltZWAgfCDnu5/kuIAgVVRDIOWtmOWCqCB8Cnwg6LSm5Y2V5oC76YeR6aKdIHwgYGRhdGEubGlzdFtdLmFsbF90b3RhbC5iYWxhbmNlYCB8IGRlY2ltYWwgfCBgc3RnX2JpbGxzLmFsbF90b3RhbGAgfCBTdHJpbmcg4oaSIE5VTUVSSUMoMTgsNCkgfAp8IOW4geenjSB8IGBkYXRhLmxpc3RbXS5hbGxfdG90YWwuY3VycmVuY3lfY29kZWAgfCBzdHJpbmcgfCBgc3RnX2JpbGxzLmN1cnJlbmN5X2NvZGVgIHwg55u05a2YIHwKCioq5rS+55Sf5a2X5q61KirvvJoKCnwg5rS+55SfIHwg6KeE5YiZIHwg6JC95bqTIHwKfCAtLS0gfCAtLS0gfCAtLS0gfAp8IGBiaWxsX21vbnRoYCB8IOeUsSBgYmlsbF90b190aW1lYCDlj5YgYFlZWVktTU1gIHwgYHN0Z19iaWxscy5iaWxsX21vbnRoYCB8CnwgYHdhcmVob3VzZV9jb2RlYCB8IOS8mOWFiOWPluWTjeW6lOWtl+aute+8jOWQpuWImeeUseivt+axguS4iuS4i+aWh+ihpeWFhSB8IGBzdGdfYmlsbHMud2FyZWhvdXNlX2NvZGVgIHwKCi0tLQoKIyMgMi4g5o6l5Y+j5LqM77yaYGJpbGxpbmdfZXhwb3J0YCDigJQg6LSm5Y2V5paH5Lu25a+85Ye677yIYmFzZTY077yJCgoqKlVSTCoq77yaYFBPU1Qge0JBU0VfVVJMfS9wdWJsaWNfb3Blbi9maW5hbmNlL2JpbGxpbmdfZXhwb3J0YAoqKueUqOmAlCoq77ya5qC55o2u6LSm5Y2V5Y+35LiL6L296LSm5Y2V5paH5Lu277yMKirov5Tlm54gYmFzZTY0IOWtl+espuS4sioq77yI5LiN5piv57uT5p6E5YyWIEpTT07vvInjgIIKCiMjIyDor7fmsYLlj4LmlbAKCnwg5a2X5q61IHwg57G75Z6LIHwg5b+F5aGrIHwg6K+05piOIHwKfCAtLS0gfCAtLS0gfCAtLS0gfCAtLS0gfAp8IGBiaWxsX251bWJlcl9saXN0YCB8IFN0cmluZ1tdIHwg5pivIHwg6LSm5Y2V5Y+35YiX6KGo77yI5pyA5aSaIDUwIOS4qu+8ie+8jOekuuS+iyBgWyJCMjAyMTA3MjkwMjU2MDAyOSJdYCB8CgojIyMg5ZON5bqUCgpgYGBqc29uCnsKICAiY29kZSI6IDAsCiAgIm1lc3NhZ2UiOiAib2siLAogICJkYXRhIjogIkJBU0U2NF9TVFJJTkdfT0ZfWExTWF9PUl9aSVAiCn0KYGBgCgo+IOWNlei0puWNlei/lOWbniB4bHN4IOeahCBiYXNlNjTvvJvlpJrotKbljZXov5Tlm54gemlwIOeahCBiYXNlNjTjgIJWMSDmmoLlrZggYmFzZTY0IOWOn+Wni+Wtl+espuS4suWIsCBgc3RnX2JpbGxfZmVlX2l0ZW1zLnJhd19qc29uYO+8jOS6jOacn+WPr+inoyB4bHN4IOiQvei0ueeUqOihjOaYjue7huOAggoKLS0tCgojIyAzLiDmjqXlj6PkuInvvJpgaW52ZW50b3J5X2FnZV9saXN0YCDigJQg5bqT5a2Y5bqT6b6E5YiX6KGoCgoqKlVSTCoq77yaYFBPU1Qge0JBU0VfVVJMfS9wdWJsaWNfb3Blbi9pbnZlbnRvcnkvaW52ZW50b3J5X2FnZV9saXN0YAoqKueUqOmAlCoq77ya6I635Y+W57O757uf5Lit5a2Y5Zyo5bqT6b6E55qE5bqT6b6E5L+h5oGv77yI5LqG6Kej5ZWG5ZOB5om55qyh5a2Y5pS+5LqO5LuT5bqT55qE5ZGo5pyf5pe26ZW/77yJ44CCCgojIyMg6K+35rGC5Y+C5pWwCgp8IOWtl+autSB8IOexu+WeiyB8IOW/heWhqyB8IOivtOaYjiB8CnwgLS0tIHwgLS0tIHwgLS0tIHwgLS0tIHwKfCBgcGFnZWAgfCBJbnQgfCDlkKYgfCDliIbpobXpobXnoIHvvIzpu5jorqQgMSB8CnwgYHBhZ2Vfc2l6ZWAgfCBJbnQgfCDlkKYgfCDliIbpobXmnaHmlbDvvIzmnIDlpKcgMjAw77yM6buY6K6kIDIwIHwKfCBgd2FyZWhvdXNlX2NvZGVgIHwgU3RyaW5nKDMwKSB8IOaYr++8iOS5i+S4gO+8iXwg5Yy65Z+f5LuT5bqT5Luj56CB77yM5aaCIGBVU0VBYOOAgWBERWAgfAp8IGB3YXJuaW5nX2FnZV90eXBlYCB8IFN0cmluZyhlbnVtKSB8IOWQpiB8IOW6k+m+hOmihOitpuaemuS4vu+8jOWPguiAgyBgX0VudW0vSW52ZW50b3J5L0ludmVudG9yeUFnZVdhcm5pbmdUeXBlRW51bWAgfAp8IGBhZ2VfZnJvbWAgfCBJbnQgfCDlkKYgfCDlupPpvoTotbflp4vlgLzvvIjlpKnvvIkgfAp8IGBhZ2VfdG9gIHwgSW50IHwg5ZCmIHwg5bqT6b6E57uT5p2f5YC877yI5aSp77yJIHwKfCBgZmlmb190aW1lX2Zyb21gIHwgU3RyaW5nIHwg5ZCmIHwg5LiK5p625pe26Ze06LW35aeLIGBZWVlZLU1NLUREIEhIOk1NOlNTYCB8CnwgYGZpZm9fdGltZV90b2AgfCBTdHJpbmcgfCDlkKYgfCDkuIrmnrbml7bpl7Tnu5PmnZ8gYFlZWVktTU0tREQgSEg6TU06U1NgIHwKfCBgcXVhbnRpdHlfZnJvbWAgfCBJbnQgfCDlkKYgfCDlnKjlupPlupPlrZjotbflp4vlgLwgfAp8IGBxdWFudGl0eV90b2AgfCBJbnQgfCDlkKYgfCDlnKjlupPlupPlrZjnu5PmnZ/lgLwgfAp8IGBwcm9kdWN0X3NrdV9saXN0YCB8IFN0cmluZ1tdIHwg5ZCmIHwg5ZWG5ZOB57yW56CB5YiX6KGo77yI5pyA5aSaIDUwIOS4qu+8ie+8jOekuuS+iyBgWyJKUzIwMjAxMTE0LUFBQUFBQUFBQUFBQUFBQUFBIl1gIHwKfCBgcHJvZHVjdF90aXRsZWAgfCBTdHJpbmcoMTAwKSB8IOWQpiB8IOWVhuWTgeS4reaWh+WQjeensO+8iOaooeeziuWMuemFje+8ie+8jOekuuS+iyBgIuS4reWbveWlveS6p+WTgSJgIHwKfCBgcHJvZHVjdF90aXRsZV9lbmAgfCBTdHJpbmcoMTAwKSB8IOWQpiB8IOWVhuWTgeiLseaWh+WQjeensO+8iOaooeeziuWMuemFje+8ie+8jOekuuS+iyBgZ29vZGNhbmdgIHwKCiMjIyDlk43lupTlrZfmrrUKCmBgYGpzb24KewogICJjb2RlIjogMCwKICAibWVzc2FnZSI6ICJvayIsCiAgImRhdGEiOiB7CiAgICAibGlzdCI6IFsKICAgICAgewogICAgICAgICJ3YXJlaG91c2VfY29kZSI6ICJVU0VBIiwKICAgICAgICAicHJvZHVjdF9za3UiOiAiSlMyMDIwMTExNC1BQUFBQUFBQUFBQUFBQUFBQSIsCiAgICAgICAgImxiYV9xdWFudGl0eSI6IDE5MzIsCiAgICAgICAgImxiYV9maWZvX3RpbWUiOiAiMjAyMC0wMS0xNCIsCiAgICAgICAgImxiYV93YXJuaW5nX2FnZSI6IDkwLAogICAgICAgICJwcm9kdWN0X3RpdGxlIjogIuS4reWbveWlveS6p+WTgSIsCiAgICAgICAgInByb2R1Y3RfdGl0bGVfZW4iOiAiZ29vZGNhbmciLAogICAgICAgICJ3YXJlaG91c2VfZGVzYyI6ICLnvo7kuJzku5PlupMiLAogICAgICAgICJ3YXJlaG91c2VfYWdlIjogNjcxLAogICAgICAgICJleHBpcmF0aW9uX2RhdGUiOiAiIiwKICAgICAgICAidG90YWwiOiA0NzYKICAgICAgfQogICAgXSwKICAgICJ0b3RhbCI6IDQ3NgogIH0KfQpgYGAKCiMjIyDlrZfmrrXmmKDlsIQKCnwg5Lia5Yqh5a2X5q61IHwg6LC35LuT5a2X5q61IHwg57G75Z6LIHwg6JC95bqT6KGoLuWtl+autSB8IOi9rOaNouinhOWImSB8CnwgLS0tIHwgLS0tIHwgLS0tIHwgLS0tIHwgLS0tIHwKfCBTS1UgfCBgZGF0YS5saXN0W10ucHJvZHVjdF9za3VgIHwgc3RyaW5nIHwgYHN0Z19pbnZlbnRvcnlfYWdlLnNrdWAgfCDnm7TlrZggfAp8IOWVhuWTgeWQjeensO+8iOS4re+8iSB8IGBkYXRhLmxpc3RbXS5wcm9kdWN0X3RpdGxlYCB8IHN0cmluZyB8IGBzdGdfaW52ZW50b3J5X2FnZS5wcm9kdWN0X25hbWVgIHwg5LyY5YWI5LitIHwKfCDllYblk4HlkI3np7DvvIjoi7HvvIkgfCBgZGF0YS5saXN0W10ucHJvZHVjdF90aXRsZV9lbmAgfCBzdHJpbmcgfCAocmF3X2pzb24pIHwg5aSH5Lu9IHwKfCDlnKjlupPlupPlrZggfCBgZGF0YS5saXN0W10ubGJhX3F1YW50aXR5YCB8IGludCB8IGBzdGdfaW52ZW50b3J5X2FnZS5xdWFudGl0eWAgfCDnm7TlrZggfAp8IOW6k+m+hO+8iOWkqe+8iSB8IGBkYXRhLmxpc3RbXS53YXJlaG91c2VfYWdlYCB8IGludCB8IGBzdGdfaW52ZW50b3J5X2FnZS53YXJlaG91c2VfYWdlYCB8IOebtOWtmCB8Cnwg5LiK5p625pe26Ze0IHwgYGRhdGEubGlzdFtdLmxiYV9maWZvX3RpbWVgIHwgZGF0ZSB8IGBzdGdfaW52ZW50b3J5X2FnZS5pbmJvdW5kX3RpbWVgIHwg5a2X56ym5Liy6L2sIGRhdGUgfAp8IOmihOitpuW6k+m+hCB8IGBkYXRhLmxpc3RbXS5sYmFfd2FybmluZ19hZ2VgIHwgaW50IHwgKHJhd19qc29uKSB8IOWkh+S7vSB8Cnwg5LuT5bqT5o+P6L+wIHwgYGRhdGEubGlzdFtdLndhcmVob3VzZV9kZXNjYCB8IHN0cmluZyB8IChyYXdfanNvbikgfCDlpIfku70gfAp8IOS7k+W6k+e8lueggSB8IGBkYXRhLmxpc3RbXS53YXJlaG91c2VfY29kZWAgfCBzdHJpbmcgfCBgc3RnX2ludmVudG9yeV9hZ2Uud2FyZWhvdXNlX2NvZGVgIHwg55u05a2YIHwKCioq5rS+55Sf77ya5bm06b6E5YiG5qG2KioKCnwgYWdlX2J1Y2tldCB8IOWMuumXtO+8iOWkqe+8iSB8IOS4reaWhyB8CnwgLS0tIHwgLS0tIHwgLS0tIHwKfCBgaGVhbHRoeWAgfCAw4oCTOTAgfCDlgaXlurflupPlrZggfAp8IGB3YXRjaGAgfCA5MOKAkzE4MCB8IOWFs+azqOW6k+WtmCB8CnwgYHN0YWxlYCB8IDE4MOKAkzM2NSB8IOWRhua7nuW6k+WtmCB8CnwgYGNyaXRpY2FsYCB8IDM2NSsgfCDkuKXph43lkYbmu57lupPlrZggfAoKLS0tCgojIyA0LiDmjqXlj6Plm5vvvJpgZ2V0X3Byb2R1Y3RfaW52ZW50b3J5YCDigJQg5Lqn5ZOB5bqT5a2Y5p+l6K+iCgoqKlVSTCoq77yaYFBPU1Qge0JBU0VfVVJMfS9wdWJsaWNfb3Blbi9pbnZlbnRvcnkvZ2V0X3Byb2R1Y3RfaW52ZW50b3J5YAoqKueUqOmAlCoq77ya5p+l6K+i6LC35LuT57O757uf5YaF5ZWG5ZOB5bqT5a2Y5L+h5oGv44CCCgojIyMg6K+35rGC5Y+C5pWwCgp8IOWtl+autSB8IOexu+WeiyB8IOW/heWhqyB8IOivtOaYjiB8CnwgLS0tIHwgLS0tIHwgLS0tIHwgLS0tIHwKfCBgcGFnZWAgfCBJbnQgfCDmmK8gfCDlvZPliY3pobXvvIzpu5jorqQgMSB8CnwgYHBhZ2VTaXplYCB8IEludCB8IOaYryB8IOavj+mhteaVsOaNruadoeaVsO+8jOacgOWkpyAyMDDvvIzpu5jorqQgMjDvvIgqKumpvOWzsOWRveWQjSoq77yJIHwKfCBgd2FyZWhvdXNlX2NvZGVgIHwgU3RyaW5nKDMyKSB8IOaYr++8iOS5i+S4gO+8iXwg5Yy65Z+f5LuT5bqT5Luj56CBIHwKfCBgd2FyZWhvdXNlX2NvZGVfYXJyYCB8IFN0cmluZ1tdIHwg5piv77yI5LmL5LiA77yJfCDljLrln5/ku5PlupPku6PnoIHmlbDnu4TvvIgqKuWNleasoeacgOWkmiAyMCDkuKoqKu+8iSB8CnwgYHByb2R1Y3Rfc2t1YCB8IFN0cmluZygyNCkgfCDmmK/vvIjkuYvkuIDvvIl8IOWVhuWTgSBTS1UgfAp8IGBwcm9kdWN0X3NrdV9hcnJgIHwgU3RyaW5nW10gfCDmmK/vvIjkuYvkuIDvvIl8IOWVhuWTgSBTS1Ug5pWw57uE77yIKirljZXmrKHmnIDlpJogMjAwIOS4qioq77yJIHwKfCBgYmF0Y2hfY29kZWAgfCBTdHJpbmcoZW51bSkgfCDlkKYgfCDmibnmrKHlsZ7mgKfmnprkuL7vvIzlj4LogIMgYF9FbnVtL0ludmVudG9yeS9iYXRjaEF0dHJpYnV0ZUNvZGVFbnVtYCB8CnwgYGJhdGNoX3ZhbHVlX2xpc3RgIHwgU3RyaW5nW10gfCDlkKYgfCDmibnmrKHlgLzmlbDnu4TvvIjlj6/mjIflrprlpJrojIPlm7Tmn6Xor6LvvIkgfAoKIyMjIOWTjeW6lOWtl+autQoKYGBganNvbgp7CiAgImNvZGUiOiAwLAogICJtZXNzYWdlIjogIlN1Y2Nlc3MiLAogICJjb3VudCI6IDEsCiAgImRhdGEiOiB7CiAgICAibGlzdCI6IFsKICAgICAgewogICAgICAgICJ3YXJlaG91c2VfY29kZSI6ICJVU0VBIiwKICAgICAgICAid2FyZWhvdXNlX2Rlc2MiOiAi576O5Lic5LuT5bqTIiwKICAgICAgICAicHJvZHVjdF9za3UiOiAiTFoyN0UxNTExMiIsCiAgICAgICAgInByb2R1Y3RfdGl0bGUiOiAi55S16ISRIiwKICAgICAgICAidG90YWxfb253YXkiOiA1MDAsCiAgICAgICAgInRyYW5zZmVyX29ud2F5IjogNSwKICAgICAgICAib253YXkiOiAxNDQyLAogICAgICAgICJwZW5kaW5nIjogMTAsCiAgICAgICAgInNlbGxhYmxlIjogNSwKICAgICAgICAidW5zZWxsYWJsZSI6IDAsCiAgICAgICAgInJlc2VydmVkIjogMTAsCiAgICAgICAgInBpX3VuYXZhaWxhYmxlX3Jlc2VydmVkIjogMCwKICAgICAgICAic2hpcHBlZCI6IDEyLAogICAgICAgICJwaV91bmF2YWlsYWJsZV9zaGlwcGVkIjogMCwKICAgICAgICAicGlfZnJlZXplIjogMCwKICAgICAgICAicHJvZHVjdF9mcmVlemVfc3RhdHVzIjogIjAiLAogICAgICAgICJwcm9kdWN0X2ZyZWV6ZV9zdGF0dXNfdGV4dCI6ICLmraPluLgiLAogICAgICAgICJwaV93YXJuaW5nX3F0eSI6IDUwLAogICAgICAgICJwaV9ub19zdG9jayI6IDUsCiAgICAgICAgInN0b2NraW5nIjogMTIKICAgICAgfQogICAgXSwKICAgICJjb3VudCI6IDEsCiAgICAidG90YWwiOiAxCiAgfQp9CmBgYAoKIyMjIOWtl+auteaYoOWwhAoKfCDkuJrliqHlrZfmrrUgfCDosLfku5PlrZfmrrUgfCDnsbvlnosgfCDokL3lupPooagu5a2X5q61IHwg6L2s5o2i6KeE5YiZIHwKfCAtLS0gfCAtLS0gfCAtLS0gfCAtLS0gfCAtLS0gfAp8IFNLVSB8IGBkYXRhLmxpc3RbXS5wcm9kdWN0X3NrdWAgfCBzdHJpbmcgfCBgc3RnX2ludmVudG9yeV9zdGF0dXMuc2t1YCB8IOebtOWtmCB8Cnwg5LuT5bqT57yW56CBIHwgYGRhdGEubGlzdFtdLndhcmVob3VzZV9jb2RlYCB8IHN0cmluZyB8IGBzdGdfaW52ZW50b3J5X3N0YXR1cy53YXJlaG91c2VfY29kZWAgfCDnm7TlrZggfAp8IOiJr+WTgeWPr+WUriB8IGBkYXRhLmxpc3RbXS5zZWxsYWJsZWAgfCBpbnQgfCBgc3RnX2ludmVudG9yeV9zdGF0dXMuc2VsbGFibGVgIHwg55u05a2YIHwKfCDkuI3oia/lk4Hlj6/llK4gfCBgZGF0YS5saXN0W10udW5zZWxsYWJsZWAgfCBpbnQgfCBgc3RnX2ludmVudG9yeV9zdGF0dXMudW5zZWxsYWJsZWAgfCDnm7TlrZggfAp8IOiJr+WTgeW+heWHuuW6kyB8IGBkYXRhLmxpc3RbXS5yZXNlcnZlZGAgfCBpbnQgfCBgc3RnX2ludmVudG9yeV9zdGF0dXMucmVzZXJ2ZWRgIHwg55u05a2YIHwKfCDoia/lk4Hlt7Llh7rlupMgfCBgZGF0YS5saXN0W10uc2hpcHBlZGAgfCBpbnQgfCAocmF3X2pzb24pIHwg5pqC5a2YIHwKfCDmtbflpJblnKjpgJQgfCBgZGF0YS5saXN0W10ub253YXlgIHwgaW50IHwgYHN0Z19pbnZlbnRvcnlfc3RhdHVzLm9ud2F5YCB8IOebtOWtmCB8Cnwg5b6F5LiK5p62IHwgYGRhdGEubGlzdFtdLnBlbmRpbmdgIHwgaW50IHwgKHJhd19qc29uKSB8IOWkh+S7vSB8Cnwg5Ya757uT5pWw6YePIHwgYGRhdGEubGlzdFtdLnBpX2ZyZWV6ZWAgfCBpbnQgfCAocmF3X2pzb24pIHwg5aSH5Lu9IHwKfCDpooTorablupPlrZggfCBgZGF0YS5saXN0W10ucGlfd2FybmluZ19xdHlgIHwgaW50IHwgKHJhd19qc29uKSB8IOWkh+S7vSB8Cnwg57y66LSn5pWw6YePIHwgYGRhdGEubGlzdFtdLnBpX25vX3N0b2NrYCB8IGludCB8IChyYXdfanNvbikgfCDlpIfku70gfAp8IOWkh+i0p+aVsOmHjyB8IGBkYXRhLmxpc3RbXS5zdG9ja2luZ2AgfCBpbnQgfCAocmF3X2pzb24pIHwg5aSH5Lu9IHwKCioq5rS+55SfKirvvJrlupPlrZjljovlipvnrYnnuqfvvIjlnKjliIbmnpDlvJXmk47kuK3orqHnrpfvvInvvJoKCnwgcHJlc3N1cmVfbGV2ZWwgfCDop4TliJkgfAp8IC0tLSB8IC0tLSB8CnwgYGNyaXRpY2FsYCB8IGBwaV93YXJuaW5nX3F0eSA+PSBzZWxsYWJsZWDvvIjpooTorablupPlrZgg4omlIOWPr+WUru+8iSB8CnwgYHdhcm5pbmdgIHwgYHBpX3dhcm5pbmdfcXR5ID4gMGAg5oiWIGBvbndheSA+IHNlbGxhYmxlYCB8CnwgYG5vcm1hbGAgfCDlhbbku5YgfAoKLS0tCgojIyA1LiDmjqXlj6Mg4oaSIOihqCDmmKDlsITmgLvop4gKCnwgR29vZENhbmcg5o6l5Y+jIHwg55So6YCUIHwg55uu5qCH6KGoIHwg5pWw5o2u5oCn6LSoIHwg5bmC562JL+WUr+S4gOmUriB8CnwgLS0tIHwgLS0tIHwgLS0tIHwgLS0tIHwgLS0tIHwKfCBgYmlsbGluZ19saXN0YCB8IOaciOW6pui0puWNlSB8IGBzdGdfYmlsbHNgIHwg6LSm5Y2V77yI5Y+v5L+u5q2j77yJIHwgYGJpbGxfbnVtYmVyYCB8CnwgYGJpbGxpbmdfZXhwb3J0YCB8IOi0puWNleaWh+S7tiBiYXNlNjQgfCBgc3RnX2JpbGxfZmVlX2l0ZW1zYCB8IOS6jOi/m+WItuWOn+aWh+S7tiB8IGBiaWxsX251bWJlciArIGZlZV9uYW1lPSdbZXhwb3J0XSdgIHwKfCBgaW52ZW50b3J5X2FnZV9saXN0YCB8IOW6k+WtmOW5tOm+hCB8IGBzdGdfaW52ZW50b3J5X2FnZWAgfCDlv6vnhacgfCBgc25hcHNob3RfZGF0ZSArIHNrdSArIHdhcmVob3VzZV9jb2RlYCB8CnwgYGdldF9wcm9kdWN0X2ludmVudG9yeWAgfCDlvZPliY3lupPlrZjnirbmgIEgfCBgc3RnX2ludmVudG9yeV9zdGF0dXNgIHwg5b+r54WnIHwgYHNuYXBzaG90X2RhdGUgKyBza3UgKyB3YXJlaG91c2VfY29kZWAgfAoKKirkuIvmuLjliIbmnpDkuqfniakqKu+8mgoKfCDmnaXmupDooaggfCDliIbmnpDkuqfnianooaggfCDnlKjpgJQgfAp8IC0tLSB8IC0tLSB8IC0tLSB8CnwgYHN0Z19iaWxsc2AgKyBgc3RnX2JpbGxfZmVlX2l0ZW1zYCB8IGBtYXJ0X21vbnRobHlfY29zdF9zdW1tYXJ5YCB8IOaciOW6puaIkOacrCAvIOi0ueeUqOe7k+aehCAvIOeOr+avlCB8CnwgYHN0Z19pbnZlbnRvcnlfYWdlYCB8IGBtYXJ0X3Jpc2tfc2t1YCB8IFRPUDIwIOmjjumZqSBTS1UgfAp8IOS7peS4iuWFqOmDqCB8IGBtYXJ0X21vbnRobHlfcmVwb3J0c2AgfCDjgIrlvrflm73mtbflpJbku5PmiJDmnKzlgaXlurfmiqXlkYrjgIsgfAoKLS0tCgojIyA2LiDlkIzmraXnrZbnlaXvvIjlt7Llrp7njrDvvIkKCnwg5o6l5Y+jIHwg6aKR546HIHwg6K+05piOIHwKfCAtLS0gfCAtLS0gfCAtLS0gfAp8IGBiaWxsaW5nX2xpc3RgIHwg5q+P5pel77yI5YeM5pmoIDAyOjAw77yJIHwg5ouJ5pyA6L+RIDMg5Liq5pyI77yMVVBTRVJUIHwKfCBgYmlsbGluZ19leHBvcnRgIHwg5q+P5pelIC8g6LSm5Y2V55Sf5oiQ5ZCOIHwg5oyJIGJpbGxfbnVtYmVyIOaLiSBiYXNlNjQg5paH5Lu2IHwKfCBgaW52ZW50b3J5X2FnZV9saXN0YCB8IOavj+aXpSB8IOWFqOmHj+W/q+eFp++8iOaMiSB3YXJlaG91c2VfY29kZe+8iSB8CnwgYGdldF9wcm9kdWN0X2ludmVudG9yeWAgfCDmr4/ml6UgfCDlhajph4/lv6vnhacgfAoKLS0tCgojIyA3LiDmoKHlh4bljoblj7IKCi0gKioyMDI2LTA5LTAxKirvvJrln7rkuo7lrpjmlrnmlofmoaPmiKrlm77lrozmiJDlhajph4/lrZfmrrXmoKHlh4YKICAtIOmJtOadg+aWueW8j+ehruiupOS4uiAqKkhUVFAgSGVhZGVyKirvvIjpnZ4gTUQ1IOetvuWQje+8iQogIC0g5o6l5Y+j5pa55rOV56Gu6K6k5Li6ICoqUE9TVCArIEpTT04qKu+8iOmdniBHRVQgKyBxdWVyee+8iQogIC0gNCDkuKrmjqXlj6Pot6/lvoTliY3nvIDkuLogYC9wdWJsaWNfb3Blbi9gCiAgLSBgYWxsX3RvdGFsYCDmmK/ltYzlpZfnu5PmnoQgYHtiYWxhbmNlLCBjdXJyZW5jeV9jb2RlfWAKICAtIGBpbnZlbnRvcnlfYWdlX2xpc3RgIOWtl+auteS7pSBgbGJhX2Ag5YmN57yA5Li65Li777yI5aaCIGBsYmFfcXVhbnRpdHlgIC8gYGxiYV9maWZvX3RpbWVg77yJCiAgLSBgZ2V0X3Byb2R1Y3RfaW52ZW50b3J5YCDliIbpobXlj4LmlbDmmK8qKumpvOWzsCoqIGBwYWdlU2l6ZWDvvIjkuI3mmK8gYHBhZ2Vfc2l6ZWDvvIkKICAtIOmHkemineWcqOWTjeW6lOS4reS4uiAqKlN0cmluZyoqIOexu+Wei++8iOeUqCBgRGVjaW1hbGAg6Kej5p6Q77yJCg==
+# 谷仓 GoodCang API 字段映射文档
+
+> 项目：GoodCang Overseas Warehouse Cost Intelligence
+> 数据源：谷仓 GoodCang Open API
+> 校准日期：2026-09-01（基于官方登录后的接口文档截图）
+
+---
+
+## 0. 接入说明
+
+| 项 | 内容 |
+| --- | --- |
+| 生产域名 | `https://oms.goodcang.net`（base URL） |
+| UAT 域名 | `https://uat-oms.eminxing.com`（联调测试） |
+| 接口路径前缀 | `/public_open`（在 GOODCANG_BASE_URL 之后拼接） |
+| 鉴权方式 | **HTTP Header 鉴权**（无 MD5 签名） |
+| 必填 Header | `app-token: <AppToken>` 和 `app-key: <AppKey>` |
+| Content-Type | `application/json`（统一 POST + JSON） |
+| 响应风格 | V2 JSON：`{"code": 0, "message": "ok", "data": ...}`，`code=0` 表示成功 |
+| 业务列表位置 | `data.list`（部分接口如 export 直接把内容放在 `data`） |
+| 目标仓 | 德国海外仓（`GOODCANG_WAREHOUSE_CODE`） |
+| 密钥管理 | 一律放 `.env`（`GOODCANG_APP_TOKEN` / `GOODCANG_APP_KEY`），禁止入库代码 |
+
+**HTTP 状态码语义：**
+
+| Code | 含义 | 处理 |
+| --- | --- | --- |
+| 200 | 成功 | 解析 `data` |
+| 401 | TOKEN/KEY 错误 | 客户端配置问题，不重试 |
+| 403 | 触发限流 | 不重试，由调用方退避 |
+| 404 | 接口不存在 | 客户端配置错误，不重试 |
+| 5xx | 系统异常 | 触发 tenacity 重试（最多 `GOODCANG_MAX_RETRY` 次） |
+
+---
+
+## 1. 接口一：`billing_list` — 账单列表
+
+**URL**：`POST {BASE_URL}/public_open/finance/billing_list`
+**用途**：拉取账单主列表，是「月度成本」的口径来源。
+
+### 请求参数
+
+| 字段 | 类型 | 必填 | 说明 |
+| --- | --- | --- | --- |
+| `account_code` | String(20) | 是 | 客户代码（即 AppToken 对应账号） |
+| `begin_bill_to_time` | String | 否 | 账单结束时间起，格式 `YYYY-MM-DD HH:MM:SS`，示例 `2021-04-12 00:00:00` |
+| `end_bill_to_time` | String | 否 | 账单结束时间止 |
+| `bill_number` | String(20) | 否 | 账单号（精确查询），示例 `B2021072902560029` |
+| `page` | Int | 否 | 分页页码，默认 1 |
+| `page_size` | Int | 否 | 分页条数，最大 200，默认 20 |
+
+### 响应字段
+
+```json
+{
+  "code": 0,
+  "ask": "Success",
+  "message": "success",
+  "data": {
+    "list": [
+      {
+        "bill_number": "B20260901G150560003",
+        "account_code": "ACG1505604",
+        "bill_from_time": "2026-08-01 00:00:00",
+        "bill_to_time": "2026-08-31 23:59:59",
+        "bill_file_path": "https://oms.goodcang.com/api/v1/protect_res/download_billing_file?path=...xlsx",
+        "sign_body_name": "HONGKONG LITTLE MAGIC INTERNATIONAL TRADING LIMITED",
+        "sign_business_type_list_text": "海外仓储",
+        "service_body_name": "ETARGET LIMITED",
+        "all_total": [
+          { "currency_code": "EUR", "balance": "25869.46" },
+          { "currency_code": "USD", "balance": "0" }
+        ],
+        "start_balance": [ { "currency_code": "EUR", "balance": "-13549.21" } ],
+        "end_balance": [ { "currency_code": "EUR", "balance": "-19702.83" } ],
+        "cash_back_balance": [ { "currency_code": "EUR", "balance": "0" } ]
+      }
+    ],
+    "total": 45
+  }
+}
+```
+
+> **实调校准（2026-09-01）**：`all_total` / `start_balance` / `end_balance` /
+> `cash_back_balance` 均为 **多币种数组**（共 19 种币种），并非单个对象。
+> 每个元素是 `{currency_code, balance}`，`balance` 为字符串。欧洲仓业务应
+> 优先取 `EUR` 的非零值。
+
+### 字段映射
+
+| 业务字段 | 谷仓字段 | 类型 | 落库表.字段 | 转换规则 |
+| --- | --- | --- | --- | --- |
+| 账单号 | `data.list[].bill_number` | string | `stg_bills.bill_number` | 主键/幂等键，UPSERT |
+| 账号编码 | `data.list[].account_code` | string | `stg_bills.account_code` | 直存 |
+| 账单开始 | `data.list[].bill_from_time` | datetime | `stg_bills.bill_from_time` | 统一 UTC 存储 |
+| 账单结束 | `data.list[].bill_to_time` | datetime | `stg_bills.bill_to_time` | 统一 UTC 存储 |
+| 账单总金额 | `data.list[].all_total[].balance`（EUR 优先） | decimal | `stg_bills.all_total` | String → NUMERIC(18,4) |
+| 币种 | `data.list[].all_total[].currency_code`（非零优先） | string | `stg_bills.currency_code` | 直存 |
+| 签约主体 | `data.list[].sign_body_name` | string | (raw_json) | 备份 |
+| 业务类型 | `data.list[].sign_business_type_list_text` | string | (raw_json) | 备份 |
+| 服务主体 | `data.list[].service_body_name` | string | (raw_json) | 备份 |
+
+**派生字段**：
+
+| 派生 | 规则 | 落库 |
+| --- | --- | --- |
+| `bill_month` | 由 `bill_to_time` 取 `YYYY-MM` | `stg_bills.bill_month` |
+| `warehouse_code` | 优先取响应字段，否则由请求上下文补充 | `stg_bills.warehouse_code` |
+
+---
+
+## 2. 接口二：`billing_export` — 账单文件导出（base64）
+
+**URL**：`POST {BASE_URL}/public_open/finance/billing_export`
+**用途**：根据账单号下载账单文件，**返回 base64 字符串**（不是结构化 JSON）。
+
+### 请求参数
+
+| 字段 | 类型 | 必填 | 说明 |
+| --- | --- | --- | --- |
+| `bill_number_list` | String[] | 是 | 账单号列表（最多 50 个），示例 `["B2021072902560029"]` |
+
+### 响应
+
+```json
+{
+  "code": 0,
+  "message": "ok",
+  "data": "BASE64_STRING_OF_XLSX_OR_ZIP"
+}
+```
+
+> 单账单返回 xlsx 的 base64；多账单返回 zip 的 base64。V1 暂存 base64 原始字符串到 `stg_bill_fee_items.raw_json`，二期可解 xlsx 落费用行明细。
+
+---
+
+## 3. 接口三：`inventory_age_list` — 库存库龄列表
+
+**URL**：`POST {BASE_URL}/public_open/inventory/inventory_age_list`
+**用途**：获取系统中存在库龄的库龄信息（了解商品批次存放于仓库的周期时长）。
+
+### 请求参数
+
+| 字段 | 类型 | 必填 | 说明 |
+| --- | --- | --- | --- |
+| `page` | Int | 否 | 分页页码，默认 1 |
+| `page_size` | Int | 否 | 分页条数，最大 200，默认 20 |
+| `warehouse_code` | String(30) | 是（之一）| 区域仓库代码，如 `USEA`、`DE` |
+| `warning_age_type` | String(enum) | 否 | 库龄预警枚举，参考 `_Enum/Inventory/InventoryAgeWarningTypeEnum` |
+| `age_from` | Int | 否 | 库龄起始值（天） |
+| `age_to` | Int | 否 | 库龄结束值（天） |
+| `fifo_time_from` | String | 否 | 上架时间起始 `YYYY-MM-DD HH:MM:SS` |
+| `fifo_time_to` | String | 否 | 上架时间结束 `YYYY-MM-DD HH:MM:SS` |
+| `quantity_from` | Int | 否 | 在库库存起始值 |
+| `quantity_to` | Int | 否 | 在库库存结束值 |
+| `product_sku_list` | String[] | 否 | 商品编码列表（最多 50 个），示例 `["JS20201114-AAAAAAAAAAAAAAAAA"]` |
+| `product_title` | String(100) | 否 | 商品中文名称（模糊匹配），示例 `"中国好产品"` |
+| `product_title_en` | String(100) | 否 | 商品英文名称（模糊匹配），示例 `goodcang` |
+
+### 响应字段
+
+```json
+{
+  "code": 0,
+  "message": "Success",
+  "data": {
+    "list": [
+      {
+        "iba_id": 17417338,
+        "warehouse_code": "DE",
+        "product_sku": "SLT0004",
+        "product_barcode": "G15056-D9278239852",
+        "iba_quantity": 34,
+        "iba_fifo_time": "2025-04-22",
+        "iba_warning_age": 0,
+        "product_title": "万向水龙头升级款-三种出水方式白色",
+        "product_title_en": "Faucet",
+        "warehouse_desc": "德国区",
+        "warehouse_age": 498,
+        "expiration_date": ""
+      }
+    ],
+    "total": 325
+  }
+}
+```
+
+> **实调校准（2026-09-01）**：字段前缀是 **`iba_`**（不是文档早期误写的 `lba_`）：
+> `iba_id` / `iba_quantity` / `iba_fifo_time` / `iba_warning_age`。
+> `warehouse_code=DE` 表示德国区，`warehouse_desc=德国区`。
+
+### 字段映射
+
+| 业务字段 | 谷仓字段 | 类型 | 落库表.字段 | 转换规则 |
+| --- | --- | --- | --- | --- |
+| SKU | `data.list[].product_sku` | string | `stg_inventory_age.sku` | 直存 |
+| 商品名称（中） | `data.list[].product_title` | string | `stg_inventory_age.product_name` | 优先中 |
+| 商品名称（英） | `data.list[].product_title_en` | string | (raw_json) | 备份 |
+| 在库库存 | `data.list[].iba_quantity` | int | `stg_inventory_age.quantity` | 直存 |
+| 库龄（天） | `data.list[].warehouse_age` | int | `stg_inventory_age.warehouse_age` | 直存 |
+| 上架时间 | `data.list[].iba_fifo_time` | date | `stg_inventory_age.inbound_time` | 字符串转 date |
+| 预警库龄 | `data.list[].iba_warning_age` | int | (raw_json) | 备份 |
+| 仓库描述 | `data.list[].warehouse_desc` | string | (raw_json) | 备份 |
+| 仓库编码 | `data.list[].warehouse_code` | string | `stg_inventory_age.warehouse_code` | 直存 |
+
+**派生：年龄分桶**
+
+| age_bucket | 区间（天） | 中文 |
+| --- | --- | --- |
+| `healthy` | 0–90 | 健康库存 |
+| `watch` | 90–180 | 关注库存 |
+| `stale` | 180–365 | 呆滞库存 |
+| `critical` | 365+ | 严重呆滞库存 |
+
+---
+
+## 4. 接口四：`get_product_inventory` — 产品库存查询
+
+**URL**：`POST {BASE_URL}/public_open/inventory/get_product_inventory`
+**用途**：查询谷仓系统内商品库存信息。
+
+### 请求参数
+
+| 字段 | 类型 | 必填 | 说明 |
+| --- | --- | --- | --- |
+| `page` | Int | 是 | 当前页，默认 1 |
+| `pageSize` | Int | 是 | 每页数据条数，最大 200，默认 20（**驼峰命名**） |
+| `warehouse_code` | String(32) | 是（之一）| 区域仓库代码 |
+| `warehouse_code_arr` | String[] | 是（之一）| 区域仓库代码数组（**单次最多 20 个**） |
+| `product_sku` | String(24) | 是（之一）| 商品 SKU |
+| `product_sku_arr` | String[] | 是（之一）| 商品 SKU 数组（**单次最多 200 个**） |
+| `batch_code` | String(enum) | 否 | 批次属性枚举，参考 `_Enum/Inventory/batchAttributeCodeEnum` |
+| `batch_value_list` | String[] | 否 | 批次值数组（可指定多范围查询） |
+
+### 响应字段
+
+```json
+{
+  "code": 0,
+  "message": "Success",
+  "count": 325,
+  "nextPage": 2,
+  "pagination": "...",
+  "data": [
+    {
+      "warehouse_code": "DE",
+      "warehouse_desc": "德国区",
+      "product_sku": "FRW0005",
+      "product_barcode": "G15056-H8009215890",
+      "product_title": "复古水龙头 陶瓷高款",
+      "total_onway": 120,
+      "transfer_onway": 0,
+      "onway": "120",
+      "pending": "0",
+      "sellable": "149",
+      "unsellable": "0",
+      "reserved": "1",
+      "stocking": "0",
+      "shipped": "545",
+      "pi_unsellable_reserved": 0,
+      "pi_unsellable_shipped": 0,
+      "pi_no_stock": "0",
+      "pi_freeze": "0",
+      "pi_warning_qty": "0",
+      "tune_out": "0",
+      "tune_in": "0",
+      "sold_shared": "0",
+      "product_sales_value": "0.00",
+      "product_freeze_status": 0,
+      "product_freeze_status_text": "正常"
+    }
+  ]
+}
+```
+
+> **实调校准（2026-09-01）**：
+> - ``data`` 字段直接是**数组**（不是 ``{list: [...]}`` 包裹）
+> - 多数数量字段是**字符串**（``"120"``），解析时需转 int
+> - 顶层有 ``count`` / ``nextPage`` / ``pagination`` 分页字段
+
+### 字段映射
+
+| 业务字段 | 谷仓字段 | 类型 | 落库表.字段 | 转换规则 |
+| --- | --- | --- | --- | --- |
+| SKU | `data[].product_sku` | string | `stg_inventory_status.sku` | 直存 |
+| 仓库编码 | `data[].warehouse_code` | string | `stg_inventory_status.warehouse_code` | 直存 |
+| 良品可售 | `data[].sellable` | string | `stg_inventory_status.sellable` | 字符串转 int |
+| 不良品可售 | `data[].unsellable` | string | `stg_inventory_status.unsellable` | 字符串转 int |
+| 良品待出库 | `data[].reserved` | string | `stg_inventory_status.reserved` | 字符串转 int |
+| 良品已出库 | `data[].shipped` | string | (raw_json) | 暂存 |
+| 海外在途 | `data[].onway` | string | `stg_inventory_status.onway` | 字符串转 int |
+| 待上架 | `data[].pending` | string | (raw_json) | 备份 |
+| 冻结数量 | `data[].pi_freeze` | string | (raw_json) | 备份 |
+| 预警库存 | `data[].pi_warning_qty` | string | (raw_json) | 备份 |
+| 缺货数量 | `data[].pi_no_stock` | string | (raw_json) | 备份 |
+| 备货数量 | `data[].stocking` | string | (raw_json) | 备份 |
+
+**派生**：库存压力等级（在分析引擎中计算）：
+
+| pressure_level | 规则 |
+| --- | --- |
+| `critical` | `pi_warning_qty >= sellable`（预警库存 ≥ 可售） |
+| `warning` | `pi_warning_qty > 0` 或 `onway > sellable` |
+| `normal` | 其他 |
+
+---
+
+## 5. 接口 → 表 映射总览
+
+| GoodCang 接口 | 用途 | 目标表 | 数据性质 | 幂等/唯一键 |
+| --- | --- | --- | --- | --- |
+| `billing_list` | 月度账单 | `stg_bills` | 账单（可修正） | `bill_number` |
+| `billing_export` | 账单文件 base64 | `stg_bill_fee_items` | 二进制原文件 | `bill_number + fee_name='[export]'` |
+| `inventory_age_list` | 库存年龄 | `stg_inventory_age` | 快照 | `snapshot_date + sku + warehouse_code` |
+| `get_product_inventory` | 当前库存状态 | `stg_inventory_status` | 快照 | `snapshot_date + sku + warehouse_code` |
+
+**下游分析产物**：
+
+| 来源表 | 分析产物表 | 用途 |
+| --- | --- | --- |
+| `stg_bills` + `stg_bill_fee_items` | `mart_monthly_cost_summary` | 月度成本 / 费用结构 / 环比 |
+| `stg_inventory_age` | `mart_risk_sku` | TOP20 风险 SKU |
+| 以上全部 | `mart_monthly_reports` | 《德国海外仓成本健康报告》 |
+
+---
+
+## 6. 同步策略（已实现）
+
+| 接口 | 频率 | 说明 |
+| --- | --- | --- |
+| `billing_list` | 每日（凌晨 02:00） | 拉最近 3 个月，UPSERT |
+| `billing_export` | 每日 / 账单生成后 | 按 bill_number 拉 base64 文件 |
+| `inventory_age_list` | 每日 | 全量快照（按 warehouse_code） |
+| `get_product_inventory` | 每日 | 全量快照 |
+
+---
+
+## 7. 校准历史
+
+- **2026-09-01（实调校准，4 接口真实连通）**：
+  - 鉴权方式确认为 **HTTP Header**（非 MD5 签名）
+  - 接口方法确认为 **POST + JSON**（非 GET + query）
+  - 生产域名确认为 `https://oms.goodcang.net`（非 open.goodcang.com）
+  - 4 个接口路径前缀为 `/public_open/`
+  - `all_total` / `start_balance` / `end_balance` / `cash_back_balance` 均为 **19 币种数组**（非单个对象），优先取 EUR 非零值
+  - 新增字段 `sign_body_name`（签约主体）/ `sign_business_type_list_text`（业务类型）/ `service_body_name`（服务主体）
+  - `inventory_age_list` 字段前缀为 **`iba_`**（非 `lba_`）：`iba_id`/`iba_quantity`/`iba_fifo_time`/`iba_warning_age`
+  - `get_product_inventory` 的 `data` 直接是**数组**（非 `{list}`），数量字段多为**字符串**
+  - 德国区 `warehouse_code = DE`，仓库描述「德国区」
+  - 实调账单：total=45 条（8 月账单），德国区库存库龄 total=325 条
+- **2026-09-01**：基于官方文档截图完成首轮字段校准
+  - 接口路径前缀为 `/public_open/`
+  - `all_total` 是嵌套结构 `{balance, currency_code}`
+  - `get_product_inventory` 分页参数是**驼峰** `pageSize`（不是 `page_size`）
+  - 金额在响应中为 **String** 类型（用 `Decimal` 解析）

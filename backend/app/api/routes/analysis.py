@@ -1,1 +1,121 @@
-IiIi5YiG5p6Q55u45YWzIEFQSSDot6/nlLHvvJrmiJDmnKwgLyDnu5PmnoQgLyDlupPlrZjlgaXlurcgLyDpo47pmalTS1UgLyDmiqXlkYrjgIIiIiIKZnJvbSBfX2Z1dHVyZV9fIGltcG9ydCBhbm5vdGF0aW9ucwoKZnJvbSBkYXRldGltZSBpbXBvcnQgZGF0ZQoKZnJvbSBmYXN0YXBpIGltcG9ydCBBUElSb3V0ZXIsIERlcGVuZHMsIEhUVFBFeGNlcHRpb24sIFF1ZXJ5CmZyb20gc3FsYWxjaGVteS5vcm0gaW1wb3J0IFNlc3Npb24KCmZyb20gYXBwLmNvcmUuY29uZmlnIGltcG9ydCBnZXRfc2V0dGluZ3MKZnJvbSBhcHAuY29yZS5kYXRhYmFzZSBpbXBvcnQgZ2V0X2RiCmZyb20gYXBwLnNlcnZpY2VzLmFuYWx5c2lzX2VuZ2luZSBpbXBvcnQgQW5hbHlzaXNFbmdpbmUKZnJvbSBhcHAubW9kZWxzIGltcG9ydCBNYXJ0TW9udGhseUNvc3RTdW1tYXJ5Cgpyb3V0ZXIgPSBBUElSb3V0ZXIocHJlZml4PSIvYXBpL2FuYWx5c2lzIiwgdGFncz1bImFuYWx5c2lzIl0pCgoKZGVmIF93aChkYjogU2Vzc2lvbikgLT4gc3RyOgogICAgIiIi5b2T5YmN55uu5qCH5LuT77yI5b635Zu95LuT77yJ44CCIiIiCiAgICByZXR1cm4gZ2V0X3NldHRpbmdzKCkuZ29vZGNhbmdfd2FyZWhvdXNlX2NvZGUKCgpkZWYgX2xhdGVzdF9tb250aChkYjogU2Vzc2lvbiwgd2g6IHN0cikgLT4gc3RyIHwgTm9uZToKICAgIGZyb20gc3FsYWxjaGVteSBpbXBvcnQgc2VsZWN0CiAgICByZXR1cm4gZGIuc2NhbGFyKAogICAgICAgIHNlbGVjdChNYXJ0TW9udGhseUNvc3RTdW1tYXJ5LmJpbGxfbW9udGgpCiAgICAgICAgLndoZXJlKE1hcnRNb250aGx5Q29zdFN1bW1hcnkud2FyZWhvdXNlX2NvZGUgPT0gd2gpCiAgICAgICAgLm9yZGVyX2J5KE1hcnRNb250aGx5Q29zdFN1bW1hcnkuYmlsbF9tb250aC5kZXNjKCkpCiAgICAgICAgLmxpbWl0KDEpCiAgICApCgoKQHJvdXRlci5nZXQoIi9jb3N0L3N1bW1hcnkiKQpkZWYgY29zdF9zdW1tYXJ5KGJpbGxfbW9udGg6IHN0ciB8IE5vbmUgPSBRdWVyeShkZWZhdWx0PU5vbmUpLCBkYjogU2Vzc2lvbiA9IERlcGVuZHMoZ2V0X2RiKSk6CiAgICAiIiLmnIjluqbmiJDmnKzmgLvop4jvvJrmgLvmiJDmnKwgKyDnjq/mr5QgKyDkupTlpKfnsbvjgIIiIiIKICAgIHdoID0gX3doKGRiKQogICAgbW9udGggPSBiaWxsX21vbnRoIG9yIF9sYXRlc3RfbW9udGgoZGIsIHdoKQogICAgaWYgbm90IG1vbnRoOgogICAgICAgIHJhaXNlIEhUVFBFeGNlcHRpb24oNDA0LCAibm8gY29zdCBkYXRhIHlldCwgcnVuIHN5bmMgZmlyc3QiKQogICAgZW5nID0gQW5hbHlzaXNFbmdpbmUoZGIpCiAgICBzdHJ1Y3R1cmUgPSBlbmcuY29zdF9zdHJ1Y3R1cmUobW9udGgsIHdoKQogICAgbW9tID0gZGIuc2NhbGFyKAogICAgICAgIF9faW1wb3J0X18oInNxbGFsY2hlbXkiKS5zZWxlY3QoTWFydE1vbnRobHlDb3N0U3VtbWFyeS5tb21fY2hhbmdlX3BjdCkKICAgICAgICAud2hlcmUoTWFydE1vbnRobHlDb3N0U3VtbWFyeS5iaWxsX21vbnRoID09IG1vbnRoLAogICAgICAgICAgICAgICBNYXJ0TW9udGhseUNvc3RTdW1tYXJ5LndhcmVob3VzZV9jb2RlID09IHdoKQogICAgKQogICAgcmV0dXJuIHsKICAgICAgICAibW9udGgiOiBtb250aCwKICAgICAgICAidG90YWwiOiBzdHJ1Y3R1cmVbInRvdGFsIl0sCiAgICAgICAgIm1vbV9wY3QiOiBmbG9hdChtb20pIGlmIG1vbSBpcyBub3QgTm9uZSBlbHNlIE5vbmUsCiAgICAgICAgInN0cnVjdHVyZSI6IHN0cnVjdHVyZVsiaXRlbXMiXSwKICAgIH0KCgpAcm91dGVyLmdldCgiL2Nvc3QvdHJlbmQiKQpkZWYgY29zdF90cmVuZChtb250aHM6IGludCA9IFF1ZXJ5KGRlZmF1bHQ9MTIsIGdlPTEsIGxlPTM2KSwgZGI6IFNlc3Npb24gPSBEZXBlbmRzKGdldF9kYikpOgogICAgIiIi6L+RIE4g5Liq5pyI5oiQ5pys6LaL5Yq/44CCIiIiCiAgICB3aCA9IF93aChkYikKICAgIGVuZyA9IEFuYWx5c2lzRW5naW5lKGRiKQogICAgcmV0dXJuIHsid2FyZWhvdXNlIjogd2gsICJ0cmVuZCI6IGVuZy5jb3N0X3RyZW5kKHdoLCBtb250aHMpfQoKCkByb3V0ZXIuZ2V0KCIvaW52ZW50b3J5L2hlYWx0aCIpCmRlZiBpbnZlbnRvcnlfaGVhbHRoKHNuYXBzaG90X2RhdGU6IHN0ciB8IE5vbmUgPSBRdWVyeShkZWZhdWx0PU5vbmUpLCBkYjogU2Vzc2lvbiA9IERlcGVuZHMoZ2V0X2RiKSk6CiAgICAiIiLlupPlrZjlgaXlurfliIbmobbjgIIiIiIKICAgIHdoID0gX3doKGRiKQogICAgZW5nID0gQW5hbHlzaXNFbmdpbmUoZGIpCiAgICBpZiBzbmFwc2hvdF9kYXRlOgogICAgICAgIHNuYXAgPSBkYXRlLmZyb21pc29mb3JtYXQoc25hcHNob3RfZGF0ZSkKICAgIGVsc2U6CiAgICAgICAgZnJvbSBzcWxhbGNoZW15IGltcG9ydCBzZWxlY3QKICAgICAgICBmcm9tIGFwcC5tb2RlbHMgaW1wb3J0IFN0Z0ludmVudG9yeUFnZQogICAgICAgIHNuYXAgPSBkYi5zY2FsYXIoCiAgICAgICAgICAgIHNlbGVjdChTdGdJbnZlbnRvcnlBZ2Uuc25hcHNob3RfZGF0ZSkKICAgICAgICAgICAgLndoZXJlKFN0Z0ludmVudG9yeUFnZS53YXJlaG91c2VfY29kZSA9PSB3aCkKICAgICAgICAgICAgLm9yZGVyX2J5KFN0Z0ludmVudG9yeUFnZS5zbmFwc2hvdF9kYXRlLmRlc2MoKSkubGltaXQoMSkKICAgICAgICApCiAgICBpZiBub3Qgc25hcDoKICAgICAgICByYWlzZSBIVFRQRXhjZXB0aW9uKDQwNCwgIm5vIGludmVudG9yeSBkYXRhIHlldCIpCiAgICByZXR1cm4gZW5nLmludmVudG9yeV9oZWFsdGgoc25hcCwgd2gpCgoKQHJvdXRlci5nZXQoIi9pbnZlbnRvcnkvcmlzay1za3UiKQpkZWYgcmlza19za3Uoc25hcHNob3RfZGF0ZTogc3RyIHwgTm9uZSA9IFF1ZXJ5KGRlZmF1bHQ9Tm9uZSksIHRvcDogaW50ID0gUXVlcnkoZGVmYXVsdD0yMCwgZ2U9MSwgbGU9MTAwKSwKICAgICAgICAgICAgIGRiOiBTZXNzaW9uID0gRGVwZW5kcyhnZXRfZGIpKToKICAgICIiIumjjumZqSBTS1Ug5o6S6KGM44CCIiIiCiAgICB3aCA9IF93aChkYikKICAgIGVuZyA9IEFuYWx5c2lzRW5naW5lKGRiKQogICAgaWYgc25hcHNob3RfZGF0ZToKICAgICAgICBzbmFwID0gZGF0ZS5mcm9taXNvZm9ybWF0KHNuYXBzaG90X2RhdGUpCiAgICBlbHNlOgogICAgICAgIGZyb20gc3FsYWxjaGVteSBpbXBvcnQgc2VsZWN0CiAgICAgICAgZnJvbSBhcHAubW9kZWxzIGltcG9ydCBTdGdJbnZlbnRvcnlBZ2UKICAgICAgICBzbmFwID0gZGIuc2NhbGFyKAogICAgICAgICAgICBzZWxlY3QoU3RnSW52ZW50b3J5QWdlLnNuYXBzaG90X2RhdGUpCiAgICAgICAgICAgIC53aGVyZShTdGdJbnZlbnRvcnlBZ2Uud2FyZWhvdXNlX2NvZGUgPT0gd2gpCiAgICAgICAgICAgIC5vcmRlcl9ieShTdGdJbnZlbnRvcnlBZ2Uuc25hcHNob3RfZGF0ZS5kZXNjKCkpLmxpbWl0KDEpCiAgICAgICAgKQogICAgaWYgbm90IHNuYXA6CiAgICAgICAgcmFpc2UgSFRUUEV4Y2VwdGlvbig0MDQsICJubyBpbnZlbnRvcnkgZGF0YSB5ZXQiKQogICAgcmV0dXJuIHsic25hcHNob3RfZGF0ZSI6IHNuYXAuaXNvZm9ybWF0KCksICJpdGVtcyI6IGVuZy5yaXNrX3NrdV90b3Aoc25hcCwgd2gsIHRvcCl9CgoKQHJvdXRlci5nZXQoIi9yZXBvcnQvbW9udGhseSIpCmRlZiBtb250aGx5X3JlcG9ydChyZXBvcnRfbW9udGg6IHN0ciB8IE5vbmUgPSBRdWVyeShkZWZhdWx0PU5vbmUpLCBkYjogU2Vzc2lvbiA9IERlcGVuZHMoZ2V0X2RiKSk6CiAgICAiIiLmnIjluqbmiqXlkYrvvIjoi6Xml6DliJnnjrDlnLrnlJ/miJDvvInjgIIiIiIKICAgIHdoID0gX3doKGRiKQogICAgZW5nID0gQW5hbHlzaXNFbmdpbmUoZGIpCiAgICBtb250aCA9IHJlcG9ydF9tb250aCBvciBfbGF0ZXN0X21vbnRoKGRiLCB3aCkKICAgIGlmIG5vdCBtb250aDoKICAgICAgICByYWlzZSBIVFRQRXhjZXB0aW9uKDQwNCwgIm5vIGNvc3QgZGF0YSB5ZXQiKQogICAgcmVwb3J0ID0gZW5nLmdlbmVyYXRlX3JlcG9ydChtb250aCwgd2gpCiAgICByZXR1cm4gewogICAgICAgICJyZXBvcnRfbW9udGgiOiByZXBvcnQucmVwb3J0X21vbnRoLAogICAgICAgICJ0aXRsZSI6IHJlcG9ydC50aXRsZSwKICAgICAgICAiY29zdF9jaGFuZ2UiOiByZXBvcnQuY29zdF9jaGFuZ2UsCiAgICAgICAgImNvc3RfZHJpdmVycyI6IHJlcG9ydC5jb3N0X2RyaXZlcnMsCiAgICAgICAgImludmVudG9yeV9yaXNrIjogcmVwb3J0LmludmVudG9yeV9yaXNrLAogICAgICAgICJyZWNvbW1lbmRhdGlvbnMiOiByZXBvcnQucmVjb21tZW5kYXRpb25zLAogICAgICAgICJjb250ZW50X21kIjogcmVwb3J0LmNvbnRlbnRfbWQsCiAgICAgICAgInN0YXR1cyI6IHJlcG9ydC5zdGF0dXMsCiAgICB9
+"""分析相关 API 路由：成本 / 结构 / 库存健康 / 风险SKU / 报告。"""
+from __future__ import annotations
+
+from datetime import date
+
+from fastapi import APIRouter, Depends, HTTPException, Query
+from sqlalchemy.orm import Session
+
+from app.core.config import get_settings
+from app.core.database import get_db
+from app.services.analysis_engine import AnalysisEngine
+from app.models import MartMonthlyCostSummary
+
+router = APIRouter(prefix="/api/analysis", tags=["analysis"])
+
+
+def _wh(db: Session) -> str:
+    """当前目标仓（德国仓）。"""
+    return get_settings().goodcang_warehouse_code
+
+
+def _latest_month(db: Session, wh: str) -> str | None:
+    from sqlalchemy import select
+    return db.scalar(
+        select(MartMonthlyCostSummary.bill_month)
+        .where(MartMonthlyCostSummary.warehouse_code == wh)
+        .order_by(MartMonthlyCostSummary.bill_month.desc())
+        .limit(1)
+    )
+
+
+@router.get("/cost/summary")
+def cost_summary(bill_month: str | None = Query(default=None), db: Session = Depends(get_db)):
+    """月度成本总览：总成本 + 环比 + 五大类。"""
+    wh = _wh(db)
+    month = bill_month or _latest_month(db, wh)
+    if not month:
+        raise HTTPException(404, "no cost data yet, run sync first")
+    eng = AnalysisEngine(db)
+    structure = eng.cost_structure(month, wh)
+    mom = db.scalar(
+        __import__("sqlalchemy").select(MartMonthlyCostSummary.mom_change_pct)
+        .where(MartMonthlyCostSummary.bill_month == month,
+               MartMonthlyCostSummary.warehouse_code == wh)
+    )
+    return {
+        "month": month,
+        "total": structure["total"],
+        "mom_pct": float(mom) if mom is not None else None,
+        "structure": structure["items"],
+    }
+
+
+@router.get("/cost/trend")
+def cost_trend(months: int = Query(default=12, ge=1, le=36), db: Session = Depends(get_db)):
+    """近 N 个月成本趋势。"""
+    wh = _wh(db)
+    eng = AnalysisEngine(db)
+    return {"warehouse": wh, "trend": eng.cost_trend(wh, months)}
+
+
+@router.get("/inventory/health")
+def inventory_health(snapshot_date: str | None = Query(default=None), db: Session = Depends(get_db)):
+    """库存健康分桶。"""
+    wh = _wh(db)
+    eng = AnalysisEngine(db)
+    if snapshot_date:
+        snap = date.fromisoformat(snapshot_date)
+    else:
+        from sqlalchemy import select
+        from app.models import StgInventoryAge
+        snap = db.scalar(
+            select(StgInventoryAge.snapshot_date)
+            .where(StgInventoryAge.warehouse_code == wh)
+            .order_by(StgInventoryAge.snapshot_date.desc()).limit(1)
+        )
+    if not snap:
+        raise HTTPException(404, "no inventory data yet")
+    return eng.inventory_health(snap, wh)
+
+
+@router.get("/inventory/risk-sku")
+def risk_sku(snapshot_date: str | None = Query(default=None), top: int = Query(default=20, ge=1, le=100),
+             db: Session = Depends(get_db)):
+    """风险 SKU 排行。"""
+    wh = _wh(db)
+    eng = AnalysisEngine(db)
+    if snapshot_date:
+        snap = date.fromisoformat(snapshot_date)
+    else:
+        from sqlalchemy import select
+        from app.models import StgInventoryAge
+        snap = db.scalar(
+            select(StgInventoryAge.snapshot_date)
+            .where(StgInventoryAge.warehouse_code == wh)
+            .order_by(StgInventoryAge.snapshot_date.desc()).limit(1)
+        )
+    if not snap:
+        raise HTTPException(404, "no inventory data yet")
+    return {"snapshot_date": snap.isoformat(), "items": eng.risk_sku_top(snap, wh, top)}
+
+
+@router.get("/report/monthly")
+def monthly_report(report_month: str | None = Query(default=None), db: Session = Depends(get_db)):
+    """月度报告（若无则现场生成）。"""
+    wh = _wh(db)
+    eng = AnalysisEngine(db)
+    month = report_month or _latest_month(db, wh)
+    if not month:
+        raise HTTPException(404, "no cost data yet")
+    report = eng.generate_report(month, wh)
+    return {
+        "report_month": report.report_month,
+        "title": report.title,
+        "cost_change": report.cost_change,
+        "cost_drivers": report.cost_drivers,
+        "inventory_risk": report.inventory_risk,
+        "recommendations": report.recommendations,
+        "content_md": report.content_md,
+        "status": report.status,
+    }

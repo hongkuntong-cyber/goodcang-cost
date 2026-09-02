@@ -1,1 +1,101 @@
-IiIi5YiG5p6Q5byV5pOO5rWL6K+V77ya5oiQ5pys5rGH5oC7L+e7k+aehC/lgaXlurcv6aOO6ZmpU0tVL+aKpeWRiuOAgiIiIgpmcm9tIF9fZnV0dXJlX18gaW1wb3J0IGFubm90YXRpb25zCgpmcm9tIGRhdGV0aW1lIGltcG9ydCBkYXRlLCBkYXRldGltZSwgdGltZXpvbmUKZnJvbSBkZWNpbWFsIGltcG9ydCBEZWNpbWFsCgppbXBvcnQgcHl0ZXN0CmZyb20gc3FsYWxjaGVteSBpbXBvcnQgc2VsZWN0Cgpmcm9tIGFwcC5tb2RlbHMgaW1wb3J0ICgKICAgIERpbVdhcmVob3VzZSwgTWFydE1vbnRobHlDb3N0U3VtbWFyeSwgTWFydE1vbnRobHlSZXBvcnQsIE1hcnRSaXNrU2t1LAogICAgU3RnQmlsbCwgU3RnQmlsbEZlZUl0ZW0sIFN0Z0ludmVudG9yeUFnZSwKKQpmcm9tIGFwcC5zZXJ2aWNlcy5hbmFseXNpc19lbmdpbmUgaW1wb3J0IEFuYWx5c2lzRW5naW5lCgoKQHB5dGVzdC5maXh0dXJlKCkKZGVmIHNlZWRlZChzZXNzaW9uKToKICAgIHNlc3Npb24uYWRkKERpbVdhcmVob3VzZSh3YXJlaG91c2VfY29kZT0iREUxIiwgd2FyZWhvdXNlX25hbWU9IuW+t+WbveS4gOS7kyIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY291bnRyeV9jb2RlPSJERSIsIGN1cnJlbmN5X2NvZGU9IkVVUiIpKQogICAgIyA45pyI6LS555So5piO57uGCiAgICBzZXNzaW9uLmFkZChTdGdCaWxsRmVlSXRlbShiaWxsX251bWJlcj0iQjEiLCBmZWVfbmFtZT0i5LuT5YKo6LS5IiwgZmVlX2NhdGVnb3J5PSJzdG9yYWdlIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGFtb3VudD1EZWNpbWFsKCIxMDAwIiksIGN1cnJlbmN5X2NvZGU9IkVVUiIsIGJpbGxfbW9udGg9IjIwMjYtMDgiKSkKICAgIHNlc3Npb24uYWRkKFN0Z0JpbGxGZWVJdGVtKGJpbGxfbnVtYmVyPSJCMSIsIGZlZV9uYW1lPSLov5DovpPotLkiLCBmZWVfY2F0ZWdvcnk9InRyYW5zcG9ydCIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBhbW91bnQ9RGVjaW1hbCgiNTAwIiksIGN1cnJlbmN5X2NvZGU9IkVVUiIsIGJpbGxfbW9udGg9IjIwMjYtMDgiKSkKICAgIHNlc3Npb24uYWRkKFN0Z0JpbGxGZWVJdGVtKGJpbGxfbnVtYmVyPSJCMSIsIGZlZV9uYW1lPSLlh7rlupPmk43kvZzotLkiLCBmZWVfY2F0ZWdvcnk9Im91dGJvdW5kIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGFtb3VudD1EZWNpbWFsKCIzMDAiKSwgY3VycmVuY3lfY29kZT0iRVVSIiwgYmlsbF9tb250aD0iMjAyNi0wOCIpKQogICAgIyA35pyI6LS555So77yI55So5LqO546v5q+U77yJCiAgICBzZXNzaW9uLmFkZChTdGdCaWxsRmVlSXRlbShiaWxsX251bWJlcj0iQjAiLCBmZWVfbmFtZT0i5LuT5YKo6LS5IiwgZmVlX2NhdGVnb3J5PSJzdG9yYWdlIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGFtb3VudD1EZWNpbWFsKCI4MDAiKSwgY3VycmVuY3lfY29kZT0iRVVSIiwgYmlsbF9tb250aD0iMjAyNi0wNyIpKQogICAgIyDlupPlrZjlubTpvoQKICAgIHNlc3Npb24uYWRkX2FsbChbCiAgICAgICAgU3RnSW52ZW50b3J5QWdlKHNuYXBzaG90X2RhdGU9ZGF0ZSgyMDI2LCA5LCAxKSwgc2t1PSJTS1UxIiwgcHJvZHVjdF9uYW1lPSLllYblk4ExIiwKICAgICAgICAgICAgICAgICAgICAgICAgcXVhbnRpdHk9MTAwLCB3YXJlaG91c2VfYWdlPTQwMCwgYWdlX2J1Y2tldD0iY3JpdGljYWwiLCB3YXJlaG91c2VfY29kZT0iREUxIiksCiAgICAgICAgU3RnSW52ZW50b3J5QWdlKHNuYXBzaG90X2RhdGU9ZGF0ZSgyMDI2LCA5LCAxKSwgc2t1PSJTS1UyIiwgcHJvZHVjdF9uYW1lPSLllYblk4EyIiwKICAgICAgICAgICAgICAgICAgICAgICAgcXVhbnRpdHk9NTAsIHdhcmVob3VzZV9hZ2U9MjAwLCBhZ2VfYnVja2V0PSJzdGFsZSIsIHdhcmVob3VzZV9jb2RlPSJERTEiKSwKICAgICAgICBTdGdJbnZlbnRvcnlBZ2Uoc25hcHNob3RfZGF0ZT1kYXRlKDIwMjYsIDksIDEpLCBza3U9IlNLVTMiLCBwcm9kdWN0X25hbWU9IuWVhuWTgTMiLAogICAgICAgICAgICAgICAgICAgICAgICBxdWFudGl0eT0zMCwgd2FyZWhvdXNlX2FnZT0xMDAsIGFnZV9idWNrZXQ9IndhdGNoIiwgd2FyZWhvdXNlX2NvZGU9IkRFMSIpLAogICAgXSkKICAgIHNlc3Npb24uY29tbWl0KCkKICAgIHJldHVybiBzZXNzaW9uCgoKZGVmIHRlc3RfbW9udGhseV9jb3N0X2FuZF9tb20oc2VlZGVkKToKICAgIGVuZyA9IEFuYWx5c2lzRW5naW5lKHNlZWRlZCkKICAgICMg5YWI566XIDcg5pyI77yI5L2c5Li6546v5q+U5Z+65pyf77yJCiAgICBlbmcuY29tcHV0ZV9tb250aGx5X2Nvc3QoIjIwMjYtMDciLCAiREUxIikKICAgIHJvdyA9IGVuZy5jb21wdXRlX21vbnRobHlfY29zdCgiMjAyNi0wOCIsICJERTEiKQoKICAgIGFzc2VydCBzdHIocm93LnRvdGFsX2Nvc3QpID09ICIxODAwLjAwMDAiICAjIDEwMDArNTAwKzMwMAogICAgYXNzZXJ0IHN0cihyb3cuc3RvcmFnZV9mZWUpID09ICIxMDAwLjAwMDAiCiAgICBhc3NlcnQgcm93Lm1vbV9jaGFuZ2VfcGN0IGlzIG5vdCBOb25lCiAgICAjIDfmnIg9ODAw77yMOOaciD0xODAwIOKGkiDnjq/mr5QgKzEyNSUKICAgIGFzc2VydCBmbG9hdChyb3cubW9tX2NoYW5nZV9wY3QpID09IHB5dGVzdC5hcHByb3goMTI1LjAsIGFicz0wLjAxKQoKCmRlZiB0ZXN0X2Nvc3Rfc3RydWN0dXJlKHNlZWRlZCk6CiAgICBlbmcgPSBBbmFseXNpc0VuZ2luZShzZWVkZWQpCiAgICBlbmcuY29tcHV0ZV9tb250aGx5X2Nvc3QoIjIwMjYtMDgiLCAiREUxIikKICAgIHMgPSBlbmcuY29zdF9zdHJ1Y3R1cmUoIjIwMjYtMDgiLCAiREUxIikKICAgIGFzc2VydCBzWyJ0b3RhbCJdID09IDE4MDAuMAogICAgY2F0cyA9IHtpWyJjYXRlZ29yeSJdOiBpWyJhbW91bnQiXSBmb3IgaSBpbiBzWyJpdGVtcyJdfQogICAgYXNzZXJ0IGNhdHNbInN0b3JhZ2UiXSA9PSAxMDAwLjAKICAgIGFzc2VydCBjYXRzWyJ0cmFuc3BvcnQiXSA9PSA1MDAuMAogICAgYXNzZXJ0IGNhdHNbIm91dGJvdW5kIl0gPT0gMzAwLjAKICAgIGFzc2VydCBjYXRzWyJpbmJvdW5kIl0gPT0gMC4wCgoKZGVmIHRlc3RfaW52ZW50b3J5X2hlYWx0aChzZWVkZWQpOgogICAgZW5nID0gQW5hbHlzaXNFbmdpbmUoc2VlZGVkKQogICAgaCA9IGVuZy5pbnZlbnRvcnlfaGVhbHRoKGRhdGUoMjAyNiwgOSwgMSksICJERTEiKQogICAgYnVja2V0cyA9IHtiWyJidWNrZXQiXTogYiBmb3IgYiBpbiBoWyJidWNrZXRzIl19CiAgICBhc3NlcnQgYnVja2V0c1siY3JpdGljYWwiXVsicXVhbnRpdHkiXSA9PSAxMDAKICAgIGFzc2VydCBidWNrZXRzWyJzdGFsZSJdWyJxdWFudGl0eSJdID09IDUwCiAgICBhc3NlcnQgYnVja2V0c1sid2F0Y2giXVsicXVhbnRpdHkiXSA9PSAzMAogICAgYXNzZXJ0IGJ1Y2tldHNbImhlYWx0aHkiXVsicXVhbnRpdHkiXSA9PSAwCiAgICBhc3NlcnQgaFsidG90YWxfcXVhbnRpdHkiXSA9PSAxODAKCgpkZWYgdGVzdF9yaXNrX3NrdV90b3Aoc2VlZGVkKToKICAgIGVuZyA9IEFuYWx5c2lzRW5naW5lKHNlZWRlZCkKICAgIHRvcCA9IGVuZy5yaXNrX3NrdV90b3AoZGF0ZSgyMDI2LCA5LCAxKSwgIkRFMSIsIHRvcD0yMCkKICAgICMg5bqT6b6E6ZmN5bqP77yaU0tVMSg0MDApID4gU0tVMigyMDApID4gU0tVMygxMDApCiAgICBhc3NlcnQgW3JbInNrdSJdIGZvciByIGluIHRvcF0gPT0gWyJTS1UxIiwgIlNLVTIiLCAiU0tVMyJdCiAgICBhc3NlcnQgdG9wWzBdWyJhZ2VfYnVja2V0Il0gPT0gImNyaXRpY2FsIgogICAgIyDlt7LnianljJYKICAgIHBlcnNpc3RlZCA9IHNlZWRlZC5zY2FsYXJzKHNlbGVjdChNYXJ0Umlza1NrdSkpLmFsbCgpCiAgICBhc3NlcnQgbGVuKHBlcnNpc3RlZCkgPT0gMwogICAgYXNzZXJ0IHBlcnNpc3RlZFswXS5yaXNrX3JhbmsgPT0gMQoKCmRlZiB0ZXN0X2dlbmVyYXRlX3JlcG9ydChzZWVkZWQpOgogICAgZW5nID0gQW5hbHlzaXNFbmdpbmUoc2VlZGVkKQogICAgZW5nLmNvbXB1dGVfbW9udGhseV9jb3N0KCIyMDI2LTA4IiwgIkRFMSIpCiAgICByZXBvcnQgPSBlbmcuZ2VuZXJhdGVfcmVwb3J0KCIyMDI2LTA4IiwgIkRFMSIpCiAgICBhc3NlcnQgcmVwb3J0LnRpdGxlLnN0YXJ0c3dpdGgoIuW+t+Wbvea1t+WkluS7k+aIkOacrOWBpeW6t+aKpeWRiiIpCiAgICBhc3NlcnQgcmVwb3J0LnN0YXR1cyA9PSAicHVibGlzaGVkIgogICAgYXNzZXJ0IHJlcG9ydC5jb250ZW50X21kIGlzIG5vdCBOb25lIGFuZCAi5oiQ5pys5Y+Y5YyWIiBpbiByZXBvcnQuY29udGVudF9tZAogICAgIyDmiqXlkYrph4zmnInmiJDmnKwv5bqT5a2Y6aOO6ZmpL+W7uuiurgogICAgYXNzZXJ0IHJlcG9ydC5jb3N0X2NoYW5nZVsidG90YWwiXSA9PSAxODAwLjAKICAgIGFzc2VydCBsZW4ocmVwb3J0LnJlY29tbWVuZGF0aW9ucykgPj0gMQ==
+"""分析引擎测试：成本汇总/结构/健康/风险SKU/报告。"""
+from __future__ import annotations
+
+from datetime import date, datetime, timezone
+from decimal import Decimal
+
+import pytest
+from sqlalchemy import select
+
+from app.models import (
+    DimWarehouse, MartMonthlyCostSummary, MartMonthlyReport, MartRiskSku,
+    StgBill, StgBillFeeItem, StgInventoryAge,
+)
+from app.services.analysis_engine import AnalysisEngine
+
+
+@pytest.fixture()
+def seeded(session):
+    session.add(DimWarehouse(warehouse_code="DE1", warehouse_name="德国一仓",
+                             country_code="DE", currency_code="EUR"))
+    # 8月费用明细
+    session.add(StgBillFeeItem(bill_number="B1", fee_name="仓储费", fee_category="storage",
+                               amount=Decimal("1000"), currency_code="EUR", bill_month="2026-08"))
+    session.add(StgBillFeeItem(bill_number="B1", fee_name="运输费", fee_category="transport",
+                               amount=Decimal("500"), currency_code="EUR", bill_month="2026-08"))
+    session.add(StgBillFeeItem(bill_number="B1", fee_name="出库操作费", fee_category="outbound",
+                               amount=Decimal("300"), currency_code="EUR", bill_month="2026-08"))
+    # 7月费用（用于环比）
+    session.add(StgBillFeeItem(bill_number="B0", fee_name="仓储费", fee_category="storage",
+                               amount=Decimal("800"), currency_code="EUR", bill_month="2026-07"))
+    # 库存年龄
+    session.add_all([
+        StgInventoryAge(snapshot_date=date(2026, 9, 1), sku="SKU1", product_name="商品1",
+                        quantity=100, warehouse_age=400, age_bucket="critical", warehouse_code="DE1"),
+        StgInventoryAge(snapshot_date=date(2026, 9, 1), sku="SKU2", product_name="商品2",
+                        quantity=50, warehouse_age=200, age_bucket="stale", warehouse_code="DE1"),
+        StgInventoryAge(snapshot_date=date(2026, 9, 1), sku="SKU3", product_name="商品3",
+                        quantity=30, warehouse_age=100, age_bucket="watch", warehouse_code="DE1"),
+    ])
+    session.commit()
+    return session
+
+
+def test_monthly_cost_and_mom(seeded):
+    eng = AnalysisEngine(seeded)
+    # 先算 7 月（作为环比基期）
+    eng.compute_monthly_cost("2026-07", "DE1")
+    row = eng.compute_monthly_cost("2026-08", "DE1")
+
+    assert str(row.total_cost) == "1800.0000"  # 1000+500+300
+    assert str(row.storage_fee) == "1000.0000"
+    assert row.mom_change_pct is not None
+    # 7月=800，8月=1800 → 环比 +125%
+    assert float(row.mom_change_pct) == pytest.approx(125.0, abs=0.01)
+
+
+def test_cost_structure(seeded):
+    eng = AnalysisEngine(seeded)
+    eng.compute_monthly_cost("2026-08", "DE1")
+    s = eng.cost_structure("2026-08", "DE1")
+    assert s["total"] == 1800.0
+    cats = {i["category"]: i["amount"] for i in s["items"]}
+    assert cats["storage"] == 1000.0
+    assert cats["transport"] == 500.0
+    assert cats["outbound"] == 300.0
+    assert cats["inbound"] == 0.0
+
+
+def test_inventory_health(seeded):
+    eng = AnalysisEngine(seeded)
+    h = eng.inventory_health(date(2026, 9, 1), "DE1")
+    buckets = {b["bucket"]: b for b in h["buckets"]}
+    assert buckets["critical"]["quantity"] == 100
+    assert buckets["stale"]["quantity"] == 50
+    assert buckets["watch"]["quantity"] == 30
+    assert buckets["healthy"]["quantity"] == 0
+    assert h["total_quantity"] == 180
+
+
+def test_risk_sku_top(seeded):
+    eng = AnalysisEngine(seeded)
+    top = eng.risk_sku_top(date(2026, 9, 1), "DE1", top=20)
+    # 库龄降序：SKU1(400) > SKU2(200) > SKU3(100)
+    assert [r["sku"] for r in top] == ["SKU1", "SKU2", "SKU3"]
+    assert top[0]["age_bucket"] == "critical"
+    # 已物化
+    persisted = seeded.scalars(select(MartRiskSku)).all()
+    assert len(persisted) == 3
+    assert persisted[0].risk_rank == 1
+
+
+def test_generate_report(seeded):
+    eng = AnalysisEngine(seeded)
+    eng.compute_monthly_cost("2026-08", "DE1")
+    report = eng.generate_report("2026-08", "DE1")
+    assert report.title.startswith("德国海外仓成本健康报告")
+    assert report.status == "published"
+    assert report.content_md is not None and "成本变化" in report.content_md
+    # 报告里有成本/库存风险/建议
+    assert report.cost_change["total"] == 1800.0
+    assert len(report.recommendations) >= 1

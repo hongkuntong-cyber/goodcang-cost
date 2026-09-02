@@ -1,1 +1,12 @@
-IiIiR29vZENhbmcgQ29zdCBJbnRlbGxpZ2VuY2Ug5ZCO56uv5bqU55So5YyF44CCCgrnu5/kuIDlr7nlpJblhaXlj6MgYGFwcGAg5ZG95ZCN56m66Ze077yM5oyJ6IGM6LSj5YiS5YiG5a2Q5qih5Z2X77yaCi0gY29yZSAgICAgICAg77ya6YWN572u44CB5pWw5o2u5bqT6L+e5o6l44CB5pel5b+XCi0gY29ubmVjdG9ycyAg77ya56ys5LiJ5pa5IEFQSSDov57mjqXlmajvvIhHb29kQ2FuZ++8iQotIG1vZGVscyAgICAgIO+8mlNRTEFsY2hlbXkgT1JNIOaooeWeiwotIHNjaGVtYXMgICAgIO+8mlB5ZGFudGljIOaVsOaNruS8oOi+k+aooeWeiwotIHJlcG9zaXRvcmllc++8muaVsOaNruiuv+mXruWxggotIHNlcnZpY2VzICAgIO+8muS4muWKoemAu+i+kS/liIbmnpDlvJXmk44KLSBhcGkucm91dGVzICDvvJpGYXN0QVBJIOi3r+eUsQotIHRhc2tzICAgICAgIO+8muWumuaXtuWQjOatpeS7u+WKoQoiIiI=
+"""GoodCang Cost Intelligence 后端应用包。
+
+统一对外入口 `app` 命名空间，按职责划分子模块：
+- core        ：配置、数据库连接、日志
+- connectors  ：第三方 API 连接器（GoodCang）
+- models      ：SQLAlchemy ORM 模型
+- schemas     ：Pydantic 数据传输模型
+- repositories：数据访问层
+- services    ：业务逻辑/分析引擎
+- api.routes  ：FastAPI 路由
+- tasks       ：定时同步任务
+"""

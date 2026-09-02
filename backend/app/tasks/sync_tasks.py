@@ -1,1 +1,61 @@
-IiIi5a6a5pe25ZCM5q2l5Lu75Yqh6LCD5bqm77yIQVBTY2hlZHVsZXLvvInjgIIKCum7mOiupOavj+aXpSAwMjowMCDlhajph4/lkIzmraXvvIjlj6/nlKggU1lOQ19FTkFCTEVEIC8gU1lOQ19DUk9OIOmFjee9ru+8ieOAggrkuZ/mmrTpnLLkuIDkuKrlj6/nm7TmjqXosIPnlKjnmoQgcnVuX3N5bmNfbm93KCkg5L6b5omL5Yqo6Kem5Y+RIC8g5rWL6K+V44CCCiIiIgpmcm9tIF9fZnV0dXJlX18gaW1wb3J0IGFubm90YXRpb25zCgppbXBvcnQgYXN5bmNpbwppbXBvcnQgbG9nZ2luZwoKZnJvbSBhcHNjaGVkdWxlci5zY2hlZHVsZXJzLmFzeW5jaW8gaW1wb3J0IEFzeW5jSU9TY2hlZHVsZXIKZnJvbSBhcHNjaGVkdWxlci50cmlnZ2Vycy5jcm9uIGltcG9ydCBDcm9uVHJpZ2dlcgoKZnJvbSBhcHAuY29yZS5jb25maWcgaW1wb3J0IGdldF9zZXR0aW5ncwpmcm9tIGFwcC5jb3JlLmRhdGFiYXNlIGltcG9ydCBTZXNzaW9uTG9jYWwKZnJvbSBhcHAuY29ubmVjdG9ycy5nb29kY2FuZyBpbXBvcnQgR29vZENhbmdDbGllbnQsIEdvb2RDYW5nRW5kcG9pbnRzCmZyb20gYXBwLnNlcnZpY2VzLnN5bmNfc2VydmljZSBpbXBvcnQgU3luY1NlcnZpY2UKCmxvZ2dlciA9IGxvZ2dpbmcuZ2V0TG9nZ2VyKF9fbmFtZV9fKQoKX3NjaGVkdWxlcjogQXN5bmNJT1NjaGVkdWxlciB8IE5vbmUgPSBOb25lCgoKYXN5bmMgZGVmIHJ1bl9zeW5jX25vdygpIC0+IGRpY3Rbc3RyLCBpbnRdOgogICAgIiIi5omL5Yqo6Kem5Y+R5LiA5qyh5YWo6YeP5ZCM5q2l44CCIiIiCiAgICBhc3luYyB3aXRoIEdvb2RDYW5nQ2xpZW50KCkgYXMgY2xpZW50OgogICAgICAgIGVuZHBvaW50cyA9IEdvb2RDYW5nRW5kcG9pbnRzKGNsaWVudCkKICAgICAgICB3aXRoIFNlc3Npb25Mb2NhbCgpIGFzIGRiOgogICAgICAgICAgICBzZXJ2aWNlID0gU3luY1NlcnZpY2UoZGIsIGNsaWVudCwgZW5kcG9pbnRzKQogICAgICAgICAgICByZXR1cm4gYXdhaXQgc2VydmljZS5zeW5jX2FsbCgpCgoKZGVmIHN0YXJ0X3NjaGVkdWxlcigpIC0+IEFzeW5jSU9TY2hlZHVsZXI6CiAgICAiIiLlkK/liqjosIPluqblmajvvJvnlLEgRmFzdEFQSSBzdGFydHVwIOiwg+eUqOOAgiIiIgogICAgZ2xvYmFsIF9zY2hlZHVsZXIKICAgIHNldHRpbmdzID0gZ2V0X3NldHRpbmdzKCkKICAgIGlmIF9zY2hlZHVsZXIgaXMgbm90IE5vbmU6CiAgICAgICAgcmV0dXJuIF9zY2hlZHVsZXIKCiAgICBfc2NoZWR1bGVyID0gQXN5bmNJT1NjaGVkdWxlcih0aW1lem9uZT0iQXNpYS9TaGFuZ2hhaSIpCiAgICBpZiBzZXR0aW5ncy5zeW5jX2VuYWJsZWQ6CiAgICAgICAgY3Jvbl9wYXJ0cyA9IHNldHRpbmdzLnN5bmNfY3Jvbi5zcGxpdCgpCiAgICAgICAgX3NjaGVkdWxlci5hZGRfam9iKAogICAgICAgICAgICBsYW1iZGE6IGFzeW5jaW8uY3JlYXRlX3Rhc2socnVuX3N5bmNfbm93KCkpLAogICAgICAgICAgICBDcm9uVHJpZ2dlcigKICAgICAgICAgICAgICAgIG1pbnV0ZT1jcm9uX3BhcnRzWzBdLCBob3VyPWNyb25fcGFydHNbMV0sCiAgICAgICAgICAgICAgICBkYXk9Y3Jvbl9wYXJ0c1syXSwgbW9udGg9Y3Jvbl9wYXJ0c1szXSwgZGF5X29mX3dlZWs9Y3Jvbl9wYXJ0c1s0XSwKICAgICAgICAgICAgKSwKICAgICAgICAgICAgaWQ9Imdvb2RjYW5nX2RhaWx5X3N5bmMiLAogICAgICAgICAgICBuYW1lPSLmr4/ml6Xlhajph4/lkIzmraUiLAogICAgICAgICkKICAgICAgICBsb2dnZXIuaW5mbygic2NoZWR1bGVyIHN0YXJ0ZWQgd2l0aCBjcm9uPSVzIiwgc2V0dGluZ3Muc3luY19jcm9uKQogICAgX3NjaGVkdWxlci5zdGFydCgpCiAgICByZXR1cm4gX3NjaGVkdWxlcgoKCmRlZiBzdG9wX3NjaGVkdWxlcigpIC0+IE5vbmU6CiAgICBnbG9iYWwgX3NjaGVkdWxlcgogICAgaWYgX3NjaGVkdWxlciBpcyBub3QgTm9uZToKICAgICAgICBfc2NoZWR1bGVyLnNodXRkb3duKHdhaXQ9RmFsc2UpCiAgICAgICAgX3NjaGVkdWxlciA9IE5vbmU=
+"""定时同步任务调度（APScheduler）。
+
+默认每日 02:00 全量同步（可用 SYNC_ENABLED / SYNC_CRON 配置）。
+也暴露一个可直接调用的 run_sync_now() 供手动触发 / 测试。
+"""
+from __future__ import annotations
+
+import asyncio
+import logging
+
+from apscheduler.schedulers.asyncio import AsyncIOScheduler
+from apscheduler.triggers.cron import CronTrigger
+
+from app.core.config import get_settings
+from app.core.database import SessionLocal
+from app.connectors.goodcang import GoodCangClient, GoodCangEndpoints
+from app.services.sync_service import SyncService
+
+logger = logging.getLogger(__name__)
+
+_scheduler: AsyncIOScheduler | None = None
+
+
+async def run_sync_now() -> dict[str, int]:
+    """手动触发一次全量同步。"""
+    async with GoodCangClient() as client:
+        endpoints = GoodCangEndpoints(client)
+        with SessionLocal() as db:
+            service = SyncService(db, client, endpoints)
+            return await service.sync_all()
+
+
+def start_scheduler() -> AsyncIOScheduler:
+    """启动调度器；由 FastAPI startup 调用。"""
+    global _scheduler
+    settings = get_settings()
+    if _scheduler is not None:
+        return _scheduler
+
+    _scheduler = AsyncIOScheduler(timezone="Asia/Shanghai")
+    if settings.sync_enabled:
+        cron_parts = settings.sync_cron.split()
+        _scheduler.add_job(
+            lambda: asyncio.create_task(run_sync_now()),
+            CronTrigger(
+                minute=cron_parts[0], hour=cron_parts[1],
+                day=cron_parts[2], month=cron_parts[3], day_of_week=cron_parts[4],
+            ),
+            id="goodcang_daily_sync",
+            name="每日全量同步",
+        )
+        logger.info("scheduler started with cron=%s", settings.sync_cron)
+    _scheduler.start()
+    return _scheduler
+
+
+def stop_scheduler() -> None:
+    global _scheduler
+    if _scheduler is not None:
+        _scheduler.shutdown(wait=False)
+        _scheduler = None

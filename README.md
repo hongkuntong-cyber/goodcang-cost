@@ -1,1 +1,164 @@
-IyBHb29kQ2FuZyBPdmVyc2VhcyBXYXJlaG91c2UgQ29zdCBJbnRlbGxpZ2VuY2UKCj4g6LC35LuT5rW35aSW5LuT5oiQ5pys5YGl5bq35YiG5p6Q57O757uf77yI5b635Zu95rW35aSW5LuTIMK3IOS8geS4muWGhemDqOS9v+eUqO+8iQoK5Z+65LqO6LC35LuTIEdvb2RDYW5nIE9wZW4gQVBJIOaVsOaNru+8jOiHquWKqOWIhuaekCoq5b635Zu95rW35aSW5LuTKirnmoTmr4/mnIjmiJDmnKznu5PmnoTjgIHotLnnlKjlj5jljJbotovlir/kuI7lupPlrZjogIHljJbpo47pmanvvIzlubboh6rliqjnlJ/miJDmnIjluqbmiJDmnKzlgaXlurfmiqXlkYrjgIIKCi0tLQoKIyMg5LiA44CB6aG555uu566A5LuLCgrmnKzns7vnu5/pnaLlkJHkvIHkuJrlhoXpg6jkuJrliqHotJ/otKPkurrvvIjpnZ7mioDmnK/op5LoibLvvInvvIzmiorosLfku5PmtbflpJbku5PliIbmlaPnmoTotKbljZXkuI7lupPlrZjmlbDmja7vvIzliqDlt6XmiJDjgIznnIvlvpfmh4LjgIHog73lhrPnrZbjgI3nmoTmiJDmnKzlgaXlurfnnIvmnb/kuI7mnIjluqbmiqXlkYrjgIIKCuezu+e7n+WPquWBmioq5oiQ5pys5LiO5bqT5a2Y5YGl5bq3KirliIbmnpDvvIzkuI3lgZrph4fotK3miJDmnKzjgIHliKnmtqbjgIHplIDllK7pooTmtYvjgIIKCiMjIyDns7vnu5/opoHlm57nrZTnmoTkuInkuKrpl67popgKCjEuICoq5q+P5Liq5pyI5rW35aSW5LuT6Iqx5LqG5aSa5bCR6ZKx77yfKiog4oCU4oCUIOaciOW6puaAu+aIkOacrOS4jueOr+avlOWPmOWMlgoyLiAqKumSseS4u+imgeiKseWcqOWTqumHjO+8nyoqIOKAlOKAlCDotLnnlKjnu5PmnoTvvIjku5PlgqggLyDlhaXlupMgLyDlh7rlupPmk43kvZwgLyDov5DovpMgLyDlhbbku5bvvIkKMy4gKirlk6rkupvlupPlrZjmraPlnKjpgKDmiJDplb/mnJ/ku5PlgqjljovlipvvvJ8qKiDigJTigJQg5bqT5a2Y5bm06b6E5YiG5biD5LiOIFRPUDIwIOmjjumZqSBTS1UKCi0tLQoKIyMg5LqM44CB5Yqf6IO96IyD5Zu077yIVjHvvIkKCnwg5qih5Z2XIHwg5Yqf6IO9IHwg6K+05piOIHwKfCAtLS0gfCAtLS0gfCAtLS0gfAp8IEEgfCDmnIjluqbmiJDmnKzliIbmnpAgfCDmnKzmnIjmgLvmiJDmnKzjgIHnjq/mr5Tlj5jljJbjgIHov5EgMTIg5Liq5pyI5oiQ5pys6LaL5Yq/44CB5oiQ5pys57uT5p6E5Y2g5q+UIHwKfCBCIHwg6LS555So57uT5p6E5YiG5p6QIHwg5LuT5YKo6LS5IC8g5YWl5bqT6LS5IC8g5Ye65bqT5pON5L2c6LS5IC8g6L+Q6L6T6LS5IC8g5YW25LuW6LS555SoIOS6lOWkp+exuyB8CnwgQyB8IOW6k+WtmOWBpeW6t+WIhuaekCB8IOaMieW6k+WtmOW5tOm+hOWIhuahtu+8mjDigJM5MCDlgaXlurcgLyA5MOKAkzE4MCDlhbPms6ggLyAxODDigJMzNjUg5ZGG5rueIC8gMzY1KyDkuKXph43lkYbmu54gfAp8IEQgfCDpo47pmakgU0tVIOaOkuihjCB8IOaOkuW6j++8muesrOS4gOW6k+WtmOW5tOm+hOOAgeesrOS6jOW6k+WtmOaVsOmHj++8m+i+k+WHuiBUT1AyMCDpo47pmakgU0tVIHwKfCBFIHwg6Ieq5Yqo5pyI5bqm5oql5ZGKIHwg55Sf5oiQ44CK5b635Zu95rW35aSW5LuT5oiQ5pys5YGl5bq35oql5ZGK44CL77ya5oiQ5pys5Y+Y5YyW44CB6LS555So5Y6f5Zug44CB5bqT5a2Y6aOO6Zmp44CB5LyY5YyW5bu66K6uIHwKCiMjIyDmmI7noa7kuI3lgZrvvIhWMSDojIPlm7TlpJbvvIkKCi0g4p2MIOS6p+WTgemHh+i0reaIkOacrAotIOKdjCDliKnmtqbliIbmnpAKLSDinYwg6ZSA5ZSu6aKE5rWLCi0g4p2MIOiHquWKqOa4heS7k+W7uuiurgoKPiDljp/lm6DvvJrlvZPliY3mlbDmja7mupDkuI3lkKvov5nkupvmlbDmja7vvIzpgb/lhY3or6/lr7zlhrPnrZbjgIIKCi0tLQoKIyMg5LiJ44CB5oqA5pyv5qCICgp8IOWxgiB8IOaKgOacryB8IOivtOaYjiB8CnwgLS0tIHwgLS0tIHwgLS0tIHwKfCDlkI7nq68gfCBQeXRob24gMy4xMSsgLyBGYXN0QVBJIHwgUkVTVCBBUEnjgIHmlbDmja7lkIzmraXjgIHliIbmnpDlvJXmk44gfAp8IOaVsOaNruW6kyB8IFBvc3RncmVTUUwgMTUrIHwg6LSm5Y2VIC8g5bqT5a2YIC8g5YiG5p6Q57uT5p6c5oyB5LmF5YyWIHwKfCBPUk0gLyDov4Hnp7sgfCBTUUxBbGNoZW15IDIueCAvIEFsZW1iaWMgfCDmqKHlnovkuI7niYjmnKzljJbov4Hnp7sgfAp8IOWJjeerryB8IFZ1ZSAzIC8gRUNoYXJ0cyAvIFZpdGUgfCDmiJDmnKzlgaXlurcgRGFzaGJvYXJkIHwKfCDpg6jnvbIgfCBEb2NrZXIgLyBkb2NrZXItY29tcG9zZSB8IOS4gOmUrue8luaOkiBkYiArIGJhY2tlbmQgKyBmcm9udGVuZCB8CgoqKuaetuaehOWOn+WImSoq77ya6L276YeP5YyW5LyB5Lia5bqU55So44CB5YiG5bGC5riF5pmw77yIQ29ubmVjdG9yIOKGkiBSZXBvc2l0b3J5IOKGkiBTZXJ2aWNlIOKGkiBBUEnvvInjgIHmqKHlnZflj6/mianlsZXjgIIKCi0tLQoKIyMg5Zub44CB6aG555uu57uT5p6ECgpgYGAKZ29vZGNhbmctY29zdC1pbnRlbGxpZ2VuY2UvCuKUnOKUgOKUgCBSRUFETUUubWQgICAgICAgICAgICAgICAgICAgICAgICMg5pys5paH5Lu2CuKUnOKUgOKUgCBkb2NrZXItY29tcG9zZS55bWwgICAgICAgICAgICAgICMg5LiA6ZSu57yW5o6S77yaZGIgKyBiYWNrZW5kICsgZnJvbnRlbmQK4pSc4pSA4pSAIC5lbnYuZXhhbXBsZSAgICAgICAgICAgICAgICAgICAgIyDmoLnnuqfnjq/looPlj5jph4/npLrkvovvvIjmlbDmja7lupPnrYnvvIkK4pSc4pSA4pSAIC5naXRpZ25vcmUK4pSCCuKUnOKUgOKUgCBkb2NzLyAgICAgICAgICAgICAgICAgICAgICAgICAgICMg6K6+6K6h5paH5qGjCuKUgiAgIOKUnOKUgOKUgCBkYXRhYmFzZS1kZXNpZ24ubWQgICAgICAgICAgIyDmlbDmja7lupPorr7orqHmlofmoaMK4pSCICAg4pSU4pSA4pSAIGFwaS1maWVsZC1tYXBwaW5nLm1kICAgICAgICAjIOiwt+S7kyBBUEkg5a2X5q615pig5bCE5paH5qGjCuKUggrilJzilIDilIAgYmFja2VuZC8gICAgICAgICAgICAgICAgICAgICAgICAjIEZhc3RBUEkg5ZCO56uvCuKUgiAgIOKUnOKUgOKUgCByZXF1aXJlbWVudHMudHh0CuKUgiAgIOKUnOKUgOKUgCBEb2NrZXJmaWxlCuKUgiAgIOKUnOKUgOKUgCAuZW52LmV4YW1wbGUgICAgICAgICAgICAgICAgIyDlkI7nq6/mlY/mhJ/phY3nva7npLrkvovvvIhHb29kQ2FuZyBBcHBUb2tlbi9BcHBLZXnvvIkK4pSCICAg4pSc4pSA4pSAIGFsZW1iaWMvICAgICAgICAgICAgICAgICAgICAjIOaVsOaNruW6k+i/geenuwrilIIgICDilIIgICDilJTilIDilIAgdmVyc2lvbnMvCuKUgiAgIOKUnOKUgOKUgCBhcHAvCuKUgiAgIOKUgiAgIOKUnOKUgOKUgCBtYWluLnB5ICAgICAgICAgICAgICAgICAjIOW6lOeUqOWFpeWPowrilIIgICDilIIgICDilJzilIDilIAgY29yZS8gICAgICAgICAgICAgICAgICAgIyDphY3nva4gLyDmlbDmja7lupPov57mjqUgLyDml6Xlv5cK4pSCICAg4pSCICAg4pSc4pSA4pSAIGNvbm5lY3RvcnMvCuKUgiAgIOKUgiAgIOKUgiAgIOKUlOKUgOKUgCBnb29kY2FuZy8gICAgICAgICAgICMg6LC35LuTIEFQSSDov57mjqXlmajvvIhjbGllbnQvZW5kcG9pbnRzL3NjaGVtYXPvvIkK4pSCICAg4pSCICAg4pSc4pSA4pSAIG1vZGVscy8gICAgICAgICAgICAgICAgICMgU1FMQWxjaGVteSBPUk0g5qih5Z6LCuKUgiAgIOKUgiAgIOKUnOKUgOKUgCBzY2hlbWFzLyAgICAgICAgICAgICAgICAjIFB5ZGFudGljIOaooeWei++8iEFQSSDlh7rlhaXlj4LvvIkK4pSCICAg4pSCICAg4pSc4pSA4pSAIHJlcG9zaXRvcmllcy8gICAgICAgICAgICMg5pWw5o2u6K6/6Zeu5bGCCuKUgiAgIOKUgiAgIOKUnOKUgOKUgCBzZXJ2aWNlcy8gICAgICAgICAgICAgICAjIOS4muWKoemAu+i+kSAvIOWIhuaekOW8leaTjgrilIIgICDilIIgICDilJzilIDilIAgYXBpL3JvdXRlcy8gICAgICAgICAgICAgIyBSRVNUIOi3r+eUsQrilIIgICDilIIgICDilJTilIDilIAgdGFza3MvICAgICAgICAgICAgICAgICAgIyDmlbDmja7lkIzmraXku7vliqEK4pSCICAg4pSU4pSA4pSAIHRlc3RzLwrilIIK4pSU4pSA4pSAIGZyb250ZW5kLyAgICAgICAgICAgICAgICAgICAgICAgIyBWdWUzICsgRUNoYXJ0cyDliY3nq68KICAgIOKUnOKUgOKUgCBEb2NrZXJmaWxlCiAgICDilJzilIDilIAgcGFja2FnZS5qc29uCiAgICDilJTilIDilIAgc3JjLwogICAgICAgIOKUnOKUgOKUgCBhcGkvICAgICAgICAgICAgICAgICAgICAjIOWQjuerr+aOpeWPo+WwgeijhQogICAgICAgIOKUnOKUgOKUgCB2aWV3cy8gICAgICAgICAgICAgICAgICAjIOmhtemdou+8iOaIkOacrC/otLnnlKgv5bqT5a2YL+mjjumZqS/miqXlkYrvvIkKICAgICAgICDilJzilIDilIAgY29tcG9uZW50cy8gICAgICAgICAgICAgIyDlm77ooajnrYnnu4Tku7YKICAgICAgICDilJzilIDilIAgc3RvcmUvICAgICAgICAgICAgICAgICAgIyDnirbmgIHnrqHnkIYKICAgICAgICDilJTilIDilIAgcm91dGVyLyAgICAgICAgICAgICAgICAgIyDot6/nlLEKYGBgCgotLS0KCiMjIOS6lOOAgeW/q+mAn+W8gOWniwoKPiDlrozmlbTot5HpgJrpnIDlhYjlrozmiJAgU3RlcCAy4oCTNiDnmoTku6PnoIHjgILku6XkuIvkuLrmnIDnu4jlkK/liqjmlrnlvI/pooTop4jjgIIKCmBgYGJhc2gKIyAxLiDlpI3liLbnjq/looPlj5jph4/mqKHmnb/lubbloavlhaXnnJ/lrp7phY3nva7vvIjop4HigJzlha3jgIHphY3nva7igJ3vvIkKY3AgLmVudi5leGFtcGxlIC5lbnYKY3AgYmFja2VuZC8uZW52LmV4YW1wbGUgYmFja2VuZC8uZW52CgojIDIuIOS4gOmUruWQr+WKqO+8iFBvc3RncmVTUUwgKyDlkI7nq68gKyDliY3nq6/vvIkKZG9ja2VyLWNvbXBvc2UgdXAgLWQgLS1idWlsZAoKIyAzLiDorr/pl64KIyDliY3nq68gRGFzaGJvYXJkOiAgaHR0cDovL2xvY2FsaG9zdDo4MDgwCiMg5ZCO56uvIEFQSSDmlofmoaM6ICAgaHR0cDovL2xvY2FsaG9zdDo4MDAwL2RvY3MKYGBgCgotLS0KCiMjIOWFreOAgemFjee9ru+8iOaVj+aEn+S/oeaBr++8iQoKPiAqKuWuieWFqOe6oue6v++8mkFQSSBLZXkgLyBBcHBUb2tlbiAvIEFwcEtleSDkuIDlvovkuI3lhpnlhaXku6PnoIHvvIznu5/kuIDotbAgYC5lbnZg77yMYC5lbnZgIOS4jeaPkOS6pCBnaXTjgIIqKgoKfCDlj5jph48gfCDor7TmmI4gfCDojrflj5bmlrnlvI8gfAp8IC0tLSB8IC0tLSB8IC0tLSB8CnwgYEdPT0RDQU5HX0FQUF9UT0tFTmAgfCDosLfku5PlvIDmlL7lubPlj7AgQXBwVG9rZW4gfCBHV0MgT01TIOKGkiDmiJHnmoQg4oaSIOW8gOWPkeiAheS/oeaBryDihpIg6YCJ5rW35aSW5LuTIHwKfCBgR09PRENBTkdfQVBQX0tFWWAgfCDosLfku5PlvIDmlL7lubPlj7AgQXBwS2V5IHwg5ZCM5LiKIHwKfCBgR09PRENBTkdfQkFTRV9VUkxgIHwg5o6l5Y+j572R5YWz5Zyw5Z2AIHwg5byA5pS+5bmz5Y+w77yIVUFUIC8g5q2j5byP77yJIHwKfCBgR09PRENBTkdfV0FSRUhPVVNFX0NPREVgIHwg55uu5qCH5LuT77yI5b635Zu95LuT77yJ57yW56CBIHwgT01TIOS7k+W6k+WIl+ihqCB8CnwgYERBVEFCQVNFX1VSTGAgfCBQb3N0Z3JlU1FMIOi/nuaOpeS4siB8IOacrOWcsC/lrrnlmaggfAoK6K+m6KeBIGBiYWNrZW5kLy5lbnYuZXhhbXBsZWDjgIIKCi0tLQoKIyMg5LiD44CB5byA5Y+R6Lev57q/5Zu+Cgp8IFN0ZXAgfCDlhoXlrrkgfCDnirbmgIEgfAp8IC0tLSB8IC0tLSB8IC0tLSB8CnwgMSB8IOmhueebrue7k+aehCArIFJFQURNRSArIOaVsOaNruW6k+iuvuiuoSArIEFQSSDlrZfmrrXmmKDlsITmlofmoaMgfCDinIUgfAp8IDIgfCDmlbDmja7lupPmqKHlnovlrp7njrDvvIhTUUxBbGNoZW15ICsgQWxlbWJpY++8iSB8IOKchSB8CnwgMyB8IOiwt+S7kyBHb29kQ2FuZyBBUEkgQ29ubmVjdG9yIHwg4pyFIHwKfCA0IHwg5pWw5o2u5ZCM5q2l5Lu75YqhIHwg4pyFIHwKfCA1IHwg5YiG5p6Q5byV5pOO77yI5oiQ5pysL+i0ueeUqC/lupPlrZjlgaXlurcv6aOO6ZmpU0tVL+aciOW6puaKpeWRiu+8iSB8IOKchSB8CnwgNiB8IERhc2hib2FyZCDliY3nq6/pobXpnaLvvIhWdWUzICsgRUNoYXJ0c++8iSB8IOKchSB8CnwgNyB8IOa1i+ivleS4juS8mOWMliArIERvY2tlciDmlbTkvZPpqozor4EgfCDinIUgfAoKLS0tCgojIyDlhavjgIHmlofmoaPntKLlvJUKCi0gW+aVsOaNruW6k+iuvuiuoeaWh+aho10oZG9jcy9kYXRhYmFzZS1kZXNpZ24ubWQpCi0gW+iwt+S7kyBBUEkg5a2X5q615pig5bCE5paH5qGjXShkb2NzL2FwaS1maWVsZC1tYXBwaW5nLm1kKQoKLS0tCgojIyDkuZ3jgIHmlbDmja7lronlhajkuI7lkIjop4QKCjEuIOaJgOacieWvhumSpemAmui/hyBgLmVudmAg5rOo5YWl77yM5Luj56CB5LitKirnpoHmraLnoaznvJbnoIEqKuOAggoyLiBgLmVudmAg5bey5Yqg5YWlIGAuZ2l0aWdub3JlYO+8jOS4jeS8mui/m+WFpeeJiOacrOW6k+OAggozLiDljp/lp4sgQVBJIOaKpeaWh+S7pSBKU09OIOeVmeeXle+8iGByYXdfanNvbmDvvInvvIzkvr/kuo7lr7notKbkuI7lm57muq/jgIIKNC4g5LuF5a+55o6l5LyB5Lia5YaF6YOo5o6I5p2D6LSm5Y+377yM5pWw5o2u5LiN5Ye65YaF572R44CCCg==
+# GoodCang Overseas Warehouse Cost Intelligence
+
+> 谷仓海外仓成本健康分析系统（德国海外仓 · 企业内部使用）
+
+基于谷仓 GoodCang Open API 数据，自动分析**德国海外仓**的每月成本结构、费用变化趋势与库存老化风险，并自动生成月度成本健康报告。
+
+---
+
+## 一、项目简介
+
+本系统面向企业内部业务负责人（非技术角色），把谷仓海外仓分散的账单与库存数据，加工成「看得懂、能决策」的成本健康看板与月度报告。
+
+系统只做**成本与库存健康**分析，不做采购成本、利润、销售预测。
+
+### 系统要回答的三个问题
+
+1. **每个月海外仓花了多少钱？** —— 月度总成本与环比变化
+2. **钱主要花在哪里？** —— 费用结构（仓储 / 入库 / 出库操作 / 运输 / 其他）
+3. **哪些库存正在造成长期仓储压力？** —— 库存年龄分布与 TOP20 风险 SKU
+
+---
+
+## 二、功能范围（V1）
+
+| 模块 | 功能 | 说明 |
+| --- | --- | --- |
+| A | 月度成本分析 | 本月总成本、环比变化、近 12 个月成本趋势、成本结构占比 |
+| B | 费用结构分析 | 仓储费 / 入库费 / 出库操作费 / 运输费 / 其他费用 五大类 |
+| C | 库存健康分析 | 按库存年龄分桶：0–90 健康 / 90–180 关注 / 180–365 呆滞 / 365+ 严重呆滞 |
+| D | 风险 SKU 排行 | 排序：第一库存年龄、第二库存数量；输出 TOP20 风险 SKU |
+| E | 自动月度报告 | 生成《德国海外仓成本健康报告》：成本变化、费用原因、库存风险、优化建议 |
+
+### 明确不做（V1 范围外）
+
+- ❌ 产品采购成本
+- ❌ 利润分析
+- ❌ 销售预测
+- ❌ 自动清仓建议
+
+> 原因：当前数据源不含这些数据，避免误导决策。
+
+---
+
+## 三、技术栈
+
+| 层 | 技术 | 说明 |
+| --- | --- | --- |
+| 后端 | Python 3.11+ / FastAPI | REST API、数据同步、分析引擎 |
+| 数据库 | PostgreSQL 15+ | 账单 / 库存 / 分析结果持久化 |
+| ORM / 迁移 | SQLAlchemy 2.x / Alembic | 模型与版本化迁移 |
+| 前端 | Vue 3 / ECharts / Vite | 成本健康 Dashboard |
+| 部署 | Docker / docker-compose | 一键编排 db + backend + frontend |
+
+**架构原则**：轻量化企业应用、分层清晰（Connector → Repository → Service → API）、模块可扩展。
+
+---
+
+## 四、项目结构
+
+```
+goodcang-cost-intelligence/
+├── README.md                       # 本文件
+├── docker-compose.yml              # 一键编排：db + backend + frontend
+├── .env.example                    # 根级环境变量示例（数据库等）
+├── .gitignore
+│
+├── docs/                           # 设计文档
+│   ├── database-design.md          # 数据库设计文档
+│   └── api-field-mapping.md        # 谷仓 API 字段映射文档
+│
+├── backend/                        # FastAPI 后端
+│   ├── requirements.txt
+│   ├── Dockerfile
+│   ├── .env.example                # 后端敏感配置示例（GoodCang AppToken/AppKey）
+│   ├── alembic/                    # 数据库迁移
+│   │   └── versions/
+│   ├── app/
+│   │   ├── main.py                 # 应用入口
+│   │   ├── core/                   # 配置 / 数据库连接 / 日志
+│   │   ├── connectors/
+│   │   │   └── goodcang/           # 谷仓 API 连接器（client/endpoints/schemas）
+│   │   ├── models/                 # SQLAlchemy ORM 模型
+│   │   ├── schemas/                # Pydantic 模型（API 出入参）
+│   │   ├── repositories/           # 数据访问层
+│   │   ├── services/               # 业务逻辑 / 分析引擎
+│   │   ├── api/routes/             # REST 路由
+│   │   └── tasks/                  # 数据同步任务
+│   └── tests/
+│
+└── frontend/                       # Vue3 + ECharts 前端
+    ├── Dockerfile
+    ├── package.json
+    └── src/
+        ├── api/                    # 后端接口封装
+        ├── views/                  # 页面（成本/费用/库存/风险/报告）
+        ├── components/             # 图表等组件
+        ├── store/                  # 状态管理
+        └── router/                 # 路由
+```
+
+---
+
+## 五、快速开始
+
+> 完整跑通需先完成 Step 2–6 的代码。以下为最终启动方式预览。
+
+```bash
+# 1. 复制环境变量模板并填入真实配置（见“六、配置”）
+cp .env.example .env
+cp backend/.env.example backend/.env
+
+# 2. 一键启动（PostgreSQL + 后端 + 前端）
+docker-compose up -d --build
+
+# 3. 访问
+# 前端 Dashboard:  http://localhost:8080
+# 后端 API 文档:   http://localhost:8000/docs
+```
+
+---
+
+## 六、配置（敏感信息）
+
+> **安全红线：API Key / AppToken / AppKey 一律不写入代码，统一走 `.env`，`.env` 不提交 git。**
+
+| 变量 | 说明 | 获取方式 |
+| --- | --- | --- |
+| `GOODCANG_APP_TOKEN` | 谷仓开放平台 AppToken | GWC OMS → 我的 → 开发者信息 → 选海外仓 |
+| `GOODCANG_APP_KEY` | 谷仓开放平台 AppKey | 同上 |
+| `GOODCANG_BASE_URL` | 接口网关地址 | 开放平台（UAT / 正式） |
+| `GOODCANG_WAREHOUSE_CODE` | 目标仓（德国仓）编码 | OMS 仓库列表 |
+| `DATABASE_URL` | PostgreSQL 连接串 | 本地/容器 |
+
+详见 `backend/.env.example`。
+
+---
+
+## 七、开发路线图
+
+| Step | 内容 | 状态 |
+| --- | --- | --- |
+| 1 | 项目结构 + README + 数据库设计 + API 字段映射文档 | ✅ |
+| 2 | 数据库模型实现（SQLAlchemy + Alembic） | ✅ |
+| 3 | 谷仓 GoodCang API Connector | ✅ |
+| 4 | 数据同步任务 | ✅ |
+| 5 | 分析引擎（成本/费用/库存健康/风险SKU/月度报告） | ✅ |
+| 6 | Dashboard 前端页面（Vue3 + ECharts） | ✅ |
+| 7 | 测试与优化 + Docker 整体验证 | ✅ |
+
+---
+
+## 八、文档索引
+
+- [数据库设计文档](docs/database-design.md)
+- [谷仓 API 字段映射文档](docs/api-field-mapping.md)
+
+---
+
+## 九、数据安全与合规
+
+1. 所有密钥通过 `.env` 注入，代码中**禁止硬编码**。
+2. `.env` 已加入 `.gitignore`，不会进入版本库。
+3. 原始 API 报文以 JSON 留痕（`raw_json`），便于对账与回溯。
+4. 仅对接企业内部授权账号，数据不出内网。

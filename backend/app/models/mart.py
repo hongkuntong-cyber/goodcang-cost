@@ -1,1 +1,92 @@
-IiIi5YiG5p6Q5bGC77yIbWFydF8q77yJ77ya55Sx5YiG5p6Q5byV5pOO54mp5YyW55qE57uT5p6c77yM5L6b5YmN56uv5p+l6K+i44CCCgotIG1hcnRfbW9udGhseV9jb3N0X3N1bW1hcnkgOiDmnIjluqbmiJDmnKzmsYfmgLsgKyDkupTlpKfotLnnlKjliIbpobkgKyDnjq/mr5QKLSBtYXJ0X3Jpc2tfc2t1ICAgICAgICAgICAgOiDpo47pmakgU0tVIOaOkuihjOW/q+eFp++8iFRPUDIw77yJCi0gbWFydF9tb250aGx5X3JlcG9ydHMgICAgIDog44CK5b635Zu95rW35aSW5LuT5oiQ5pys5YGl5bq35oql5ZGK44CLCiIiIgpmcm9tIF9fZnV0dXJlX18gaW1wb3J0IGFubm90YXRpb25zCgpmcm9tIGRhdGV0aW1lIGltcG9ydCBkYXRlLCBkYXRldGltZQpmcm9tIGRlY2ltYWwgaW1wb3J0IERlY2ltYWwKCmZyb20gc3FsYWxjaGVteSBpbXBvcnQgQ0hBUiwgRGF0ZSwgRGF0ZVRpbWUsIEZvcmVpZ25LZXksIEludGVnZXIsIE51bWVyaWMsIFN0cmluZywgVW5pcXVlQ29uc3RyYWludCwgZnVuYwpmcm9tIHNxbGFsY2hlbXkuZGlhbGVjdHMucG9zdGdyZXNxbCBpbXBvcnQgSlNPTkIKZnJvbSBzcWxhbGNoZW15IGltcG9ydCBKU09OCmZyb20gc3FsYWxjaGVteS5vcm0gaW1wb3J0IE1hcHBlZCwgbWFwcGVkX2NvbHVtbgoKZnJvbSBhcHAuY29yZS5kYXRhYmFzZSBpbXBvcnQgQmFzZQoKCkpTT05UeXBlID0gSlNPTkIoKS53aXRoX3ZhcmlhbnQoSlNPTigpLCAic3FsaXRlIikKCgpjbGFzcyBNYXJ0TW9udGhseUNvc3RTdW1tYXJ5KEJhc2UpOgogICAgIiIi5pyI5bqm5oiQ5pys5rGH5oC777yI54mp5YyW77yJ44CCIiIiCgogICAgX190YWJsZW5hbWVfXyA9ICJtYXJ0X21vbnRobHlfY29zdF9zdW1tYXJ5IgogICAgX190YWJsZV9hcmdzX18gPSAoCiAgICAgICAgVW5pcXVlQ29uc3RyYWludCgiYmlsbF9tb250aCIsICJ3YXJlaG91c2VfY29kZSIsIG5hbWU9InVrX2Nvc3RfbW9udGgiKSwKICAgICkKCiAgICBpZDogTWFwcGVkW2ludF0gPSBtYXBwZWRfY29sdW1uKHByaW1hcnlfa2V5PVRydWUsIGF1dG9pbmNyZW1lbnQ9VHJ1ZSkKICAgIGJpbGxfbW9udGg6IE1hcHBlZFtzdHJdID0gbWFwcGVkX2NvbHVtbihDSEFSKDcpLCBudWxsYWJsZT1GYWxzZSkKICAgIHdhcmVob3VzZV9jb2RlOiBNYXBwZWRbc3RyXSA9IG1hcHBlZF9jb2x1bW4oCiAgICAgICAgU3RyaW5nKDMyKSwgRm9yZWlnbktleSgiZGltX3dhcmVob3VzZS53YXJlaG91c2VfY29kZSIsIG9uZGVsZXRlPSJSRVNUUklDVCIpLCBudWxsYWJsZT1GYWxzZQogICAgKQogICAgdG90YWxfY29zdDogTWFwcGVkW0RlY2ltYWxdID0gbWFwcGVkX2NvbHVtbihOdW1lcmljKDE4LCA0KSwgbnVsbGFibGU9RmFsc2UpCiAgICBzdG9yYWdlX2ZlZTogTWFwcGVkW0RlY2ltYWxdID0gbWFwcGVkX2NvbHVtbihOdW1lcmljKDE4LCA0KSwgbnVsbGFibGU9RmFsc2UsIGRlZmF1bHQ9MCkKICAgIGluYm91bmRfZmVlOiBNYXBwZWRbRGVjaW1hbF0gPSBtYXBwZWRfY29sdW1uKE51bWVyaWMoMTgsIDQpLCBudWxsYWJsZT1GYWxzZSwgZGVmYXVsdD0wKQogICAgb3V0Ym91bmRfZmVlOiBNYXBwZWRbRGVjaW1hbF0gPSBtYXBwZWRfY29sdW1uKE51bWVyaWMoMTgsIDQpLCBudWxsYWJsZT1GYWxzZSwgZGVmYXVsdD0wKQogICAgdHJhbnNwb3J0X2ZlZTogTWFwcGVkW0RlY2ltYWxdID0gbWFwcGVkX2NvbHVtbihOdW1lcmljKDE4LCA0KSwgbnVsbGFibGU9RmFsc2UsIGRlZmF1bHQ9MCkKICAgIG90aGVyX2ZlZTogTWFwcGVkW0RlY2ltYWxdID0gbWFwcGVkX2NvbHVtbihOdW1lcmljKDE4LCA0KSwgbnVsbGFibGU9RmFsc2UsIGRlZmF1bHQ9MCkKICAgIGN1cnJlbmN5X2NvZGU6IE1hcHBlZFtzdHJdID0gbWFwcGVkX2NvbHVtbihDSEFSKDMpLCBudWxsYWJsZT1GYWxzZSkKICAgIG1vbV9jaGFuZ2VfcGN0OiBNYXBwZWRbRGVjaW1hbCB8IE5vbmVdID0gbWFwcGVkX2NvbHVtbihOdW1lcmljKDgsIDIpKQogICAgY29tcHV0ZWRfYXQ6IE1hcHBlZFtkYXRldGltZV0gPSBtYXBwZWRfY29sdW1uKAogICAgICAgIERhdGVUaW1lKHRpbWV6b25lPVRydWUpLCBzZXJ2ZXJfZGVmYXVsdD1mdW5jLm5vdygpLCBudWxsYWJsZT1GYWxzZQogICAgKQoKCmNsYXNzIE1hcnRSaXNrU2t1KEJhc2UpOgogICAgIiIi6aOO6ZmpIFNLVSDmjpLooYzvvIjmjIkg5bqT6b6EZGVzYyArIOaVsOmHj2Rlc2PvvIxUT1AyMO+8ieOAgiIiIgoKICAgIF9fdGFibGVuYW1lX18gPSAibWFydF9yaXNrX3NrdSIKCiAgICBpZDogTWFwcGVkW2ludF0gPSBtYXBwZWRfY29sdW1uKHByaW1hcnlfa2V5PVRydWUsIGF1dG9pbmNyZW1lbnQ9VHJ1ZSkKICAgIHNuYXBzaG90X2RhdGU6IE1hcHBlZFtkYXRlXSA9IG1hcHBlZF9jb2x1bW4oRGF0ZSwgbnVsbGFibGU9RmFsc2UpCiAgICBza3U6IE1hcHBlZFtzdHJdID0gbWFwcGVkX2NvbHVtbihTdHJpbmcoNjQpLCBudWxsYWJsZT1GYWxzZSkKICAgIHByb2R1Y3RfbmFtZTogTWFwcGVkW3N0ciB8IE5vbmVdID0gbWFwcGVkX2NvbHVtbihTdHJpbmcoMjU1KSkKICAgIHF1YW50aXR5OiBNYXBwZWRbaW50XSA9IG1hcHBlZF9jb2x1bW4obnVsbGFibGU9RmFsc2UpCiAgICB3YXJlaG91c2VfYWdlOiBNYXBwZWRbaW50XSA9IG1hcHBlZF9jb2x1bW4obnVsbGFibGU9RmFsc2UpCiAgICBhZ2VfYnVja2V0OiBNYXBwZWRbc3RyXSA9IG1hcHBlZF9jb2x1bW4oU3RyaW5nKDE2KSwgbnVsbGFibGU9RmFsc2UpCiAgICByaXNrX3Jhbms6IE1hcHBlZFtpbnRdID0gbWFwcGVkX2NvbHVtbihJbnRlZ2VyLCBudWxsYWJsZT1GYWxzZSkKICAgIHdhcmVob3VzZV9jb2RlOiBNYXBwZWRbc3RyXSA9IG1hcHBlZF9jb2x1bW4oCiAgICAgICAgU3RyaW5nKDMyKSwgRm9yZWlnbktleSgiZGltX3dhcmVob3VzZS53YXJlaG91c2VfY29kZSIsIG9uZGVsZXRlPSJSRVNUUklDVCIpLCBudWxsYWJsZT1GYWxzZQogICAgKQogICAgY29tcHV0ZWRfYXQ6IE1hcHBlZFtkYXRldGltZV0gPSBtYXBwZWRfY29sdW1uKAogICAgICAgIERhdGVUaW1lKHRpbWV6b25lPVRydWUpLCBzZXJ2ZXJfZGVmYXVsdD1mdW5jLm5vdygpLCBudWxsYWJsZT1GYWxzZQogICAgKQoKCmNsYXNzIE1hcnRNb250aGx5UmVwb3J0KEJhc2UpOgogICAgIiIi5pyI5bqm5oql5ZGK77ya44CK5b635Zu95rW35aSW5LuT5oiQ5pys5YGl5bq35oql5ZGK44CL44CCIiIiCgogICAgX190YWJsZW5hbWVfXyA9ICJtYXJ0X21vbnRobHlfcmVwb3J0cyIKICAgIF9fdGFibGVfYXJnc19fID0gKAogICAgICAgIFVuaXF1ZUNvbnN0cmFpbnQoInJlcG9ydF9tb250aCIsICJ3YXJlaG91c2VfY29kZSIsIG5hbWU9InVrX3JlcG9ydF9tb250aCIpLAogICAgKQoKICAgIGlkOiBNYXBwZWRbaW50XSA9IG1hcHBlZF9jb2x1bW4ocHJpbWFyeV9rZXk9VHJ1ZSwgYXV0b2luY3JlbWVudD1UcnVlKQogICAgcmVwb3J0X21vbnRoOiBNYXBwZWRbc3RyXSA9IG1hcHBlZF9jb2x1bW4oQ0hBUig3KSwgbnVsbGFibGU9RmFsc2UpCiAgICB3YXJlaG91c2VfY29kZTogTWFwcGVkW3N0cl0gPSBtYXBwZWRfY29sdW1uKAogICAgICAgIFN0cmluZygzMiksIEZvcmVpZ25LZXkoImRpbV93YXJlaG91c2Uud2FyZWhvdXNlX2NvZGUiLCBvbmRlbGV0ZT0iUkVTVFJJQ1QiKSwgbnVsbGFibGU9RmFsc2UKICAgICkKICAgIHRpdGxlOiBNYXBwZWRbc3RyXSA9IG1hcHBlZF9jb2x1bW4oU3RyaW5nKDI1NSksIG51bGxhYmxlPUZhbHNlKQogICAgY29zdF9jaGFuZ2U6IE1hcHBlZFtkaWN0IHwgTm9uZV0gPSBtYXBwZWRfY29sdW1uKEpTT05UeXBlKQogICAgY29zdF9kcml2ZXJzOiBNYXBwZWRbZGljdCB8IE5vbmVdID0gbWFwcGVkX2NvbHVtbihKU09OVHlwZSkKICAgIGludmVudG9yeV9yaXNrOiBNYXBwZWRbZGljdCB8IE5vbmVdID0gbWFwcGVkX2NvbHVtbihKU09OVHlwZSkKICAgIHJlY29tbWVuZGF0aW9uczogTWFwcGVkW2RpY3QgfCBOb25lXSA9IG1hcHBlZF9jb2x1bW4oSlNPTlR5cGUpCiAgICBjb250ZW50X21kOiBNYXBwZWRbc3RyIHwgTm9uZV0gPSBtYXBwZWRfY29sdW1uKCkKICAgIHN0YXR1czogTWFwcGVkW3N0cl0gPSBtYXBwZWRfY29sdW1uKFN0cmluZygxNiksIG51bGxhYmxlPUZhbHNlLCBkZWZhdWx0PSJkcmFmdCIpCiAgICBnZW5lcmF0ZWRfYXQ6IE1hcHBlZFtkYXRldGltZV0gPSBtYXBwZWRfY29sdW1uKAogICAgICAgIERhdGVUaW1lKHRpbWV6b25lPVRydWUpLCBzZXJ2ZXJfZGVmYXVsdD1mdW5jLm5vdygpLCBudWxsYWJsZT1GYWxzZQogICAgKQ==
+"""分析层（mart_*）：由分析引擎物化的结果，供前端查询。
+
+- mart_monthly_cost_summary : 月度成本汇总 + 五大费用分项 + 环比
+- mart_risk_sku            : 风险 SKU 排行快照（TOP20）
+- mart_monthly_reports     : 《德国海外仓成本健康报告》
+"""
+from __future__ import annotations
+
+from datetime import date, datetime
+from decimal import Decimal
+
+from sqlalchemy import CHAR, Date, DateTime, ForeignKey, Integer, Numeric, String, UniqueConstraint, func
+from sqlalchemy.dialects.postgresql import JSONB
+from sqlalchemy import JSON
+from sqlalchemy.orm import Mapped, mapped_column
+
+from app.core.database import Base
+
+
+JSONType = JSONB().with_variant(JSON(), "sqlite")
+
+
+class MartMonthlyCostSummary(Base):
+    """月度成本汇总（物化）。"""
+
+    __tablename__ = "mart_monthly_cost_summary"
+    __table_args__ = (
+        UniqueConstraint("bill_month", "warehouse_code", name="uk_cost_month"),
+    )
+
+    id: Mapped[int] = mapped_column(primary_key=True, autoincrement=True)
+    bill_month: Mapped[str] = mapped_column(CHAR(7), nullable=False)
+    warehouse_code: Mapped[str] = mapped_column(
+        String(32), ForeignKey("dim_warehouse.warehouse_code", ondelete="RESTRICT"), nullable=False
+    )
+    total_cost: Mapped[Decimal] = mapped_column(Numeric(18, 4), nullable=False)
+    storage_fee: Mapped[Decimal] = mapped_column(Numeric(18, 4), nullable=False, default=0)
+    inbound_fee: Mapped[Decimal] = mapped_column(Numeric(18, 4), nullable=False, default=0)
+    outbound_fee: Mapped[Decimal] = mapped_column(Numeric(18, 4), nullable=False, default=0)
+    transport_fee: Mapped[Decimal] = mapped_column(Numeric(18, 4), nullable=False, default=0)
+    other_fee: Mapped[Decimal] = mapped_column(Numeric(18, 4), nullable=False, default=0)
+    currency_code: Mapped[str] = mapped_column(CHAR(3), nullable=False)
+    mom_change_pct: Mapped[Decimal | None] = mapped_column(Numeric(8, 2))
+    computed_at: Mapped[datetime] = mapped_column(
+        DateTime(timezone=True), server_default=func.now(), nullable=False
+    )
+
+
+class MartRiskSku(Base):
+    """风险 SKU 排行（按 库龄desc + 数量desc，TOP20）。"""
+
+    __tablename__ = "mart_risk_sku"
+
+    id: Mapped[int] = mapped_column(primary_key=True, autoincrement=True)
+    snapshot_date: Mapped[date] = mapped_column(Date, nullable=False)
+    sku: Mapped[str] = mapped_column(String(64), nullable=False)
+    product_name: Mapped[str | None] = mapped_column(String(255))
+    quantity: Mapped[int] = mapped_column(nullable=False)
+    warehouse_age: Mapped[int] = mapped_column(nullable=False)
+    age_bucket: Mapped[str] = mapped_column(String(16), nullable=False)
+    risk_rank: Mapped[int] = mapped_column(Integer, nullable=False)
+    warehouse_code: Mapped[str] = mapped_column(
+        String(32), ForeignKey("dim_warehouse.warehouse_code", ondelete="RESTRICT"), nullable=False
+    )
+    computed_at: Mapped[datetime] = mapped_column(
+        DateTime(timezone=True), server_default=func.now(), nullable=False
+    )
+
+
+class MartMonthlyReport(Base):
+    """月度报告：《德国海外仓成本健康报告》。"""
+
+    __tablename__ = "mart_monthly_reports"
+    __table_args__ = (
+        UniqueConstraint("report_month", "warehouse_code", name="uk_report_month"),
+    )
+
+    id: Mapped[int] = mapped_column(primary_key=True, autoincrement=True)
+    report_month: Mapped[str] = mapped_column(CHAR(7), nullable=False)
+    warehouse_code: Mapped[str] = mapped_column(
+        String(32), ForeignKey("dim_warehouse.warehouse_code", ondelete="RESTRICT"), nullable=False
+    )
+    title: Mapped[str] = mapped_column(String(255), nullable=False)
+    cost_change: Mapped[dict | None] = mapped_column(JSONType)
+    cost_drivers: Mapped[dict | None] = mapped_column(JSONType)
+    inventory_risk: Mapped[dict | None] = mapped_column(JSONType)
+    recommendations: Mapped[dict | None] = mapped_column(JSONType)
+    content_md: Mapped[str | None] = mapped_column()
+    status: Mapped[str] = mapped_column(String(16), nullable=False, default="draft")
+    generated_at: Mapped[datetime] = mapped_column(
+        DateTime(timezone=True), server_default=func.now(), nullable=False
+    )

@@ -1,1 +1,45 @@
-IyAtLS0tIOaVj+aEn+S/oeaBr++8iOe7neS4jeaPkOS6pO+8iS0tLS0KLmVudgouZW52LioKIS5lbnYuZXhhbXBsZQoqLnBlbQoqLmtleQoKIyAtLS0tIFB5dGhvbiAtLS0tCl9fcHljYWNoZV9fLwoqLnB5W2NvZF0KKi5lZ2ctaW5mby8KLnZlbnYvCnZlbnYvCi5weXRlc3RfY2FjaGUvCi5teXB5X2NhY2hlLwoucnVmZl9jYWNoZS8KCiMgLS0tLSBOb2RlIC8g5YmN56uvIC0tLS0Kbm9kZV9tb2R1bGVzLwpmcm9udGVuZC9kaXN0LwpucG0tZGVidWcubG9nKgoKIyAtLS0tIOaVsOaNruW6kyAvIOaVsOaNriAtLS0tCiouc3FsaXRlMwpwZ2RhdGEvCiouZHVtcAoKIyAtLS0tIElERSAvIOe8lui+keWZqCAtLS0tCi5pZGVhLwoudnNjb2RlLwoqLnN3cAoKIyAtLS0tIOaTjeS9nOezu+e7nyAtLS0tCi5EU19TdG9yZQpUaHVtYnMuZGIKCiMgLS0tLSDml6Xlv5cgLyDkuLTml7YgLS0tLQoqLmxvZwpsb2dzLwp0bXAvCgojIC0tLS0g5byA5Y+RIC8g6LCD6K+V6ISa5pysIC0tLS0KYmFja2VuZC9zY3JpcHRzL19zdGVwKi5weQpiYWNrZW5kL3NjcmlwdHMvXyoucHljCg==
+# ---- 敏感信息（绝不提交）----
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ---- Node / 前端 ----
+node_modules/
+frontend/dist/
+npm-debug.log*
+
+# ---- 数据库 / 数据 ----
+*.sqlite3
+*.db
+pgdata/
+*.dump
+
+# ---- IDE / 编辑器 ----
+.idea/
+.vscode/
+*.swp
+
+# ---- 操作系统 ----
+.DS_Store
+Thumbs.db
+
+# ---- 日志 / 临时 ----
+*.log
+logs/
+tmp/
+
+# ---- 开发 / 调试脚本 ----
+backend/scripts/_step*.py
+backend/scripts/_*.pyc

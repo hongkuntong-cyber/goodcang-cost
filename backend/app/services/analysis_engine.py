@@ -1,1 +1,329 @@
-IiIi5YiG5p6Q5byV5pOO77ya5oqK5Y6f5aeL5bGCKHN0Z18qKSDogZrlkIjkuLrliIbmnpDlsYIobWFydF8qKSDlj4rmiqXlkYrjgIIKCuimhuebluWKn+iDvSBBL0IvQy9EL0XvvJoKLSBBIOaciOW6puaIkOacrOWIhuaekO+8muacrOaciOaAu+aIkOacrOOAgeeOr+avlOOAgTEyIOaciOi2i+WKv+OAgeaIkOacrOe7k+aehAotIEIg6LS555So57uT5p6E5YiG5p6Q77ya5LqU5aSn57G76LS555SoCi0gQyDlupPlrZjlgaXlurfliIbmnpDvvJrlupPpvoTliIbmobYKLSBEIOmjjumZqSBTS1Ug5o6S6KGM77ya5bqT6b6EIGRlc2MgKyDmlbDph48gZGVzY++8jFRPUDIwCi0gRSDoh6rliqjmnIjluqbmiqXlkYrvvJrjgIrlvrflm73mtbflpJbku5PmiJDmnKzlgaXlurfmiqXlkYrjgIsKIiIiCmZyb20gX19mdXR1cmVfXyBpbXBvcnQgYW5ub3RhdGlvbnMKCmltcG9ydCBsb2dnaW5nCmZyb20gY29sbGVjdGlvbnMgaW1wb3J0IGRlZmF1bHRkaWN0CmZyb20gZGF0ZXRpbWUgaW1wb3J0IGRhdGUKZnJvbSBkZWNpbWFsIGltcG9ydCBEZWNpbWFsCmZyb20gdHlwaW5nIGltcG9ydCBBbnkKCmZyb20gc3FsYWxjaGVteSBpbXBvcnQgZGVsZXRlLCBzZWxlY3QKZnJvbSBzcWxhbGNoZW15Lm9ybSBpbXBvcnQgU2Vzc2lvbgoKZnJvbSBhcHAubW9kZWxzIGltcG9ydCAoCiAgICBNYXJ0TW9udGhseUNvc3RTdW1tYXJ5LCBNYXJ0TW9udGhseVJlcG9ydCwgTWFydFJpc2tTa3UsCiAgICBTdGdCaWxsLCBTdGdCaWxsRmVlSXRlbSwgU3RnSW52ZW50b3J5QWdlLCBTdGdJbnZlbnRvcnlTdGF0dXMsCikKCmxvZ2dlciA9IGxvZ2dpbmcuZ2V0TG9nZ2VyKF9fbmFtZV9fKQoKRkVFX0NBVEVHT1JJRVMgPSAoInN0b3JhZ2UiLCAiaW5ib3VuZCIsICJvdXRib3VuZCIsICJ0cmFuc3BvcnQiLCAib3RoZXIiKQpCVUNLRVRfTEFCRUxTID0gewogICAgImhlYWx0aHkiOiAi5YGl5bq35bqT5a2YIiwKICAgICJ3YXRjaCI6ICLlhbPms6jlupPlrZgiLAogICAgInN0YWxlIjogIuWRhua7nuW6k+WtmCIsCiAgICAiY3JpdGljYWwiOiAi5Lil6YeN5ZGG5rue5bqT5a2YIiwKfQoKCmNsYXNzIEFuYWx5c2lzRW5naW5lOgogICAgIiIi5YiG5p6Q5byV5pOO44CCIiIiCgogICAgZGVmIF9faW5pdF9fKHNlbGYsIGRiOiBTZXNzaW9uKSAtPiBOb25lOgogICAgICAgIHNlbGYuZGIgPSBkYgoKICAgICMgLS0tLS0tLS0tLSBBL0LvvJrmnIjluqbmiJDmnKzmsYfmgLsgLS0tLS0tLS0tLQogICAgZGVmIGNvbXB1dGVfbW9udGhseV9jb3N0KHNlbGYsIGJpbGxfbW9udGg6IHN0ciwgd2FyZWhvdXNlX2NvZGU6IHN0cikgLT4gTWFydE1vbnRobHlDb3N0U3VtbWFyeToKICAgICAgICAiIiLogZrlkIjmn5DmnIjmn5Dku5PnmoTmiJDmnKzvvIjmgLsgKyDkupTlpKfnsbvvvInjgIIiIiIKICAgICAgICBmZWVfcm93cyA9IHNlbGYuZGIuc2NhbGFycygKICAgICAgICAgICAgc2VsZWN0KFN0Z0JpbGxGZWVJdGVtKS53aGVyZSgKICAgICAgICAgICAgICAgIFN0Z0JpbGxGZWVJdGVtLmJpbGxfbW9udGggPT0gYmlsbF9tb250aCwKICAgICAgICAgICAgKQogICAgICAgICkuYWxsKCkKCiAgICAgICAgdG90YWxzOiBkaWN0W3N0ciwgRGVjaW1hbF0gPSBkZWZhdWx0ZGljdChEZWNpbWFsKQogICAgICAgIGZvciByIGluIGZlZV9yb3dzOgogICAgICAgICAgICB0b3RhbHNbci5mZWVfY2F0ZWdvcnldICs9IHIuYW1vdW50CgogICAgICAgICMg5aaC5p6c6LS555So5piO57uG57y65aSx77yM6YCA5Zue5Yiw6LSm5Y2V5Li76KGo5oC76aKd5YWc5bqVCiAgICAgICAgdG90YWxfY29zdCA9IHN1bSh0b3RhbHMudmFsdWVzKCksIERlY2ltYWwoIjAiKSkKICAgICAgICBpZiB0b3RhbF9jb3N0ID09IDA6CiAgICAgICAgICAgIGJpbGxzID0gc2VsZi5kYi5zY2FsYXJzKAogICAgICAgICAgICAgICAgc2VsZWN0KFN0Z0JpbGwpLndoZXJlKFN0Z0JpbGwuYmlsbF9tb250aCA9PSBiaWxsX21vbnRoKQogICAgICAgICAgICApLmFsbCgpCiAgICAgICAgICAgIHRvdGFsX2Nvc3QgPSBzdW0oKGIuYWxsX3RvdGFsIGZvciBiIGluIGJpbGxzKSwgRGVjaW1hbCgiMCIpKQoKICAgICAgICAjIOiuoeeul+eOr+avlAogICAgICAgIG1vbV9wY3QgPSBzZWxmLl9tb21fY2hhbmdlKGJpbGxfbW9udGgsIHdhcmVob3VzZV9jb2RlLCB0b3RhbF9jb3N0KQoKICAgICAgICByb3cgPSBNYXJ0TW9udGhseUNvc3RTdW1tYXJ5KAogICAgICAgICAgICBiaWxsX21vbnRoPWJpbGxfbW9udGgsCiAgICAgICAgICAgIHdhcmVob3VzZV9jb2RlPXdhcmVob3VzZV9jb2RlLAogICAgICAgICAgICB0b3RhbF9jb3N0PXRvdGFsX2Nvc3QsCiAgICAgICAgICAgIHN0b3JhZ2VfZmVlPXRvdGFsc1sic3RvcmFnZSJdLAogICAgICAgICAgICBpbmJvdW5kX2ZlZT10b3RhbHNbImluYm91bmQiXSwKICAgICAgICAgICAgb3V0Ym91bmRfZmVlPXRvdGFsc1sib3V0Ym91bmQiXSwKICAgICAgICAgICAgdHJhbnNwb3J0X2ZlZT10b3RhbHNbInRyYW5zcG9ydCJdLAogICAgICAgICAgICBvdGhlcl9mZWU9dG90YWxzWyJvdGhlciJdLAogICAgICAgICAgICBjdXJyZW5jeV9jb2RlPSJFVVIiLAogICAgICAgICAgICBtb21fY2hhbmdlX3BjdD1tb21fcGN0LAogICAgICAgICkKICAgICAgICAjIFVQU0VSVAogICAgICAgIHNlbGYuZGIuZXhlY3V0ZShkZWxldGUoTWFydE1vbnRobHlDb3N0U3VtbWFyeSkud2hlcmUoCiAgICAgICAgICAgIE1hcnRNb250aGx5Q29zdFN1bW1hcnkuYmlsbF9tb250aCA9PSBiaWxsX21vbnRoLAogICAgICAgICAgICBNYXJ0TW9udGhseUNvc3RTdW1tYXJ5LndhcmVob3VzZV9jb2RlID09IHdhcmVob3VzZV9jb2RlLAogICAgICAgICkpCiAgICAgICAgc2VsZi5kYi5hZGQocm93KQogICAgICAgIHNlbGYuZGIuY29tbWl0KCkKICAgICAgICByZXR1cm4gcm93CgogICAgZGVmIF9tb21fY2hhbmdlKHNlbGYsIGJpbGxfbW9udGg6IHN0ciwgd2FyZWhvdXNlX2NvZGU6IHN0ciwgY3VycmVudDogRGVjaW1hbCkgLT4gRGVjaW1hbCB8IE5vbmU6CiAgICAgICAgIiIi546v5q+U77ya5LiO5LiK5pyI5oC75oiQ5pys5q+U6L6D44CCIiIiCiAgICAgICAgcHJldl9tb250aCA9IHNlbGYuX3ByZXZfbW9udGgoYmlsbF9tb250aCkKICAgICAgICBwcmV2ID0gc2VsZi5kYi5zY2FsYXIoCiAgICAgICAgICAgIHNlbGVjdChNYXJ0TW9udGhseUNvc3RTdW1tYXJ5LnRvdGFsX2Nvc3QpLndoZXJlKAogICAgICAgICAgICAgICAgTWFydE1vbnRobHlDb3N0U3VtbWFyeS5iaWxsX21vbnRoID09IHByZXZfbW9udGgsCiAgICAgICAgICAgICAgICBNYXJ0TW9udGhseUNvc3RTdW1tYXJ5LndhcmVob3VzZV9jb2RlID09IHdhcmVob3VzZV9jb2RlLAogICAgICAgICAgICApCiAgICAgICAgKQogICAgICAgIGlmIHByZXYgaXMgTm9uZSBvciBwcmV2ID09IDA6CiAgICAgICAgICAgIHJldHVybiBOb25lCiAgICAgICAgcmV0dXJuICgoY3VycmVudCAtIHByZXYpIC8gcHJldiAqIDEwMCkucXVhbnRpemUoRGVjaW1hbCgiMC4wMSIpKQoKICAgIGRlZiBjb3N0X3RyZW5kKHNlbGYsIHdhcmVob3VzZV9jb2RlOiBzdHIsIG1vbnRoczogaW50ID0gMTIpIC0+IGxpc3RbZGljdFtzdHIsIEFueV1dOgogICAgICAgICIiIui/kSBOIOS4quaciOaIkOacrOi2i+WKv+OAgiIiIgogICAgICAgIHJvd3MgPSBzZWxmLmRiLnNjYWxhcnMoCiAgICAgICAgICAgIHNlbGVjdChNYXJ0TW9udGhseUNvc3RTdW1tYXJ5KQogICAgICAgICAgICAud2hlcmUoTWFydE1vbnRobHlDb3N0U3VtbWFyeS53YXJlaG91c2VfY29kZSA9PSB3YXJlaG91c2VfY29kZSkKICAgICAgICAgICAgLm9yZGVyX2J5KE1hcnRNb250aGx5Q29zdFN1bW1hcnkuYmlsbF9tb250aC5kZXNjKCkpCiAgICAgICAgICAgIC5saW1pdChtb250aHMpCiAgICAgICAgKS5hbGwoKQogICAgICAgIHJvd3MgPSBzb3J0ZWQocm93cywga2V5PWxhbWJkYSByOiByLmJpbGxfbW9udGgpCiAgICAgICAgcmV0dXJuIFsKICAgICAgICAgICAgeyJtb250aCI6IHIuYmlsbF9tb250aCwgInRvdGFsIjogZmxvYXQoci50b3RhbF9jb3N0KSwKICAgICAgICAgICAgICJzdG9yYWdlIjogZmxvYXQoci5zdG9yYWdlX2ZlZSksICJ0cmFuc3BvcnQiOiBmbG9hdChyLnRyYW5zcG9ydF9mZWUpLAogICAgICAgICAgICAgIm1vbV9wY3QiOiBmbG9hdChyLm1vbV9jaGFuZ2VfcGN0KSBpZiByLm1vbV9jaGFuZ2VfcGN0IGlzIG5vdCBOb25lIGVsc2UgTm9uZX0KICAgICAgICAgICAgZm9yIHIgaW4gcm93cwogICAgICAgIF0KCiAgICBkZWYgY29zdF9zdHJ1Y3R1cmUoc2VsZiwgYmlsbF9tb250aDogc3RyLCB3YXJlaG91c2VfY29kZTogc3RyKSAtPiBkaWN0W3N0ciwgQW55XToKICAgICAgICAiIiLmnKzmnIjotLnnlKjnu5PmnoTvvIjkupTlpKfnsbvljaDmr5TvvInjgIIiIiIKICAgICAgICByb3cgPSBzZWxmLmRiLnNjYWxhcigKICAgICAgICAgICAgc2VsZWN0KE1hcnRNb250aGx5Q29zdFN1bW1hcnkpLndoZXJlKAogICAgICAgICAgICAgICAgTWFydE1vbnRobHlDb3N0U3VtbWFyeS5iaWxsX21vbnRoID09IGJpbGxfbW9udGgsCiAgICAgICAgICAgICAgICBNYXJ0TW9udGhseUNvc3RTdW1tYXJ5LndhcmVob3VzZV9jb2RlID09IHdhcmVob3VzZV9jb2RlLAogICAgICAgICAgICApCiAgICAgICAgKQogICAgICAgIGlmIHJvdyBpcyBOb25lOgogICAgICAgICAgICByZXR1cm4geyJ0b3RhbCI6IDAsICJpdGVtcyI6IFtdfQogICAgICAgIGl0ZW1zID0gWwogICAgICAgICAgICB7ImNhdGVnb3J5IjogYywgImxhYmVsIjogc2VsZi5fY2F0X2xhYmVsKGMpLAogICAgICAgICAgICAgImFtb3VudCI6IGZsb2F0KGdldGF0dHIocm93LCBmIntjfV9mZWUiKSl9CiAgICAgICAgICAgIGZvciBjIGluIEZFRV9DQVRFR09SSUVTCiAgICAgICAgXQogICAgICAgIHJldHVybiB7InRvdGFsIjogZmxvYXQocm93LnRvdGFsX2Nvc3QpLCAiaXRlbXMiOiBpdGVtc30KCiAgICAjIC0tLS0tLS0tLS0gQ++8muW6k+WtmOWBpeW6tyAtLS0tLS0tLS0tCiAgICBkZWYgaW52ZW50b3J5X2hlYWx0aChzZWxmLCBzbmFwc2hvdF9kYXRlOiBkYXRlLCB3YXJlaG91c2VfY29kZTogc3RyKSAtPiBkaWN0W3N0ciwgQW55XToKICAgICAgICAiIiLlupPlrZjlgaXlurfliIbmobbmsYfmgLvjgIIiIiIKICAgICAgICByb3dzID0gc2VsZi5kYi5zY2FsYXJzKAogICAgICAgICAgICBzZWxlY3QoU3RnSW52ZW50b3J5QWdlKS53aGVyZSgKICAgICAgICAgICAgICAgIFN0Z0ludmVudG9yeUFnZS5zbmFwc2hvdF9kYXRlID09IHNuYXBzaG90X2RhdGUsCiAgICAgICAgICAgICAgICBTdGdJbnZlbnRvcnlBZ2Uud2FyZWhvdXNlX2NvZGUgPT0gd2FyZWhvdXNlX2NvZGUsCiAgICAgICAgICAgICkKICAgICAgICApLmFsbCgpCiAgICAgICAgYnVja2V0czogZGljdFtzdHIsIGRpY3Rbc3RyLCBBbnldXSA9IGRlZmF1bHRkaWN0KGxhbWJkYTogeyJza3VfY291bnQiOiAwLCAicXVhbnRpdHkiOiAwfSkKICAgICAgICBmb3IgciBpbiByb3dzOgogICAgICAgICAgICBiID0gYnVja2V0c1tyLmFnZV9idWNrZXRdCiAgICAgICAgICAgIGJbInNrdV9jb3VudCJdICs9IDEKICAgICAgICAgICAgYlsicXVhbnRpdHkiXSArPSByLnF1YW50aXR5CiAgICAgICAgcmVzdWx0ID0gW10KICAgICAgICBmb3IgYiBpbiAoImhlYWx0aHkiLCAid2F0Y2giLCAic3RhbGUiLCAiY3JpdGljYWwiKToKICAgICAgICAgICAgcmVzdWx0LmFwcGVuZCh7CiAgICAgICAgICAgICAgICAiYnVja2V0IjogYiwgImxhYmVsIjogQlVDS0VUX0xBQkVMU1tiXSwKICAgICAgICAgICAgICAgICJza3VfY291bnQiOiBidWNrZXRzW2JdWyJza3VfY291bnQiXSwKICAgICAgICAgICAgICAgICJxdWFudGl0eSI6IGJ1Y2tldHNbYl1bInF1YW50aXR5Il0sCiAgICAgICAgICAgIH0pCiAgICAgICAgdG90YWxfcXR5ID0gc3VtKHhbInF1YW50aXR5Il0gZm9yIHggaW4gcmVzdWx0KQogICAgICAgIGZvciB4IGluIHJlc3VsdDoKICAgICAgICAgICAgeFsicXR5X3BjdCJdID0gcm91bmQoeFsicXVhbnRpdHkiXSAvIHRvdGFsX3F0eSAqIDEwMCwgMikgaWYgdG90YWxfcXR5IGVsc2UgMAogICAgICAgIHJldHVybiB7InNuYXBzaG90X2RhdGUiOiBzbmFwc2hvdF9kYXRlLmlzb2Zvcm1hdCgpLCAidG90YWxfcXVhbnRpdHkiOiB0b3RhbF9xdHksICJidWNrZXRzIjogcmVzdWx0fQoKICAgICMgLS0tLS0tLS0tLSBE77ya6aOO6ZmpIFNLVSDmjpLooYwgLS0tLS0tLS0tLQogICAgZGVmIHJpc2tfc2t1X3RvcChzZWxmLCBzbmFwc2hvdF9kYXRlOiBkYXRlLCB3YXJlaG91c2VfY29kZTogc3RyLCB0b3A6IGludCA9IDIwKSAtPiBsaXN0W2RpY3Rbc3RyLCBBbnldXToKICAgICAgICAiIiLpo47pmakgU0tVIOaOkuihjO+8muW6k+m+hCBkZXNj77yM5pWw6YePIGRlc2PjgIIiIiIKICAgICAgICByb3dzID0gc2VsZi5kYi5zY2FsYXJzKAogICAgICAgICAgICBzZWxlY3QoU3RnSW52ZW50b3J5QWdlKS53aGVyZSgKICAgICAgICAgICAgICAgIFN0Z0ludmVudG9yeUFnZS5zbmFwc2hvdF9kYXRlID09IHNuYXBzaG90X2RhdGUsCiAgICAgICAgICAgICAgICBTdGdJbnZlbnRvcnlBZ2Uud2FyZWhvdXNlX2NvZGUgPT0gd2FyZWhvdXNlX2NvZGUsCiAgICAgICAgICAgICkKICAgICAgICApLmFsbCgpCiAgICAgICAgIyDlj6rkv53nlZnmnInpo47pmannmoTvvIjpnZ4gaGVhbHRoee+8iQogICAgICAgIHJpc2t5ID0gW3IgZm9yIHIgaW4gcm93cyBpZiByLmFnZV9idWNrZXQgIT0gImhlYWx0aHkiXQogICAgICAgIHJpc2t5LnNvcnQoa2V5PWxhbWJkYSByOiAoci53YXJlaG91c2VfYWdlLCByLnF1YW50aXR5KSwgcmV2ZXJzZT1UcnVlKQoKICAgICAgICAjIOeJqeWMluWIsCBtYXJ0X3Jpc2tfc2t1CiAgICAgICAgc2VsZi5kYi5leGVjdXRlKGRlbGV0ZShNYXJ0Umlza1NrdSkud2hlcmUoCiAgICAgICAgICAgIE1hcnRSaXNrU2t1LnNuYXBzaG90X2RhdGUgPT0gc25hcHNob3RfZGF0ZSwKICAgICAgICAgICAgTWFydFJpc2tTa3Uud2FyZWhvdXNlX2NvZGUgPT0gd2FyZWhvdXNlX2NvZGUsCiAgICAgICAgKSkKICAgICAgICByZXN1bHQgPSBbXQogICAgICAgIGZvciBpLCByIGluIGVudW1lcmF0ZShyaXNreVs6dG9wXSwgc3RhcnQ9MSk6CiAgICAgICAgICAgIHNlbGYuZGIuYWRkKE1hcnRSaXNrU2t1KAogICAgICAgICAgICAgICAgc25hcHNob3RfZGF0ZT1zbmFwc2hvdF9kYXRlLCBza3U9ci5za3UsIHByb2R1Y3RfbmFtZT1yLnByb2R1Y3RfbmFtZSwKICAgICAgICAgICAgICAgIHF1YW50aXR5PXIucXVhbnRpdHksIHdhcmVob3VzZV9hZ2U9ci53YXJlaG91c2VfYWdlLAogICAgICAgICAgICAgICAgYWdlX2J1Y2tldD1yLmFnZV9idWNrZXQsIHJpc2tfcmFuaz1pLCB3YXJlaG91c2VfY29kZT13YXJlaG91c2VfY29kZSwKICAgICAgICAgICAgKSkKICAgICAgICAgICAgcmVzdWx0LmFwcGVuZCh7CiAgICAgICAgICAgICAgICAicmFuayI6IGksICJza3UiOiByLnNrdSwgInByb2R1Y3RfbmFtZSI6IHIucHJvZHVjdF9uYW1lLAogICAgICAgICAgICAgICAgInF1YW50aXR5Ijogci5xdWFudGl0eSwgIndhcmVob3VzZV9hZ2UiOiByLndhcmVob3VzZV9hZ2UsCiAgICAgICAgICAgICAgICAiYWdlX2J1Y2tldCI6IHIuYWdlX2J1Y2tldCwgImxhYmVsIjogQlVDS0VUX0xBQkVMU1tyLmFnZV9idWNrZXRdLAogICAgICAgICAgICB9KQogICAgICAgIHNlbGYuZGIuY29tbWl0KCkKICAgICAgICByZXR1cm4gcmVzdWx0CgogICAgIyAtLS0tLS0tLS0tIEXvvJrmnIjluqbmiqXlkYogLS0tLS0tLS0tLQogICAgZGVmIGdlbmVyYXRlX3JlcG9ydChzZWxmLCByZXBvcnRfbW9udGg6IHN0ciwgd2FyZWhvdXNlX2NvZGU6IHN0cikgLT4gTWFydE1vbnRobHlSZXBvcnQ6CiAgICAgICAgIiIi55Sf5oiQ44CK5b635Zu95rW35aSW5LuT5oiQ5pys5YGl5bq35oql5ZGK44CL44CCIiIiCiAgICAgICAgY29zdCA9IHNlbGYuZGIuc2NhbGFyKAogICAgICAgICAgICBzZWxlY3QoTWFydE1vbnRobHlDb3N0U3VtbWFyeSkud2hlcmUoCiAgICAgICAgICAgICAgICBNYXJ0TW9udGhseUNvc3RTdW1tYXJ5LmJpbGxfbW9udGggPT0gcmVwb3J0X21vbnRoLAogICAgICAgICAgICAgICAgTWFydE1vbnRobHlDb3N0U3VtbWFyeS53YXJlaG91c2VfY29kZSA9PSB3YXJlaG91c2VfY29kZSwKICAgICAgICAgICAgKQogICAgICAgICkKICAgICAgICB0cmVuZCA9IHNlbGYuY29zdF90cmVuZCh3YXJlaG91c2VfY29kZSkKICAgICAgICBzdHJ1Y3R1cmUgPSBzZWxmLmNvc3Rfc3RydWN0dXJlKHJlcG9ydF9tb250aCwgd2FyZWhvdXNlX2NvZGUpCgogICAgICAgICMg5bqT5a2Y5YGl5bq355So5pys5pyI5pyA5ZCO5LiA5aSp5b+r54Wn77yI5Y+W5pyA6L+R5Y+v55So5b+r54Wn77yJCiAgICAgICAgc25hcCA9IHNlbGYuX2xhdGVzdF9zbmFwc2hvdCh3YXJlaG91c2VfY29kZSkKICAgICAgICBoZWFsdGggPSBzZWxmLmludmVudG9yeV9oZWFsdGgoc25hcCwgd2FyZWhvdXNlX2NvZGUpIGlmIHNuYXAgZWxzZSBOb25lCiAgICAgICAgcmlzayA9IHNlbGYucmlza19za3VfdG9wKHNuYXAsIHdhcmVob3VzZV9jb2RlKSBpZiBzbmFwIGVsc2UgW10KCiAgICAgICAgY29zdF9jaGFuZ2UgPSB7CiAgICAgICAgICAgICJtb250aCI6IHJlcG9ydF9tb250aCwKICAgICAgICAgICAgInRvdGFsIjogZmxvYXQoY29zdC50b3RhbF9jb3N0KSBpZiBjb3N0IGVsc2UgMCwKICAgICAgICAgICAgIm1vbV9wY3QiOiBmbG9hdChjb3N0Lm1vbV9jaGFuZ2VfcGN0KSBpZiBjb3N0IGFuZCBjb3N0Lm1vbV9jaGFuZ2VfcGN0IGlzIG5vdCBOb25lIGVsc2UgTm9uZSwKICAgICAgICAgICAgInRyZW5kIjogdHJlbmQsCiAgICAgICAgfQogICAgICAgIGNvc3RfZHJpdmVycyA9IHNlbGYuX2RyaXZlcnMoc3RydWN0dXJlKQogICAgICAgIGludmVudG9yeV9yaXNrID0geyJoZWFsdGgiOiBoZWFsdGgsICJ0b3Bfcmlza19za3UiOiByaXNrfQogICAgICAgIHJlY29tbWVuZGF0aW9ucyA9IHNlbGYuX3JlY29tbWVuZGF0aW9ucyhjb3N0X2NoYW5nZSwgc3RydWN0dXJlLCBoZWFsdGgsIHJpc2spCgogICAgICAgIGNvbnRlbnRfbWQgPSBzZWxmLl9yZW5kZXJfbWFya2Rvd24oCiAgICAgICAgICAgIHJlcG9ydF9tb250aCwgY29zdF9jaGFuZ2UsIHN0cnVjdHVyZSwgaGVhbHRoLCByaXNrLCByZWNvbW1lbmRhdGlvbnMKICAgICAgICApCgogICAgICAgIHJlcG9ydCA9IE1hcnRNb250aGx5UmVwb3J0KAogICAgICAgICAgICByZXBvcnRfbW9udGg9cmVwb3J0X21vbnRoLCB3YXJlaG91c2VfY29kZT13YXJlaG91c2VfY29kZSwKICAgICAgICAgICAgdGl0bGU9ZiLlvrflm73mtbflpJbku5PmiJDmnKzlgaXlurfmiqXlkYrvvIh7cmVwb3J0X21vbnRofe+8iSIsCiAgICAgICAgICAgIGNvc3RfY2hhbmdlPWNvc3RfY2hhbmdlLCBjb3N0X2RyaXZlcnM9Y29zdF9kcml2ZXJzLAogICAgICAgICAgICBpbnZlbnRvcnlfcmlzaz1pbnZlbnRvcnlfcmlzaywgcmVjb21tZW5kYXRpb25zPXJlY29tbWVuZGF0aW9ucywKICAgICAgICAgICAgY29udGVudF9tZD1jb250ZW50X21kLCBzdGF0dXM9InB1Ymxpc2hlZCIsCiAgICAgICAgKQogICAgICAgIHNlbGYuZGIuZXhlY3V0ZShkZWxldGUoTWFydE1vbnRobHlSZXBvcnQpLndoZXJlKAogICAgICAgICAgICBNYXJ0TW9udGhseVJlcG9ydC5yZXBvcnRfbW9udGggPT0gcmVwb3J0X21vbnRoLAogICAgICAgICAgICBNYXJ0TW9udGhseVJlcG9ydC53YXJlaG91c2VfY29kZSA9PSB3YXJlaG91c2VfY29kZSwKICAgICAgICApKQogICAgICAgIHNlbGYuZGIuYWRkKHJlcG9ydCkKICAgICAgICBzZWxmLmRiLmNvbW1pdCgpCiAgICAgICAgcmV0dXJuIHJlcG9ydAoKICAgIGRlZiBfZHJpdmVycyhzZWxmLCBzdHJ1Y3R1cmU6IGRpY3Rbc3RyLCBBbnldKSAtPiBkaWN0W3N0ciwgQW55XToKICAgICAgICBpdGVtcyA9IHNvcnRlZChzdHJ1Y3R1cmUuZ2V0KCJpdGVtcyIsIFtdKSwga2V5PWxhbWJkYSB4OiB4WyJhbW91bnQiXSwgcmV2ZXJzZT1UcnVlKQogICAgICAgIHRvdGFsID0gc3RydWN0dXJlLmdldCgidG90YWwiLCAwKQogICAgICAgIHJldHVybiB7CiAgICAgICAgICAgICJ0b3BfY2F0ZWdvcnkiOiBpdGVtc1swXVsibGFiZWwiXSBpZiBpdGVtcyBlbHNlIE5vbmUsCiAgICAgICAgICAgICJ0b3BfYW1vdW50IjogaXRlbXNbMF1bImFtb3VudCJdIGlmIGl0ZW1zIGVsc2UgMCwKICAgICAgICAgICAgInRvcF9wY3QiOiByb3VuZChpdGVtc1swXVsiYW1vdW50Il0gLyB0b3RhbCAqIDEwMCwgMikgaWYgdG90YWwgYW5kIGl0ZW1zIGVsc2UgMCwKICAgICAgICAgICAgIml0ZW1zIjogaXRlbXMsCiAgICAgICAgfQoKICAgIGRlZiBfcmVjb21tZW5kYXRpb25zKHNlbGYsIGNvc3RfY2hhbmdlLCBzdHJ1Y3R1cmUsIGhlYWx0aCwgcmlzaykgLT4gbGlzdFtkaWN0W3N0ciwgc3RyXV06CiAgICAgICAgcmVjczogbGlzdFtkaWN0W3N0ciwgc3RyXV0gPSBbXQogICAgICAgICMg5oiQ5pysCiAgICAgICAgbW9tID0gY29zdF9jaGFuZ2UuZ2V0KCJtb21fcGN0IikKICAgICAgICBpZiBtb20gaXMgbm90IE5vbmUgYW5kIG1vbSA+IDEwOgogICAgICAgICAgICByZWNzLmFwcGVuZCh7InR5cGUiOiAi5oiQ5pysIiwgImxldmVsIjogIumrmCIsCiAgICAgICAgICAgICAgICAgICAgICAgICAidGV4dCI6IGYi5pys5pyI5oC75oiQ5pys546v5q+U5LiK5raoIHttb219Je+8jOW7uuiuruaguOafpeS4u+imgei0ueeUqOmhueWinumVv+WOn+WboOOAgiJ9KQogICAgICAgICMg6LS555So57uT5p6ECiAgICAgICAgZHJpdmVycyA9IHN0cnVjdHVyZS5nZXQoIml0ZW1zIiwgW10pCiAgICAgICAgaWYgZHJpdmVyczoKICAgICAgICAgICAgdG9wID0gbWF4KGRyaXZlcnMsIGtleT1sYW1iZGEgeDogeFsiYW1vdW50Il0pCiAgICAgICAgICAgIGlmIHRvcFsiYW1vdW50Il0gPiAwOgogICAgICAgICAgICAgICAgcmVjcy5hcHBlbmQoeyJ0eXBlIjogIui0ueeUqCIsICJsZXZlbCI6ICLkuK0iLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICJ0ZXh0IjogZiLotLnnlKjku6XjgIx7dG9wWydsYWJlbCddfeOAjeS4uuS4u++8iMKle3RvcFsnYW1vdW50J106LjJmfe+8ie+8jOWPr+mHjeeCueS8mOWMluivpemhueOAgiJ9KQogICAgICAgICMg5bqT5a2YCiAgICAgICAgaWYgaGVhbHRoOgogICAgICAgICAgICBjcml0aWNhbCA9IG5leHQoKGIgZm9yIGIgaW4gaGVhbHRoWyJidWNrZXRzIl0gaWYgYlsiYnVja2V0Il0gPT0gImNyaXRpY2FsIiksIE5vbmUpCiAgICAgICAgICAgIGlmIGNyaXRpY2FsIGFuZCBjcml0aWNhbFsicXVhbnRpdHkiXSA+IDA6CiAgICAgICAgICAgICAgICByZWNzLmFwcGVuZCh7InR5cGUiOiAi5bqT5a2YIiwgImxldmVsIjogIumrmCIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgInRleHQiOiBmIuS4pemHjeWRhua7nuW6k+WtmCB7Y3JpdGljYWxbJ3F1YW50aXR5J119IOS7tu+8jOW7uuiuruivhOS8sOS/g+mUgC/pgIDov5Av6ZSA5q+B5pa55qGI44CCIn0pCiAgICAgICAgaWYgcmlzazoKICAgICAgICAgICAgcmVjcy5hcHBlbmQoeyJ0eXBlIjogIuW6k+WtmCIsICJsZXZlbCI6ICLkuK0iLAogICAgICAgICAgICAgICAgICAgICAgICAgInRleHQiOiBmIlRPUCDpo47pmakgU0tV77yae3Jpc2tbMF1bJ3NrdSddfe+8iOW6k+m+hCB7cmlza1swXVsnd2FyZWhvdXNlX2FnZSddfSDlpKnvvIx7cmlza1swXVsncXVhbnRpdHknXX0g5Lu277yJ44CCIn0pCiAgICAgICAgaWYgbm90IHJlY3M6CiAgICAgICAgICAgIHJlY3MuYXBwZW5kKHsidHlwZSI6ICLnu7zlkIgiLCAibGV2ZWwiOiAi5L2OIiwgInRleHQiOiAi5pys5pyI5oiQ5pys5LiO5bqT5a2Y5pW05L2T5YGl5bq377yM5L+d5oyB5b2T5YmN6L+Q6JCl6IqC5aWP44CCIn0pCiAgICAgICAgcmV0dXJuIHJlY3MKCiAgICBkZWYgX3JlbmRlcl9tYXJrZG93bihzZWxmLCBtb250aCwgY29zdF9jaGFuZ2UsIHN0cnVjdHVyZSwgaGVhbHRoLCByaXNrLCByZWNzKSAtPiBzdHI6CiAgICAgICAgbGluZXMgPSBbZiIjIOW+t+Wbvea1t+WkluS7k+aIkOacrOWBpeW6t+aKpeWRiu+8iHttb250aH3vvIkiLCAiIl0KICAgICAgICBsaW5lcy5hcHBlbmQoZiIjIyDkuIDjgIHmiJDmnKzlj5jljJYiKQogICAgICAgIGxpbmVzLmFwcGVuZChmIi0g5pys5pyI5oC75oiQ5pys77yawqV7Y29zdF9jaGFuZ2VbJ3RvdGFsJ106LjJmfSIpCiAgICAgICAgaWYgY29zdF9jaGFuZ2VbIm1vbV9wY3QiXSBpcyBub3QgTm9uZToKICAgICAgICAgICAgbGluZXMuYXBwZW5kKGYiLSDnjq/mr5Tlj5jljJbvvJp7Y29zdF9jaGFuZ2VbJ21vbV9wY3QnXTorLjJmfSUiKQogICAgICAgIGxpbmVzLmFwcGVuZCgiIikKICAgICAgICBsaW5lcy5hcHBlbmQoIiMjIOS6jOOAgei0ueeUqOe7k+aehCIpCiAgICAgICAgZm9yIGl0IGluIHN0cnVjdHVyZS5nZXQoIml0ZW1zIiwgW10pOgogICAgICAgICAgICBsaW5lcy5hcHBlbmQoZiItIHtpdFsnbGFiZWwnXX3vvJrCpXtpdFsnYW1vdW50J106LjJmfSIpCiAgICAgICAgbGluZXMuYXBwZW5kKCIiKQogICAgICAgIGxpbmVzLmFwcGVuZCgiIyMg5LiJ44CB5bqT5a2Y6aOO6ZmpIikKICAgICAgICBpZiBoZWFsdGg6CiAgICAgICAgICAgIGZvciBiIGluIGhlYWx0aFsiYnVja2V0cyJdOgogICAgICAgICAgICAgICAgbGluZXMuYXBwZW5kKGYiLSB7YlsnbGFiZWwnXX3vvJp7Ylsnc2t1X2NvdW50J119IFNLVSAvIHtiWydxdWFudGl0eSddfSDku7YiKQogICAgICAgIGlmIHJpc2s6CiAgICAgICAgICAgIGxpbmVzLmFwcGVuZChmIlxuVE9QIOmjjumZqSBTS1XvvJoiKQogICAgICAgICAgICBmb3IgciBpbiByaXNrWzo1XToKICAgICAgICAgICAgICAgIGxpbmVzLmFwcGVuZChmIi0gI3tyWydyYW5rJ119IHtyWydza3UnXX3vvIjlupPpvoQge3JbJ3dhcmVob3VzZV9hZ2UnXX0g5aSp77yMe3JbJ3F1YW50aXR5J119IOS7tu+8iSIpCiAgICAgICAgbGluZXMuYXBwZW5kKCIiKQogICAgICAgIGxpbmVzLmFwcGVuZCgiIyMg5Zub44CB5LyY5YyW5bu66K6uIikKICAgICAgICBmb3IgciBpbiByZWNzOgogICAgICAgICAgICBsaW5lcy5hcHBlbmQoZiItIFt7clsnbGV2ZWwnXX1dIHtyWyd0ZXh0J119IikKICAgICAgICByZXR1cm4gIlxuIi5qb2luKGxpbmVzKQoKICAgICMgLS0tLS0tLS0tLSDovoXliqkgLS0tLS0tLS0tLQogICAgZGVmIF9sYXRlc3Rfc25hcHNob3Qoc2VsZiwgd2FyZWhvdXNlX2NvZGU6IHN0cikgLT4gZGF0ZSB8IE5vbmU6CiAgICAgICAgcmV0dXJuIHNlbGYuZGIuc2NhbGFyKAogICAgICAgICAgICBzZWxlY3QoU3RnSW52ZW50b3J5QWdlLnNuYXBzaG90X2RhdGUpCiAgICAgICAgICAgIC53aGVyZShTdGdJbnZlbnRvcnlBZ2Uud2FyZWhvdXNlX2NvZGUgPT0gd2FyZWhvdXNlX2NvZGUpCiAgICAgICAgICAgIC5vcmRlcl9ieShTdGdJbnZlbnRvcnlBZ2Uuc25hcHNob3RfZGF0ZS5kZXNjKCkpCiAgICAgICAgICAgIC5saW1pdCgxKQogICAgICAgICkKCiAgICBAc3RhdGljbWV0aG9kCiAgICBkZWYgX3ByZXZfbW9udGgoYmlsbF9tb250aDogc3RyKSAtPiBzdHI6CiAgICAgICAgeSwgbSA9IGludChiaWxsX21vbnRoWzo0XSksIGludChiaWxsX21vbnRoWzU6N10pCiAgICAgICAgaWYgbSA9PSAxOgogICAgICAgICAgICByZXR1cm4gZiJ7eSAtIDF9LTEyIgogICAgICAgIHJldHVybiBmInt5fS17bSAtIDE6MDJkfSIKCiAgICBAc3RhdGljbWV0aG9kCiAgICBkZWYgX2NhdF9sYWJlbChjYXQ6IHN0cikgLT4gc3RyOgogICAgICAgIHJldHVybiB7CiAgICAgICAgICAgICJzdG9yYWdlIjogIuS7k+WCqOi0uSIsICJpbmJvdW5kIjogIuWFpeW6k+i0uSIsCiAgICAgICAgICAgICJvdXRib3VuZCI6ICLlh7rlupPmk43kvZzotLkiLCAidHJhbnNwb3J0IjogIui/kOi+k+i0uSIsICJvdGhlciI6ICLlhbbku5botLnnlKgiLAogICAgICAgIH0uZ2V0KGNhdCwgY2F0KQ==
+"""分析引擎：把原始层(stg_*) 聚合为分析层(mart_*) 及报告。
+
+覆盖功能 A/B/C/D/E：
+- A 月度成本分析：本月总成本、环比、12 月趋势、成本结构
+- B 费用结构分析：五大类费用
+- C 库存健康分析：库龄分桶
+- D 风险 SKU 排行：库龄 desc + 数量 desc，TOP20
+- E 自动月度报告：《德国海外仓成本健康报告》
+"""
+from __future__ import annotations
+
+import logging
+from collections import defaultdict
+from datetime import date
+from decimal import Decimal
+from typing import Any
+
+from sqlalchemy import delete, select
+from sqlalchemy.orm import Session
+
+from app.models import (
+    MartMonthlyCostSummary, MartMonthlyReport, MartRiskSku,
+    StgBill, StgBillFeeItem, StgInventoryAge, StgInventoryStatus,
+)
+
+logger = logging.getLogger(__name__)
+
+FEE_CATEGORIES = ("storage", "inbound", "outbound", "transport", "other")
+BUCKET_LABELS = {
+    "healthy": "健康库存",
+    "watch": "关注库存",
+    "stale": "呆滞库存",
+    "critical": "严重呆滞库存",
+}
+CURRENCY_SYMBOLS = {
+    "EUR": "€",
+    "CNY": "¥",
+    "USD": "$",
+    "GBP": "£",
+}
+
+
+class AnalysisEngine:
+    """分析引擎。"""
+
+    def __init__(self, db: Session) -> None:
+        self.db = db
+
+    # ---------- A/B：月度成本汇总 ----------
+    def compute_monthly_cost(self, bill_month: str, warehouse_code: str) -> MartMonthlyCostSummary:
+        """聚合某月某仓的成本（总 + 五大类）。"""
+        fee_rows = self.db.scalars(
+            select(StgBillFeeItem).where(
+                StgBillFeeItem.bill_month == bill_month,
+            )
+        ).all()
+
+        totals: dict[str, Decimal] = defaultdict(Decimal)
+        for r in fee_rows:
+            totals[r.fee_category] += r.amount
+
+        # 如果费用明细缺失，退回到账单主表总额兜底
+        total_cost = sum(totals.values(), Decimal("0"))
+        if total_cost == 0:
+            bills = self.db.scalars(
+                select(StgBill).where(StgBill.bill_month == bill_month)
+            ).all()
+            total_cost = sum((b.all_total for b in bills), Decimal("0"))
+
+        # 计算环比
+        mom_pct = self._mom_change(bill_month, warehouse_code, total_cost)
+
+        row = MartMonthlyCostSummary(
+            bill_month=bill_month,
+            warehouse_code=warehouse_code,
+            total_cost=total_cost,
+            storage_fee=totals["storage"],
+            inbound_fee=totals["inbound"],
+            outbound_fee=totals["outbound"],
+            transport_fee=totals["transport"],
+            other_fee=totals["other"],
+            currency_code="EUR",
+            mom_change_pct=mom_pct,
+        )
+        # UPSERT
+        self.db.execute(delete(MartMonthlyCostSummary).where(
+            MartMonthlyCostSummary.bill_month == bill_month,
+            MartMonthlyCostSummary.warehouse_code == warehouse_code,
+        ))
+        self.db.add(row)
+        self.db.commit()
+        return row
+
+    def _mom_change(self, bill_month: str, warehouse_code: str, current: Decimal) -> Decimal | None:
+        """环比：与上月总成本比较。"""
+        prev_month = self._prev_month(bill_month)
+        prev = self.db.scalar(
+            select(MartMonthlyCostSummary.total_cost).where(
+                MartMonthlyCostSummary.bill_month == prev_month,
+                MartMonthlyCostSummary.warehouse_code == warehouse_code,
+            )
+        )
+        if prev is None or prev == 0:
+            return None
+        return ((current - prev) / prev * 100).quantize(Decimal("0.01"))
+
+    def cost_trend(self, warehouse_code: str, months: int = 12) -> list[dict[str, Any]]:
+        """近 N 个月成本趋势。"""
+        rows = self.db.scalars(
+            select(MartMonthlyCostSummary)
+            .where(MartMonthlyCostSummary.warehouse_code == warehouse_code)
+            .order_by(MartMonthlyCostSummary.bill_month.desc())
+            .limit(months)
+        ).all()
+        rows = sorted(rows, key=lambda r: r.bill_month)
+        return [
+            {"month": r.bill_month, "total": float(r.total_cost),
+             "storage": float(r.storage_fee), "transport": float(r.transport_fee),
+             "mom_pct": float(r.mom_change_pct) if r.mom_change_pct is not None else None}
+            for r in rows
+        ]
+
+    def cost_structure(self, bill_month: str, warehouse_code: str) -> dict[str, Any]:
+        """本月费用结构（五大类占比）。"""
+        row = self.db.scalar(
+            select(MartMonthlyCostSummary).where(
+                MartMonthlyCostSummary.bill_month == bill_month,
+                MartMonthlyCostSummary.warehouse_code == warehouse_code,
+            )
+        )
+        if row is None:
+            return {"total": 0, "items": []}
+        items = [
+            {"category": c, "label": self._cat_label(c),
+             "amount": float(getattr(row, f"{c}_fee"))}
+            for c in FEE_CATEGORIES
+        ]
+        return {"total": float(row.total_cost), "items": items}
+
+    # ---------- C：库存健康 ----------
+    def inventory_health(self, snapshot_date: date, warehouse_code: str) -> dict[str, Any]:
+        """库存健康分桶汇总。"""
+        rows = self.db.scalars(
+            select(StgInventoryAge).where(
+                StgInventoryAge.snapshot_date == snapshot_date,
+                StgInventoryAge.warehouse_code == warehouse_code,
+            )
+        ).all()
+        buckets: dict[str, dict[str, Any]] = defaultdict(lambda: {"sku_count": 0, "quantity": 0})
+        for r in rows:
+            b = buckets[r.age_bucket]
+            b["sku_count"] += 1
+            b["quantity"] += r.quantity
+        result = []
+        for b in ("healthy", "watch", "stale", "critical"):
+            result.append({
+                "bucket": b, "label": BUCKET_LABELS[b],
+                "sku_count": buckets[b]["sku_count"],
+                "quantity": buckets[b]["quantity"],
+            })
+        total_qty = sum(x["quantity"] for x in result)
+        for x in result:
+            x["qty_pct"] = round(x["quantity"] / total_qty * 100, 2) if total_qty else 0
+        return {"snapshot_date": snapshot_date.isoformat(), "total_quantity": total_qty, "buckets": result}
+
+    # ---------- D：风险 SKU 排行 ----------
+    def risk_sku_top(self, snapshot_date: date, warehouse_code: str, top: int = 20) -> list[dict[str, Any]]:
+        """风险 SKU 排行：库龄 desc，数量 desc。"""
+        rows = self.db.scalars(
+            select(StgInventoryAge).where(
+                StgInventoryAge.snapshot_date == snapshot_date,
+                StgInventoryAge.warehouse_code == warehouse_code,
+            )
+        ).all()
+        # 只保留有风险的（非 healthy）
+        risky = [r for r in rows if r.age_bucket != "healthy"]
+        risky.sort(key=lambda r: (r.warehouse_age, r.quantity), reverse=True)
+
+        # 物化到 mart_risk_sku
+        self.db.execute(delete(MartRiskSku).where(
+            MartRiskSku.snapshot_date == snapshot_date,
+            MartRiskSku.warehouse_code == warehouse_code,
+        ))
+        result = []
+        for i, r in enumerate(risky[:top], start=1):
+            self.db.add(MartRiskSku(
+                snapshot_date=snapshot_date, sku=r.sku, product_name=r.product_name,
+                quantity=r.quantity, warehouse_age=r.warehouse_age,
+                age_bucket=r.age_bucket, risk_rank=i, warehouse_code=warehouse_code,
+            ))
+            result.append({
+                "rank": i, "sku": r.sku, "product_name": r.product_name,
+                "quantity": r.quantity, "warehouse_age": r.warehouse_age,
+                "age_bucket": r.age_bucket, "label": BUCKET_LABELS[r.age_bucket],
+            })
+        self.db.commit()
+        return result
+
+    # ---------- E：月度报告 ----------
+    def generate_report(self, report_month: str, warehouse_code: str) -> MartMonthlyReport:
+        """生成《德国海外仓成本健康报告》。"""
+        cost = self.db.scalar(
+            select(MartMonthlyCostSummary).where(
+                MartMonthlyCostSummary.bill_month == report_month,
+                MartMonthlyCostSummary.warehouse_code == warehouse_code,
+            )
+        )
+        trend = self.cost_trend(warehouse_code)
+        structure = self.cost_structure(report_month, warehouse_code)
+
+        # 库存健康用本月最后一天快照（取最近可用快照）
+        snap = self._latest_snapshot(warehouse_code)
+        health = self.inventory_health(snap, warehouse_code) if snap else None
+        risk = self.risk_sku_top(snap, warehouse_code) if snap else []
+
+        cost_change = {
+            "month": report_month,
+            "total": float(cost.total_cost) if cost else 0,
+            "mom_pct": float(cost.mom_change_pct) if cost and cost.mom_change_pct is not None else None,
+            "trend": trend,
+        }
+        cost_drivers = self._drivers(structure)
+        inventory_risk = {"health": health, "top_risk_sku": risk}
+        symbol = CURRENCY_SYMBOLS.get(cost.currency_code, "€") if cost else "€"
+        recommendations = self._recommendations(cost_change, structure, health, risk, symbol)
+
+        content_md = self._render_markdown(
+            report_month, cost_change, structure, health, risk, recommendations, symbol
+        )
+
+        report = MartMonthlyReport(
+            report_month=report_month, warehouse_code=warehouse_code,
+            title=f"德国海外仓成本健康报告（{report_month}）",
+            cost_change=cost_change, cost_drivers=cost_drivers,
+            inventory_risk=inventory_risk, recommendations=recommendations,
+            content_md=content_md, status="published",
+        )
+        self.db.execute(delete(MartMonthlyReport).where(
+            MartMonthlyReport.report_month == report_month,
+            MartMonthlyReport.warehouse_code == warehouse_code,
+        ))
+        self.db.add(report)
+        self.db.commit()
+        return report
+
+    def _drivers(self, structure: dict[str, Any]) -> dict[str, Any]:
+        items = sorted(structure.get("items", []), key=lambda x: x["amount"], reverse=True)
+        total = structure.get("total", 0)
+        return {
+            "top_category": items[0]["label"] if items else None,
+            "top_amount": items[0]["amount"] if items else 0,
+            "top_pct": round(items[0]["amount"] / total * 100, 2) if total and items else 0,
+            "items": items,
+        }
+
+    def _recommendations(self, cost_change, structure, health, risk, symbol: str = "€") -> list[dict[str, str]]:
+        recs: list[dict[str, str]] = []
+        # 成本
+        mom = cost_change.get("mom_pct")
+        if mom is not None and mom > 10:
+            recs.append({"type": "成本", "level": "高",
+                         "text": f"本月总成本环比上涨 {mom}%，建议核查主要费用项增长原因。"})
+        # 费用结构
+        drivers = structure.get("items", [])
+        if drivers:
+            top = max(drivers, key=lambda x: x["amount"])
+            if top["amount"] > 0:
+                recs.append({"type": "费用", "level": "中",
+                             "text": f"费用以「{top['label']}」为主（{symbol}{top['amount']:.2f}），可重点优化该项。"})
+        # 库存
+        if health:
+            critical = next((b for b in health["buckets"] if b["bucket"] == "critical"), None)
+            if critical and critical["quantity"] > 0:
+                recs.append({"type": "库存", "level": "高",
+                             "text": f"严重呆滞库存 {critical['quantity']} 件，建议评估促销/退运/销毁方案。"})
+        if risk:
+            recs.append({"type": "库存", "level": "中",
+                         "text": f"TOP 风险 SKU：{risk[0]['sku']}（库龄 {risk[0]['warehouse_age']} 天，{risk[0]['quantity']} 件）。"})
+        if not recs:
+            recs.append({"type": "综合", "level": "低", "text": "本月成本与库存整体健康，保持当前运营节奏。"})
+        return recs
+
+    def _render_markdown(self, month, cost_change, structure, health, risk, recs, symbol: str = "€") -> str:
+        lines = [f"# 德国海外仓成本健康报告（{month}）", ""]
+        lines.append(f"## 一、成本变化")
+        lines.append(f"- 本月总成本：{symbol}{cost_change['total']:.2f}")
+        if cost_change["mom_pct"] is not None:
+            lines.append(f"- 环比变化：{cost_change['mom_pct']:+.2f}%")
+        lines.append("")
+        lines.append("## 二、费用结构")
+        for it in structure.get("items", []):
+            lines.append(f"- {it['label']}：{symbol}{it['amount']:.2f}")
+        lines.append("")
+        lines.append("## 三、库存风险")
+        if health:
+            for b in health["buckets"]:
+                lines.append(f"- {b['label']}：{b['sku_count']} SKU / {b['quantity']} 件")
+        if risk:
+            lines.append(f"\nTOP 风险 SKU：")
+            for r in risk[:5]:
+                lines.append(f"- #{r['rank']} {r['sku']}（库龄 {r['warehouse_age']} 天，{r['quantity']} 件）")
+        lines.append("")
+        lines.append("## 四、优化建议")
+        for r in recs:
+            lines.append(f"- [{r['level']}] {r['text']}")
+        return "\n".join(lines)
+
+    # ---------- 辅助 ----------
+    def _latest_snapshot(self, warehouse_code: str) -> date | None:
+        return self.db.scalar(
+            select(StgInventoryAge.snapshot_date)
+            .where(StgInventoryAge.warehouse_code == warehouse_code)
+            .order_by(StgInventoryAge.snapshot_date.desc())
+            .limit(1)
+        )
+
+    @staticmethod
+    def _prev_month(bill_month: str) -> str:
+        y, m = int(bill_month[:4]), int(bill_month[5:7])
+        if m == 1:
+            return f"{y - 1}-12"
+        return f"{y}-{m - 1:02d}"
+
+    @staticmethod
+    def _cat_label(cat: str) -> str:
+        return {
+            "storage": "仓储费", "inbound": "入库费",
+            "outbound": "出库操作费", "transport": "运输费", "other": "其他费用",
+        }.get(cat, cat)

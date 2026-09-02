@@ -1,1 +1,118 @@
-aW1wb3J0IGFwaSBmcm9tICcuL2luZGV4JwoKLy8gPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09Ci8vIOa8lOekuuaVsOaNru+8iG1vY2vvvInvvJrlkI7nq6/mnKrmjqXnnJ/lrp7osLfku5PmlbDmja7ml7bvvIznlKjkuo7liY3nq6/pooTop4jmlYjmnpzjgIIKLy8g5LiK57q/5o6l5YWl55yf5a6e5pWw5o2u5ZCO77yM6K6+572uIE1PQ0s9ZmFsc2Ug5oiW5Yig6Zmk5pys5paH5Lu255qEIGZhbGxiYWNrIOWNs+WPr+OAggovLyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0KY29uc3QgTU9DSyA9IHRydWUKCmNvbnN0IERFTU8gPSB7CiAgc3VtbWFyeTogewogICAgbW9udGg6ICcyMDI2LTA4JywgdG90YWw6IDQyODUwLjMyLCBtb21fcGN0OiAxMi42LAogICAgc3RydWN0dXJlOiBbCiAgICAgIHsgY2F0ZWdvcnk6ICdzdG9yYWdlJywgbGFiZWw6ICfku5PlgqjotLknLCBhbW91bnQ6IDE4MjAwLjAgfSwKICAgICAgeyBjYXRlZ29yeTogJ2luYm91bmQnLCBsYWJlbDogJ+WFpeW6k+i0uScsIGFtb3VudDogNDI1MC4wIH0sCiAgICAgIHsgY2F0ZWdvcnk6ICdvdXRib3VuZCcsIGxhYmVsOiAn5Ye65bqT5pON5L2c6LS5JywgYW1vdW50OiA5ODAwLjAgfSwKICAgICAgeyBjYXRlZ29yeTogJ3RyYW5zcG9ydCcsIGxhYmVsOiAn6L+Q6L6T6LS5JywgYW1vdW50OiA4NjUwLjMyIH0sCiAgICAgIHsgY2F0ZWdvcnk6ICdvdGhlcicsIGxhYmVsOiAn5YW25LuW6LS555SoJywgYW1vdW50OiAxOTUwLjAgfQogICAgXQogIH0sCiAgdHJlbmQ6IHsKICAgIHdhcmVob3VzZTogJ0RFMScsCiAgICB0cmVuZDogWwogICAgICB7IG1vbnRoOiAnMjAyNS0wOScsIHRvdGFsOiAzMTAwMCwgc3RvcmFnZTogMTQwMDAsIHRyYW5zcG9ydDogNzAwMCwgbW9tX3BjdDogbnVsbCB9LAogICAgICB7IG1vbnRoOiAnMjAyNS0xMCcsIHRvdGFsOiAzMzUwMCwgc3RvcmFnZTogMTUwMDAsIHRyYW5zcG9ydDogNzYwMCwgbW9tX3BjdDogOC4xIH0sCiAgICAgIHsgbW9udGg6ICcyMDI1LTExJywgdG90YWw6IDM1ODAwLCBzdG9yYWdlOiAxNjAwMCwgdHJhbnNwb3J0OiA4MjAwLCBtb21fcGN0OiA2LjkgfSwKICAgICAgeyBtb250aDogJzIwMjUtMTInLCB0b3RhbDogNDEyMDAsIHN0b3JhZ2U6IDE3NTAwLCB0cmFuc3BvcnQ6IDk1MDAsIG1vbV9wY3Q6IDE1LjEgfSwKICAgICAgeyBtb250aDogJzIwMjYtMDEnLCB0b3RhbDogMzY4MDAsIHN0b3JhZ2U6IDE2MjAwLCB0cmFuc3BvcnQ6IDgzMDAsIG1vbV9wY3Q6IC0xMC43IH0sCiAgICAgIHsgbW9udGg6ICcyMDI2LTAyJywgdG90YWw6IDM1NDAwLCBzdG9yYWdlOiAxNTgwMCwgdHJhbnNwb3J0OiA4MDAwLCBtb21fcGN0OiAtMy44IH0sCiAgICAgIHsgbW9udGg6ICcyMDI2LTAzJywgdG90YWw6IDM3OTAwLCBzdG9yYWdlOiAxNjYwMCwgdHJhbnNwb3J0OiA4NTAwLCBtb21fcGN0OiA3LjEgfSwKICAgICAgeyBtb250aDogJzIwMjYtMDQnLCB0b3RhbDogMzYxMDAsIHN0b3JhZ2U6IDE2MDAwLCB0cmFuc3BvcnQ6IDgxMDAsIG1vbV9wY3Q6IC00LjcgfSwKICAgICAgeyBtb250aDogJzIwMjYtMDUnLCB0b3RhbDogMzg5MDAsIHN0b3JhZ2U6IDE3MDAwLCB0cmFuc3BvcnQ6IDg2MDAsIG1vbV9wY3Q6IDcuOCB9LAogICAgICB7IG1vbnRoOiAnMjAyNi0wNicsIHRvdGFsOiAzOTUwMCwgc3RvcmFnZTogMTcyMDAsIHRyYW5zcG9ydDogODgwMCwgbW9tX3BjdDogMS41IH0sCiAgICAgIHsgbW9udGg6ICcyMDI2LTA3JywgdG90YWw6IDM4MDUwLCBzdG9yYWdlOiAxNjgwMCwgdHJhbnNwb3J0OiA4NTAwLCBtb21fcGN0OiAtMy43IH0sCiAgICAgIHsgbW9udGg6ICcyMDI2LTA4JywgdG90YWw6IDQyODUwLCBzdG9yYWdlOiAxODIwMCwgdHJhbnNwb3J0OiA4NjUwLCBtb21fcGN0OiAxMi42IH0KICAgIF0KICB9LAogIGhlYWx0aDogewogICAgc25hcHNob3RfZGF0ZTogJzIwMjYtMDktMDEnLCB0b3RhbF9xdWFudGl0eTogNDgyMCwKICAgIGJ1Y2tldHM6IFsKICAgICAgeyBidWNrZXQ6ICdoZWFsdGh5JywgbGFiZWw6ICflgaXlurflupPlrZgnLCBza3VfY291bnQ6IDEyMCwgcXVhbnRpdHk6IDI2NTAsIHF0eV9wY3Q6IDU1LjAgfSwKICAgICAgeyBidWNrZXQ6ICd3YXRjaCcsIGxhYmVsOiAn5YWz5rOo5bqT5a2YJywgc2t1X2NvdW50OiAzOCwgcXVhbnRpdHk6IDcyMCwgcXR5X3BjdDogMTQuOSB9LAogICAgICB7IGJ1Y2tldDogJ3N0YWxlJywgbGFiZWw6ICflkYbmu57lupPlrZgnLCBza3VfY291bnQ6IDIyLCBxdWFudGl0eTogNjgwLCBxdHlfcGN0OiAxNC4xIH0sCiAgICAgIHsgYnVja2V0OiAnY3JpdGljYWwnLCBsYWJlbDogJ+S4pemHjeWRhua7nuW6k+WtmCcsIHNrdV9jb3VudDogMTUsIHF1YW50aXR5OiA3NzAsIHF0eV9wY3Q6IDE2LjAgfQogICAgXQogIH0sCiAgcmlzazogewogICAgc25hcHNob3RfZGF0ZTogJzIwMjYtMDktMDEnLAogICAgaXRlbXM6IFsKICAgICAgeyByYW5rOiAxLCBza3U6ICdHQy1ERS04ODQyMScsIHByb2R1Y3RfbmFtZTogJ+aZuuiDvea4qeaOp+adryA1MDBtbCcsIHF1YW50aXR5OiAyMjAsIHdhcmVob3VzZV9hZ2U6IDUxMiwgYWdlX2J1Y2tldDogJ2NyaXRpY2FsJywgbGFiZWw6ICfkuKXph43lkYbmu57lupPlrZgnIH0sCiAgICAgIHsgcmFuazogMiwgc2t1OiAnR0MtREUtNzcyMTAnLCBwcm9kdWN0X25hbWU6ICfmipjlj6DmlLbnurPnrrEgWEwnLCBxdWFudGl0eTogMTQ1LCB3YXJlaG91c2VfYWdlOiA0NjgsIGFnZV9idWNrZXQ6ICdjcml0aWNhbCcsIGxhYmVsOiAn5Lil6YeN5ZGG5rue5bqT5a2YJyB9LAogICAgICB7IHJhbms6IDMsIHNrdTogJ0dDLURFLTY2MzQ0JywgcHJvZHVjdF9uYW1lOiAn5L6/5pC65qao5rGB5py6JywgcXVhbnRpdHk6IDkwLCB3YXJlaG91c2VfYWdlOiA0MzEsIGFnZV9idWNrZXQ6ICdjcml0aWNhbCcsIGxhYmVsOiAn5Lil6YeN5ZGG5rue5bqT5a2YJyB9LAogICAgICB7IHJhbms6IDQsIHNrdTogJ0dDLURFLTU1ODkyJywgcHJvZHVjdF9uYW1lOiAnTEVEIOWPsOeBr+inpuaOp+eJiCcsIHF1YW50aXR5OiAzMDAsIHdhcmVob3VzZV9hZ2U6IDM2NiwgYWdlX2J1Y2tldDogJ2NyaXRpY2FsJywgbGFiZWw6ICfkuKXph43lkYbmu57lupPlrZgnIH0sCiAgICAgIHsgcmFuazogNSwgc2t1OiAnR0MtREUtNDQxMTcnLCBwcm9kdWN0X25hbWU6ICfljqjmiL/mlLbnurPmnrbkuInlsYInLCBxdWFudGl0eTogMTc1LCB3YXJlaG91c2VfYWdlOiAzNTUsIGFnZV9idWNrZXQ6ICdzdGFsZScsIGxhYmVsOiAn5ZGG5rue5bqT5a2YJyB9LAogICAgICB7IHJhbms6IDYsIHNrdTogJ0dDLURFLTMzNTgxJywgcHJvZHVjdF9uYW1lOiAn55Gc5Ly95Z6r5Yqg5Y6aJywgcXVhbnRpdHk6IDI2MCwgd2FyZWhvdXNlX2FnZTogMzIwLCBhZ2VfYnVja2V0OiAnc3RhbGUnLCBsYWJlbDogJ+WRhua7nuW6k+WtmCcgfSwKICAgICAgeyByYW5rOiA3LCBza3U6ICdHQy1ERS0yMjk2MCcsIHByb2R1Y3RfbmFtZTogJ+i9pui9veaJi+acuuaUr+aeticsIHF1YW50aXR5OiA0MTAsIHdhcmVob3VzZV9hZ2U6IDI4OCwgYWdlX2J1Y2tldDogJ3N0YWxlJywgbGFiZWw6ICflkYbmu57lupPlrZgnIH0sCiAgICAgIHsgcmFuazogOCwgc2t1OiAnR0MtREUtMTE4NzQnLCBwcm9kdWN0X25hbWU6ICflrqDnianlloLpo5/lmagnLCBxdWFudGl0eTogMTMwLCB3YXJlaG91c2VfYWdlOiAyMTAsIGFnZV9idWNrZXQ6ICdzdGFsZScsIGxhYmVsOiAn5ZGG5rue5bqT5a2YJyB9LAogICAgICB7IHJhbms6IDksIHNrdTogJ0dDLURFLTA5NTMzJywgcHJvZHVjdF9uYW1lOiAn56m65rCU54K46ZSF57q4JywgcXVhbnRpdHk6IDUyMCwgd2FyZWhvdXNlX2FnZTogMTc1LCBhZ2VfYnVja2V0OiAnd2F0Y2gnLCBsYWJlbDogJ+WFs+azqOW6k+WtmCcgfSwKICAgICAgeyByYW5rOiAxMCwgc2t1OiAnR0MtREUtMDgxMjAnLCBwcm9kdWN0X25hbWU6ICfnlLXliqjniZnliLflpLQnLCBxdWFudGl0eTogMzgwLCB3YXJlaG91c2VfYWdlOiAxMjAsIGFnZV9idWNrZXQ6ICd3YXRjaCcsIGxhYmVsOiAn5YWz5rOo5bqT5a2YJyB9LAogICAgICB7IHJhbms6IDExLCBza3U6ICdHQy1ERS0wNjYwOCcsIHByb2R1Y3RfbmFtZTogJ+ecn+epuuWOi+e8qeiiiycsIHF1YW50aXR5OiA0NjAsIHdhcmVob3VzZV9hZ2U6IDk4LCBhZ2VfYnVja2V0OiAnd2F0Y2gnLCBsYWJlbDogJ+WFs+azqOW6k+WtmCcgfSwKICAgICAgeyByYW5rOiAxMiwgc2t1OiAnR0MtREUtMDUyMzEnLCBwcm9kdWN0X25hbWU6ICfpppnolrDliqDmub/lmagnLCBxdWFudGl0eTogMTUwLCB3YXJlaG91c2VfYWdlOiA5NSwgYWdlX2J1Y2tldDogJ3dhdGNoJywgbGFiZWw6ICflhbPms6jlupPlrZgnIH0KICAgIF0KICB9LAogIHJlcG9ydDogewogICAgcmVwb3J0X21vbnRoOiAnMjAyNi0wOCcsCiAgICB0aXRsZTogJ+W+t+Wbvea1t+WkluS7k+aIkOacrOWBpeW6t+aKpeWRiu+8iDIwMjYtMDjvvIknLAogICAgY29udGVudF9tZDogYCMg5b635Zu95rW35aSW5LuT5oiQ5pys5YGl5bq35oql5ZGK77yIMjAyNi0wOO+8iQoKIyMg5LiA44CB5oiQ5pys5Y+Y5YyWCi0g5pys5pyI5oC75oiQ5pys77yawqU0Miw4NTAuMzIKLSDnjq/mr5Tlj5jljJbvvJorMTIuNjAlCgojIyDkuozjgIHotLnnlKjnu5PmnoQKLSDku5PlgqjotLnvvJrCpTE4LDIwMC4wMAotIOWFpeW6k+i0ue+8msKlNCwyNTAuMDAKLSDlh7rlupPmk43kvZzotLnvvJrCpTksODAwLjAwCi0g6L+Q6L6T6LS577yawqU4LDY1MC4zMgotIOWFtuS7lui0ueeUqO+8msKlMSw5NTAuMDAKCiMjIOS4ieOAgeW6k+WtmOmjjumZqQotIOWBpeW6t+W6k+WtmO+8mjEyMCBTS1UgLyAyNjUwIOS7tgotIOWFs+azqOW6k+WtmO+8mjM4IFNLVSAvIDcyMCDku7YKLSDlkYbmu57lupPlrZjvvJoyMiBTS1UgLyA2ODAg5Lu2Ci0g5Lil6YeN5ZGG5rue5bqT5a2Y77yaMTUgU0tVIC8gNzcwIOS7tgoKVE9QIOmjjumZqSBTS1XvvJoKLSAjMSBHQy1ERS04ODQyMe+8iOW6k+m+hCA1MTIg5aSp77yMMjIwIOS7tu+8iQotICMyIEdDLURFLTc3MjEw77yI5bqT6b6EIDQ2OCDlpKnvvIwxNDUg5Lu277yJCgojIyDlm5vjgIHkvJjljJblu7rorq4KLSBb6auYXSDmnKzmnIjmgLvmiJDmnKznjq/mr5TkuIrmtqggMTIuNjAl77yM5bu66K6u5qC45p+l5LuT5YKo6LS55LiO6L+Q6L6T6LS55aKe6ZW/5Y6f5Zug44CCCi0gW+S4rV0g6LS555So5Lul44CM5LuT5YKo6LS544CN5Li65Li777yIwqUxOCwyMDAuMDDvvInvvIzlj6/ph43ngrnkvJjljJbor6XpobnjgIIKLSBb6auYXSDkuKXph43lkYbmu57lupPlrZggNzcwIOS7tu+8jOW7uuiuruivhOS8sOS/g+mUgC/pgIDov5Av6ZSA5q+B5pa55qGI44CCYAogIH0KfQoKLy8g57uf5LiA6K+35rGC77yaTU9DSyDml7bnm7TmjqXov5Tlm57mvJTnpLrmlbDmja7vvIzlkKbliJnotbDnnJ/lrp7lkI7nq68KYXN5bmMgZnVuY3Rpb24gcmVxdWVzdChmbiwgbW9ja0RhdGEpIHsKICBpZiAoTU9DSykgcmV0dXJuIG1vY2tEYXRhCiAgcmV0dXJuIGZuKCkKfQoKZXhwb3J0IGNvbnN0IGdldENvc3RTdW1tYXJ5ID0gKG1vbnRoKSA9PiByZXF1ZXN0KAogICgpID0+IGFwaS5nZXQoJy9hbmFseXNpcy9jb3N0L3N1bW1hcnknLCB7IHBhcmFtczogeyBiaWxsX21vbnRoOiBtb250aCB9IH0pLCBERU1PLnN1bW1hcnkKKQpleHBvcnQgY29uc3QgZ2V0Q29zdFRyZW5kID0gKG1vbnRocyA9IDEyKSA9PiByZXF1ZXN0KAogICgpID0+IGFwaS5nZXQoJy9hbmFseXNpcy9jb3N0L3RyZW5kJywgeyBwYXJhbXM6IHsgbW9udGhzIH0gfSksIERFTU8udHJlbmQKKQpleHBvcnQgY29uc3QgZ2V0SW52ZW50b3J5SGVhbHRoID0gKGRhdGUpID0+IHJlcXVlc3QoCiAgKCkgPT4gYXBpLmdldCgnL2FuYWx5c2lzL2ludmVudG9yeS9oZWFsdGgnLCB7IHBhcmFtczogeyBzbmFwc2hvdF9kYXRlOiBkYXRlIH0gfSksIERFTU8uaGVhbHRoCikKZXhwb3J0IGNvbnN0IGdldFJpc2tTa3UgPSAoZGF0ZSwgdG9wID0gMjApID0+IHJlcXVlc3QoCiAgKCkgPT4gYXBpLmdldCgnL2FuYWx5c2lzL2ludmVudG9yeS9yaXNrLXNrdScsIHsgcGFyYW1zOiB7IHNuYXBzaG90X2RhdGU6IGRhdGUsIHRvcCB9IH0pLCBERU1PLnJpc2sKKQpleHBvcnQgY29uc3QgZ2V0TW9udGhseVJlcG9ydCA9IChtb250aCkgPT4gcmVxdWVzdCgKICAoKSA9PiBhcGkuZ2V0KCcvYW5hbHlzaXMvcmVwb3J0L21vbnRobHknLCB7IHBhcmFtczogeyByZXBvcnRfbW9udGg6IG1vbnRoIH0gfSksIERFTU8ucmVwb3J0CikKZXhwb3J0IGNvbnN0IHJ1blN5bmMgPSAoKSA9PiBhcGkucG9zdCgnL3N5bmMvcnVuJykKZXhwb3J0IGNvbnN0IGdldFN5bmNMb2dzID0gKGxpbWl0ID0gMjApID0+IGFwaS5nZXQoJy9zeW5jL2xvZ3MnLCB7IHBhcmFtczogeyBsaW1pdCB9IH0pCg==
+import api from './index'
+
+// ============================================================
+// 演示数据（mock）：后端未接真实谷仓数据时，用于前端预览效果。
+// 上线接入真实数据后，设置 MOCK=false 或删除本文件的 fallback 即可。
+// ============================================================
+const MOCK = true
+
+const DEMO = {
+  summary: {
+    month: '2026-08', total: 42850.32, mom_pct: 12.6,
+    structure: [
+      { category: 'storage', label: '仓储费', amount: 18200.0 },
+      { category: 'inbound', label: '入库费', amount: 4250.0 },
+      { category: 'outbound', label: '出库操作费', amount: 9800.0 },
+      { category: 'transport', label: '运输费', amount: 8650.32 },
+      { category: 'other', label: '其他费用', amount: 1950.0 }
+    ]
+  },
+  trend: {
+    warehouse: 'DE1',
+    trend: [
+      { month: '2025-09', total: 31000, storage: 14000, transport: 7000, mom_pct: null },
+      { month: '2025-10', total: 33500, storage: 15000, transport: 7600, mom_pct: 8.1 },
+      { month: '2025-11', total: 35800, storage: 16000, transport: 8200, mom_pct: 6.9 },
+      { month: '2025-12', total: 41200, storage: 17500, transport: 9500, mom_pct: 15.1 },
+      { month: '2026-01', total: 36800, storage: 16200, transport: 8300, mom_pct: -10.7 },
+      { month: '2026-02', total: 35400, storage: 15800, transport: 8000, mom_pct: -3.8 },
+      { month: '2026-03', total: 37900, storage: 16600, transport: 8500, mom_pct: 7.1 },
+      { month: '2026-04', total: 36100, storage: 16000, transport: 8100, mom_pct: -4.7 },
+      { month: '2026-05', total: 38900, storage: 17000, transport: 8600, mom_pct: 7.8 },
+      { month: '2026-06', total: 39500, storage: 17200, transport: 8800, mom_pct: 1.5 },
+      { month: '2026-07', total: 38050, storage: 16800, transport: 8500, mom_pct: -3.7 },
+      { month: '2026-08', total: 42850, storage: 18200, transport: 8650, mom_pct: 12.6 }
+    ]
+  },
+  health: {
+    snapshot_date: '2026-09-01', total_quantity: 4820,
+    buckets: [
+      { bucket: 'healthy', label: '健康库存', sku_count: 120, quantity: 2650, qty_pct: 55.0 },
+      { bucket: 'watch', label: '关注库存', sku_count: 38, quantity: 720, qty_pct: 14.9 },
+      { bucket: 'stale', label: '呆滞库存', sku_count: 22, quantity: 680, qty_pct: 14.1 },
+      { bucket: 'critical', label: '严重呆滞库存', sku_count: 15, quantity: 770, qty_pct: 16.0 }
+    ]
+  },
+  risk: {
+    snapshot_date: '2026-09-01',
+    items: [
+      { rank: 1, sku: 'GC-DE-88421', product_name: '智能温控杯 500ml', quantity: 220, warehouse_age: 512, age_bucket: 'critical', label: '严重呆滞库存' },
+      { rank: 2, sku: 'GC-DE-77210', product_name: '折叠收纳箱 XL', quantity: 145, warehouse_age: 468, age_bucket: 'critical', label: '严重呆滞库存' },
+      { rank: 3, sku: 'GC-DE-66344', product_name: '便携榨汁机', quantity: 90, warehouse_age: 431, age_bucket: 'critical', label: '严重呆滞库存' },
+      { rank: 4, sku: 'GC-DE-55892', product_name: 'LED 台灯触控版', quantity: 300, warehouse_age: 366, age_bucket: 'critical', label: '严重呆滞库存' },
+      { rank: 5, sku: 'GC-DE-44117', product_name: '厨房收纳架三层', quantity: 175, warehouse_age: 355, age_bucket: 'stale', label: '呆滞库存' },
+      { rank: 6, sku: 'GC-DE-33581', product_name: '瑜伽垫加厚', quantity: 260, warehouse_age: 320, age_bucket: 'stale', label: '呆滞库存' },
+      { rank: 7, sku: 'GC-DE-22960', product_name: '车载手机支架', quantity: 410, warehouse_age: 288, age_bucket: 'stale', label: '呆滞库存' },
+      { rank: 8, sku: 'GC-DE-11874', product_name: '宠物喂食器', quantity: 130, warehouse_age: 210, age_bucket: 'stale', label: '呆滞库存' },
+      { rank: 9, sku: 'GC-DE-09533', product_name: '空气炸锅纸', quantity: 520, warehouse_age: 175, age_bucket: 'watch', label: '关注库存' },
+      { rank: 10, sku: 'GC-DE-08120', product_name: '电动牙刷头', quantity: 380, warehouse_age: 120, age_bucket: 'watch', label: '关注库存' },
+      { rank: 11, sku: 'GC-DE-06608', product_name: '真空压缩袋', quantity: 460, warehouse_age: 98, age_bucket: 'watch', label: '关注库存' },
+      { rank: 12, sku: 'GC-DE-05231', product_name: '香薰加湿器', quantity: 150, warehouse_age: 95, age_bucket: 'watch', label: '关注库存' }
+    ]
+  },
+  report: {
+    report_month: '2026-08',
+    title: '德国海外仓成本健康报告（2026-08）',
+    content_md: `# 德国海外仓成本健康报告（2026-08）
+
+## 一、成本变化
+- 本月总成本：¥42,850.32
+- 环比变化：+12.60%
+
+## 二、费用结构
+- 仓储费：¥18,200.00
+- 入库费：¥4,250.00
+- 出库操作费：¥9,800.00
+- 运输费：¥8,650.32
+- 其他费用：¥1,950.00
+
+## 三、库存风险
+- 健康库存：120 SKU / 2650 件
+- 关注库存：38 SKU / 720 件
+- 呆滞库存：22 SKU / 680 件
+- 严重呆滞库存：15 SKU / 770 件
+
+TOP 风险 SKU：
+- #1 GC-DE-88421（库龄 512 天，220 件）
+- #2 GC-DE-77210（库龄 468 天，145 件）
+
+## 四、优化建议
+- [高] 本月总成本环比上涨 12.60%，建议核查仓储费与运输费增长原因。
+- [中] 费用以「仓储费」为主（¥18,200.00），可重点优化该项。
+- [高] 严重呆滞库存 770 件，建议评估促销/退运/销毁方案。`
+  }
+}
+
+// 统一请求：MOCK 时直接返回演示数据，否则走真实后端
+async function request(fn, mockData) {
+  if (MOCK) return mockData
+  return fn()
+}
+
+export const getCostSummary = (month) => request(
+  () => api.get('/analysis/cost/summary', { params: { bill_month: month } }), DEMO.summary
+)
+export const getCostTrend = (months = 12) => request(
+  () => api.get('/analysis/cost/trend', { params: { months } }), DEMO.trend
+)
+export const getInventoryHealth = (date) => request(
+  () => api.get('/analysis/inventory/health', { params: { snapshot_date: date } }), DEMO.health
+)
+export const getRiskSku = (date, top = 20) => request(
+  () => api.get('/analysis/inventory/risk-sku', { params: { snapshot_date: date, top } }), DEMO.risk
+)
+export const getMonthlyReport = (month) => request(
+  () => api.get('/analysis/report/monthly', { params: { report_month: month } }), DEMO.report
+)
+export const runSync = () => api.post('/sync/run')
+export const getSyncLogs = (limit = 20) => api.get('/sync/logs', { params: { limit } })

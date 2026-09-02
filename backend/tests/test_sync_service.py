@@ -1,1 +1,209 @@
-IiIi5ZCM5q2l5pyN5Yqh56a757q/5rWL6K+V77yabW9jayDlrqLmiLfnq68gKyDlhoXlrZjlupPvvIzpqozor4HokL3lupPjgIHluYLnrYnjgIHotLnnlKjlvZLnsbvjgIHliIbmobbjgIIKCjIwMjYtMDktMDEg5qCh5YeG77yabW9jayDmlbDmja7nu5PmnoTlr7npvZDosLfku5PnnJ/lrp7lk43lupTjgIIKIiIiCmZyb20gX19mdXR1cmVfXyBpbXBvcnQgYW5ub3RhdGlvbnMKCmZyb20gZGF0ZXRpbWUgaW1wb3J0IGRhdGUKCmltcG9ydCBodHRweAppbXBvcnQgcHl0ZXN0CmZyb20gc3FsYWxjaGVteSBpbXBvcnQgc2VsZWN0Cgpmcm9tIGFwcC5jb25uZWN0b3JzLmdvb2RjYW5nIGltcG9ydCBHb29kQ2FuZ0NsaWVudCwgR29vZENhbmdFbmRwb2ludHMKZnJvbSBhcHAubW9kZWxzIGltcG9ydCAoCiAgICBEaW1XYXJlaG91c2UsCiAgICBGZWVDYXRlZ29yeU1hcCwKICAgIFN0Z0JpbGwsCiAgICBTdGdCaWxsRmVlSXRlbSwKICAgIFN0Z0ludmVudG9yeUFnZSwKKQpmcm9tIGFwcC5zZXJ2aWNlcy5zeW5jX3NlcnZpY2UgaW1wb3J0IFN5bmNTZXJ2aWNlLCBidWNrZXRfYWdlCgoKcHl0ZXN0bWFyayA9IHB5dGVzdC5tYXJrLmFzeW5jaW8KCgpAcHl0ZXN0LmZpeHR1cmUoKQpkZWYgc2VlZGVkX3doKHNlc3Npb24pOgogICAgc2Vzc2lvbi5hZGQoCiAgICAgICAgRGltV2FyZWhvdXNlKAogICAgICAgICAgICB3YXJlaG91c2VfY29kZT0iREUxIiwKICAgICAgICAgICAgd2FyZWhvdXNlX25hbWU9IuW+t+WbveS4gOS7kyIsCiAgICAgICAgICAgIGNvdW50cnlfY29kZT0iREUiLAogICAgICAgICAgICBjdXJyZW5jeV9jb2RlPSJFVVIiLAogICAgICAgICkKICAgICkKICAgIHNlc3Npb24uYWRkKEZlZUNhdGVnb3J5TWFwKG1hdGNoX2tleXdvcmQ9IuS7k+WCqCIsIGZlZV9jYXRlZ29yeT0ic3RvcmFnZSIsIHByaW9yaXR5PTEpKQogICAgc2Vzc2lvbi5hZGQoRmVlQ2F0ZWdvcnlNYXAobWF0Y2hfa2V5d29yZD0i6L+Q6L6TIiwgZmVlX2NhdGVnb3J5PSJ0cmFuc3BvcnQiLCBwcmlvcml0eT0xKSkKICAgIHNlc3Npb24uY29tbWl0KCkKICAgIHJldHVybiBzZXNzaW9uCgoKZGVmIF9jbGllbnRfd2l0aChoYW5kbGVyKSAtPiB0dXBsZVtHb29kQ2FuZ0NsaWVudCwgR29vZENhbmdFbmRwb2ludHNdOgogICAgY2xpZW50ID0gR29vZENhbmdDbGllbnQoKQogICAgY2xpZW50Ll9jbGllbnQgPSBodHRweC5Bc3luY0NsaWVudCgKICAgICAgICB0cmFuc3BvcnQ9aHR0cHguTW9ja1RyYW5zcG9ydChoYW5kbGVyKSwgdGltZW91dD1jbGllbnQudGltZW91dAogICAgKSAgIyBub3FhOiBTTEYwMDEKICAgIHJldHVybiBjbGllbnQsIEdvb2RDYW5nRW5kcG9pbnRzKGNsaWVudCkKCgojIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQojIOecn+Wunuiwt+S7k+WTjeW6lOe7k+aehO+8iFYyIOmjjuagvO+8iQojIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQpkZWYgX2JpbGxpbmdfaGFuZGxlcihyZXF1ZXN0KToKICAgICIiImJpbGxpbmdfbGlzdDogZGF0YS5saXN0W13vvIzmr4/mnaHlkKvltYzlpZfnmoQgYWxsX3RvdGFsLntiYWxhbmNlLCBjdXJyZW5jeV9jb2RlfeOAgiIiIgogICAgcmV0dXJuIGh0dHB4LlJlc3BvbnNlKAogICAgICAgIDIwMCwKICAgICAgICBqc29uPXsKICAgICAgICAgICAgImNvZGUiOiAwLAogICAgICAgICAgICAibWVzc2FnZSI6ICJvayIsCiAgICAgICAgICAgICJkYXRhIjogewogICAgICAgICAgICAgICAgImxpc3QiOiBbCiAgICAgICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAgICAgICAiYmlsbF9udW1iZXIiOiAiQjIwMjYwODAxIiwKICAgICAgICAgICAgICAgICAgICAgICAgImFjY291bnRfY29kZSI6ICJBQ0MxIiwKICAgICAgICAgICAgICAgICAgICAgICAgImJpbGxfZnJvbV90aW1lIjogIjIwMjYtMDgtMDEgMDA6MDA6MDAiLAogICAgICAgICAgICAgICAgICAgICAgICAiYmlsbF90b190aW1lIjogIjIwMjYtMDgtMzEgMjM6NTk6NTkiLAogICAgICAgICAgICAgICAgICAgICAgICAiYWxsX3RvdGFsIjogeyJiYWxhbmNlIjogIjE1MDAuMDAiLCAiY3VycmVuY3lfY29kZSI6ICJFVVIifSwKICAgICAgICAgICAgICAgICAgICAgICAgIndhcmVob3VzZV9jb2RlIjogIkRFMSIsCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgXSwKICAgICAgICAgICAgICAgICJ0b3RhbCI6IDEsCiAgICAgICAgICAgIH0sCiAgICAgICAgfSwKICAgICkKCgpkZWYgX2ZlZV9oYW5kbGVyKHJlcXVlc3QpOgogICAgIiIiYmlsbGluZ19leHBvcnQ6IGRhdGEg5pivIGJhc2U2NCDlrZfnrKbkuLLvvIhWMSDmmoLlrZjkuLogcmF377yJ44CCIiIiCiAgICByZXR1cm4gaHR0cHguUmVzcG9uc2UoCiAgICAgICAgMjAwLAogICAgICAgIGpzb249eyJjb2RlIjogMCwgIm1lc3NhZ2UiOiAib2siLCAiZGF0YSI6ICJWR1Z6ZEVacGJHVkRiMjUwWlc1MCJ9LAogICAgKQoKCmRlZiBfYWdlX2hhbmRsZXIocmVxdWVzdCk6CiAgICAiIiJpbnZlbnRvcnlfYWdlX2xpc3Q6IGRhdGEubGlzdFtd77yM5a2X5q615Li6IGxiYV8qIOS4jiBwcm9kdWN0X3NrdeOAgiIiIgogICAgcmV0dXJuIGh0dHB4LlJlc3BvbnNlKAogICAgICAgIDIwMCwKICAgICAgICBqc29uPXsKICAgICAgICAgICAgImNvZGUiOiAwLAogICAgICAgICAgICAibWVzc2FnZSI6ICJvayIsCiAgICAgICAgICAgICJkYXRhIjogewogICAgICAgICAgICAgICAgImxpc3QiOiBbCiAgICAgICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAgICAgICAid2FyZWhvdXNlX2NvZGUiOiAiREUxIiwKICAgICAgICAgICAgICAgICAgICAgICAgInByb2R1Y3Rfc2t1IjogIlNLVTEiLAogICAgICAgICAgICAgICAgICAgICAgICAibGJhX3F1YW50aXR5IjogMTAsCiAgICAgICAgICAgICAgICAgICAgICAgICJsYmFfZmlmb190aW1lIjogIjIwMjUtMDgtMDEiLAogICAgICAgICAgICAgICAgICAgICAgICAibGJhX3dhcm5pbmdfYWdlIjogMzAsCiAgICAgICAgICAgICAgICAgICAgICAgICJwcm9kdWN0X3RpdGxlIjogIuWVhuWTgTEiLAogICAgICAgICAgICAgICAgICAgICAgICAid2FyZWhvdXNlX2Rlc2MiOiAi5b635Zu95LiA5LuTIiwKICAgICAgICAgICAgICAgICAgICAgICAgIndhcmVob3VzZV9hZ2UiOiA0MDAsCiAgICAgICAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICAgICAgICJ3YXJlaG91c2VfY29kZSI6ICJERTEiLAogICAgICAgICAgICAgICAgICAgICAgICAicHJvZHVjdF9za3UiOiAiU0tVMiIsCiAgICAgICAgICAgICAgICAgICAgICAgICJsYmFfcXVhbnRpdHkiOiA1LAogICAgICAgICAgICAgICAgICAgICAgICAibGJhX2ZpZm9fdGltZSI6IE5vbmUsCiAgICAgICAgICAgICAgICAgICAgICAgICJsYmFfd2FybmluZ19hZ2UiOiAzMCwKICAgICAgICAgICAgICAgICAgICAgICAgInByb2R1Y3RfdGl0bGUiOiAi5ZWG5ZOBMiIsCiAgICAgICAgICAgICAgICAgICAgICAgICJ3YXJlaG91c2VfZGVzYyI6ICLlvrflm73kuIDku5MiLAogICAgICAgICAgICAgICAgICAgICAgICAid2FyZWhvdXNlX2FnZSI6IDUwLAogICAgICAgICAgICAgICAgICAgIH0sCiAgICAgICAgICAgICAgICBdLAogICAgICAgICAgICAgICAgInRvdGFsIjogMiwKICAgICAgICAgICAgfSwKICAgICAgICB9LAogICAgKQoKCiMgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCiMg5Y2V5YWD5rWL6K+VCiMgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCmFzeW5jIGRlZiB0ZXN0X2J1Y2tldF9hZ2VfYm91bmRhcmllcygpOgogICAgYXNzZXJ0IGJ1Y2tldF9hZ2UoODkpID09ICJoZWFsdGh5IgogICAgYXNzZXJ0IGJ1Y2tldF9hZ2UoOTApID09ICJ3YXRjaCIKICAgIGFzc2VydCBidWNrZXRfYWdlKDE3OSkgPT0gIndhdGNoIgogICAgYXNzZXJ0IGJ1Y2tldF9hZ2UoMTgwKSA9PSAic3RhbGUiCiAgICBhc3NlcnQgYnVja2V0X2FnZSgzNjQpID09ICJzdGFsZSIKICAgIGFzc2VydCBidWNrZXRfYWdlKDM2NSkgPT0gImNyaXRpY2FsIgoKCiMgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCiMgMS4g6LSm5Y2VCiMgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCmFzeW5jIGRlZiB0ZXN0X3N5bmNfYmlsbHNfdXBzZXJ0KHNlZWRlZF93aCk6CiAgICBjbGllbnQsIGVwID0gX2NsaWVudF93aXRoKF9iaWxsaW5nX2hhbmRsZXIpCiAgICB0cnk6CiAgICAgICAgc3ZjID0gU3luY1NlcnZpY2Uoc2VlZGVkX3doLCBjbGllbnQsIGVwKQogICAgICAgIG4xID0gYXdhaXQgc3ZjLnN5bmNfYmlsbHMoYmVnaW5fYmlsbF90b190aW1lPSIyMDI2LTA4LTAxIDAwOjAwOjAwIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGVuZF9iaWxsX3RvX3RpbWU9IjIwMjYtMDgtMzEgMjM6NTk6NTkiKQogICAgICAgIG4yID0gYXdhaXQgc3ZjLnN5bmNfYmlsbHMoYmVnaW5fYmlsbF90b190aW1lPSIyMDI2LTA4LTAxIDAwOjAwOjAwIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGVuZF9iaWxsX3RvX3RpbWU9IjIwMjYtMDgtMzEgMjM6NTk6NTkiKSAgIyDluYLnrYkKICAgIGZpbmFsbHk6CiAgICAgICAgYXdhaXQgY2xpZW50Ll9jbGllbnQuYWNsb3NlKCkgICMgbm9xYTogU0xGMDAxCgogICAgYXNzZXJ0IG4xID09IDEgYW5kIG4yID09IDEKICAgIGJpbGxzID0gc2VlZGVkX3doLnNjYWxhcnMoc2VsZWN0KFN0Z0JpbGwpKS5hbGwoKQogICAgYXNzZXJ0IGxlbihiaWxscykgPT0gMQogICAgYXNzZXJ0IHN0cihiaWxsc1swXS5hbGxfdG90YWwpID09ICIxNTAwLjAwMDAiCiAgICBhc3NlcnQgYmlsbHNbMF0uY3VycmVuY3lfY29kZSA9PSAiRVVSIgogICAgYXNzZXJ0IGJpbGxzWzBdLmJpbGxfbW9udGggPT0gIjIwMjYtMDgiCgoKIyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KIyAyLiDotLnnlKjmmI7nu4bvvIhiYXNlNjQg6JC9IHJhd19qc29u77yJCiMgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCmFzeW5jIGRlZiB0ZXN0X3N5bmNfZmVlX2l0ZW1zX3NhdmVzX2Jhc2U2NChzZWVkZWRfd2gpOgogICAgY2xpZW50LCBlcCA9IF9jbGllbnRfd2l0aChfZmVlX2hhbmRsZXIpCiAgICB0cnk6CiAgICAgICAgc3ZjID0gU3luY1NlcnZpY2Uoc2VlZGVkX3doLCBjbGllbnQsIGVwKQogICAgICAgIG4gPSBhd2FpdCBzdmMuc3luY19mZWVfaXRlbXMoIkIyMDI2MDgwMSIpCiAgICBmaW5hbGx5OgogICAgICAgIGF3YWl0IGNsaWVudC5fY2xpZW50LmFjbG9zZSgpICAjIG5vcWE6IFNMRjAwMQoKICAgIGFzc2VydCBuID09IDEKICAgIGl0ZW1zID0gc2VlZGVkX3doLnNjYWxhcnMoc2VsZWN0KFN0Z0JpbGxGZWVJdGVtKSkuYWxsKCkKICAgIGFzc2VydCBsZW4oaXRlbXMpID09IDEKICAgIGFzc2VydCBpdGVtc1swXS5iaWxsX251bWJlciA9PSAiQjIwMjYwODAxIgogICAgYXNzZXJ0ICJWR1Z6ZEVacGJHVkRiMjUwWlc1MCIgaW4gc3RyKGl0ZW1zWzBdLnJhd19qc29uKQoKCiMgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCiMgMy4g5bqT5a2Y5bqT6b6ECiMgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCmFzeW5jIGRlZiB0ZXN0X3N5bmNfaW52ZW50b3J5X2FnZV9idWNrZXQoc2VlZGVkX3doKToKICAgIGNsaWVudCwgZXAgPSBfY2xpZW50X3dpdGgoX2FnZV9oYW5kbGVyKQogICAgdHJ5OgogICAgICAgIHN2YyA9IFN5bmNTZXJ2aWNlKHNlZWRlZF93aCwgY2xpZW50LCBlcCkKICAgICAgICBuID0gYXdhaXQgc3ZjLnN5bmNfaW52ZW50b3J5X2FnZShzbmFwc2hvdF9kYXRlPWRhdGUoMjAyNiwgOSwgMSkpCiAgICBmaW5hbGx5OgogICAgICAgIGF3YWl0IGNsaWVudC5fY2xpZW50LmFjbG9zZSgpICAjIG5vcWE6IFNMRjAwMQoKICAgIGFzc2VydCBuID09IDIKICAgIHJvd3MgPSBzZWVkZWRfd2guc2NhbGFycyhzZWxlY3QoU3RnSW52ZW50b3J5QWdlKSkuYWxsKCkKICAgIGJ5X3NrdSA9IHtyLnNrdTogci5hZ2VfYnVja2V0IGZvciByIGluIHJvd3N9CiAgICBhc3NlcnQgYnlfc2t1WyJTS1UxIl0gPT0gImNyaXRpY2FsIiAgIyA0MDAg5aSpCiAgICBhc3NlcnQgYnlfc2t1WyJTS1UyIl0gPT0gImhlYWx0aHkiICAjIDUwIOWkqQogICAgIyBwcm9kdWN0X3NrdSDmmKDlsITliLAgc2t1CiAgICBhc3NlcnQge3Iuc2t1IGZvciByIGluIHJvd3N9ID09IHsiU0tVMSIsICJTS1UyIn0KICAgICMgcHJvZHVjdF90aXRsZSDmmKDlsITliLAgcHJvZHVjdF9uYW1lCiAgICBieV9uYW1lID0ge3Iuc2t1OiByLnByb2R1Y3RfbmFtZSBmb3IgciBpbiByb3dzfQogICAgYXNzZXJ0IGJ5X25hbWVbIlNLVTEiXSA9PSAi5ZWG5ZOBMSIKICAgICMgbGJhX3F1YW50aXR5IOaYoOWwhOWIsCBxdWFudGl0eQogICAgYnlfcXR5ID0ge3Iuc2t1OiByLnF1YW50aXR5IGZvciByIGluIHJvd3N9CiAgICBhc3NlcnQgYnlfcXR5WyJTS1UxIl0gPT0gMTAKICAgIGFzc2VydCBieV9xdHlbIlNLVTIiXSA9PSA1Cg==
+"""同步服务离线测试：mock 客户端 + 内存库，验证落库、幂等、费用归类、分桶。
+
+2026-09-01 校准：mock 数据结构对齐谷仓真实响应。
+"""
+from __future__ import annotations
+
+from datetime import date
+
+import httpx
+import pytest
+from sqlalchemy import select
+
+from app.connectors.goodcang import GoodCangClient, GoodCangEndpoints
+from app.models import (
+    DimWarehouse,
+    FeeCategoryMap,
+    StgBill,
+    StgBillFeeItem,
+    StgInventoryAge,
+)
+from app.services.sync_service import SyncService, bucket_age
+
+
+pytestmark = pytest.mark.asyncio
+
+
+@pytest.fixture()
+def seeded_wh(session):
+    session.add(
+        DimWarehouse(
+            warehouse_code="DE1",
+            warehouse_name="德国一仓",
+            country_code="DE",
+            currency_code="EUR",
+        )
+    )
+    session.add(FeeCategoryMap(match_keyword="仓储", fee_category="storage", priority=1))
+    session.add(FeeCategoryMap(match_keyword="运输", fee_category="transport", priority=1))
+    session.commit()
+    return session
+
+
+def _client_with(handler) -> tuple[GoodCangClient, GoodCangEndpoints]:
+    client = GoodCangClient()
+    client._client = httpx.AsyncClient(
+        transport=httpx.MockTransport(handler), timeout=client.timeout
+    )  # noqa: SLF001
+    return client, GoodCangEndpoints(client)
+
+
+# ---------------------------------------------------------------------------
+# 真实谷仓响应结构（V2 风格）
+# ---------------------------------------------------------------------------
+def _billing_handler(request):
+    """billing_list: data.list[]，每条含多币种数组 all_total[]（EUR 优先）。"""
+    return httpx.Response(
+        200,
+        json={
+            "code": 0,
+            "message": "ok",
+            "data": {
+                "list": [
+                    {
+                        "bill_number": "B20260801",
+                        "account_code": "ACC1",
+                        "bill_from_time": "2026-08-01 00:00:00",
+                        "bill_to_time": "2026-08-31 23:59:59",
+                        "all_total": [
+                            {"currency_code": "RMB", "balance": "0"},
+                            {"currency_code": "EUR", "balance": "1500.00"},
+                            {"currency_code": "USD", "balance": "0"},
+                        ],
+                        "sign_body_name": "测试主体",
+                        "sign_business_type_list_text": "海外仓储",
+                        "service_body_name": "ETARGET LIMITED",
+                        "warehouse_code": "DE1",
+                    }
+                ],
+                "total": 1,
+            },
+        },
+    )
+
+
+def _fee_handler(request):
+    """billing_export: data 是 base64 字符串（V1 暂存为 raw）。"""
+    return httpx.Response(
+        200,
+        json={"code": 0, "message": "ok", "data": "VGVzdEZpbGVDb250ZW50"},
+    )
+
+
+def _age_handler(request):
+    """inventory_age_list: data.list[]，字段为 iba_* 与 product_sku。"""
+    return httpx.Response(
+        200,
+        json={
+            "code": 0,
+            "message": "ok",
+            "data": {
+                "list": [
+                    {
+                        "iba_id": 1,
+                        "warehouse_code": "DE1",
+                        "product_sku": "SKU1",
+                        "product_barcode": "BAR1",
+                        "iba_quantity": 10,
+                        "iba_fifo_time": "2025-08-01",
+                        "iba_warning_age": 30,
+                        "product_title": "商品1",
+                        "warehouse_desc": "德国一仓",
+                        "warehouse_age": 400,
+                    },
+                    {
+                        "iba_id": 2,
+                        "warehouse_code": "DE1",
+                        "product_sku": "SKU2",
+                        "product_barcode": "BAR2",
+                        "iba_quantity": 5,
+                        "iba_fifo_time": None,
+                        "iba_warning_age": 30,
+                        "product_title": "商品2",
+                        "warehouse_desc": "德国一仓",
+                        "warehouse_age": 50,
+                    },
+                ],
+                "total": 2,
+            },
+        },
+    )
+
+
+# ---------------------------------------------------------------------------
+# 单元测试
+# ---------------------------------------------------------------------------
+async def test_bucket_age_boundaries():
+    assert bucket_age(89) == "healthy"
+    assert bucket_age(90) == "watch"
+    assert bucket_age(179) == "watch"
+    assert bucket_age(180) == "stale"
+    assert bucket_age(364) == "stale"
+    assert bucket_age(365) == "critical"
+
+
+# ---------------------------------------------------------------------------
+# 1. 账单
+# ---------------------------------------------------------------------------
+async def test_sync_bills_upsert(seeded_wh):
+    client, ep = _client_with(_billing_handler)
+    try:
+        svc = SyncService(seeded_wh, client, ep)
+        n1 = await svc.sync_bills(begin_bill_to_time="2026-08-01 00:00:00",
+                                  end_bill_to_time="2026-08-31 23:59:59")
+        n2 = await svc.sync_bills(begin_bill_to_time="2026-08-01 00:00:00",
+                                  end_bill_to_time="2026-08-31 23:59:59")  # 幂等
+    finally:
+        await client._client.aclose()  # noqa: SLF001
+
+    assert n1 == 1 and n2 == 1
+    bills = seeded_wh.scalars(select(StgBill)).all()
+    assert len(bills) == 1
+    assert str(bills[0].all_total) == "1500.0000"
+    assert bills[0].currency_code == "EUR"
+    assert bills[0].bill_month == "2026-08"
+
+
+# ---------------------------------------------------------------------------
+# 2. 费用明细（base64 落 raw_json）
+# ---------------------------------------------------------------------------
+async def test_sync_fee_items_saves_base64(seeded_wh):
+    client, ep = _client_with(_fee_handler)
+    try:
+        svc = SyncService(seeded_wh, client, ep)
+        n = await svc.sync_fee_items("B20260801")
+    finally:
+        await client._client.aclose()  # noqa: SLF001
+
+    assert n == 1
+    items = seeded_wh.scalars(select(StgBillFeeItem)).all()
+    assert len(items) == 1
+    assert items[0].bill_number == "B20260801"
+    assert "VGVzdEZpbGVDb250ZW50" in str(items[0].raw_json)
+
+
+# ---------------------------------------------------------------------------
+# 3. 库存库龄
+# ---------------------------------------------------------------------------
+async def test_sync_inventory_age_bucket(seeded_wh):
+    client, ep = _client_with(_age_handler)
+    try:
+        svc = SyncService(seeded_wh, client, ep)
+        n = await svc.sync_inventory_age(snapshot_date=date(2026, 9, 1))
+    finally:
+        await client._client.aclose()  # noqa: SLF001
+
+    assert n == 2
+    rows = seeded_wh.scalars(select(StgInventoryAge)).all()
+    by_sku = {r.sku: r.age_bucket for r in rows}
+    assert by_sku["SKU1"] == "critical"  # 400 天
+    assert by_sku["SKU2"] == "healthy"  # 50 天
+    # product_sku 映射到 sku
+    assert {r.sku for r in rows} == {"SKU1", "SKU2"}
+    # product_title 映射到 product_name
+    by_name = {r.sku: r.product_name for r in rows}
+    assert by_name["SKU1"] == "商品1"
+    # iba_quantity 映射到 quantity
+    by_qty = {r.sku: r.quantity for r in rows}
+    assert by_qty["SKU1"] == 10
+    assert by_qty["SKU2"] == 5

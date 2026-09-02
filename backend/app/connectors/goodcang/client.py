@@ -1,1 +1,195 @@
-IiIi6LC35LuTIEdvb2RDYW5nIE9wZW4gQVBJIOWuouaIt+err++8mkhUVFAgSGVhZGVyIOmJtOadgyArIOe7n+S4gCBQT1NUIOiwg+eUqCArIOmHjeivleOAggoK6K6+6K6h6KaB54K5Ci0tLS0tLS0tCjEuIOmJtOadg+aWueW8j++8iDIwMjYtMDktMDEg5qCh5YeG6Ieq5a6Y5pa55paH5qGj77yJ77yaCiAgIC0g6LC35LuT6YeH55SoICoqSFRUUCBIZWFkZXIg6Ym05p2DKirvvIzmr4/mrKHor7fmsYLpnIDmkLrluKbkuKTkuKogaGVhZGVy77yaCiAgICAgKiBgYGFwcC10b2tlbmBgICA6IEFwcFRva2Vu77yI6LSm5Y+357u05bqm77yJCiAgICAgKiBgYGFwcC1rZXlgYCAgICA6IEFwcEtlee+8iOi0puWPt+e7tOW6pu+8iQogICAtIOmJtOadg+S/oeaBr+WFqOmDqOadpeiHqiAuZW5277yIR09PRENBTkdfQVBQX1RPS0VOIC8gR09PRENBTkdfQVBQX0tFWe+8ie+8jCoq57ud5LiNKirnoaznvJbnoIHjgIIKCjIuIEhUVFAg5pa55rOV77ya5omA5pyJ5Lia5Yqh5o6l5Y+j5Z2H5Li6ICoqUE9TVCoq77yM6K+35rGC5L2T5Li6ICoqSlNPTioq77yIQ29udGVudC1UeXBlOiBhcHBsaWNhdGlvbi9qc29u77yJ44CCCiAgIOS4jeWGjeS9v+eUqCBxdWVyeSDlj4LmlbAgLyBHRVQg5pa55byP77yI5LmL5YmN6ZSZ6K+v55qE6buY6K6k77yJ44CCCgozLiDlk43lupTnu5/kuIDkuLogVjIgSlNPTiDpo47moLzvvJoKICAgYGB7ImNvZGUiOiAwLCAibWVzc2FnZSI6ICJvayIsICJkYXRhIjogLi4ufWBgCiAgIC0gYGBjb2RlID09IDBgYCDooajnpLrmiJDlip8KICAgLSBgYGNvZGUgIT0gMGBgIOaKm+WHuiA6Y2xhc3M6YEdvb2RDYW5nQVBJRXJyb3JgCgo0LiBIVFRQIOeKtuaAgeeggeivreS5ie+8mgogICAtIDIwMCDmiJDlip8KICAgLSA0MDEgVE9LRU4vS0VZIOmUmeivr++8iOWuouaIt+err+mFjee9rumXrumimO+8jOS4jemHjeivle+8iQogICAtIDQwMyDop6blj5HpmZDmtYHvvIjkuI3ph43or5XvvIznlLHosIPnlKjmlrnpgIDpgb/vvIkKICAgLSA0MDQg5o6l5Y+j5LiN5a2Y5ZyoCiAgIC0gNXh4ICDkuLTml7bplJnor6/vvIzop6blj5EgdGVuYWNpdHkg6YeN6K+V5pyA5aSaIHNldHRpbmdzLmdvb2RjYW5nX21heF9yZXRyeSDmrKEKIiIiCmZyb20gX19mdXR1cmVfXyBpbXBvcnQgYW5ub3RhdGlvbnMKCmltcG9ydCBsb2dnaW5nCmZyb20gY29sbGVjdGlvbnMuYWJjIGltcG9ydCBBd2FpdGFibGUsIENhbGxhYmxlLCBNYXBwaW5nCmZyb20gdHlwaW5nIGltcG9ydCBBbnksIFR5cGVWYXIKCmltcG9ydCBodHRweApmcm9tIHB5ZGFudGljIGltcG9ydCBCYXNlTW9kZWwKZnJvbSB0ZW5hY2l0eSBpbXBvcnQgKAogICAgQXN5bmNSZXRyeWluZywKICAgIHJldHJ5X2lmX2V4Y2VwdGlvbl90eXBlLAogICAgc3RvcF9hZnRlcl9hdHRlbXB0LAogICAgd2FpdF9leHBvbmVudGlhbCwKKQoKZnJvbSBhcHAuY29yZS5jb25maWcgaW1wb3J0IGdldF9zZXR0aW5ncwoKbG9nZ2VyID0gbG9nZ2luZy5nZXRMb2dnZXIoX19uYW1lX18pCgpUID0gVHlwZVZhcigiVCIsIGJvdW5kPUJhc2VNb2RlbCkKCgpjbGFzcyBHb29kQ2FuZ0FQSUVycm9yKFJ1bnRpbWVFcnJvcik6CiAgICAiIiLosLfku5PkuJrliqHlvILluLjvvIhIVFRQIDR4eCAvIOS4muWKoSBjb2RlICE9IDAgLyDpibTmnYPlpLHotKXvvInjgIIiIiIKCgpjbGFzcyBHb29kQ2FuZ0NsaWVudDoKICAgICIiIuiwt+S7kyBPcGVuIEFQSSDlrqLmiLfnq6/vvIhhc3luY++8ieOAggoKICAgIOmJtOadg+S9v+eUqCBIVFRQIEhlYWRlcu+8iGFwcC10b2tlbiAvIGFwcC1rZXnvvInvvJvor7fmsYLmlrnms5Xnu5/kuIDkuLogUE9TVCArIEpTT07jgIIKICAgICIiIgoKICAgIGRlZiBfX2luaXRfXygKICAgICAgICBzZWxmLAogICAgICAgICosCiAgICAgICAgdGltZW91dDogaW50IHwgTm9uZSA9IE5vbmUsCiAgICAgICAgbWF4X3JldHJ5OiBpbnQgfCBOb25lID0gTm9uZSwKICAgICkgLT4gTm9uZToKICAgICAgICBzID0gZ2V0X3NldHRpbmdzKCkKICAgICAgICBzZWxmLmJhc2VfdXJsID0gcy5nb29kY2FuZ19iYXNlX3VybC5yc3RyaXAoIi8iKQogICAgICAgIHNlbGYuYXBwX3Rva2VuID0gcy5nb29kY2FuZ19hcHBfdG9rZW4KICAgICAgICBzZWxmLmFwcF9rZXkgPSBzLmdvb2RjYW5nX2FwcF9rZXkKICAgICAgICBzZWxmLnRpbWVvdXQgPSB0aW1lb3V0IG9yIHMuZ29vZGNhbmdfdGltZW91dAogICAgICAgIHNlbGYubWF4X3JldHJ5ID0gbWF4X3JldHJ5IG9yIHMuZ29vZGNhbmdfbWF4X3JldHJ5CgogICAgICAgIHNlbGYuX2NsaWVudDogaHR0cHguQXN5bmNDbGllbnQgfCBOb25lID0gTm9uZQoKICAgICMgLS0tLSDnlJ/lkb3lkajmnJ8gLS0tLQogICAgYXN5bmMgZGVmIF9fYWVudGVyX18oc2VsZikgLT4gIkdvb2RDYW5nQ2xpZW50IjoKICAgICAgICBzZWxmLl9jbGllbnQgPSBodHRweC5Bc3luY0NsaWVudCh0aW1lb3V0PXNlbGYudGltZW91dCkKICAgICAgICByZXR1cm4gc2VsZgoKICAgIGFzeW5jIGRlZiBfX2FleGl0X18oc2VsZiwgZXhjX3R5cGUsIGV4YywgdGIpIC0+IE5vbmU6CiAgICAgICAgaWYgc2VsZi5fY2xpZW50IGlzIG5vdCBOb25lOgogICAgICAgICAgICBhd2FpdCBzZWxmLl9jbGllbnQuYWNsb3NlKCkKICAgICAgICAgICAgc2VsZi5fY2xpZW50ID0gTm9uZQoKICAgICMgLS0tLSDlhoXpg6jvvJrmnoTpgKDpibTmnYMgaGVhZGVyIC0tLS0KICAgIGRlZiBfYXV0aF9oZWFkZXJzKHNlbGYpIC0+IGRpY3Rbc3RyLCBzdHJdOgogICAgICAgIHJldHVybiB7CiAgICAgICAgICAgICJhcHAtdG9rZW4iOiBzZWxmLmFwcF90b2tlbiwKICAgICAgICAgICAgImFwcC1rZXkiOiBzZWxmLmFwcF9rZXksCiAgICAgICAgICAgICJBY2NlcHQiOiAiYXBwbGljYXRpb24vanNvbiIsCiAgICAgICAgICAgICJDb250ZW50LVR5cGUiOiAiYXBwbGljYXRpb24vanNvbiIsCiAgICAgICAgfQoKICAgICMgLS0tLSDlhoXpg6jvvJrluKbph43or5XnmoQgUE9TVCDor7fmsYIgLS0tLQogICAgYXN5bmMgZGVmIF9wb3N0KHNlbGYsIHBhdGg6IHN0ciwgYml6X2JvZHk6IE1hcHBpbmdbc3RyLCBBbnldKSAtPiBkaWN0W3N0ciwgQW55XToKICAgICAgICBhc3NlcnQgc2VsZi5fY2xpZW50IGlzIG5vdCBOb25lLCAidXNlICdhc3luYyB3aXRoIEdvb2RDYW5nQ2xpZW50KCknIgogICAgICAgIHVybCA9IGYie3NlbGYuYmFzZV91cmx9e3BhdGh9IgogICAgICAgIGhlYWRlcnMgPSBzZWxmLl9hdXRoX2hlYWRlcnMoKQoKICAgICAgICBhc3luYyBkZWYgX2RvKCkgLT4gaHR0cHguUmVzcG9uc2U6CiAgICAgICAgICAgIHJlc3AgPSBhd2FpdCBzZWxmLl9jbGllbnQucG9zdCh1cmwsIGpzb249ZGljdChiaXpfYm9keSksIGhlYWRlcnM9aGVhZGVycykKICAgICAgICAgICAgcmV0dXJuIHJlc3AKCiAgICAgICAgcmV0dXJuIGF3YWl0IHNlbGYuX3dpdGhfcmV0cnkodXJsLCBfZG8pCgogICAgYXN5bmMgZGVmIF93aXRoX3JldHJ5KAogICAgICAgIHNlbGYsCiAgICAgICAgdXJsOiBzdHIsCiAgICAgICAgZG86IENhbGxhYmxlW1tdLCBBd2FpdGFibGVbaHR0cHguUmVzcG9uc2VdXSwKICAgICkgLT4gZGljdFtzdHIsIEFueV06CiAgICAgICAgbGFzdF9lcnJvcjogRXhjZXB0aW9uIHwgTm9uZSA9IE5vbmUKICAgICAgICB0cnk6CiAgICAgICAgICAgIGFzeW5jIGZvciBhdHRlbXB0IGluIEFzeW5jUmV0cnlpbmcoCiAgICAgICAgICAgICAgICBzdG9wPXN0b3BfYWZ0ZXJfYXR0ZW1wdChzZWxmLm1heF9yZXRyeSksCiAgICAgICAgICAgICAgICB3YWl0PXdhaXRfZXhwb25lbnRpYWwobXVsdGlwbGllcj0xLCBtaW49MSwgbWF4PTEwKSwKICAgICAgICAgICAgICAgIHJldHJ5PXJldHJ5X2lmX2V4Y2VwdGlvbl90eXBlKChodHRweC5IVFRQRXJyb3IsKSksCiAgICAgICAgICAgICAgICByZXJhaXNlPVRydWUsCiAgICAgICAgICAgICk6CiAgICAgICAgICAgICAgICB3aXRoIGF0dGVtcHQ6CiAgICAgICAgICAgICAgICAgICAgdHJ5OgogICAgICAgICAgICAgICAgICAgICAgICByZXNwID0gYXdhaXQgZG8oKQogICAgICAgICAgICAgICAgICAgIGV4Y2VwdCBodHRweC5IVFRQU3RhdHVzRXJyb3IgYXMgZToKICAgICAgICAgICAgICAgICAgICAgICAgIyA0eHgg55u05o6l5oqb5Lia5Yqh5byC5bi477yI5LiN6YeN6K+V77yaNDAxLzQwMy80MDQg6YO95LiN5piv5Li05pe26ZSZ6K+v77yJCiAgICAgICAgICAgICAgICAgICAgICAgIGlmIDQwMCA8PSBlLnJlc3BvbnNlLnN0YXR1c19jb2RlIDwgNTAwOgogICAgICAgICAgICAgICAgICAgICAgICAgICAgcmFpc2UgR29vZENhbmdBUElFcnJvcigKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBmImNsaWVudCBlcnJvciB7ZS5yZXNwb25zZS5zdGF0dXNfY29kZX06ICIKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBmIntlLnJlc3BvbnNlLnRleHRbOjMwMF19IgogICAgICAgICAgICAgICAgICAgICAgICAgICAgKSBmcm9tIGUKICAgICAgICAgICAgICAgICAgICAgICAgIyA1eHgg6Kem5Y+RIHRlbmFjaXR5IOmHjeivlQogICAgICAgICAgICAgICAgICAgICAgICBsYXN0X2Vycm9yID0gZQogICAgICAgICAgICAgICAgICAgICAgICByYWlzZQogICAgICAgIGV4Y2VwdCBHb29kQ2FuZ0FQSUVycm9yOgogICAgICAgICAgICAjIOebtOaOpemHjeaKm++8jOS4jeWMheijhQogICAgICAgICAgICByYWlzZQogICAgICAgIGV4Y2VwdCBodHRweC5IVFRQRXJyb3IgYXMgZToKICAgICAgICAgICAgbG9nZ2VyLmVycm9yKAogICAgICAgICAgICAgICAgIkdvb2RDYW5nIHJlcXVlc3QgZmFpbGVkIGFmdGVyICVzIHJldHJpZXM6ICVzICVzIiwKICAgICAgICAgICAgICAgIHNlbGYubWF4X3JldHJ5LCB1cmwsIGUsCiAgICAgICAgICAgICkKICAgICAgICAgICAgcmFpc2UgR29vZENhbmdBUElFcnJvcigKICAgICAgICAgICAgICAgIGYibmV0d29yayBlcnJvciBhZnRlciB7c2VsZi5tYXhfcmV0cnl9IHJldHJpZXM6IHtlfSIKICAgICAgICAgICAgKSBmcm9tIChsYXN0X2Vycm9yIG9yIGUpCgogICAgICAgICMg5Lia5Yqh5ZON5bqU5qCh6aqMCiAgICAgICAgaWYgcmVzcC5zdGF0dXNfY29kZSAhPSAyMDA6CiAgICAgICAgICAgIHJhaXNlIEdvb2RDYW5nQVBJRXJyb3IoCiAgICAgICAgICAgICAgICBmImh0dHAge3Jlc3Auc3RhdHVzX2NvZGV9OiB7cmVzcC50ZXh0WzozMDBdfSIKICAgICAgICAgICAgKQoKICAgICAgICB0cnk6CiAgICAgICAgICAgIGJvZHkgPSByZXNwLmpzb24oKQogICAgICAgIGV4Y2VwdCBFeGNlcHRpb24gYXMgZTogICMgbm9xYTogQkxFMDAxCiAgICAgICAgICAgIHJhaXNlIEdvb2RDYW5nQVBJRXJyb3IoCiAgICAgICAgICAgICAgICBmIm5vbi1qc29uIHJlc3BvbnNlOiB7cmVzcC50ZXh0WzozMDBdfSIKICAgICAgICAgICAgKSBmcm9tIGUKCiAgICAgICAgIyBWMiBKU09OIOmjjuagvO+8mmNvZGU9MCDooajnpLrmiJDlip8KICAgICAgICBjb2RlID0gYm9keS5nZXQoImNvZGUiKQogICAgICAgIGlmIGNvZGUgbm90IGluICgwLCAiMCIpOgogICAgICAgICAgICByYWlzZSBHb29kQ2FuZ0FQSUVycm9yKAogICAgICAgICAgICAgICAgZiJHb29kQ2FuZyBiaXogZXJyb3IgY29kZT17Y29kZX0gbWVzc2FnZT17Ym9keS5nZXQoJ21lc3NhZ2UnKX0iCiAgICAgICAgICAgICkKICAgICAgICByZXR1cm4gYm9keQoKICAgICMgLS0tLSDlhazlvIDvvJrkuJrliqHosIPnlKjlhaXlj6MgLS0tLQogICAgYXN5bmMgZGVmIGNhbGwoCiAgICAgICAgc2VsZiwKICAgICAgICBwYXRoOiBzdHIsCiAgICAgICAgYml6X2JvZHk6IE1hcHBpbmdbc3RyLCBBbnldLAogICAgICAgICosCiAgICAgICAgcmVzcG9uc2VfbW9kZWw6IHR5cGVbVF0gfCBOb25lID0gTm9uZSwKICAgICkgLT4gZGljdFtzdHIsIEFueV0gfCBUOgogICAgICAgICIiIue7n+S4gOeahOS4muWKoeiwg+eUqOOAggoKICAgICAgICAtIHBhdGggICAgICAgICAgOiDmjqXlj6Pot6/lvoTvvIjnm7jlr7nkuo4gYmFzZV91cmzvvIzkvovlpoIgYGAvcHVibGljX29wZW4vZmluYW5jZS9iaWxsaW5nX2xpc3RgYO+8iQogICAgICAgIC0gYml6X2JvZHkgICAgICA6IOS4muWKoeWPguaVsCBKU09O77yI5LiN5ZCr6Ym05p2D5L+h5oGv77yM55SxIGNsaWVudCDms6jlhaUgaGVhZGVy77yJCiAgICAgICAgLSByZXNwb25zZV9tb2RlbDog5Y+v6YCJIFB5ZGFudGljIOaooeWei++8m+iLpeaPkOS+m++8jOWImeaKiiBgYGRhdGFgYCDlrZfmrrXop6PmnpDkuLror6XmqKHlnosKICAgICAgICAiIiIKICAgICAgICBib2R5ID0gYXdhaXQgc2VsZi5fcG9zdChwYXRoLCBiaXpfYm9keSkKCiAgICAgICAgaWYgcmVzcG9uc2VfbW9kZWwgaXMgTm9uZToKICAgICAgICAgICAgcmV0dXJuIGJvZHkKICAgICAgICBwYXlsb2FkID0gYm9keS5nZXQoImRhdGEiLCBib2R5KQogICAgICAgIHRyeToKICAgICAgICAgICAgcmV0dXJuIHJlc3BvbnNlX21vZGVsLm1vZGVsX3ZhbGlkYXRlKHBheWxvYWQpCiAgICAgICAgZXhjZXB0IEV4Y2VwdGlvbjogICMgbm9xYTogQkxFMDAxCiAgICAgICAgICAgIGxvZ2dlci53YXJuaW5nKAogICAgICAgICAgICAgICAgInJlc3BvbnNlIHZhbGlkYXRpb24gZmFpbGVkIGZvciAlczsgcmV0dXJuaW5nIHJhdyBkYXRhIGRpY3QiLCBwYXRoCiAgICAgICAgICAgICkKICAgICAgICAgICAgcmV0dXJuIHBheWxvYWQgaWYgaXNpbnN0YW5jZShwYXlsb2FkLCBkaWN0KSBlbHNlIGJvZHkKCiAgICBhc3luYyBkZWYgY2FsbF9yYXdfcG9zdChzZWxmLCBwYXRoOiBzdHIsIGJpel9ib2R5OiBNYXBwaW5nW3N0ciwgQW55XSkgLT4gZGljdFtzdHIsIEFueV06CiAgICAgICAgIiIi6LCD55So5o6l5Y+j5bm255u05o6l6L+U5Zue5a6M5pW0IEpTT07vvIjljIXlkKsgY29kZS9tZXNzYWdlL2RhdGHvvInjgIIKCiAgICAgICAg55So5LqO5LiN5oOz5YGaIG1vZGVsIOino+aekOeahOWcuuaZr++8iOWmgiBiaW5hcnkgYmFzZTY0IOWTjeW6lO+8ieOAggogICAgICAgICIiIgogICAgICAgIHJldHVybiBhd2FpdCBzZWxmLl9wb3N0KHBhdGgsIGJpel9ib2R5KQo=
+"""谷仓 GoodCang Open API 客户端：HTTP Header 鉴权 + 统一 POST 调用 + 重试。
+
+设计要点
+--------
+1. 鉴权方式（2026-09-01 校准自官方文档）：
+   - 谷仓采用 **HTTP Header 鉴权**，每次请求需携带两个 header：
+     * ``app-token``  : AppToken（账号维度）
+     * ``app-key``    : AppKey（账号维度）
+   - 鉴权信息全部来自 .env（GOODCANG_APP_TOKEN / GOODCANG_APP_KEY），**绝不**硬编码。
+
+2. HTTP 方法：所有业务接口均为 **POST**，请求体为 **JSON**（Content-Type: application/json）。
+   不再使用 query 参数 / GET 方式（之前错误的默认）。
+
+3. 响应统一为 V2 JSON 风格：
+   ``{"code": 0, "message": "ok", "data": ...}``
+   - ``code == 0`` 表示成功
+   - ``code != 0`` 抛出 :class:`GoodCangAPIError`
+
+4. HTTP 状态码语义：
+   - 200 成功
+   - 401 TOKEN/KEY 错误（客户端配置问题，不重试）
+   - 403 触发限流（不重试，由调用方退避）
+   - 404 接口不存在
+   - 5xx  临时错误，触发 tenacity 重试最多 settings.goodcang_max_retry 次
+"""
+from __future__ import annotations
+
+import logging
+from collections.abc import Awaitable, Callable, Mapping
+from typing import Any, TypeVar
+
+import httpx
+from pydantic import BaseModel
+from tenacity import (
+    AsyncRetrying,
+    retry_if_exception_type,
+    stop_after_attempt,
+    wait_exponential,
+)
+
+from app.core.config import get_settings
+
+logger = logging.getLogger(__name__)
+
+T = TypeVar("T", bound=BaseModel)
+
+
+class GoodCangAPIError(RuntimeError):
+    """谷仓业务异常（HTTP 4xx / 业务 code != 0 / 鉴权失败）。"""
+
+
+class GoodCangClient:
+    """谷仓 Open API 客户端（async）。
+
+    鉴权使用 HTTP Header（app-token / app-key）；请求方法统一为 POST + JSON。
+    """
+
+    def __init__(
+        self,
+        *,
+        timeout: int | None = None,
+        max_retry: int | None = None,
+    ) -> None:
+        s = get_settings()
+        self.base_url = s.goodcang_base_url.rstrip("/")
+        self.app_token = s.goodcang_app_token
+        self.app_key = s.goodcang_app_key
+        self.timeout = timeout or s.goodcang_timeout
+        self.max_retry = max_retry or s.goodcang_max_retry
+
+        self._client: httpx.AsyncClient | None = None
+
+    # ---- 生命周期 ----
+    async def __aenter__(self) -> "GoodCangClient":
+        self._client = httpx.AsyncClient(timeout=self.timeout)
+        return self
+
+    async def __aexit__(self, exc_type, exc, tb) -> None:
+        if self._client is not None:
+            await self._client.aclose()
+            self._client = None
+
+    # ---- 内部：构造鉴权 header ----
+    def _auth_headers(self) -> dict[str, str]:
+        return {
+            "app-token": self.app_token,
+            "app-key": self.app_key,
+            "Accept": "application/json",
+            "Content-Type": "application/json",
+        }
+
+    # ---- 内部：带重试的 POST 请求 ----
+    async def _post(self, path: str, biz_body: Mapping[str, Any]) -> dict[str, Any]:
+        assert self._client is not None, "use 'async with GoodCangClient()'"
+        url = f"{self.base_url}{path}"
+        headers = self._auth_headers()
+
+        async def _do() -> httpx.Response:
+            resp = await self._client.post(url, json=dict(biz_body), headers=headers)
+            return resp
+
+        return await self._with_retry(url, _do)
+
+    async def _with_retry(
+        self,
+        url: str,
+        do: Callable[[], Awaitable[httpx.Response]],
+    ) -> dict[str, Any]:
+        last_error: Exception | None = None
+        try:
+            async for attempt in AsyncRetrying(
+                stop=stop_after_attempt(self.max_retry),
+                wait=wait_exponential(multiplier=1, min=1, max=10),
+                retry=retry_if_exception_type((httpx.HTTPError,)),
+                reraise=True,
+            ):
+                with attempt:
+                    try:
+                        resp = await do()
+                    except httpx.HTTPStatusError as e:
+                        # 4xx 直接抛业务异常（不重试：401/403/404 都不是临时错误）
+                        if 400 <= e.response.status_code < 500:
+                            raise GoodCangAPIError(
+                                f"client error {e.response.status_code}: "
+                                f"{e.response.text[:300]}"
+                            ) from e
+                        # 5xx 触发 tenacity 重试
+                        last_error = e
+                        raise
+        except GoodCangAPIError:
+            # 直接重抛，不包装
+            raise
+        except httpx.HTTPError as e:
+            logger.error(
+                "GoodCang request failed after %s retries: %s %s",
+                self.max_retry, url, e,
+            )
+            raise GoodCangAPIError(
+                f"network error after {self.max_retry} retries: {e}"
+            ) from (last_error or e)
+
+        # 业务响应校验
+        if resp.status_code != 200:
+            raise GoodCangAPIError(
+                f"http {resp.status_code}: {resp.text[:300]}"
+            )
+
+        try:
+            body = resp.json()
+        except Exception as e:  # noqa: BLE001
+            raise GoodCangAPIError(
+                f"non-json response: {resp.text[:300]}"
+            ) from e
+
+        # V2 JSON 风格：code=0 表示成功
+        code = body.get("code")
+        if code not in (0, "0"):
+            raise GoodCangAPIError(
+                f"GoodCang biz error code={code} message={body.get('message')}"
+            )
+        return body
+
+    # ---- 公开：业务调用入口 ----
+    async def call(
+        self,
+        path: str,
+        biz_body: Mapping[str, Any],
+        *,
+        response_model: type[T] | None = None,
+    ) -> dict[str, Any] | T:
+        """统一的业务调用。
+
+        - path          : 接口路径（相对于 base_url，例如 ``/public_open/finance/billing_list``）
+        - biz_body      : 业务参数 JSON（不含鉴权信息，由 client 注入 header）
+        - response_model: 可选 Pydantic 模型；若提供，则把 ``data`` 字段解析为该模型
+        """
+        body = await self._post(path, biz_body)
+
+        if response_model is None:
+            return body
+        payload = body.get("data", body)
+        try:
+            return response_model.model_validate(payload)
+        except Exception:  # noqa: BLE001
+            logger.warning(
+                "response validation failed for %s; returning raw data dict", path
+            )
+            return payload if isinstance(payload, dict) else body
+
+    async def call_raw_post(self, path: str, biz_body: Mapping[str, Any]) -> dict[str, Any]:
+        """调用接口并直接返回完整 JSON（包含 code/message/data）。
+
+        用于不想做 model 解析的场景（如 binary base64 响应）。
+        """
+        return await self._post(path, biz_body)

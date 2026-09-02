@@ -1,1 +1,46 @@
-IiIi57u05bqm5LiO6YWN572u6KGo77yaZGltX3dhcmVob3VzZeOAgWZlZV9jYXRlZ29yeV9tYXDjgIIKCuiuvuiuoeimgeeCue+8mgotIGRpbV93YXJlaG91c2Ug5aSa5LuT5omp5bGV77yaY291bnRyeV9jb2RlIC8gY3VycmVuY3lfY29kZSAvIGlzX2FjdGl2ZQotIGZlZV9jYXRlZ29yeV9tYXAg5oqK6LC35LuT5Y6f5aeLIGZlZV9uYW1lIOW9kuexu+WIsOS6lOWkp+exu++8iOS7k+WCqC/lhaXlupMv5Ye65bqT5pON5L2cL+i/kOi+ky/lhbbku5bvvIkKIiIiCmZyb20gX19mdXR1cmVfXyBpbXBvcnQgYW5ub3RhdGlvbnMKCmZyb20gZGF0ZXRpbWUgaW1wb3J0IGRhdGV0aW1lCgpmcm9tIHNxbGFsY2hlbXkgaW1wb3J0IEJvb2xlYW4sIENIQVIsIERhdGVUaW1lLCBJbnRlZ2VyLCBTdHJpbmcsIGZ1bmMKZnJvbSBzcWxhbGNoZW15Lm9ybSBpbXBvcnQgTWFwcGVkLCBtYXBwZWRfY29sdW1uCgpmcm9tIGFwcC5jb3JlLmRhdGFiYXNlIGltcG9ydCBCYXNlCgoKY2xhc3MgRGltV2FyZWhvdXNlKEJhc2UpOgogICAgIiIi5LuT5bqT57u05bqm6KGo44CCVjEg5Li76KaB55So5b635Zu95LuT77yIREXvvInjgIIiIiIKCiAgICBfX3RhYmxlbmFtZV9fID0gImRpbV93YXJlaG91c2UiCgogICAgaWQ6IE1hcHBlZFtpbnRdID0gbWFwcGVkX2NvbHVtbihJbnRlZ2VyLCBwcmltYXJ5X2tleT1UcnVlLCBhdXRvaW5jcmVtZW50PVRydWUpCiAgICB3YXJlaG91c2VfY29kZTogTWFwcGVkW3N0cl0gPSBtYXBwZWRfY29sdW1uKFN0cmluZygzMiksIHVuaXF1ZT1UcnVlLCBudWxsYWJsZT1GYWxzZSkKICAgIHdhcmVob3VzZV9uYW1lOiBNYXBwZWRbc3RyXSA9IG1hcHBlZF9jb2x1bW4oU3RyaW5nKDEyOCksIG51bGxhYmxlPUZhbHNlKQogICAgY291bnRyeV9jb2RlOiBNYXBwZWRbc3RyXSA9IG1hcHBlZF9jb2x1bW4oQ0hBUigyKSwgbnVsbGFibGU9RmFsc2UpCiAgICBjdXJyZW5jeV9jb2RlOiBNYXBwZWRbc3RyXSA9IG1hcHBlZF9jb2x1bW4oQ0hBUigzKSwgbnVsbGFibGU9RmFsc2UsIGRlZmF1bHQ9IkVVUiIpCiAgICBpc19hY3RpdmU6IE1hcHBlZFtib29sXSA9IG1hcHBlZF9jb2x1bW4oQm9vbGVhbiwgbnVsbGFibGU9RmFsc2UsIGRlZmF1bHQ9VHJ1ZSkKICAgIGNyZWF0ZWRfYXQ6IE1hcHBlZFtkYXRldGltZV0gPSBtYXBwZWRfY29sdW1uKAogICAgICAgIERhdGVUaW1lKHRpbWV6b25lPVRydWUpLCBzZXJ2ZXJfZGVmYXVsdD1mdW5jLm5vdygpLCBudWxsYWJsZT1GYWxzZQogICAgKQoKCmNsYXNzIEZlZUNhdGVnb3J5TWFwKEJhc2UpOgogICAgIiIi6LS555So5b2S57G75pig5bCE6KGo44CCCgogICAg5oqK6LC35LuT6L+U5Zue55qE5Y6f5aeLIGZlZV9uYW1lIOWFs+mUruWtl+aYoOWwhOWIsOS6lOWkp+i0ueeUqOexu+WIq++8mgogICAgc3RvcmFnZSAvIGluYm91bmQgLyBvdXRib3VuZCAvIHRyYW5zcG9ydCAvIG90aGVyCiAgICAiIiIKCiAgICBfX3RhYmxlbmFtZV9fID0gImZlZV9jYXRlZ29yeV9tYXAiCgogICAgaWQ6IE1hcHBlZFtpbnRdID0gbWFwcGVkX2NvbHVtbihJbnRlZ2VyLCBwcmltYXJ5X2tleT1UcnVlLCBhdXRvaW5jcmVtZW50PVRydWUpCiAgICBtYXRjaF9rZXl3b3JkOiBNYXBwZWRbc3RyXSA9IG1hcHBlZF9jb2x1bW4oU3RyaW5nKDEyOCksIG51bGxhYmxlPUZhbHNlKQogICAgZmVlX2NhdGVnb3J5OiBNYXBwZWRbc3RyXSA9IG1hcHBlZF9jb2x1bW4oU3RyaW5nKDMyKSwgbnVsbGFibGU9RmFsc2UpCiAgICBwcmlvcml0eTogTWFwcGVkW2ludF0gPSBtYXBwZWRfY29sdW1uKEludGVnZXIsIG51bGxhYmxlPUZhbHNlLCBkZWZhdWx0PTEwMCkKICAgIHJlbWFyazogTWFwcGVkW3N0ciB8IE5vbmVdID0gbWFwcGVkX2NvbHVtbihTdHJpbmcoMjU1KSk=
+"""维度与配置表：dim_warehouse、fee_category_map。
+
+设计要点：
+- dim_warehouse 多仓扩展：country_code / currency_code / is_active
+- fee_category_map 把谷仓原始 fee_name 归类到五大类（仓储/入库/出库操作/运输/其他）
+"""
+from __future__ import annotations
+
+from datetime import datetime
+
+from sqlalchemy import Boolean, CHAR, DateTime, Integer, String, func
+from sqlalchemy.orm import Mapped, mapped_column
+
+from app.core.database import Base
+
+
+class DimWarehouse(Base):
+    """仓库维度表。V1 主要用德国仓（DE）。"""
+
+    __tablename__ = "dim_warehouse"
+
+    id: Mapped[int] = mapped_column(Integer, primary_key=True, autoincrement=True)
+    warehouse_code: Mapped[str] = mapped_column(String(32), unique=True, nullable=False)
+    warehouse_name: Mapped[str] = mapped_column(String(128), nullable=False)
+    country_code: Mapped[str] = mapped_column(CHAR(2), nullable=False)
+    currency_code: Mapped[str] = mapped_column(CHAR(3), nullable=False, default="EUR")
+    is_active: Mapped[bool] = mapped_column(Boolean, nullable=False, default=True)
+    created_at: Mapped[datetime] = mapped_column(
+        DateTime(timezone=True), server_default=func.now(), nullable=False
+    )
+
+
+class FeeCategoryMap(Base):
+    """费用归类映射表。
+
+    把谷仓返回的原始 fee_name 关键字映射到五大费用类别：
+    storage / inbound / outbound / transport / other
+    """
+
+    __tablename__ = "fee_category_map"
+
+    id: Mapped[int] = mapped_column(Integer, primary_key=True, autoincrement=True)
+    match_keyword: Mapped[str] = mapped_column(String(128), nullable=False)
+    fee_category: Mapped[str] = mapped_column(String(32), nullable=False)
+    priority: Mapped[int] = mapped_column(Integer, nullable=False, default=100)
+    remark: Mapped[str | None] = mapped_column(String(255))

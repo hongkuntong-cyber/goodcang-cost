@@ -1,1 +1,17 @@
-aW1wb3J0IGF4aW9zIGZyb20gJ2F4aW9zJwoKLy8g57uf5LiAIEFQSSDlrqLmiLfnq6/vvJrmnKzlnLDlvIDlj5HotbAgdml0ZSBwcm94ee+8jOeUn+S6p+eUsSBuZ2lueC/lkIzln5/lj43ku6MKY29uc3QgYXBpID0gYXhpb3MuY3JlYXRlKHsKICBiYXNlVVJMOiAnL2FwaScsCiAgdGltZW91dDogMzAwMDAKfSkKCmFwaS5pbnRlcmNlcHRvcnMucmVzcG9uc2UudXNlKAogIChyZXMpID0+IHJlcy5kYXRhLAogIChlcnIpID0+IHsKICAgIGNvbnN0IG1zZyA9IGVycj8ucmVzcG9uc2U/LmRhdGE/LmRldGFpbCB8fCBlcnIubWVzc2FnZSB8fCAn6K+35rGC5aSx6LSlJwogICAgcmV0dXJuIFByb21pc2UucmVqZWN0KG5ldyBFcnJvcihtc2cpKQogIH0KKQoKZXhwb3J0IGRlZmF1bHQgYXBpCg==
+import axios from 'axios'
+
+// 统一 API 客户端：本地开发走 vite proxy，生产由 nginx/同域反代
+const api = axios.create({
+  baseURL: '/api',
+  timeout: 30000
+})
+
+api.interceptors.response.use(
+  (res) => res.data,
+  (err) => {
+    const msg = err?.response?.data?.detail || err.message || '请求失败'
+    return Promise.reject(new Error(msg))
+  }
+)
+
+export default api

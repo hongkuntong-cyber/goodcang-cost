@@ -1,1 +1,89 @@
-IiIi6LC35LuTIDQg5Liq5Lia5Yqh5o6l5Y+j55qE6auY5bGC5bCB6KOF44CCCgrmjqXlj6Pot6/lvoTkuI7mlrnms5XvvIgyMDI2LTA5LTAxIOagoeWHhuiHquWumOaWueaWh+aho++8ie+8mgoKfCDmjqXlj6MgICAgICAgICAgICAgICAgIHwgSFRUUCB8IOi3r+W+hCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfAp8LS0tLS0tLS0tLS0tLS0tLS0tLS0tLXwtLS0tLS18LS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLXwKfCDotKbljZXliJfooaggICAgICAgICAgICAgfCBQT1NUIHwgL3B1YmxpY19vcGVuL2ZpbmFuY2UvYmlsbGluZ19saXN0ICAgICAgICAgICAgICAgfAp8IOi0puWNleWvvOWHuu+8iGJhc2U2NO+8iSAgIHwgUE9TVCB8IC9wdWJsaWNfb3Blbi9maW5hbmNlL2JpbGxpbmdfZXhwb3J0ICAgICAgICAgICAgIHwKfCDlupPlrZjlupPpvoTliJfooaggICAgICAgICB8IFBPU1QgfCAvcHVibGljX29wZW4vaW52ZW50b3J5L2ludmVudG9yeV9hZ2VfbGlzdCAgICAgICB8Cnwg5Lqn5ZOB5bqT5a2Y5p+l6K+iICAgICAgICAgfCBQT1NUIHwgL3B1YmxpY19vcGVuL2ludmVudG9yeS9nZXRfcHJvZHVjdF9pbnZlbnRvcnkgICAgfAoK6Ym05p2D55SxIDpjbGFzczpgR29vZENhbmdDbGllbnRgIOmAmui/hyBIVFRQIEhlYWRlciDoh6rliqjms6jlhaXvvIhhcHAtdG9rZW4gLyBhcHAta2V577yJ44CCCiIiIgpmcm9tIF9fZnV0dXJlX18gaW1wb3J0IGFubm90YXRpb25zCgppbXBvcnQgbG9nZ2luZwoKZnJvbSBhcHAuY29ubmVjdG9ycy5nb29kY2FuZy5jbGllbnQgaW1wb3J0IEdvb2RDYW5nQ2xpZW50CmZyb20gYXBwLmNvbm5lY3RvcnMuZ29vZGNhbmcuc2NoZW1hcyBpbXBvcnQgKAogICAgQmlsbGluZ0V4cG9ydFJlcXVlc3QsCiAgICBCaWxsaW5nTGlzdFJlcXVlc3QsCiAgICBJbnZlbnRvcnlBZ2VMaXN0UmVxdWVzdCwKICAgIFByb2R1Y3RJbnZlbnRvcnlSZXF1ZXN0LAopCgpsb2dnZXIgPSBsb2dnaW5nLmdldExvZ2dlcihfX25hbWVfXykKCgpjbGFzcyBHb29kQ2FuZ0VuZHBvaW50czoKICAgICIiIuWvuSBTdGVwIDQg5ZCM5q2l5Lu75Yqh5pq06Zyy55qEIDQg5Liq5o6l5Y+j77yI57uf5LiAIFBPU1QgKyBKU09O77yJ44CCIiIiCgogICAgUEFUSF9CSUxMSU5HX0xJU1QgPSAiL3B1YmxpY19vcGVuL2ZpbmFuY2UvYmlsbGluZ19saXN0IgogICAgUEFUSF9CSUxMSU5HX0VYUE9SVCA9ICIvcHVibGljX29wZW4vZmluYW5jZS9iaWxsaW5nX2V4cG9ydCIKICAgIFBBVEhfSU5WRU5UT1JZX0FHRV9MSVNUID0gIi9wdWJsaWNfb3Blbi9pbnZlbnRvcnkvaW52ZW50b3J5X2FnZV9saXN0IgogICAgUEFUSF9QUk9EVUNUX0lOVkVOVE9SWSA9ICIvcHVibGljX29wZW4vaW52ZW50b3J5L2dldF9wcm9kdWN0X2ludmVudG9yeSIKCiAgICBkZWYgX19pbml0X18oc2VsZiwgY2xpZW50OiBHb29kQ2FuZ0NsaWVudCkgLT4gTm9uZToKICAgICAgICBzZWxmLmNsaWVudCA9IGNsaWVudAoKICAgIGFzeW5jIGRlZiBiaWxsaW5nX2xpc3Qoc2VsZiwgcmVxOiBCaWxsaW5nTGlzdFJlcXVlc3QpIC0+IGRpY3Q6CiAgICAgICAgIiIi6I635Y+W5pyI5bqm6LSm5Y2V5YiX6KGo77yI5Y6f5aeLIGRpY3TvvIzkv53nlZnlrozmlbTlrZfmrrXvvInjgIIiIiIKICAgICAgICBsb2dnZXIuaW5mbygKICAgICAgICAgICAgImJpbGxpbmdfbGlzdCBiZWdpbj0lcyBlbmQ9JXMgYWNjb3VudD0lcyBwYWdlPSVzIiwKICAgICAgICAgICAgcmVxLmJlZ2luX2JpbGxfdG9fdGltZSwgcmVxLmVuZF9iaWxsX3RvX3RpbWUsIHJlcS5hY2NvdW50X2NvZGUsIHJlcS5wYWdlLAogICAgICAgICkKICAgICAgICByZXR1cm4gYXdhaXQgc2VsZi5jbGllbnQuY2FsbCgKICAgICAgICAgICAgc2VsZi5QQVRIX0JJTExJTkdfTElTVCwKICAgICAgICAgICAgcmVxLm1vZGVsX2R1bXAoZXhjbHVkZV9ub25lPVRydWUpLAogICAgICAgICkKCiAgICBhc3luYyBkZWYgYmlsbGluZ19leHBvcnQoc2VsZiwgcmVxOiBCaWxsaW5nRXhwb3J0UmVxdWVzdCkgLT4gZGljdDoKICAgICAgICAiIiLkuIvovb3otKbljZXmlofku7bvvIhiYXNlNjQg5a2X56ym5Liy77yM5ZyoIGRhdGEg5a2X5q615Lit77yJ44CCCgogICAgICAgIOi/lOWbnueahCBkYXRhIOWtl+auteaYryBiYXNlNjQg57yW56CB55qEIHhsc3gvemlwIOWtl+espuS4su+8jOiwg+eUqOaWuei0n+i0o+ino+eggeiQveebmOOAggogICAgICAgICIiIgogICAgICAgIGxvZ2dlci5pbmZvKCJiaWxsaW5nX2V4cG9ydCBiaWxsX251bWJlcl9saXN0PSVzIiwgcmVxLmJpbGxfbnVtYmVyX2xpc3QpCiAgICAgICAgcmV0dXJuIGF3YWl0IHNlbGYuY2xpZW50LmNhbGxfcmF3X3Bvc3QoCiAgICAgICAgICAgIHNlbGYuUEFUSF9CSUxMSU5HX0VYUE9SVCwKICAgICAgICAgICAgcmVxLm1vZGVsX2R1bXAoZXhjbHVkZV9ub25lPVRydWUpLAogICAgICAgICkKCiAgICBhc3luYyBkZWYgaW52ZW50b3J5X2FnZV9saXN0KHNlbGYsIHJlcTogSW52ZW50b3J5QWdlTGlzdFJlcXVlc3QpIC0+IGRpY3Q6CiAgICAgICAgIiIi6I635Y+W5bqT5a2Y5bqT6b6E5YiX6KGo77yI5q+P5p2h5ZCrIHdhcmVob3VzZV9jb2RlIC8gcHJvZHVjdF9za3UgLyBsYmFfKiDlrZfmrrXvvInjgIIiIiIKICAgICAgICBsb2dnZXIuaW5mbygKICAgICAgICAgICAgImludmVudG9yeV9hZ2VfbGlzdCB3YXJlaG91c2U9JXMgcGFnZT0lcyIsCiAgICAgICAgICAgIHJlcS53YXJlaG91c2VfY29kZSwgcmVxLnBhZ2UsCiAgICAgICAgKQogICAgICAgIHJldHVybiBhd2FpdCBzZWxmLmNsaWVudC5jYWxsKAogICAgICAgICAgICBzZWxmLlBBVEhfSU5WRU5UT1JZX0FHRV9MSVNULAogICAgICAgICAgICByZXEubW9kZWxfZHVtcChleGNsdWRlX25vbmU9VHJ1ZSksCiAgICAgICAgKQoKICAgIGFzeW5jIGRlZiBwcm9kdWN0X2ludmVudG9yeShzZWxmLCByZXE6IFByb2R1Y3RJbnZlbnRvcnlSZXF1ZXN0KSAtPiBkaWN0OgogICAgICAgICIiIuiOt+WPluS6p+WTgeW6k+WtmO+8iOWPr+eUqC/plIHlrpov5Zyo6YCUL+W3suWHuuW6kyDnrYnlupPlrZjliIbpobnvvInjgIIiIiIKICAgICAgICBsb2dnZXIuaW5mbygKICAgICAgICAgICAgInByb2R1Y3RfaW52ZW50b3J5IHdhcmVob3VzZT0lcyBza3U9JXMiLAogICAgICAgICAgICByZXEud2FyZWhvdXNlX2NvZGUsIHJlcS5wcm9kdWN0X3NrdSwKICAgICAgICApCiAgICAgICAgcmV0dXJuIGF3YWl0IHNlbGYuY2xpZW50LmNhbGwoCiAgICAgICAgICAgIHNlbGYuUEFUSF9QUk9EVUNUX0lOVkVOVE9SWSwKICAgICAgICAgICAgcmVxLm1vZGVsX2R1bXAoZXhjbHVkZV9ub25lPVRydWUpLAogICAgICAgICkKCiAgICAjIC0tLS0g5L6/5o235bel5Y6CIC0tLS0KICAgIEBjbGFzc21ldGhvZAogICAgZGVmIGJ1aWxkKGNscykgLT4gInR1cGxlW0dvb2RDYW5nQ2xpZW50LCBHb29kQ2FuZ0VuZHBvaW50c10iOgogICAgICAgICIiIuaehOmAoOS4gOWvuSAoY2xpZW50LCBlbmRwb2ludHMp77yb6LCD55So5pa555SoIGFzeW5jIHdpdGgg566h55CG55Sf5ZG95ZGo5pyf44CCIiIiCiAgICAgICAgY2xpZW50ID0gR29vZENhbmdDbGllbnQoKQogICAgICAgIHJldHVybiBjbGllbnQsIGNscyhjbGllbnQpCg==
+"""谷仓 4 个业务接口的高层封装。
+
+接口路径与方法（2026-09-01 校准自官方文档）：
+
+| 接口                 | HTTP | 路径                                            |
+|----------------------|------|-------------------------------------------------|
+| 账单列表             | POST | /public_open/finance/billing_list               |
+| 账单导出（base64）   | POST | /public_open/finance/billing_export             |
+| 库存库龄列表         | POST | /public_open/inventory/inventory_age_list       |
+| 产品库存查询         | POST | /public_open/inventory/get_product_inventory    |
+
+鉴权由 :class:`GoodCangClient` 通过 HTTP Header 自动注入（app-token / app-key）。
+"""
+from __future__ import annotations
+
+import logging
+
+from app.connectors.goodcang.client import GoodCangClient
+from app.connectors.goodcang.schemas import (
+    BillingExportRequest,
+    BillingListRequest,
+    InventoryAgeListRequest,
+    ProductInventoryRequest,
+)
+
+logger = logging.getLogger(__name__)
+
+
+class GoodCangEndpoints:
+    """对 Step 4 同步任务暴露的 4 个接口（统一 POST + JSON）。"""
+
+    PATH_BILLING_LIST = "/public_open/finance/billing_list"
+    PATH_BILLING_EXPORT = "/public_open/finance/billing_export"
+    PATH_INVENTORY_AGE_LIST = "/public_open/inventory/inventory_age_list"
+    PATH_PRODUCT_INVENTORY = "/public_open/inventory/get_product_inventory"
+
+    def __init__(self, client: GoodCangClient) -> None:
+        self.client = client
+
+    async def billing_list(self, req: BillingListRequest) -> dict:
+        """获取月度账单列表（原始 dict，保留完整字段）。"""
+        logger.info(
+            "billing_list begin=%s end=%s account=%s page=%s",
+            req.begin_bill_to_time, req.end_bill_to_time, req.account_code, req.page,
+        )
+        return await self.client.call(
+            self.PATH_BILLING_LIST,
+            req.model_dump(exclude_none=True),
+        )
+
+    async def billing_export(self, req: BillingExportRequest) -> dict:
+        """下载账单文件（base64 字符串，在 data 字段中）。
+
+        返回的 data 字段是 base64 编码的 xlsx/zip 字符串，调用方负责解码落盘。
+        """
+        logger.info("billing_export bill_number_list=%s", req.bill_number_list)
+        return await self.client.call_raw_post(
+            self.PATH_BILLING_EXPORT,
+            req.model_dump(exclude_none=True),
+        )
+
+    async def inventory_age_list(self, req: InventoryAgeListRequest) -> dict:
+        """获取库存库龄列表（每条含 warehouse_code / product_sku / lba_* 字段）。"""
+        logger.info(
+            "inventory_age_list warehouse=%s page=%s",
+            req.warehouse_code, req.page,
+        )
+        return await self.client.call(
+            self.PATH_INVENTORY_AGE_LIST,
+            req.model_dump(exclude_none=True),
+        )
+
+    async def product_inventory(self, req: ProductInventoryRequest) -> dict:
+        """获取产品库存（可用/锁定/在途/已出库 等库存分项）。"""
+        logger.info(
+            "product_inventory warehouse=%s sku=%s",
+            req.warehouse_code, req.product_sku,
+        )
+        return await self.client.call(
+            self.PATH_PRODUCT_INVENTORY,
+            req.model_dump(exclude_none=True),
+        )
+
+    # ---- 便捷工厂 ----
+    @classmethod
+    def build(cls) -> "tuple[GoodCangClient, GoodCangEndpoints]":
+        """构造一对 (client, endpoints)；调用方用 async with 管理生命周期。"""
+        client = GoodCangClient()
+        return client, cls(client)

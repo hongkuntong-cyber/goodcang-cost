@@ -1,1 +1,91 @@
-IiIi5YaS54Of5rWL6K+V77ya6aqM6K+BIDEwIOW8oOihqOiDveWcqOWGheWtmOW6k+mHjCBjcmVhdGVfYWxs77yM5bm26IO95Z+65pysIGluc2VydOOAggrmm7TlpJrkuJrliqHmtYvor5XlnKggU3RlcCA1IC8gU3RlcCA3IOihpem9kOOAggoiIiIKaW1wb3J0IHB5dGVzdApmcm9tIGRhdGV0aW1lIGltcG9ydCBkYXRlLCBkYXRldGltZSwgdGltZXpvbmUKCmZyb20gc3FsYWxjaGVteSBpbXBvcnQgc2VsZWN0CmZyb20gc3FsYWxjaGVteS5leGMgaW1wb3J0IEludGVncml0eUVycm9yCgpmcm9tIGFwcC5tb2RlbHMgaW1wb3J0ICgKICAgIERpbVdhcmVob3VzZSwgRmVlQ2F0ZWdvcnlNYXAsIE1hcnRNb250aGx5Q29zdFN1bW1hcnksIE1hcnRNb250aGx5UmVwb3J0LAogICAgTWFydFJpc2tTa3UsIFN0Z0JpbGwsIFN0Z0JpbGxGZWVJdGVtLCBTdGdJbnZlbnRvcnlBZ2UsIFN0Z0ludmVudG9yeVN0YXR1cywgU3luY0xvZywKKQoKCmRlZiB0ZXN0X3dhcmVob3VzZV90YWJsZV9jcmVhdGUoc2Vzc2lvbik6CiAgICB3aCA9IERpbVdhcmVob3VzZSgKICAgICAgICB3YXJlaG91c2VfY29kZT0iREUxIiwgd2FyZWhvdXNlX25hbWU9IuW+t+WbveS4gOS7kyIsCiAgICAgICAgY291bnRyeV9jb2RlPSJERSIsIGN1cnJlbmN5X2NvZGU9IkVVUiIsIGlzX2FjdGl2ZT1UcnVlLAogICAgKQogICAgc2Vzc2lvbi5hZGQod2gpOyBzZXNzaW9uLmNvbW1pdCgpCiAgICByb3dzID0gc2Vzc2lvbi5zY2FsYXJzKHNlbGVjdChEaW1XYXJlaG91c2UpKS5hbGwoKQogICAgYXNzZXJ0IGxlbihyb3dzKSA9PSAxIGFuZCByb3dzWzBdLndhcmVob3VzZV9jb2RlID09ICJERTEiCgoKZGVmIHRlc3RfYmlsbF9hbmRfZmVlX2l0ZW1fY2FzY2FkZShzZXNzaW9uKToKICAgICMg5LuT5bqTICsg6LSm5Y2VICsg6LS555So5piO57uGCiAgICBzZXNzaW9uLmFkZChEaW1XYXJlaG91c2Uod2FyZWhvdXNlX2NvZGU9IkRFMSIsIHdhcmVob3VzZV9uYW1lPSLlvrflm73kuIDku5MiLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvdW50cnlfY29kZT0iREUiLCBjdXJyZW5jeV9jb2RlPSJFVVIiKSkKICAgIGJpbGwgPSBTdGdCaWxsKAogICAgICAgIGJpbGxfbnVtYmVyPSJCMjAyNjA4MDEiLCBiaWxsX2Zyb21fdGltZT1kYXRldGltZSgyMDI2LCA4LCAxLCB0emluZm89dGltZXpvbmUudXRjKSwKICAgICAgICBiaWxsX3RvX3RpbWU9ZGF0ZXRpbWUoMjAyNiwgOCwgMzEsIHR6aW5mbz10aW1lem9uZS51dGMpLAogICAgICAgIGJpbGxfbW9udGg9IjIwMjYtMDgiLCBhbGxfdG90YWw9MTIzNC41NiwgY3VycmVuY3lfY29kZT0iRVVSIiwgd2FyZWhvdXNlX2NvZGU9IkRFMSIsCiAgICApCiAgICBzZXNzaW9uLmFkZChiaWxsKTsgc2Vzc2lvbi5mbHVzaCgpCiAgICBzZXNzaW9uLmFkZChTdGdCaWxsRmVlSXRlbSgKICAgICAgICBiaWxsX251bWJlcj1iaWxsLmJpbGxfbnVtYmVyLCBmZWVfbmFtZT0i5LuT5YKoIiwgZmVlX2NhdGVnb3J5PSJzdG9yYWdlIiwKICAgICAgICBhbW91bnQ9ODAwLCBjdXJyZW5jeV9jb2RlPSJFVVIiLCBiaWxsX21vbnRoPSIyMDI2LTA4IiwKICAgICkpCiAgICBzZXNzaW9uLmNvbW1pdCgpCgogICAgYXNzZXJ0IHNlc3Npb24uc2NhbGFycyhzZWxlY3QoU3RnQmlsbCkpLm9uZSgpLmJpbGxfbnVtYmVyID09ICJCMjAyNjA4MDEiCiAgICBhc3NlcnQgc2Vzc2lvbi5zY2FsYXJzKHNlbGVjdChTdGdCaWxsRmVlSXRlbSkpLm9uZSgpLmZlZV9jYXRlZ29yeSA9PSAic3RvcmFnZSIKCgpkZWYgdGVzdF9pbnZlbnRvcnlfYWdlX3VuaXF1ZV9jb25zdHJhaW50KHNlc3Npb24pOgogICAgc2Vzc2lvbi5hZGQoRGltV2FyZWhvdXNlKHdhcmVob3VzZV9jb2RlPSJERTEiLCB3YXJlaG91c2VfbmFtZT0i5b635Zu95LiA5LuTIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb3VudHJ5X2NvZGU9IkRFIiwgY3VycmVuY3lfY29kZT0iRVVSIikpCiAgICBzZXNzaW9uLmFkZChTdGdJbnZlbnRvcnlBZ2Uoc25hcHNob3RfZGF0ZT1kYXRlKDIwMjYsIDksIDEpLCBza3U9IlNLVTEiLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHByb2R1Y3RfbmFtZT0i5ZWG5ZOBMSIsIHF1YW50aXR5PTEwLCB3YXJlaG91c2VfYWdlPTQwMCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBhZ2VfYnVja2V0PSJjcml0aWNhbCIsIHdhcmVob3VzZV9jb2RlPSJERTEiKSkKICAgIHNlc3Npb24uY29tbWl0KCkgICMg56ys5LiA5p2hIE9LCgogICAgIyDnrKzkuozmnaHlkIwgKHNuYXBzaG90X2RhdGUsIHNrdSwgd2FyZWhvdXNlX2NvZGUpIOW6lOW9k+iiq+WUr+S4gOe6puadn+mYu+atogogICAgc2Vzc2lvbi5hZGQoU3RnSW52ZW50b3J5QWdlKHNuYXBzaG90X2RhdGU9ZGF0ZSgyMDI2LCA5LCAxKSwgc2t1PSJTS1UxIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBwcm9kdWN0X25hbWU9IuWVhuWTgTEt6YeN5ZCNIiwgcXVhbnRpdHk9NSwgd2FyZWhvdXNlX2FnZT0yMDAsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYWdlX2J1Y2tldD0ic3RhbGUiLCB3YXJlaG91c2VfY29kZT0iREUxIikpCiAgICB3aXRoIHB5dGVzdC5yYWlzZXMoSW50ZWdyaXR5RXJyb3IpOgogICAgICAgIHNlc3Npb24uY29tbWl0KCkKICAgIHNlc3Npb24ucm9sbGJhY2soKQoKICAgICMg5LiN5ZCMIHNrdSDlupTlhYHorrgKICAgIHNlc3Npb24uYWRkKFN0Z0ludmVudG9yeUFnZShzbmFwc2hvdF9kYXRlPWRhdGUoMjAyNiwgOSwgMSksIHNrdT0iU0tVMiIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcHJvZHVjdF9uYW1lPSLllYblk4EyIiwgcXVhbnRpdHk9Mywgd2FyZWhvdXNlX2FnZT01MCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBhZ2VfYnVja2V0PSJoZWFsdGh5Iiwgd2FyZWhvdXNlX2NvZGU9IkRFMSIpKQogICAgc2Vzc2lvbi5jb21taXQoKQogICAgcm93cyA9IHNlc3Npb24uc2NhbGFycyhzZWxlY3QoU3RnSW52ZW50b3J5QWdlKSkuYWxsKCkKICAgIGFzc2VydCBsZW4ocm93cykgPT0gMgoKCmRlZiB0ZXN0X21vbnRobHlfcmVwb3J0X2pzb25iX2ZpZWxkKHNlc3Npb24pOgogICAgc2Vzc2lvbi5hZGQoRGltV2FyZWhvdXNlKHdhcmVob3VzZV9jb2RlPSJERTEiLCB3YXJlaG91c2VfbmFtZT0i5b635Zu95LiA5LuTIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb3VudHJ5X2NvZGU9IkRFIiwgY3VycmVuY3lfY29kZT0iRVVSIikpCiAgICBzZXNzaW9uLmFkZChNYXJ0TW9udGhseVJlcG9ydCgKICAgICAgICByZXBvcnRfbW9udGg9IjIwMjYtMDgiLCB3YXJlaG91c2VfY29kZT0iREUxIiwKICAgICAgICB0aXRsZT0iOOaciOaKpeWRiiIsIGNvc3RfY2hhbmdlPXsidG90YWwiOiAxMjM0LjUsICJtb21fcGN0IjogMy4yfSwKICAgICAgICBjb250ZW50X21kPSIjIOaKpeWRiiIsIHN0YXR1cz0iZHJhZnQiLAogICAgKSkKICAgIHNlc3Npb24uY29tbWl0KCkKICAgIHIgPSBzZXNzaW9uLnNjYWxhcnMoc2VsZWN0KE1hcnRNb250aGx5UmVwb3J0KSkub25lKCkKICAgIGFzc2VydCByLmNvc3RfY2hhbmdlWyJtb21fcGN0Il0gPT0gMy4yCiAgICBhc3NlcnQgci5zdGF0dXMgPT0gImRyYWZ0IgoKCmRlZiB0ZXN0X3N5bmNfbG9nKHNlc3Npb24pOgogICAgc2Vzc2lvbi5hZGQoU3luY0xvZyh0YXNrX25hbWU9InN5bmNfYmlsbHMiLCBlbmRwb2ludD0iYmlsbGluZ19saXN0IiwKICAgICAgICAgICAgICAgICAgICAgICAgc3RhdHVzPSJzdWNjZXNzIiwgcmVjb3Jkc19hZmZlY3RlZD0xMCwgbWVzc2FnZT0ib2siKSkKICAgIHNlc3Npb24uY29tbWl0KCkKICAgIGxvZyA9IHNlc3Npb24uc2NhbGFycyhzZWxlY3QoU3luY0xvZykpLm9uZSgpCiAgICBhc3NlcnQgbG9nLnN0YXR1cyA9PSAic3VjY2VzcyIKICAgIGFzc2VydCBsb2cuc3RhcnRlZF9hdCBpcyBub3QgTm9uZQ==
+"""冒烟测试：验证 10 张表能在内存库里 create_all，并能基本 insert。
+更多业务测试在 Step 5 / Step 7 补齐。
+"""
+import pytest
+from datetime import date, datetime, timezone
+
+from sqlalchemy import select
+from sqlalchemy.exc import IntegrityError
+
+from app.models import (
+    DimWarehouse, FeeCategoryMap, MartMonthlyCostSummary, MartMonthlyReport,
+    MartRiskSku, StgBill, StgBillFeeItem, StgInventoryAge, StgInventoryStatus, SyncLog,
+)
+
+
+def test_warehouse_table_create(session):
+    wh = DimWarehouse(
+        warehouse_code="DE1", warehouse_name="德国一仓",
+        country_code="DE", currency_code="EUR", is_active=True,
+    )
+    session.add(wh); session.commit()
+    rows = session.scalars(select(DimWarehouse)).all()
+    assert len(rows) == 1 and rows[0].warehouse_code == "DE1"
+
+
+def test_bill_and_fee_item_cascade(session):
+    # 仓库 + 账单 + 费用明细
+    session.add(DimWarehouse(warehouse_code="DE1", warehouse_name="德国一仓",
+                             country_code="DE", currency_code="EUR"))
+    bill = StgBill(
+        bill_number="B20260801", bill_from_time=datetime(2026, 8, 1, tzinfo=timezone.utc),
+        bill_to_time=datetime(2026, 8, 31, tzinfo=timezone.utc),
+        bill_month="2026-08", all_total=1234.56, currency_code="EUR", warehouse_code="DE1",
+    )
+    session.add(bill); session.flush()
+    session.add(StgBillFeeItem(
+        bill_number=bill.bill_number, fee_name="仓储", fee_category="storage",
+        amount=800, currency_code="EUR", bill_month="2026-08",
+    ))
+    session.commit()
+
+    assert session.scalars(select(StgBill)).one().bill_number == "B20260801"
+    assert session.scalars(select(StgBillFeeItem)).one().fee_category == "storage"
+
+
+def test_inventory_age_unique_constraint(session):
+    session.add(DimWarehouse(warehouse_code="DE1", warehouse_name="德国一仓",
+                             country_code="DE", currency_code="EUR"))
+    session.add(StgInventoryAge(snapshot_date=date(2026, 9, 1), sku="SKU1",
+                                product_name="商品1", quantity=10, warehouse_age=400,
+                                age_bucket="critical", warehouse_code="DE1"))
+    session.commit()  # 第一条 OK
+
+    # 第二条同 (snapshot_date, sku, warehouse_code) 应当被唯一约束阻止
+    session.add(StgInventoryAge(snapshot_date=date(2026, 9, 1), sku="SKU1",
+                                product_name="商品1-重名", quantity=5, warehouse_age=200,
+                                age_bucket="stale", warehouse_code="DE1"))
+    with pytest.raises(IntegrityError):
+        session.commit()
+    session.rollback()
+
+    # 不同 sku 应允许
+    session.add(StgInventoryAge(snapshot_date=date(2026, 9, 1), sku="SKU2",
+                                product_name="商品2", quantity=3, warehouse_age=50,
+                                age_bucket="healthy", warehouse_code="DE1"))
+    session.commit()
+    rows = session.scalars(select(StgInventoryAge)).all()
+    assert len(rows) == 2
+
+
+def test_monthly_report_jsonb_field(session):
+    session.add(DimWarehouse(warehouse_code="DE1", warehouse_name="德国一仓",
+                             country_code="DE", currency_code="EUR"))
+    session.add(MartMonthlyReport(
+        report_month="2026-08", warehouse_code="DE1",
+        title="8月报告", cost_change={"total": 1234.5, "mom_pct": 3.2},
+        content_md="# 报告", status="draft",
+    ))
+    session.commit()
+    r = session.scalars(select(MartMonthlyReport)).one()
+    assert r.cost_change["mom_pct"] == 3.2
+    assert r.status == "draft"
+
+
+def test_sync_log(session):
+    session.add(SyncLog(task_name="sync_bills", endpoint="billing_list",
+                        status="success", records_affected=10, message="ok"))
+    session.commit()
+    log = session.scalars(select(SyncLog)).one()
+    assert log.status == "success"
+    assert log.started_at is not None

@@ -1,1 +1,16 @@
-aW1wb3J0IHsgZGVmaW5lQ29uZmlnIH0gZnJvbSAndml0ZScKaW1wb3J0IHZ1ZSBmcm9tICdAdml0ZWpzL3BsdWdpbi12dWUnCgpleHBvcnQgZGVmYXVsdCBkZWZpbmVDb25maWcoewogIHBsdWdpbnM6IFt2dWUoKV0sCiAgc2VydmVyOiB7CiAgICBwb3J0OiA4MDgwLAogICAgcHJveHk6IHsKICAgICAgLy8g5pys5Zyw5byA5Y+R77ya5oqKIC9hcGkg5Luj55CG5Yiw5ZCO56uvIEZhc3RBUEkKICAgICAgJy9hcGknOiB7CiAgICAgICAgdGFyZ2V0OiAnaHR0cDovL2xvY2FsaG9zdDo4MDAwJywKICAgICAgICBjaGFuZ2VPcmlnaW46IHRydWUKICAgICAgfQogICAgfQogIH0KfSkK
+import { defineConfig } from 'vite'
+import vue from '@vitejs/plugin-vue'
+
+export default defineConfig({
+  plugins: [vue()],
+  server: {
+    port: 8080,
+    proxy: {
+      // 本地开发：把 /api 代理到后端 FastAPI
+      '/api': {
+        target: 'http://localhost:8000',
+        changeOrigin: true
+      }
+    }
+  }
+})

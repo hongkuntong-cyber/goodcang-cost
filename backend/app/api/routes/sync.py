@@ -1,1 +1,35 @@
-IiIi5ZCM5q2l55u45YWzIEFQSSDot6/nlLHvvJrmiYvliqjop6blj5HlkIzmraXjgIHmn6XnnIvlkIzmraXml6Xlv5fjgIIiIiIKZnJvbSBfX2Z1dHVyZV9fIGltcG9ydCBhbm5vdGF0aW9ucwoKZnJvbSBmYXN0YXBpIGltcG9ydCBBUElSb3V0ZXIsIERlcGVuZHMKZnJvbSBzcWxhbGNoZW15IGltcG9ydCBzZWxlY3QKZnJvbSBzcWxhbGNoZW15Lm9ybSBpbXBvcnQgU2Vzc2lvbgoKZnJvbSBhcHAuY29yZS5kYXRhYmFzZSBpbXBvcnQgZ2V0X2RiCmZyb20gYXBwLm1vZGVscyBpbXBvcnQgU3luY0xvZwpmcm9tIGFwcC50YXNrcy5zeW5jX3Rhc2tzIGltcG9ydCBydW5fc3luY19ub3cKCnJvdXRlciA9IEFQSVJvdXRlcihwcmVmaXg9Ii9hcGkvc3luYyIsIHRhZ3M9WyJzeW5jIl0pCgoKQHJvdXRlci5wb3N0KCIvcnVuIikKYXN5bmMgZGVmIHRyaWdnZXJfc3luYygpOgogICAgIiIi5omL5Yqo6Kem5Y+R5LiA5qyh5YWo6YeP5ZCM5q2l44CCIiIiCiAgICByZXN1bHQgPSBhd2FpdCBydW5fc3luY19ub3coKQogICAgcmV0dXJuIHsic3RhdHVzIjogInN1Y2Nlc3MiLCAicmVzdWx0IjogcmVzdWx0fQoKCkByb3V0ZXIuZ2V0KCIvbG9ncyIpCmRlZiBsaXN0X2xvZ3MobGltaXQ6IGludCA9IDIwLCBkYjogU2Vzc2lvbiA9IERlcGVuZHMoZ2V0X2RiKSk6CiAgICAiIiLmnIDov5EgTiDmnaHlkIzmraXml6Xlv5fjgIIiIiIKICAgIHJvd3MgPSBkYi5zY2FsYXJzKAogICAgICAgIHNlbGVjdChTeW5jTG9nKS5vcmRlcl9ieShTeW5jTG9nLnN0YXJ0ZWRfYXQuZGVzYygpKS5saW1pdChsaW1pdCkKICAgICkuYWxsKCkKICAgIHJldHVybiB7ImxvZ3MiOiBbCiAgICAgICAgewogICAgICAgICAgICAidGFza19uYW1lIjogci50YXNrX25hbWUsICJlbmRwb2ludCI6IHIuZW5kcG9pbnQsICJzdGF0dXMiOiByLnN0YXR1cywKICAgICAgICAgICAgInJlY29yZHNfYWZmZWN0ZWQiOiByLnJlY29yZHNfYWZmZWN0ZWQsICJtZXNzYWdlIjogci5tZXNzYWdlLAogICAgICAgICAgICAic3RhcnRlZF9hdCI6IHIuc3RhcnRlZF9hdC5pc29mb3JtYXQoKSBpZiByLnN0YXJ0ZWRfYXQgZWxzZSBOb25lLAogICAgICAgICAgICAiZmluaXNoZWRfYXQiOiByLmZpbmlzaGVkX2F0Lmlzb2Zvcm1hdCgpIGlmIHIuZmluaXNoZWRfYXQgZWxzZSBOb25lLAogICAgICAgIH0gZm9yIHIgaW4gcm93cwogICAgXX0=
+"""同步相关 API 路由：手动触发同步、查看同步日志。"""
+from __future__ import annotations
+
+from fastapi import APIRouter, Depends
+from sqlalchemy import select
+from sqlalchemy.orm import Session
+
+from app.core.database import get_db
+from app.models import SyncLog
+from app.tasks.sync_tasks import run_sync_now
+
+router = APIRouter(prefix="/api/sync", tags=["sync"])
+
+
+@router.post("/run")
+async def trigger_sync():
+    """手动触发一次全量同步。"""
+    result = await run_sync_now()
+    return {"status": "success", "result": result}
+
+
+@router.get("/logs")
+def list_logs(limit: int = 20, db: Session = Depends(get_db)):
+    """最近 N 条同步日志。"""
+    rows = db.scalars(
+        select(SyncLog).order_by(SyncLog.started_at.desc()).limit(limit)
+    ).all()
+    return {"logs": [
+        {
+            "task_name": r.task_name, "endpoint": r.endpoint, "status": r.status,
+            "records_affected": r.records_affected, "message": r.message,
+            "started_at": r.started_at.isoformat() if r.started_at else None,
+            "finished_at": r.finished_at.isoformat() if r.finished_at else None,
+        } for r in rows
+    ]}

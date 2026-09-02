@@ -1,1 +1,122 @@
-IiIi5Y6f5aeL5bGC77yIc3RnXyrvvInvvJrnm7TmjqXmnaXoh6ogR29vZENhbmcgQVBJIOeahOaVsOaNru+8jOWQq+WOn+Wni+aKpeaWh+OAggoKLSBzdGdfYmlsbHMgICAgICAgICAgICAgICAgOiDmnIjluqbotKbljZXkuLvooajvvIjmnaXmupAgYmlsbGluZ19saXN077yJCi0gc3RnX2JpbGxfZmVlX2l0ZW1zICAgICAgIDog6LSm5Y2V6LS555So5piO57uG77yI5p2l5rqQIGJpbGxpbmdfZXhwb3J077yJCi0gc3RnX2ludmVudG9yeV9hZ2UgICAgICAgIDog5bqT5a2Y5bm06b6E5b+r54Wn77yI5p2l5rqQIGludmVudG9yeV9hZ2VfbGlzdO+8iQotIHN0Z19pbnZlbnRvcnlfc3RhdHVzICAgICA6IOW9k+WJjeW6k+WtmOeKtuaAgeW/q+eFp++8iOadpea6kCBnZXRfcHJvZHVjdF9pbnZlbnRvcnnvvIkKCuW5guetieetlueVpe+8mgotIOi0puWNle+8mlVQU0VSVCBieSBiaWxsX251bWJlcgotIOW6k+WtmO+8mlVQU0VSVCBieSAoc25hcHNob3RfZGF0ZSwgc2t1LCB3YXJlaG91c2VfY29kZSkKIiIiCmZyb20gX19mdXR1cmVfXyBpbXBvcnQgYW5ub3RhdGlvbnMKCmZyb20gZGF0ZXRpbWUgaW1wb3J0IGRhdGUsIGRhdGV0aW1lCmZyb20gZGVjaW1hbCBpbXBvcnQgRGVjaW1hbAoKZnJvbSBzcWxhbGNoZW15IGltcG9ydCBDSEFSLCBEYXRlLCBEYXRlVGltZSwgRm9yZWlnbktleSwgSlNPTiwgTnVtZXJpYywgU3RyaW5nLCBVbmlxdWVDb25zdHJhaW50LCBmdW5jCmZyb20gc3FsYWxjaGVteS5kaWFsZWN0cy5wb3N0Z3Jlc3FsIGltcG9ydCBKU09OQgpmcm9tIHNxbGFsY2hlbXkub3JtIGltcG9ydCBNYXBwZWQsIG1hcHBlZF9jb2x1bW4KCmZyb20gYXBwLmNvcmUuZGF0YWJhc2UgaW1wb3J0IEJhc2UKCgojIOeUqCBKU09OQu+8iFBvc3RncmVTUUwg5LiT5bGe77yJ77yM5pu06auY5pWI77yb6Z2eIFBHIOeOr+Wig+iHquWKqCBmYWxsYmFjayDliLAgSlNPTuOAggpKU09OVHlwZSA9IEpTT05CKCkud2l0aF92YXJpYW50KEpTT04oKSwgInNxbGl0ZSIpCgoKY2xhc3MgU3RnQmlsbChCYXNlKToKICAgICIiIuaciOW6pui0puWNleS4u+ihqOOAgiIiIgoKICAgIF9fdGFibGVuYW1lX18gPSAic3RnX2JpbGxzIgogICAgX190YWJsZV9hcmdzX18gPSAoVW5pcXVlQ29uc3RyYWludCgiYmlsbF9udW1iZXIiLCBuYW1lPSJ1a19zdGdfYmlsbHNfbnVtYmVyIiksKQoKICAgIGlkOiBNYXBwZWRbaW50XSA9IG1hcHBlZF9jb2x1bW4ocHJpbWFyeV9rZXk9VHJ1ZSwgYXV0b2luY3JlbWVudD1UcnVlKQogICAgYmlsbF9udW1iZXI6IE1hcHBlZFtzdHJdID0gbWFwcGVkX2NvbHVtbihTdHJpbmcoNjQpLCBudWxsYWJsZT1GYWxzZSkKICAgIGFjY291bnRfY29kZTogTWFwcGVkW3N0ciB8IE5vbmVdID0gbWFwcGVkX2NvbHVtbihTdHJpbmcoNjQpKQogICAgYmlsbF9mcm9tX3RpbWU6IE1hcHBlZFtkYXRldGltZV0gPSBtYXBwZWRfY29sdW1uKERhdGVUaW1lKHRpbWV6b25lPVRydWUpLCBudWxsYWJsZT1GYWxzZSkKICAgIGJpbGxfdG9fdGltZTogTWFwcGVkW2RhdGV0aW1lXSA9IG1hcHBlZF9jb2x1bW4oRGF0ZVRpbWUodGltZXpvbmU9VHJ1ZSksIG51bGxhYmxlPUZhbHNlKQogICAgYmlsbF9tb250aDogTWFwcGVkW3N0cl0gPSBtYXBwZWRfY29sdW1uKENIQVIoNyksIG51bGxhYmxlPUZhbHNlKSAgIyBZWVlZLU1NCiAgICBhbGxfdG90YWw6IE1hcHBlZFtEZWNpbWFsXSA9IG1hcHBlZF9jb2x1bW4oTnVtZXJpYygxOCwgNCksIG51bGxhYmxlPUZhbHNlKQogICAgY3VycmVuY3lfY29kZTogTWFwcGVkW3N0cl0gPSBtYXBwZWRfY29sdW1uKENIQVIoMyksIG51bGxhYmxlPUZhbHNlKQogICAgd2FyZWhvdXNlX2NvZGU6IE1hcHBlZFtzdHIgfCBOb25lXSA9IG1hcHBlZF9jb2x1bW4oCiAgICAgICAgU3RyaW5nKDMyKSwgRm9yZWlnbktleSgiZGltX3dhcmVob3VzZS53YXJlaG91c2VfY29kZSIsIG9uZGVsZXRlPSJTRVQgTlVMTCIpCiAgICApCiAgICByYXdfanNvbjogTWFwcGVkW2RpY3QgfCBOb25lXSA9IG1hcHBlZF9jb2x1bW4oSlNPTlR5cGUpCiAgICBzeW5jZWRfYXQ6IE1hcHBlZFtkYXRldGltZV0gPSBtYXBwZWRfY29sdW1uKAogICAgICAgIERhdGVUaW1lKHRpbWV6b25lPVRydWUpLCBzZXJ2ZXJfZGVmYXVsdD1mdW5jLm5vdygpLCBudWxsYWJsZT1GYWxzZQogICAgKQoKCmNsYXNzIFN0Z0JpbGxGZWVJdGVtKEJhc2UpOgogICAgIiIi6LSm5Y2V6LS555So5piO57uG44CCZmVlX2NhdGVnb3J5IOW3suW9kuS4gOWMluWIsOS6lOWkp+exu+OAgiIiIgoKICAgIF9fdGFibGVuYW1lX18gPSAic3RnX2JpbGxfZmVlX2l0ZW1zIgoKICAgIGlkOiBNYXBwZWRbaW50XSA9IG1hcHBlZF9jb2x1bW4ocHJpbWFyeV9rZXk9VHJ1ZSwgYXV0b2luY3JlbWVudD1UcnVlKQogICAgYmlsbF9udW1iZXI6IE1hcHBlZFtzdHJdID0gbWFwcGVkX2NvbHVtbigKICAgICAgICBTdHJpbmcoNjQpLCBGb3JlaWduS2V5KCJzdGdfYmlsbHMuYmlsbF9udW1iZXIiLCBvbmRlbGV0ZT0iQ0FTQ0FERSIpLCBudWxsYWJsZT1GYWxzZQogICAgKQogICAgZmVlX25hbWU6IE1hcHBlZFtzdHJdID0gbWFwcGVkX2NvbHVtbihTdHJpbmcoMTI4KSwgbnVsbGFibGU9RmFsc2UpCiAgICBmZWVfY2F0ZWdvcnk6IE1hcHBlZFtzdHJdID0gbWFwcGVkX2NvbHVtbihTdHJpbmcoMzIpLCBudWxsYWJsZT1GYWxzZSkKICAgIGFtb3VudDogTWFwcGVkW0RlY2ltYWxdID0gbWFwcGVkX2NvbHVtbihOdW1lcmljKDE4LCA0KSwgbnVsbGFibGU9RmFsc2UpCiAgICBjdXJyZW5jeV9jb2RlOiBNYXBwZWRbc3RyXSA9IG1hcHBlZF9jb2x1bW4oQ0hBUigzKSwgbnVsbGFibGU9RmFsc2UpCiAgICByZWxhdGVkX3NrdTogTWFwcGVkW3N0ciB8IE5vbmVdID0gbWFwcGVkX2NvbHVtbihTdHJpbmcoNjQpKQogICAgYmlsbF9tb250aDogTWFwcGVkW3N0cl0gPSBtYXBwZWRfY29sdW1uKENIQVIoNyksIG51bGxhYmxlPUZhbHNlKQogICAgcmF3X2pzb246IE1hcHBlZFtkaWN0IHwgTm9uZV0gPSBtYXBwZWRfY29sdW1uKEpTT05UeXBlKQogICAgc3luY2VkX2F0OiBNYXBwZWRbZGF0ZXRpbWVdID0gbWFwcGVkX2NvbHVtbigKICAgICAgICBEYXRlVGltZSh0aW1lem9uZT1UcnVlKSwgc2VydmVyX2RlZmF1bHQ9ZnVuYy5ub3coKSwgbnVsbGFibGU9RmFsc2UKICAgICkKCgpjbGFzcyBTdGdJbnZlbnRvcnlBZ2UoQmFzZSk6CiAgICAiIiLlupPlrZjlubTpvoTlv6vnhafvvJrml7bngrnmlbDvvIzmjIkgKHNuYXBzaG90X2RhdGUsIHNrdSwgd2FyZWhvdXNlX2NvZGUpIOWUr+S4gOOAgiIiIgoKICAgIF9fdGFibGVuYW1lX18gPSAic3RnX2ludmVudG9yeV9hZ2UiCiAgICBfX3RhYmxlX2FyZ3NfXyA9ICgKICAgICAgICBVbmlxdWVDb25zdHJhaW50KAogICAgICAgICAgICAic25hcHNob3RfZGF0ZSIsICJza3UiLCAid2FyZWhvdXNlX2NvZGUiLCBuYW1lPSJ1a19hZ2Vfc25hcHNob3QiCiAgICAgICAgKSwKICAgICkKCiAgICBpZDogTWFwcGVkW2ludF0gPSBtYXBwZWRfY29sdW1uKHByaW1hcnlfa2V5PVRydWUsIGF1dG9pbmNyZW1lbnQ9VHJ1ZSkKICAgIHNuYXBzaG90X2RhdGU6IE1hcHBlZFtkYXRlXSA9IG1hcHBlZF9jb2x1bW4oRGF0ZSwgbnVsbGFibGU9RmFsc2UpCiAgICBza3U6IE1hcHBlZFtzdHJdID0gbWFwcGVkX2NvbHVtbihTdHJpbmcoNjQpLCBudWxsYWJsZT1GYWxzZSkKICAgIHByb2R1Y3RfbmFtZTogTWFwcGVkW3N0ciB8IE5vbmVdID0gbWFwcGVkX2NvbHVtbihTdHJpbmcoMjU1KSkKICAgIHF1YW50aXR5OiBNYXBwZWRbaW50XSA9IG1hcHBlZF9jb2x1bW4obnVsbGFibGU9RmFsc2UsIGRlZmF1bHQ9MCkKICAgIHdhcmVob3VzZV9hZ2U6IE1hcHBlZFtpbnRdID0gbWFwcGVkX2NvbHVtbihudWxsYWJsZT1GYWxzZSkgICMg5aSpCiAgICBpbmJvdW5kX3RpbWU6IE1hcHBlZFtkYXRldGltZSB8IE5vbmVdID0gbWFwcGVkX2NvbHVtbihEYXRlVGltZSh0aW1lem9uZT1UcnVlKSkKICAgIGFnZV9idWNrZXQ6IE1hcHBlZFtzdHJdID0gbWFwcGVkX2NvbHVtbihTdHJpbmcoMTYpLCBudWxsYWJsZT1GYWxzZSkKICAgIHdhcmVob3VzZV9jb2RlOiBNYXBwZWRbc3RyIHwgTm9uZV0gPSBtYXBwZWRfY29sdW1uKAogICAgICAgIFN0cmluZygzMiksIEZvcmVpZ25LZXkoImRpbV93YXJlaG91c2Uud2FyZWhvdXNlX2NvZGUiLCBvbmRlbGV0ZT0iU0VUIE5VTEwiKQogICAgKQogICAgcmF3X2pzb246IE1hcHBlZFtkaWN0IHwgTm9uZV0gPSBtYXBwZWRfY29sdW1uKEpTT05UeXBlKQogICAgc3luY2VkX2F0OiBNYXBwZWRbZGF0ZXRpbWVdID0gbWFwcGVkX2NvbHVtbigKICAgICAgICBEYXRlVGltZSh0aW1lem9uZT1UcnVlKSwgc2VydmVyX2RlZmF1bHQ9ZnVuYy5ub3coKSwgbnVsbGFibGU9RmFsc2UKICAgICkKCgpjbGFzcyBTdGdJbnZlbnRvcnlTdGF0dXMoQmFzZSk6CiAgICAiIiLlvZPliY3lupPlrZjnirbmgIHlv6vnhafvvJrmjIkgKHNuYXBzaG90X2RhdGUsIHNrdSwgd2FyZWhvdXNlX2NvZGUpIOWUr+S4gOOAgiIiIgoKICAgIF9fdGFibGVuYW1lX18gPSAic3RnX2ludmVudG9yeV9zdGF0dXMiCiAgICBfX3RhYmxlX2FyZ3NfXyA9ICgKICAgICAgICBVbmlxdWVDb25zdHJhaW50KAogICAgICAgICAgICAic25hcHNob3RfZGF0ZSIsICJza3UiLCAid2FyZWhvdXNlX2NvZGUiLCBuYW1lPSJ1a19zdGF0dXNfc25hcHNob3QiCiAgICAgICAgKSwKICAgICkKCiAgICBpZDogTWFwcGVkW2ludF0gPSBtYXBwZWRfY29sdW1uKHByaW1hcnlfa2V5PVRydWUsIGF1dG9pbmNyZW1lbnQ9VHJ1ZSkKICAgIHNuYXBzaG90X2RhdGU6IE1hcHBlZFtkYXRlXSA9IG1hcHBlZF9jb2x1bW4oRGF0ZSwgbnVsbGFibGU9RmFsc2UpCiAgICBza3U6IE1hcHBlZFtzdHJdID0gbWFwcGVkX2NvbHVtbihTdHJpbmcoNjQpLCBudWxsYWJsZT1GYWxzZSkKICAgIHNlbGxhYmxlOiBNYXBwZWRbaW50XSA9IG1hcHBlZF9jb2x1bW4obnVsbGFibGU9RmFsc2UsIGRlZmF1bHQ9MCkKICAgIHVuc2VsbGFibGU6IE1hcHBlZFtpbnRdID0gbWFwcGVkX2NvbHVtbihudWxsYWJsZT1GYWxzZSwgZGVmYXVsdD0wKQogICAgcmVzZXJ2ZWQ6IE1hcHBlZFtpbnRdID0gbWFwcGVkX2NvbHVtbihudWxsYWJsZT1GYWxzZSwgZGVmYXVsdD0wKQogICAgb253YXk6IE1hcHBlZFtpbnRdID0gbWFwcGVkX2NvbHVtbihudWxsYWJsZT1GYWxzZSwgZGVmYXVsdD0wKQogICAgd2FyZWhvdXNlX2NvZGU6IE1hcHBlZFtzdHIgfCBOb25lXSA9IG1hcHBlZF9jb2x1bW4oCiAgICAgICAgU3RyaW5nKDMyKSwgRm9yZWlnbktleSgiZGltX3dhcmVob3VzZS53YXJlaG91c2VfY29kZSIsIG9uZGVsZXRlPSJTRVQgTlVMTCIpCiAgICApCiAgICByYXdfanNvbjogTWFwcGVkW2RpY3QgfCBOb25lXSA9IG1hcHBlZF9jb2x1bW4oSlNPTlR5cGUpCiAgICBzeW5jZWRfYXQ6IE1hcHBlZFtkYXRldGltZV0gPSBtYXBwZWRfY29sdW1uKAogICAgICAgIERhdGVUaW1lKHRpbWV6b25lPVRydWUpLCBzZXJ2ZXJfZGVmYXVsdD1mdW5jLm5vdygpLCBudWxsYWJsZT1GYWxzZQogICAgKQ==
+"""原始层（stg_*）：直接来自 GoodCang API 的数据，含原始报文。
+
+- stg_bills                : 月度账单主表（来源 billing_list）
+- stg_bill_fee_items       : 账单费用明细（来源 billing_export）
+- stg_inventory_age        : 库存年龄快照（来源 inventory_age_list）
+- stg_inventory_status     : 当前库存状态快照（来源 get_product_inventory）
+
+幂等策略：
+- 账单：UPSERT by bill_number
+- 库存：UPSERT by (snapshot_date, sku, warehouse_code)
+"""
+from __future__ import annotations
+
+from datetime import date, datetime
+from decimal import Decimal
+
+from sqlalchemy import CHAR, Date, DateTime, ForeignKey, JSON, Numeric, String, UniqueConstraint, func
+from sqlalchemy.dialects.postgresql import JSONB
+from sqlalchemy.orm import Mapped, mapped_column
+
+from app.core.database import Base
+
+
+# 用 JSONB（PostgreSQL 专属），更高效；非 PG 环境自动 fallback 到 JSON。
+JSONType = JSONB().with_variant(JSON(), "sqlite")
+
+
+class StgBill(Base):
+    """月度账单主表。"""
+
+    __tablename__ = "stg_bills"
+    __table_args__ = (UniqueConstraint("bill_number", name="uk_stg_bills_number"),)
+
+    id: Mapped[int] = mapped_column(primary_key=True, autoincrement=True)
+    bill_number: Mapped[str] = mapped_column(String(64), nullable=False)
+    account_code: Mapped[str | None] = mapped_column(String(64))
+    bill_from_time: Mapped[datetime] = mapped_column(DateTime(timezone=True), nullable=False)
+    bill_to_time: Mapped[datetime] = mapped_column(DateTime(timezone=True), nullable=False)
+    bill_month: Mapped[str] = mapped_column(CHAR(7), nullable=False)  # YYYY-MM
+    all_total: Mapped[Decimal] = mapped_column(Numeric(18, 4), nullable=False)
+    currency_code: Mapped[str] = mapped_column(CHAR(3), nullable=False)
+    warehouse_code: Mapped[str | None] = mapped_column(
+        String(32), ForeignKey("dim_warehouse.warehouse_code", ondelete="SET NULL")
+    )
+    raw_json: Mapped[dict | None] = mapped_column(JSONType)
+    synced_at: Mapped[datetime] = mapped_column(
+        DateTime(timezone=True), server_default=func.now(), nullable=False
+    )
+
+
+class StgBillFeeItem(Base):
+    """账单费用明细。fee_category 已归一化到五大类。"""
+
+    __tablename__ = "stg_bill_fee_items"
+
+    id: Mapped[int] = mapped_column(primary_key=True, autoincrement=True)
+    bill_number: Mapped[str] = mapped_column(
+        String(64), ForeignKey("stg_bills.bill_number", ondelete="CASCADE"), nullable=False
+    )
+    fee_name: Mapped[str] = mapped_column(String(128), nullable=False)
+    fee_category: Mapped[str] = mapped_column(String(32), nullable=False)
+    amount: Mapped[Decimal] = mapped_column(Numeric(18, 4), nullable=False)
+    currency_code: Mapped[str] = mapped_column(CHAR(3), nullable=False)
+    related_sku: Mapped[str | None] = mapped_column(String(64))
+    bill_month: Mapped[str] = mapped_column(CHAR(7), nullable=False)
+    raw_json: Mapped[dict | None] = mapped_column(JSONType)
+    synced_at: Mapped[datetime] = mapped_column(
+        DateTime(timezone=True), server_default=func.now(), nullable=False
+    )
+
+
+class StgInventoryAge(Base):
+    """库存年龄快照：时点数，按 (snapshot_date, sku, warehouse_code) 唯一。"""
+
+    __tablename__ = "stg_inventory_age"
+    __table_args__ = (
+        UniqueConstraint(
+            "snapshot_date", "sku", "warehouse_code", name="uk_age_snapshot"
+        ),
+    )
+
+    id: Mapped[int] = mapped_column(primary_key=True, autoincrement=True)
+    snapshot_date: Mapped[date] = mapped_column(Date, nullable=False)
+    sku: Mapped[str] = mapped_column(String(64), nullable=False)
+    product_name: Mapped[str | None] = mapped_column(String(255))
+    quantity: Mapped[int] = mapped_column(nullable=False, default=0)
+    warehouse_age: Mapped[int] = mapped_column(nullable=False)  # 天
+    inbound_time: Mapped[datetime | None] = mapped_column(DateTime(timezone=True))
+    age_bucket: Mapped[str] = mapped_column(String(16), nullable=False)
+    warehouse_code: Mapped[str | None] = mapped_column(
+        String(32), ForeignKey("dim_warehouse.warehouse_code", ondelete="SET NULL")
+    )
+    raw_json: Mapped[dict | None] = mapped_column(JSONType)
+    synced_at: Mapped[datetime] = mapped_column(
+        DateTime(timezone=True), server_default=func.now(), nullable=False
+    )
+
+
+class StgInventoryStatus(Base):
+    """当前库存状态快照：按 (snapshot_date, sku, warehouse_code) 唯一。"""
+
+    __tablename__ = "stg_inventory_status"
+    __table_args__ = (
+        UniqueConstraint(
+            "snapshot_date", "sku", "warehouse_code", name="uk_status_snapshot"
+        ),
+    )
+
+    id: Mapped[int] = mapped_column(primary_key=True, autoincrement=True)
+    snapshot_date: Mapped[date] = mapped_column(Date, nullable=False)
+    sku: Mapped[str] = mapped_column(String(64), nullable=False)
+    sellable: Mapped[int] = mapped_column(nullable=False, default=0)
+    unsellable: Mapped[int] = mapped_column(nullable=False, default=0)
+    reserved: Mapped[int] = mapped_column(nullable=False, default=0)
+    onway: Mapped[int] = mapped_column(nullable=False, default=0)
+    warehouse_code: Mapped[str | None] = mapped_column(
+        String(32), ForeignKey("dim_warehouse.warehouse_code", ondelete="SET NULL")
+    )
+    raw_json: Mapped[dict | None] = mapped_column(JSONType)
+    synced_at: Mapped[datetime] = mapped_column(
+        DateTime(timezone=True), server_default=func.now(), nullable=False
+    )

@@ -1,1 +1,39 @@
-IiIi6LC35LuTIEdvb2RDYW5nIE9wZW4gUGxhdGZvcm0g6L+e5o6l5Zmo44CCCgrmqKHlnZfnu5PmnoTvvJoKLSBjbGllbnQgICAgOiDlupXlsYIgSFRUUCDlrqLmiLfnq6/vvIhIVFRQIEhlYWRlciDpibTmnYPjgIHnu5/kuIAgUE9TVCArIEpTT07jgIHotoXml7bjgIHph43or5XvvIkKLSBzY2hlbWFzICAgOiDlm5vkuKrmjqXlj6PnmoTor7fmsYIv5ZON5bqUIFB5ZGFudGljIOaooeWeiwotIGVuZHBvaW50cyA6IOWbm+S4quaOpeWPo+eahOmrmOWxguaWueazle+8iOW4pue7k+aehOWMlui/lOWbnu+8iQoK5omA5pyJ5pa55rOV6YO95pivIGFzeW5j77yM5LiU5aSx6LSl5Lya5oyJ6YWN572u6Ieq5Yqo6YeN6K+V77yINXh4IOinpuWPke+8jDR4eCDkuI3ph43or5XvvInjgIIKIiIiCmZyb20gYXBwLmNvbm5lY3RvcnMuZ29vZGNhbmcuY2xpZW50IGltcG9ydCBHb29kQ2FuZ0FQSUVycm9yLCBHb29kQ2FuZ0NsaWVudApmcm9tIGFwcC5jb25uZWN0b3JzLmdvb2RjYW5nLmVuZHBvaW50cyBpbXBvcnQgR29vZENhbmdFbmRwb2ludHMKZnJvbSBhcHAuY29ubmVjdG9ycy5nb29kY2FuZy5zY2hlbWFzIGltcG9ydCAoCiAgICBCaWxsSXRlbSwKICAgIEJpbGxpbmdFeHBvcnRSZXF1ZXN0LAogICAgQmlsbGluZ0xpc3REYXRhLAogICAgQmlsbGluZ0xpc3RSZXF1ZXN0LAogICAgSW52ZW50b3J5QWdlSXRlbSwKICAgIEludmVudG9yeUFnZUxpc3REYXRhLAogICAgSW52ZW50b3J5QWdlTGlzdFJlcXVlc3QsCiAgICBQcm9kdWN0SW52ZW50b3J5RGF0YSwKICAgIFByb2R1Y3RJbnZlbnRvcnlJdGVtLAogICAgUHJvZHVjdEludmVudG9yeVJlcXVlc3QsCikKCl9fYWxsX18gPSBbCiAgICAiR29vZENhbmdDbGllbnQiLAogICAgIkdvb2RDYW5nQVBJRXJyb3IiLAogICAgIkdvb2RDYW5nRW5kcG9pbnRzIiwKICAgICJCaWxsSXRlbSIsCiAgICAiQmlsbGluZ0xpc3RSZXF1ZXN0IiwKICAgICJCaWxsaW5nTGlzdERhdGEiLAogICAgIkJpbGxpbmdFeHBvcnRSZXF1ZXN0IiwKICAgICJJbnZlbnRvcnlBZ2VJdGVtIiwKICAgICJJbnZlbnRvcnlBZ2VMaXN0UmVxdWVzdCIsCiAgICAiSW52ZW50b3J5QWdlTGlzdERhdGEiLAogICAgIlByb2R1Y3RJbnZlbnRvcnlJdGVtIiwKICAgICJQcm9kdWN0SW52ZW50b3J5UmVxdWVzdCIsCiAgICAiUHJvZHVjdEludmVudG9yeURhdGEiLApdCg==
+"""谷仓 GoodCang Open Platform 连接器。
+
+模块结构：
+- client    : 底层 HTTP 客户端（HTTP Header 鉴权、统一 POST + JSON、超时、重试）
+- schemas   : 四个接口的请求/响应 Pydantic 模型
+- endpoints : 四个接口的高层方法（带结构化返回）
+
+所有方法都是 async，且失败会按配置自动重试（5xx 触发，4xx 不重试）。
+"""
+from app.connectors.goodcang.client import GoodCangAPIError, GoodCangClient
+from app.connectors.goodcang.endpoints import GoodCangEndpoints
+from app.connectors.goodcang.schemas import (
+    BillItem,
+    BillingExportRequest,
+    BillingListData,
+    BillingListRequest,
+    InventoryAgeItem,
+    InventoryAgeListData,
+    InventoryAgeListRequest,
+    ProductInventoryData,
+    ProductInventoryItem,
+    ProductInventoryRequest,
+)
+
+__all__ = [
+    "GoodCangClient",
+    "GoodCangAPIError",
+    "GoodCangEndpoints",
+    "BillItem",
+    "BillingListRequest",
+    "BillingListData",
+    "BillingExportRequest",
+    "InventoryAgeItem",
+    "InventoryAgeListRequest",
+    "InventoryAgeListData",
+    "ProductInventoryItem",
+    "ProductInventoryRequest",
+    "ProductInventoryData",
+]

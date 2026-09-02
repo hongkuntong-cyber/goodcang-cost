@@ -1,1 +1,274 @@
-IiIi56a757q/5rWL6K+V77ya55SoIGh0dHB4IE1vY2tUcmFuc3BvcnQg5oum5oiqIDQg5Liq5o6l5Y+j77yM6aqM6K+BIGhlYWRlciDpibTmnYMgKyBQT1NUICsgSlNPTiBib2R544CCCgrkuI3kvp3otZblpJbnvZHkuI7nnJ/lrp7lh63mja7vvIzov5DooYznqLPlrprjgILpqozor4HvvJoKMS4g5q+P5qyh6K+35rGC6YO95bimIGFwcC10b2tlbiAvIGFwcC1rZXkgaGVhZGVyCjIuIOe7n+S4gOi1sCBQT1NUICsgSlNPTiBib2R5CjMuIOi3r+W+hOS4uiAvcHVibGljX29wZW4vLi4uCjQuIOS4muWKoSBjb2RlICE9IDAg5oqbIEdvb2RDYW5nQVBJRXJyb3IKNS4gNHh4IOeri+WNs+aKm+S4muWKoeW8guW4uO+8jOS4jemHjeivlQoiIiIKZnJvbSBfX2Z1dHVyZV9fIGltcG9ydCBhbm5vdGF0aW9ucwoKaW1wb3J0IGpzb24KCmltcG9ydCBodHRweAppbXBvcnQgcHl0ZXN0Cgpmcm9tIGFwcC5jb25uZWN0b3JzLmdvb2RjYW5nIGltcG9ydCAoCiAgICBCaWxsaW5nRXhwb3J0UmVxdWVzdCwKICAgIEJpbGxpbmdMaXN0UmVxdWVzdCwKICAgIEdvb2RDYW5nQ2xpZW50LAogICAgR29vZENhbmdFbmRwb2ludHMsCiAgICBJbnZlbnRvcnlBZ2VMaXN0UmVxdWVzdCwKICAgIFByb2R1Y3RJbnZlbnRvcnlSZXF1ZXN0LAopCgoKZGVmIF9vayhwYXlsb2FkKToKICAgICIiIuaehOmAoOiwt+S7kyBWMiDpo47moLzmiJDlip/lk43lupTjgIIiIiIKICAgIHJldHVybiBodHRweC5SZXNwb25zZSgyMDAsIGpzb249eyJjb2RlIjogMCwgIm1lc3NhZ2UiOiAib2siLCAiZGF0YSI6IHBheWxvYWR9KQoKCmRlZiBfbWFrZV9tb2NrX2NsaWVudCgpIC0+IHR1cGxlW0dvb2RDYW5nQ2xpZW50LCBsaXN0W2RpY3RdXToKICAgICIiIuaehOmAoOaKiiBodHRweCDmi6bmiKrkuLogTW9ja1RyYW5zcG9ydCDnmoQgR29vZENhbmdDbGllbnTjgIIiIiIKICAgIGNhcHR1cmVkOiBsaXN0W2RpY3RdID0gW10KCiAgICBkZWYgaGFuZGxlcihyZXF1ZXN0OiBodHRweC5SZXF1ZXN0KSAtPiBodHRweC5SZXNwb25zZToKICAgICAgICAjIFBPU1Qg5b2i5oCB77yaYm9keSDmmK8gSlNPTu+8m2hlYWRlciDlkKsgYXBwLXRva2VuL2FwcC1rZXkKICAgICAgICBib2R5OiBkaWN0ID0ge30KICAgICAgICBpZiByZXF1ZXN0LmNvbnRlbnQ6CiAgICAgICAgICAgIHRyeToKICAgICAgICAgICAgICAgIGJvZHkgPSBqc29uLmxvYWRzKHJlcXVlc3QuY29udGVudC5kZWNvZGUoInV0Zi04IikpCiAgICAgICAgICAgIGV4Y2VwdCBFeGNlcHRpb246ICAjIG5vcWE6IEJMRTAwMQogICAgICAgICAgICAgICAgYm9keSA9IHt9CiAgICAgICAgY2FwdHVyZWQuYXBwZW5kKHsKICAgICAgICAgICAgInVybCI6IHN0cihyZXF1ZXN0LnVybCksCiAgICAgICAgICAgICJtZXRob2QiOiByZXF1ZXN0Lm1ldGhvZCwKICAgICAgICAgICAgImhlYWRlcnMiOiB7ay5sb3dlcigpOiB2IGZvciBrLCB2IGluIHJlcXVlc3QuaGVhZGVycy5pdGVtcygpfSwKICAgICAgICAgICAgImJvZHkiOiBib2R5LAogICAgICAgIH0pCgogICAgICAgIHVybCA9IHN0cihyZXF1ZXN0LnVybCkKICAgICAgICBpZiAiL3B1YmxpY19vcGVuL2ZpbmFuY2UvYmlsbGluZ19saXN0IiBpbiB1cmw6CiAgICAgICAgICAgIHJldHVybiBfb2soewogICAgICAgICAgICAgICAgImxpc3QiOiBbewogICAgICAgICAgICAgICAgICAgICJiaWxsX251bWJlciI6ICJCMjAyNjA4MDEiLAogICAgICAgICAgICAgICAgICAgICJhY2NvdW50X2NvZGUiOiAiQUNDMSIsCiAgICAgICAgICAgICAgICAgICAgImJpbGxfZnJvbV90aW1lIjogIjIwMjYtMDgtMDEgMDA6MDA6MDAiLAogICAgICAgICAgICAgICAgICAgICJiaWxsX3RvX3RpbWUiOiAiMjAyNi0wOC0zMSAyMzo1OTo1OSIsCiAgICAgICAgICAgICAgICAgICAgImFsbF90b3RhbCI6IHsiYmFsYW5jZSI6ICIxMjM0LjU2IiwgImN1cnJlbmN5X2NvZGUiOiAiRVVSIn0sCiAgICAgICAgICAgICAgICAgICAgIndhcmVob3VzZV9jb2RlIjogIkRFMSIsCiAgICAgICAgICAgICAgICB9XSwKICAgICAgICAgICAgICAgICJ0b3RhbCI6IDEsCiAgICAgICAgICAgIH0pCiAgICAgICAgaWYgIi9wdWJsaWNfb3Blbi9maW5hbmNlL2JpbGxpbmdfZXhwb3J0IiBpbiB1cmw6CiAgICAgICAgICAgIHJldHVybiBfb2soIkJBU0U2NEZJTEVDT05URU5UPT0iKQogICAgICAgIGlmICIvcHVibGljX29wZW4vaW52ZW50b3J5L2ludmVudG9yeV9hZ2VfbGlzdCIgaW4gdXJsOgogICAgICAgICAgICByZXR1cm4gX29rKHsKICAgICAgICAgICAgICAgICJsaXN0IjogW3sKICAgICAgICAgICAgICAgICAgICAid2FyZWhvdXNlX2NvZGUiOiAiREUxIiwKICAgICAgICAgICAgICAgICAgICAicHJvZHVjdF9za3UiOiAiU0tVMSIsCiAgICAgICAgICAgICAgICAgICAgImxiYV9xdWFudGl0eSI6IDEwLAogICAgICAgICAgICAgICAgICAgICJsYmFfZmlmb190aW1lIjogIjIwMjUtMDgtMDEiLAogICAgICAgICAgICAgICAgICAgICJsYmFfd2FybmluZ19hZ2UiOiAzMCwKICAgICAgICAgICAgICAgICAgICAicHJvZHVjdF90aXRsZSI6ICLllYblk4ExIiwKICAgICAgICAgICAgICAgICAgICAicHJvZHVjdF90aXRsZV9lbiI6ICJQcm9kdWN0IDEiLAogICAgICAgICAgICAgICAgICAgICJ3YXJlaG91c2VfZGVzYyI6ICLlvrflm73ku5MiLAogICAgICAgICAgICAgICAgICAgICJ3YXJlaG91c2VfYWdlIjogNDAwLAogICAgICAgICAgICAgICAgICAgICJleHBpcmF0aW9uX2RhdGUiOiAiMjAyNy0wMS0wMSIsCiAgICAgICAgICAgICAgICB9XSwKICAgICAgICAgICAgICAgICJ0b3RhbCI6IDEsCiAgICAgICAgICAgIH0pCiAgICAgICAgaWYgIi9wdWJsaWNfb3Blbi9pbnZlbnRvcnkvZ2V0X3Byb2R1Y3RfaW52ZW50b3J5IiBpbiB1cmw6CiAgICAgICAgICAgIHJldHVybiBfb2soewogICAgICAgICAgICAgICAgImxpc3QiOiBbewogICAgICAgICAgICAgICAgICAgICJ3YXJlaG91c2VfY29kZSI6ICJERTEiLAogICAgICAgICAgICAgICAgICAgICJ3YXJlaG91c2VfZGVzYyI6ICLlvrflm73ku5MiLAogICAgICAgICAgICAgICAgICAgICJwcm9kdWN0X3NrdSI6ICJTS1UxIiwKICAgICAgICAgICAgICAgICAgICAicHJvZHVjdF90aXRsZSI6ICLllYblk4ExIiwKICAgICAgICAgICAgICAgICAgICAidG90YWxfb253YXkiOiAyMCwKICAgICAgICAgICAgICAgICAgICAidHJhbnNmZXJfb253YXkiOiA1LAogICAgICAgICAgICAgICAgICAgICJvbndheSI6IDEyLAogICAgICAgICAgICAgICAgICAgICJwZW5kaW5nIjogMSwKICAgICAgICAgICAgICAgICAgICAic2VsbGFibGUiOiAxMDAsCiAgICAgICAgICAgICAgICAgICAgInVuc2VsbGFibGUiOiA1LAogICAgICAgICAgICAgICAgICAgICJyZXNlcnZlZCI6IDMsCiAgICAgICAgICAgICAgICAgICAgInBpX3VuYXZhaWxhYmxlX3Jlc2VydmVkIjogMCwKICAgICAgICAgICAgICAgICAgICAic2hpcHBlZCI6IDcsCiAgICAgICAgICAgICAgICAgICAgInBpX3VuYXZhaWxhYmxlX3NoaXBwZWQiOiAwLAogICAgICAgICAgICAgICAgICAgICJwaV9mcmVlemUiOiAwLAogICAgICAgICAgICAgICAgICAgICJwcm9kdWN0X2ZyZWV6ZV9zdGF0dXMiOiAiMSIsCiAgICAgICAgICAgICAgICAgICAgInByb2R1Y3RfZnJlZXplX3N0YXR1c190ZXh0IjogIuato+W4uCIsCiAgICAgICAgICAgICAgICAgICAgInBpX3dhcm5pbmdfcXR5IjogMTAsCiAgICAgICAgICAgICAgICAgICAgInBpX25vX3N0b2NrIjogMCwKICAgICAgICAgICAgICAgICAgICAic3RvY2tpbmciOiAwLAogICAgICAgICAgICAgICAgfV0sCiAgICAgICAgICAgICAgICAiY291bnQiOiAxLAogICAgICAgICAgICAgICAgInRvdGFsIjogMSwKICAgICAgICAgICAgfSkKICAgICAgICByZXR1cm4gaHR0cHguUmVzcG9uc2UoNDA0LCBqc29uPXsiY29kZSI6IDQwNCwgIm1lc3NhZ2UiOiAidW5rbm93biBwYXRoIn0pCgogICAgdHJhbnNwb3J0ID0gaHR0cHguTW9ja1RyYW5zcG9ydChoYW5kbGVyKQogICAgY2xpZW50ID0gR29vZENhbmdDbGllbnQoKQogICAgIyDnm7TmjqXorr7lhoXpg6ggX2NsaWVudCDot7Pov4cgYXN5bmMgd2l0aO+8iOa1i+ivleeUqO+8iQogICAgY2xpZW50Ll9jbGllbnQgPSBodHRweC5Bc3luY0NsaWVudCh0cmFuc3BvcnQ9dHJhbnNwb3J0LCB0aW1lb3V0PWNsaWVudC50aW1lb3V0KSAgIyBub3FhOiBTTEYwMDEKICAgIHJldHVybiBjbGllbnQsIGNhcHR1cmVkCgoKcHl0ZXN0bWFyayA9IHB5dGVzdC5tYXJrLmFzeW5jaW8KCgojIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQojIDEuIEhlYWRlciDpibTmnYPpqozor4EKIyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KYXN5bmMgZGVmIHRlc3RfYXBwX3Rva2VuX2FuZF9hcHBfa2V5X2luX2hlYWRlcnMoKToKICAgICIiIuavj+asoeivt+axgumDveiHquWKqOazqOWFpSBhcHAtdG9rZW4gKyBhcHAta2V5IGhlYWRlcuOAgiIiIgogICAgY2xpZW50LCBjYXB0dXJlZCA9IF9tYWtlX21vY2tfY2xpZW50KCkKICAgIHRyeToKICAgICAgICBlcCA9IEdvb2RDYW5nRW5kcG9pbnRzKGNsaWVudCkKICAgICAgICBhd2FpdCBlcC5iaWxsaW5nX2xpc3QoQmlsbGluZ0xpc3RSZXF1ZXN0KGFjY291bnRfY29kZT0iQUNDMSIpKQogICAgZmluYWxseToKICAgICAgICBhd2FpdCBjbGllbnQuX2NsaWVudC5hY2xvc2UoKSAgIyBub3FhOiBTTEYwMDEKCiAgICBhc3NlcnQgY2FwdHVyZWRbMF1bImhlYWRlcnMiXS5nZXQoImFwcC10b2tlbiIpID09IGNsaWVudC5hcHBfdG9rZW4KICAgIGFzc2VydCBjYXB0dXJlZFswXVsiaGVhZGVycyJdLmdldCgiYXBwLWtleSIpID09IGNsaWVudC5hcHBfa2V5CiAgICBhc3NlcnQgY2FwdHVyZWRbMF1bImhlYWRlcnMiXS5nZXQoImNvbnRlbnQtdHlwZSIpID09ICJhcHBsaWNhdGlvbi9qc29uIgoKCiMgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCiMgMi4gYmlsbGluZ19saXN0CiMgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCmFzeW5jIGRlZiB0ZXN0X2JpbGxpbmdfbGlzdF91c2VzX3Bvc3RfYW5kX2NvcnJlY3RfcGF0aCgpOgogICAgY2xpZW50LCBjYXB0dXJlZCA9IF9tYWtlX21vY2tfY2xpZW50KCkKICAgIHRyeToKICAgICAgICBlcCA9IEdvb2RDYW5nRW5kcG9pbnRzKGNsaWVudCkKICAgICAgICByZXNwID0gYXdhaXQgZXAuYmlsbGluZ19saXN0KEJpbGxpbmdMaXN0UmVxdWVzdCgKICAgICAgICAgICAgYWNjb3VudF9jb2RlPSJBQ0MxIiwKICAgICAgICAgICAgYmVnaW5fYmlsbF90b190aW1lPSIyMDI2LTA4LTAxIDAwOjAwOjAwIiwKICAgICAgICAgICAgZW5kX2JpbGxfdG9fdGltZT0iMjAyNi0wOC0zMSAyMzo1OTo1OSIsCiAgICAgICAgKSkKICAgIGZpbmFsbHk6CiAgICAgICAgYXdhaXQgY2xpZW50Ll9jbGllbnQuYWNsb3NlKCkgICMgbm9xYTogU0xGMDAxCgogICAgYXNzZXJ0IGNhcHR1cmVkWzBdWyJtZXRob2QiXSA9PSAiUE9TVCIKICAgIGFzc2VydCAiL3B1YmxpY19vcGVuL2ZpbmFuY2UvYmlsbGluZ19saXN0IiBpbiBjYXB0dXJlZFswXVsidXJsIl0KICAgIGFzc2VydCBjYXB0dXJlZFswXVsiYm9keSJdWyJhY2NvdW50X2NvZGUiXSA9PSAiQUNDMSIKICAgICMg5ZON5bqUIFYyIOe7k+aehO+8mmRhdGEubGlzdFtdCiAgICBhc3NlcnQgcmVzcFsiZGF0YSJdWyJsaXN0Il1bMF1bImJpbGxfbnVtYmVyIl0gPT0gIkIyMDI2MDgwMSIKCgojIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQojIDMuIGJpbGxpbmdfZXhwb3J0IChiYXNlNjQgZmlsZSkKIyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KYXN5bmMgZGVmIHRlc3RfYmlsbGluZ19leHBvcnRfcmV0dXJuc19iYXNlNjRfc3RyaW5nKCk6CiAgICBjbGllbnQsIGNhcHR1cmVkID0gX21ha2VfbW9ja19jbGllbnQoKQogICAgdHJ5OgogICAgICAgIGVwID0gR29vZENhbmdFbmRwb2ludHMoY2xpZW50KQogICAgICAgIHJlc3AgPSBhd2FpdCBlcC5iaWxsaW5nX2V4cG9ydChCaWxsaW5nRXhwb3J0UmVxdWVzdCgKICAgICAgICAgICAgYmlsbF9udW1iZXJfbGlzdD1bIkIyMDI2MDgwMSJdCiAgICAgICAgKSkKICAgIGZpbmFsbHk6CiAgICAgICAgYXdhaXQgY2xpZW50Ll9jbGllbnQuYWNsb3NlKCkgICMgbm9xYTogU0xGMDAxCgogICAgYXNzZXJ0IGNhcHR1cmVkWzBdWyJtZXRob2QiXSA9PSAiUE9TVCIKICAgIGFzc2VydCAiL3B1YmxpY19vcGVuL2ZpbmFuY2UvYmlsbGluZ19leHBvcnQiIGluIGNhcHR1cmVkWzBdWyJ1cmwiXQogICAgYXNzZXJ0IHJlc3BbImRhdGEiXSA9PSAiQkFTRTY0RklMRUNPTlRFTlQ9PSIKCgojIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQojIDQuIGludmVudG9yeV9hZ2VfbGlzdAojIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQphc3luYyBkZWYgdGVzdF9pbnZlbnRvcnlfYWdlX2xpc3RfdXNlc19wb3N0X2FuZF9jb3JyZWN0X3BhdGgoKToKICAgIGNsaWVudCwgY2FwdHVyZWQgPSBfbWFrZV9tb2NrX2NsaWVudCgpCiAgICB0cnk6CiAgICAgICAgZXAgPSBHb29kQ2FuZ0VuZHBvaW50cyhjbGllbnQpCiAgICAgICAgcmVzcCA9IGF3YWl0IGVwLmludmVudG9yeV9hZ2VfbGlzdChJbnZlbnRvcnlBZ2VMaXN0UmVxdWVzdCgKICAgICAgICAgICAgd2FyZWhvdXNlX2NvZGU9IkRFMSIKICAgICAgICApKQogICAgZmluYWxseToKICAgICAgICBhd2FpdCBjbGllbnQuX2NsaWVudC5hY2xvc2UoKSAgIyBub3FhOiBTTEYwMDEKCiAgICBhc3NlcnQgY2FwdHVyZWRbMF1bIm1ldGhvZCJdID09ICJQT1NUIgogICAgYXNzZXJ0ICIvcHVibGljX29wZW4vaW52ZW50b3J5L2ludmVudG9yeV9hZ2VfbGlzdCIgaW4gY2FwdHVyZWRbMF1bInVybCJdCiAgICBhc3NlcnQgY2FwdHVyZWRbMF1bImJvZHkiXVsid2FyZWhvdXNlX2NvZGUiXSA9PSAiREUxIgogICAgYXNzZXJ0IHJlc3BbImRhdGEiXVsibGlzdCJdWzBdWyJ3YXJlaG91c2VfYWdlIl0gPT0gNDAwCiAgICBhc3NlcnQgcmVzcFsiZGF0YSJdWyJsaXN0Il1bMF1bInByb2R1Y3Rfc2t1Il0gPT0gIlNLVTEiCgoKIyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KIyA1LiBnZXRfcHJvZHVjdF9pbnZlbnRvcnkKIyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KYXN5bmMgZGVmIHRlc3RfcHJvZHVjdF9pbnZlbnRvcnlfdXNlc19wb3N0X2FuZF9wYWdlU2l6ZV9jYW1lbCgpOgogICAgY2xpZW50LCBjYXB0dXJlZCA9IF9tYWtlX21vY2tfY2xpZW50KCkKICAgIHRyeToKICAgICAgICBlcCA9IEdvb2RDYW5nRW5kcG9pbnRzKGNsaWVudCkKICAgICAgICByZXNwID0gYXdhaXQgZXAucHJvZHVjdF9pbnZlbnRvcnkoUHJvZHVjdEludmVudG9yeVJlcXVlc3QoCiAgICAgICAgICAgIHdhcmVob3VzZV9jb2RlPSJERTEiCiAgICAgICAgKSkKICAgIGZpbmFsbHk6CiAgICAgICAgYXdhaXQgY2xpZW50Ll9jbGllbnQuYWNsb3NlKCkgICMgbm9xYTogU0xGMDAxCgogICAgYXNzZXJ0IGNhcHR1cmVkWzBdWyJtZXRob2QiXSA9PSAiUE9TVCIKICAgIGFzc2VydCAiL3B1YmxpY19vcGVuL2ludmVudG9yeS9nZXRfcHJvZHVjdF9pbnZlbnRvcnkiIGluIGNhcHR1cmVkWzBdWyJ1cmwiXQogICAgIyBwYWdlU2l6ZSDmmK/pqbzls7Dlkb3lkI3vvIjkuI3mmK8gcGFnZV9zaXpl77yJCiAgICBhc3NlcnQgInBhZ2VTaXplIiBpbiBjYXB0dXJlZFswXVsiYm9keSJdCiAgICBhc3NlcnQgcmVzcFsiZGF0YSJdWyJsaXN0Il1bMF1bInNlbGxhYmxlIl0gPT0gMTAwCiAgICBhc3NlcnQgcmVzcFsiZGF0YSJdWyJsaXN0Il1bMF1bIm9ud2F5Il0gPT0gMTIKICAgIGFzc2VydCByZXNwWyJkYXRhIl1bImxpc3QiXVswXVsicGlfZnJlZXplIl0gPT0gMAoKCiMgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCiMgNi4g5Lia5Yqh6ZSZ6K+v5ZON5bqUCiMgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCmFzeW5jIGRlZiB0ZXN0X2Jpel9lcnJvcl9yYWlzZXMoKToKICAgICIiIuS4muWKoei/lOWbniBjb2RlICE9IDAg5bqU5b2T5oqbIEdvb2RDYW5nQVBJRXJyb3LjgIIiIiIKICAgIGRlZiBoYW5kbGVyKHJlcXVlc3QpOgogICAgICAgIHJldHVybiBodHRweC5SZXNwb25zZSgyMDAsIGpzb249eyJjb2RlIjogOTk5LCAibWVzc2FnZSI6ICJiaXogZmFpbGVkIiwgImRhdGEiOiBOb25lfSkKCiAgICBjbGllbnQgPSBHb29kQ2FuZ0NsaWVudCgpCiAgICBjbGllbnQuX2NsaWVudCA9IGh0dHB4LkFzeW5jQ2xpZW50KHRyYW5zcG9ydD1odHRweC5Nb2NrVHJhbnNwb3J0KGhhbmRsZXIpLCB0aW1lb3V0PWNsaWVudC50aW1lb3V0KSAgIyBub3FhOiBTTEYwMDEKICAgIHRyeToKICAgICAgICBmcm9tIGFwcC5jb25uZWN0b3JzLmdvb2RjYW5nLmNsaWVudCBpbXBvcnQgR29vZENhbmdBUElFcnJvcgogICAgICAgIGVwID0gR29vZENhbmdFbmRwb2ludHMoY2xpZW50KQogICAgICAgIHdpdGggcHl0ZXN0LnJhaXNlcyhHb29kQ2FuZ0FQSUVycm9yKToKICAgICAgICAgICAgYXdhaXQgZXAuYmlsbGluZ19saXN0KEJpbGxpbmdMaXN0UmVxdWVzdChhY2NvdW50X2NvZGU9IkFDQzEiKSkKICAgIGZpbmFsbHk6CiAgICAgICAgYXdhaXQgY2xpZW50Ll9jbGllbnQuYWNsb3NlKCkgICMgbm9xYTogU0xGMDAxCgoKIyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KIyA3LiA0eHggSFRUUCDplJnor68KIyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KYXN5bmMgZGVmIHRlc3RfNHh4X3JhaXNlc19iaXpfZXJyb3IoKToKICAgICIiIjQwMS80MDMvNDA0IOetiSA0eHgg5LiN6YeN6K+V77yM55u05o6l5oqb5Lia5Yqh5byC5bi444CCIiIiCiAgICBkZWYgaGFuZGxlcihyZXF1ZXN0KToKICAgICAgICByZXR1cm4gaHR0cHguUmVzcG9uc2UoNDAxLCB0ZXh0PSJVbmF1dGhvcml6ZWQiKQoKICAgIGNsaWVudCA9IEdvb2RDYW5nQ2xpZW50KG1heF9yZXRyeT0xKSAgIyDlh4/lsJHph43or5Xml7bpl7QKICAgIGNsaWVudC5fY2xpZW50ID0gaHR0cHguQXN5bmNDbGllbnQodHJhbnNwb3J0PWh0dHB4Lk1vY2tUcmFuc3BvcnQoaGFuZGxlciksIHRpbWVvdXQ9Y2xpZW50LnRpbWVvdXQpICAjIG5vcWE6IFNMRjAwMQogICAgdHJ5OgogICAgICAgIGZyb20gYXBwLmNvbm5lY3RvcnMuZ29vZGNhbmcuY2xpZW50IGltcG9ydCBHb29kQ2FuZ0FQSUVycm9yCiAgICAgICAgZXAgPSBHb29kQ2FuZ0VuZHBvaW50cyhjbGllbnQpCiAgICAgICAgd2l0aCBweXRlc3QucmFpc2VzKEdvb2RDYW5nQVBJRXJyb3IpIGFzIGV4YzoKICAgICAgICAgICAgYXdhaXQgZXAuYmlsbGluZ19saXN0KEJpbGxpbmdMaXN0UmVxdWVzdChhY2NvdW50X2NvZGU9IkJBRCIpKQogICAgICAgIGFzc2VydCAiNDAxIiBpbiBzdHIoZXhjLnZhbHVlKQogICAgZmluYWxseToKICAgICAgICBhd2FpdCBjbGllbnQuX2NsaWVudC5hY2xvc2UoKSAgIyBub3FhOiBTTEYwMDEKCgojIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQojIDguIFYxIOmJtOadg+aWueW8j++8iE1ENSDnrb7lkI3vvInlt7LlvbvlupXnp7vpmaQKIyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KYXN5bmMgZGVmIHRlc3Rfbm9fc2lnbmF0dXJlX3BhcmFtX2luX3JlcXVlc3QoKToKICAgICIiIumJtOadg+W3suaUueS4uiBIVFRQIEhlYWRlcu+8jOivt+axguS9k+mHjOS4jeW6lOivpeaciSBzaWduIC8gYXBwX3Rva2VuIC8gdGltZXN0YW1wIOWtl+auteOAgiIiIgogICAgY2xpZW50LCBjYXB0dXJlZCA9IF9tYWtlX21vY2tfY2xpZW50KCkKICAgIHRyeToKICAgICAgICBlcCA9IEdvb2RDYW5nRW5kcG9pbnRzKGNsaWVudCkKICAgICAgICBhd2FpdCBlcC5iaWxsaW5nX2xpc3QoQmlsbGluZ0xpc3RSZXF1ZXN0KGFjY291bnRfY29kZT0iQUNDMSIpKQogICAgZmluYWxseToKICAgICAgICBhd2FpdCBjbGllbnQuX2NsaWVudC5hY2xvc2UoKSAgIyBub3FhOiBTTEYwMDEKCiAgICBib2R5ID0gY2FwdHVyZWRbMF1bImJvZHkiXQogICAgYXNzZXJ0ICJzaWduIiBub3QgaW4gYm9keQogICAgYXNzZXJ0ICJhcHBfdG9rZW4iIG5vdCBpbiBib2R5CiAgICBhc3NlcnQgInRpbWVzdGFtcCIgbm90IGluIGJvZHkK
+"""离线测试：用 httpx MockTransport 拦截 4 个接口，验证 header 鉴权 + POST + JSON body。
+
+不依赖外网与真实凭据，运行稳定。验证：
+1. 每次请求都带 app-token / app-key header
+2. 统一走 POST + JSON body
+3. 路径为 /public_open/...
+4. 业务 code != 0 抛 GoodCangAPIError
+5. 4xx 立即抛业务异常，不重试
+"""
+from __future__ import annotations
+
+import json
+
+import httpx
+import pytest
+
+from app.connectors.goodcang import (
+    BillingExportRequest,
+    BillingListRequest,
+    GoodCangClient,
+    GoodCangEndpoints,
+    InventoryAgeListRequest,
+    ProductInventoryRequest,
+)
+
+
+def _ok(payload):
+    """构造谷仓 V2 风格成功响应。"""
+    return httpx.Response(200, json={"code": 0, "message": "ok", "data": payload})
+
+
+def _make_mock_client() -> tuple[GoodCangClient, list[dict]]:
+    """构造把 httpx 拦截为 MockTransport 的 GoodCangClient。"""
+    captured: list[dict] = []
+
+    def handler(request: httpx.Request) -> httpx.Response:
+        # POST 形态：body 是 JSON；header 含 app-token/app-key
+        body: dict = {}
+        if request.content:
+            try:
+                body = json.loads(request.content.decode("utf-8"))
+            except Exception:  # noqa: BLE001
+                body = {}
+        captured.append({
+            "url": str(request.url),
+            "method": request.method,
+            "headers": {k.lower(): v for k, v in request.headers.items()},
+            "body": body,
+        })
+
+        url = str(request.url)
+        if "/public_open/finance/billing_list" in url:
+            return _ok({
+                "list": [{
+                    "bill_number": "B20260801",
+                    "account_code": "ACC1",
+                    "bill_from_time": "2026-08-01 00:00:00",
+                    "bill_to_time": "2026-08-31 23:59:59",
+                    "all_total": {"balance": "1234.56", "currency_code": "EUR"},
+                    "warehouse_code": "DE1",
+                }],
+                "total": 1,
+            })
+        if "/public_open/finance/billing_export" in url:
+            return _ok("BASE64FILECONTENT==")
+        if "/public_open/inventory/inventory_age_list" in url:
+            return _ok({
+                "list": [{
+                    "warehouse_code": "DE1",
+                    "product_sku": "SKU1",
+                    "lba_quantity": 10,
+                    "lba_fifo_time": "2025-08-01",
+                    "lba_warning_age": 30,
+                    "product_title": "商品1",
+                    "product_title_en": "Product 1",
+                    "warehouse_desc": "德国仓",
+                    "warehouse_age": 400,
+                    "expiration_date": "2027-01-01",
+                }],
+                "total": 1,
+            })
+        if "/public_open/inventory/get_product_inventory" in url:
+            return _ok({
+                "list": [{
+                    "warehouse_code": "DE1",
+                    "warehouse_desc": "德国仓",
+                    "product_sku": "SKU1",
+                    "product_title": "商品1",
+                    "total_onway": 20,
+                    "transfer_onway": 5,
+                    "onway": 12,
+                    "pending": 1,
+                    "sellable": 100,
+                    "unsellable": 5,
+                    "reserved": 3,
+                    "pi_unavailable_reserved": 0,
+                    "shipped": 7,
+                    "pi_unavailable_shipped": 0,
+                    "pi_freeze": 0,
+                    "product_freeze_status": "1",
+                    "product_freeze_status_text": "正常",
+                    "pi_warning_qty": 10,
+                    "pi_no_stock": 0,
+                    "stocking": 0,
+                }],
+                "count": 1,
+                "total": 1,
+            })
+        return httpx.Response(404, json={"code": 404, "message": "unknown path"})
+
+    transport = httpx.MockTransport(handler)
+    client = GoodCangClient()
+    # 直接设内部 _client 跳过 async with（测试用）
+    client._client = httpx.AsyncClient(transport=transport, timeout=client.timeout)  # noqa: SLF001
+    return client, captured
+
+
+pytestmark = pytest.mark.asyncio
+
+
+# ---------------------------------------------------------------------------
+# 1. Header 鉴权验证
+# ---------------------------------------------------------------------------
+async def test_app_token_and_app_key_in_headers():
+    """每次请求都自动注入 app-token + app-key header。"""
+    client, captured = _make_mock_client()
+    try:
+        ep = GoodCangEndpoints(client)
+        await ep.billing_list(BillingListRequest(account_code="ACC1"))
+    finally:
+        await client._client.aclose()  # noqa: SLF001
+
+    assert captured[0]["headers"].get("app-token") == client.app_token
+    assert captured[0]["headers"].get("app-key") == client.app_key
+    assert captured[0]["headers"].get("content-type") == "application/json"
+
+
+# ---------------------------------------------------------------------------
+# 2. billing_list
+# ---------------------------------------------------------------------------
+async def test_billing_list_uses_post_and_correct_path():
+    client, captured = _make_mock_client()
+    try:
+        ep = GoodCangEndpoints(client)
+        resp = await ep.billing_list(BillingListRequest(
+            account_code="ACC1",
+            begin_bill_to_time="2026-08-01 00:00:00",
+            end_bill_to_time="2026-08-31 23:59:59",
+        ))
+    finally:
+        await client._client.aclose()  # noqa: SLF001
+
+    assert captured[0]["method"] == "POST"
+    assert "/public_open/finance/billing_list" in captured[0]["url"]
+    assert captured[0]["body"]["account_code"] == "ACC1"
+    # 响应 V2 结构：data.list[]
+    assert resp["data"]["list"][0]["bill_number"] == "B20260801"
+
+
+# ---------------------------------------------------------------------------
+# 3. billing_export (base64 file)
+# ---------------------------------------------------------------------------
+async def test_billing_export_returns_base64_string():
+    client, captured = _make_mock_client()
+    try:
+        ep = GoodCangEndpoints(client)
+        resp = await ep.billing_export(BillingExportRequest(
+            bill_number_list=["B20260801"]
+        ))
+    finally:
+        await client._client.aclose()  # noqa: SLF001
+
+    assert captured[0]["method"] == "POST"
+    assert "/public_open/finance/billing_export" in captured[0]["url"]
+    assert resp["data"] == "BASE64FILECONTENT=="
+
+
+# ---------------------------------------------------------------------------
+# 4. inventory_age_list
+# ---------------------------------------------------------------------------
+async def test_inventory_age_list_uses_post_and_correct_path():
+    client, captured = _make_mock_client()
+    try:
+        ep = GoodCangEndpoints(client)
+        resp = await ep.inventory_age_list(InventoryAgeListRequest(
+            warehouse_code="DE1"
+        ))
+    finally:
+        await client._client.aclose()  # noqa: SLF001
+
+    assert captured[0]["method"] == "POST"
+    assert "/public_open/inventory/inventory_age_list" in captured[0]["url"]
+    assert captured[0]["body"]["warehouse_code"] == "DE1"
+    assert resp["data"]["list"][0]["warehouse_age"] == 400
+    assert resp["data"]["list"][0]["product_sku"] == "SKU1"
+
+
+# ---------------------------------------------------------------------------
+# 5. get_product_inventory
+# ---------------------------------------------------------------------------
+async def test_product_inventory_uses_post_and_pageSize_camel():
+    client, captured = _make_mock_client()
+    try:
+        ep = GoodCangEndpoints(client)
+        resp = await ep.product_inventory(ProductInventoryRequest(
+            warehouse_code="DE1"
+        ))
+    finally:
+        await client._client.aclose()  # noqa: SLF001
+
+    assert captured[0]["method"] == "POST"
+    assert "/public_open/inventory/get_product_inventory" in captured[0]["url"]
+    # pageSize 是驼峰命名（不是 page_size）
+    assert "pageSize" in captured[0]["body"]
+    assert resp["data"]["list"][0]["sellable"] == 100
+    assert resp["data"]["list"][0]["onway"] == 12
+    assert resp["data"]["list"][0]["pi_freeze"] == 0
+
+
+# ---------------------------------------------------------------------------
+# 6. 业务错误响应
+# ---------------------------------------------------------------------------
+async def test_biz_error_raises():
+    """业务返回 code != 0 应当抛 GoodCangAPIError。"""
+    def handler(request):
+        return httpx.Response(200, json={"code": 999, "message": "biz failed", "data": None})
+
+    client = GoodCangClient()
+    client._client = httpx.AsyncClient(transport=httpx.MockTransport(handler), timeout=client.timeout)  # noqa: SLF001
+    try:
+        from app.connectors.goodcang.client import GoodCangAPIError
+        ep = GoodCangEndpoints(client)
+        with pytest.raises(GoodCangAPIError):
+            await ep.billing_list(BillingListRequest(account_code="ACC1"))
+    finally:
+        await client._client.aclose()  # noqa: SLF001
+
+
+# ---------------------------------------------------------------------------
+# 7. 4xx HTTP 错误
+# ---------------------------------------------------------------------------
+async def test_4xx_raises_biz_error():
+    """401/403/404 等 4xx 不重试，直接抛业务异常。"""
+    def handler(request):
+        return httpx.Response(401, text="Unauthorized")
+
+    client = GoodCangClient(max_retry=1)  # 减少重试时间
+    client._client = httpx.AsyncClient(transport=httpx.MockTransport(handler), timeout=client.timeout)  # noqa: SLF001
+    try:
+        from app.connectors.goodcang.client import GoodCangAPIError
+        ep = GoodCangEndpoints(client)
+        with pytest.raises(GoodCangAPIError) as exc:
+            await ep.billing_list(BillingListRequest(account_code="BAD"))
+        assert "401" in str(exc.value)
+    finally:
+        await client._client.aclose()  # noqa: SLF001
+
+
+# ---------------------------------------------------------------------------
+# 8. V1 鉴权方式（MD5 签名）已彻底移除
+# ---------------------------------------------------------------------------
+async def test_no_signature_param_in_request():
+    """鉴权已改为 HTTP Header，请求体里不应该有 sign / app_token / timestamp 字段。"""
+    client, captured = _make_mock_client()
+    try:
+        ep = GoodCangEndpoints(client)
+        await ep.billing_list(BillingListRequest(account_code="ACC1"))
+    finally:
+        await client._client.aclose()  # noqa: SLF001
+
+    body = captured[0]["body"]
+    assert "sign" not in body
+    assert "app_token" not in body
+    assert "timestamp" not in body

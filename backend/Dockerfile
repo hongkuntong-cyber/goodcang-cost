@@ -1,1 +1,15 @@
-IyDlkI7nq6/ov5DooYzplZzlg48KRlJPTSBweXRob246My4xMy1zbGltCgpXT1JLRElSIC9hcHAKCiMg5L6d6LWW5Y2V54us5LiA5bGC77yM5L6/5LqO57yT5a2YCkNPUFkgcmVxdWlyZW1lbnRzLnR4dCAuClJVTiBwaXAgaW5zdGFsbCAtLW5vLWNhY2hlLWRpciAtciByZXF1aXJlbWVudHMudHh0CgpDT1BZIC4gLgoKRVhQT1NFIDgwMDAKCiMg5ZCv5Yqo5YmN6LeR6L+B56e777yM5YaN5ZCv5YqoIHV2aWNvcm4KQ01EIFsic2giLCAiLWMiLCAiYWxlbWJpYyB1cGdyYWRlIGhlYWQgJiYgdXZpY29ybiBhcHAubWFpbjphcHAgLS1ob3N0IDAuMC4wLjAgLS1wb3J0IDgwMDAiXQo=
+# 后端运行镜像
+FROM python:3.13-slim
+
+WORKDIR /app
+
+# 依赖单独一层，便于缓存
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+COPY . .
+
+EXPOSE 8000
+
+# 启动前跑迁移，再启动 uvicorn
+CMD ["sh", "-c", "alembic upgrade head && uvicorn app.main:app --host 0.0.0.0 --port 8000"]
