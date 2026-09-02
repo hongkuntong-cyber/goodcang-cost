@@ -1,146 +1,208 @@
 {
-  "summary": {
-    "month": "2026-08",
-    "total": 25869.46,
-    "mom_pct": 90.92,
-    "structure": [
-      {
-        "category": "storage",
-        "label": "仓储费",
-        "amount": 1094.87
+  "accounts": [
+    {
+      "account_code": "ACG1505603",
+      "account_name": "NAIBA INTERNATIONAL GMBH",
+      "summary": {
+        "month": "2026-07",
+        "total": 8906.52,
+        "mom_pct": -51.31,
+        "structure": [
+          {
+            "category": "storage",
+            "label": "仓储费",
+            "amount": 440.2
+          },
+          {
+            "category": "inbound",
+            "label": "入库费",
+            "amount": 974.15
+          },
+          {
+            "category": "outbound",
+            "label": "出库操作费",
+            "amount": 798.0
+          },
+          {
+            "category": "transport",
+            "label": "运输费",
+            "amount": 6295.56
+          },
+          {
+            "category": "other",
+            "label": "其他费用",
+            "amount": 398.61
+          }
+        ]
       },
-      {
-        "category": "inbound",
-        "label": "入库费",
-        "amount": 5398.25
+      "trend": [
+        {
+          "month": "2025-12",
+          "total": 9433.72,
+          "storage": 738.93,
+          "inbound": 12.22,
+          "outbound": 860.43,
+          "transport": 7594.0,
+          "other": 228.14,
+          "mom_pct": null
+        },
+        {
+          "month": "2026-01",
+          "total": 14773.12,
+          "storage": 902.52,
+          "inbound": 833.12,
+          "outbound": 1191.53,
+          "transport": 11221.61,
+          "other": 624.34,
+          "mom_pct": 56.6
+        },
+        {
+          "month": "2026-02",
+          "total": 15034.02,
+          "storage": 601.65,
+          "inbound": 1138.35,
+          "outbound": 1231.45,
+          "transport": 11391.25,
+          "other": 671.32,
+          "mom_pct": 1.77
+        },
+        {
+          "month": "2026-03",
+          "total": 15240.76,
+          "storage": 825.18,
+          "inbound": 891.89,
+          "outbound": 1330.92,
+          "transport": 11390.21,
+          "other": 802.56,
+          "mom_pct": 1.38
+        },
+        {
+          "month": "2026-04",
+          "total": 11681.95,
+          "storage": 1116.75,
+          "inbound": 991.33,
+          "outbound": 962.07,
+          "transport": 8247.52,
+          "other": 364.28,
+          "mom_pct": -23.35
+        },
+        {
+          "month": "2026-05",
+          "total": 11419.64,
+          "storage": 1174.14,
+          "inbound": 0,
+          "outbound": 1235.98,
+          "transport": 8890.22,
+          "other": 119.3,
+          "mom_pct": -2.25
+        },
+        {
+          "month": "2026-06",
+          "total": 18290.51,
+          "storage": 1047.07,
+          "inbound": 2693.42,
+          "outbound": 1548.72,
+          "transport": 11715.86,
+          "other": 1285.44,
+          "mom_pct": 60.17
+        },
+        {
+          "month": "2026-07",
+          "total": 8906.52,
+          "storage": 440.2,
+          "inbound": 974.15,
+          "outbound": 798.0,
+          "transport": 6295.56,
+          "other": 398.61,
+          "mom_pct": -51.31
+        }
+      ],
+      "bill_count": 9
+    },
+    {
+      "account_code": "ACG1505604",
+      "account_name": "HONGKONG LITTLE MAGIC INTERNATIONAL TRADING LIMITED",
+      "summary": {
+        "month": "2026-08",
+        "total": 25869.46,
+        "mom_pct": 90.93,
+        "structure": [
+          {
+            "category": "storage",
+            "label": "仓储费",
+            "amount": 1094.87
+          },
+          {
+            "category": "inbound",
+            "label": "入库费",
+            "amount": 5398.25
+          },
+          {
+            "category": "outbound",
+            "label": "出库操作费",
+            "amount": 2301.67
+          },
+          {
+            "category": "transport",
+            "label": "运输费",
+            "amount": 16950.09
+          },
+          {
+            "category": "other",
+            "label": "其他费用",
+            "amount": 124.58
+          }
+        ]
       },
-      {
-        "category": "outbound",
-        "label": "出库操作费",
-        "amount": 2291.51
-      },
-      {
-        "category": "transport",
-        "label": "运输费",
-        "amount": 16950.09
-      },
-      {
-        "category": "other",
-        "label": "其他费用",
-        "amount": 134.74
-      }
-    ]
-  },
-  "trend": [
-    {
-      "month": "2025-03",
-      "total": 4128.38,
-      "storage": 0.0,
-      "transport": 2038.35,
-      "mom_pct": 1174.47
-    },
-    {
-      "month": "2025-04",
-      "total": 4932.21,
-      "storage": 43.42,
-      "transport": 3579.3,
-      "mom_pct": 19.47
-    },
-    {
-      "month": "2025-05",
-      "total": 5148.66,
-      "storage": 257.22,
-      "transport": 3443.36,
-      "mom_pct": 4.39
-    },
-    {
-      "month": "2025-06",
-      "total": 6990.6,
-      "storage": 373.93,
-      "transport": 3861.04,
-      "mom_pct": 35.78
-    },
-    {
-      "month": "2025-07",
-      "total": 11198.82,
-      "storage": 545.4,
-      "transport": 6696.32,
-      "mom_pct": 60.2
-    },
-    {
-      "month": "2025-08",
-      "total": 10813.75,
-      "storage": 682.29,
-      "transport": 7943.26,
-      "mom_pct": -3.44
-    },
-    {
-      "month": "2025-09",
-      "total": 13730.68,
-      "storage": 691.13,
-      "transport": 10534.28,
-      "mom_pct": 26.97
-    },
-    {
-      "month": "2025-10",
-      "total": 13029.99,
-      "storage": 810.61,
-      "transport": 10297.32,
-      "mom_pct": -5.1
-    },
-    {
-      "month": "2025-11",
-      "total": 10076.5,
-      "storage": 739.75,
-      "transport": 7666.26,
-      "mom_pct": -22.67
-    },
-    {
-      "month": "2025-12",
-      "total": 5452.42,
-      "storage": 252.54,
-      "transport": 2201.39,
-      "mom_pct": -45.89
-    },
-    {
-      "month": "2026-07",
-      "total": 13549.99,
-      "storage": 626.17,
-      "transport": 10317.79,
-      "mom_pct": null
-    },
-    {
-      "month": "2026-08",
-      "total": 25869.46,
-      "storage": 1094.87,
-      "transport": 16950.09,
-      "mom_pct": 90.92
+      "trend": [
+        {
+          "month": "2026-07",
+          "total": 13549.21,
+          "storage": 626.17,
+          "inbound": 1149.3,
+          "outbound": 1365.49,
+          "transport": 10317.79,
+          "other": 90.46,
+          "mom_pct": null
+        },
+        {
+          "month": "2026-08",
+          "total": 25869.46,
+          "storage": 1094.87,
+          "inbound": 5398.25,
+          "outbound": 2301.67,
+          "transport": 16950.09,
+          "other": 124.58,
+          "mom_pct": 90.93
+        }
+      ],
+      "bill_count": 2
     }
   ],
   "health": {
     "snapshot_date": "2026-09-01",
-    "total_quantity": 6327,
+    "total_quantity": 6288,
     "buckets": [
       {
         "bucket": "healthy",
         "label": "健康库存",
         "sku_count": 106,
-        "quantity": 5772,
-        "qty_pct": 91.23
+        "quantity": 5737,
+        "qty_pct": 91.24
       },
       {
         "bucket": "watch",
         "label": "关注库存",
         "sku_count": 7,
-        "quantity": 415,
-        "qty_pct": 6.56
+        "quantity": 414,
+        "qty_pct": 6.58
       },
       {
         "bucket": "stale",
         "label": "呆滞库存",
         "sku_count": 14,
-        "quantity": 132,
-        "qty_pct": 2.09
+        "quantity": 129,
+        "qty_pct": 2.05
       },
       {
         "bucket": "critical",
@@ -157,7 +219,7 @@
       "sku": "QYGZIPJ",
       "product_name": "螺丝包",
       "quantity": 5,
-      "warehouse_age": 424,
+      "warehouse_age": 425,
       "age_bucket": "critical",
       "label": "严重呆滞库存"
     },
@@ -166,7 +228,7 @@
       "sku": "TWH5001",
       "product_name": "厨房壁挂收纳架",
       "quantity": 2,
-      "warehouse_age": 406,
+      "warehouse_age": 407,
       "age_bucket": "critical",
       "label": "严重呆滞库存"
     },
@@ -175,7 +237,7 @@
       "sku": "YEC0007",
       "product_name": "婴儿床灰色旋转木马（拆洗带被）",
       "quantity": 1,
-      "warehouse_age": 404,
+      "warehouse_age": 405,
       "age_bucket": "critical",
       "label": "严重呆滞库存"
     },
@@ -184,7 +246,7 @@
       "sku": "YEC0006",
       "product_name": "婴儿床狐狸朋友蓝（拆洗带被）",
       "quantity": 2,
-      "warehouse_age": 330,
+      "warehouse_age": 331,
       "age_bucket": "stale",
       "label": "呆滞库存"
     },
@@ -193,7 +255,7 @@
       "sku": "SLT0004",
       "product_name": "万向水龙头升级款-三种出水方式白色",
       "quantity": 1,
-      "warehouse_age": 322,
+      "warehouse_age": 323,
       "age_bucket": "stale",
       "label": "呆滞库存"
     },
@@ -201,8 +263,8 @@
       "rank": 6,
       "sku": "DRMJJ0025",
       "product_name": "电热毛巾架-芯毅G69白欧标",
-      "quantity": 23,
-      "warehouse_age": 268,
+      "quantity": 22,
+      "warehouse_age": 269,
       "age_bucket": "stale",
       "label": "呆滞库存"
     },
@@ -210,8 +272,8 @@
       "rank": 7,
       "sku": "DRMJJ0024",
       "product_name": "电热毛巾架-芯毅G69黑欧标",
-      "quantity": 13,
-      "warehouse_age": 268,
+      "quantity": 12,
+      "warehouse_age": 269,
       "age_bucket": "stale",
       "label": "呆滞库存"
     },
@@ -220,7 +282,7 @@
       "sku": "DRMJJ0021",
       "product_name": "电热毛巾架-芯毅G65白欧标",
       "quantity": 19,
-      "warehouse_age": 267,
+      "warehouse_age": 268,
       "age_bucket": "stale",
       "label": "呆滞库存"
     },
@@ -229,7 +291,7 @@
       "sku": "DRMJJ0028",
       "product_name": "电热毛巾架-芯毅G72灰色欧标",
       "quantity": 1,
-      "warehouse_age": 260,
+      "warehouse_age": 261,
       "age_bucket": "stale",
       "label": "呆滞库存"
     },
@@ -238,7 +300,7 @@
       "sku": "SDTZ001",
       "product_name": "杯子礼物套装2",
       "quantity": 3,
-      "warehouse_age": 258,
+      "warehouse_age": 259,
       "age_bucket": "stale",
       "label": "呆滞库存"
     },
@@ -246,8 +308,8 @@
       "rank": 11,
       "sku": "CBZP0002",
       "product_name": "城堡帐篷粉色",
-      "quantity": 23,
-      "warehouse_age": 237,
+      "quantity": 22,
+      "warehouse_age": 238,
       "age_bucket": "stale",
       "label": "呆滞库存"
     },
@@ -256,7 +318,7 @@
       "sku": "FRH0045",
       "product_name": "卷纸架 ZD平面B款【拉丝】",
       "quantity": 14,
-      "warehouse_age": 230,
+      "warehouse_age": 231,
       "age_bucket": "stale",
       "label": "呆滞库存"
     },
@@ -265,7 +327,7 @@
       "sku": "DRMJJ0026",
       "product_name": "电热毛巾架-芯毅G72白欧标",
       "quantity": 16,
-      "warehouse_age": 207,
+      "warehouse_age": 208,
       "age_bucket": "stale",
       "label": "呆滞库存"
     },
@@ -274,7 +336,7 @@
       "sku": "DRMJJ0027",
       "product_name": "电热毛巾架-芯毅G72黑欧标",
       "quantity": 10,
-      "warehouse_age": 207,
+      "warehouse_age": 208,
       "age_bucket": "stale",
       "label": "呆滞库存"
     },
@@ -283,7 +345,7 @@
       "sku": "CBZP0001",
       "product_name": "城堡帐篷卡其",
       "quantity": 1,
-      "warehouse_age": 204,
+      "warehouse_age": 205,
       "age_bucket": "stale",
       "label": "呆滞库存"
     },
@@ -292,7 +354,7 @@
       "sku": "XLJ0001",
       "product_name": "旋转香料架",
       "quantity": 1,
-      "warehouse_age": 187,
+      "warehouse_age": 188,
       "age_bucket": "stale",
       "label": "呆滞库存"
     },
@@ -301,7 +363,7 @@
       "sku": "DRMJJ0023",
       "product_name": "电热毛巾架-芯毅G68白欧标",
       "quantity": 5,
-      "warehouse_age": 180,
+      "warehouse_age": 181,
       "age_bucket": "stale",
       "label": "呆滞库存"
     },
@@ -310,7 +372,7 @@
       "sku": "FRH0042",
       "product_name": "水龙头 纯黑色带进水管，德标3分管",
       "quantity": 90,
-      "warehouse_age": 166,
+      "warehouse_age": 167,
       "age_bucket": "watch",
       "label": "关注库存"
     },
@@ -319,7 +381,7 @@
       "sku": "LTKF0056",
       "product_name": "儿童帐篷",
       "quantity": 84,
-      "warehouse_age": 166,
+      "warehouse_age": 167,
       "age_bucket": "watch",
       "label": "关注库存"
     },
@@ -328,14 +390,9 @@
       "sku": "CLSSLT0003",
       "product_name": "抽拉绳水龙头黑色（3种模式)",
       "quantity": 40,
-      "warehouse_age": 166,
+      "warehouse_age": 167,
       "age_bucket": "watch",
       "label": "关注库存"
     }
-  ],
-  "report": {
-    "report_month": "2026-08",
-    "title": "德国海外仓成本健康报告（2026-08）",
-    "content_md": "# 德国海外仓成本健康报告（2026-08）\n\n## 一、成本变化\n- 本月总成本：€25869.46\n- 环比变化：+90.92%\n\n## 二、费用结构\n- 仓储费：€1094.87\n- 入库费：€5398.25\n- 出库操作费：€2291.51\n- 运输费：€16950.09\n- 其他费用：€134.74\n\n## 三、库存风险\n- 健康库存：106 SKU / 5772 件\n- 关注库存：7 SKU / 415 件\n- 呆滞库存：14 SKU / 132 件\n- 严重呆滞库存：3 SKU / 8 件\n\nTOP 风险 SKU：\n- #1 QYGZIPJ（库龄 424 天，5 件）\n- #2 TWH5001（库龄 406 天，2 件）\n- #3 YEC0007（库龄 404 天，1 件）\n- #4 YEC0006（库龄 330 天，2 件）\n- #5 SLT0004（库龄 322 天，1 件）\n\n## 四、优化建议\n- [高] 本月总成本环比上涨 90.92%，建议核查主要费用项增长原因。\n- [中] 费用以「运输费」为主（€16950.09），可重点优化该项。\n- [高] 严重呆滞库存 8 件，建议评估促销/退运/销毁方案。\n- [中] TOP 风险 SKU：QYGZIPJ（库龄 424 天，5 件）。"
-  }
+  ]
 }
