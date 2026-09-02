@@ -20,6 +20,9 @@ pydantic-settings>=2.2  # .env 配置管理
 httpx>=0.27             # 异步 HTTP，带超时/重试
 tenacity>=8.2           # 重试策略
 
+# ---- 账单 xlsx 解析 ----
+openpyxl>=3.1           # 解析 billing_export 返回的账单 xlsx 费用明细
+
 # ---- 任务调度（数据同步）----
 APScheduler>=3.10       # 定时同步任务
 
